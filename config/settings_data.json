@@ -17,10 +17,10 @@
     "show_all_categories": false,
     "show_key_word": true,
     "key_word": "Vegetables,Meat,Drink Juice",
-    "logo": "shopify:\/\/shop_images\/Logo5.png",
+    "logo": "shopify:\/\/shop_images\/hitch-expo-logo.png",
     "logo_page": "shopify:\/\/shop_images\/Logo5.png",
-    "logo_page_mobile": "shopify:\/\/shop_images\/Logo5.png",
-    "logo_max_width": 145,
+    "logo_page_mobile": "shopify:\/\/shop_images\/hitch-expo-logo.png",
+    "logo_max_width": 245,
     "ajaxcart_enabled": true,
     "ajaxcart_after": "sidebar_cart",
     "product_gift": "gift-wrap",
@@ -986,7 +986,7 @@
           "0cfd9b2f-3016-425c-a275-f60b6eaf931a": {
             "type": "top_header_3",
             "settings": {
-              "menu_topbar": "menu-top",
+              "menu_topbar": "",
               "header_use_currency": true,
               "header_use_language": true,
               "show_flag": true,
@@ -1248,7 +1248,7 @@
               "title": "Home",
               "url": "\/",
               "open_link": "_self",
-              "menu": "home",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -1279,7 +1279,7 @@
               "tt_hd": "Shop Layout",
               "url": "#",
               "open_link": "_self",
-              "menu": "shop-layout",
+              "menu": "",
               "col": "3"
             }
           },
@@ -1289,7 +1289,7 @@
               "tt_hd": "Product Layout",
               "url": "#",
               "open_link": "_self",
-              "menu": "product-layout",
+              "menu": "",
               "col": "3"
             }
           },
@@ -1299,14 +1299,13 @@
               "tt_hd": "Product Type",
               "url": "#",
               "open_link": "_self",
-              "menu": "product-type",
+              "menu": "",
               "col": "3"
             }
           },
           "d549a5e3-6ea0-4959-8cd7-14b46c1fa870": {
             "type": "banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/img_about_1.jpg",
               "title": "Laptop & Ipad",
               "url": "shopify:\/\/collections\/laptop-ipad",
               "open_link": "_self",
@@ -1334,20 +1333,19 @@
             "type": "link2",
             "settings": {
               "col": "3",
-              "menu": "product-type"
+              "menu": ""
             }
           },
           "9cffa0e8-d0b2-4efd-9278-4199ced883af": {
             "type": "link2",
             "settings": {
               "col": "3",
-              "menu": "product-layout"
+              "menu": ""
             }
           },
           "79f322d8-d36a-4fc7-a97b-de35a91442c8": {
             "type": "cat",
             "settings": {
-              "image": "shopify:\/\/shop_images\/products_4_7.jpg",
               "cat_design": "1",
               "hoverz": true,
               "collection": "laptop-ipad",
@@ -1358,7 +1356,6 @@
           "ca137f59-9acb-47fe-a6a5-a6fead24d524": {
             "type": "cat",
             "settings": {
-              "image": "shopify:\/\/shop_images\/products_2_4.jpg",
               "cat_design": "1",
               "hoverz": true,
               "collection": "desktop-pc",
@@ -1372,7 +1369,7 @@
               "title": "Pages",
               "url": "shopify:\/\/pages\/page-demo",
               "open_link": "_self",
-              "menu": "pages",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -1392,7 +1389,7 @@
               "title": "Blog",
               "url": "shopify:\/\/blogs\/technology",
               "open_link": "_self",
-              "menu": "blog",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -1552,11 +1549,11 @@
               "tt_hd": "Laptop & Computers",
               "url": "shopify:\/\/collections\/computer-desktop",
               "open_link": "_self",
-              "menu": "laptop-computers",
+              "menu": "",
               "tt_hd2": "Digital Cameras",
               "url2": "shopify:\/\/collections\/cameras-photos",
               "open_link2": "_self",
-              "menu2": "digital-cameras",
+              "menu2": "",
               "col": "4"
             }
           },
@@ -1566,18 +1563,17 @@
               "tt_hd": "Prime Videos",
               "url": "#",
               "open_link": "_self",
-              "menu": "prime-videos",
+              "menu": "",
               "tt_hd2": "Cameras",
               "url2": "shopify:\/\/collections\/cameras-photos",
               "open_link2": "_self",
-              "menu2": "cameras",
+              "menu2": "",
               "col": "4"
             }
           },
           "4877c37a-1866-4ff0-8521-88b4cd8393bd": {
             "type": "banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/banner-menu1.jpg",
               "url": "shopify:\/\/collections\/laptop-ipad",
               "open_link": "_blank",
               "enable_content_banner": false,
@@ -1591,7 +1587,7 @@
               "title": "Laptop & Ipad",
               "url": "shopify:\/\/collections\/laptop-ipad",
               "open_link": "_self",
-              "menu": "laptop-ipad",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -1612,8 +1608,7 @@
               "lb_cl": "",
               "wid": "cus",
               "cus_wid": 500,
-              "cl_bg": "#ffffff",
-              "img_bg": "shopify:\/\/shop_images\/bg.png"
+              "cl_bg": "#ffffff"
             }
           },
           "ac800396-e8da-4fac-b7c8-55e4a0f469b6": {
@@ -1622,7 +1617,7 @@
               "tt_hd": "Laptop & Computers",
               "url": "shopify:\/\/collections\/laptop-ipad",
               "open_link": "_self",
-              "menu": "laptop-computers",
+              "menu": "",
               "tt_hd2": "",
               "url2": "",
               "open_link2": "_self",
@@ -1636,7 +1631,7 @@
               "tt_hd": "Prime Videos",
               "url": "shopify:\/\/collections\/desktop-pc",
               "open_link": "_self",
-              "menu": "prime-videos",
+              "menu": "",
               "tt_hd2": "",
               "url2": "",
               "open_link2": "_self",
@@ -1666,11 +1661,11 @@
               "tt_hd": "Laptop & Computers",
               "url": "shopify:\/\/collections\/laptop-ipad",
               "open_link": "_self",
-              "menu": "laptop-computers",
+              "menu": "",
               "tt_hd2": "Digital Cameras",
               "url2": "shopify:\/\/collections\/cameras-photos",
               "open_link2": "_self",
-              "menu2": "digital-cameras",
+              "menu2": "",
               "col": "4"
             }
           },
@@ -1680,18 +1675,17 @@
               "tt_hd": "Prime Videos",
               "url": "shopify:\/\/collections\/audios-theaters",
               "open_link": "_self",
-              "menu": "prime-videos",
+              "menu": "",
               "tt_hd2": "Laptop & Ipad",
               "url2": "shopify:\/\/collections\/laptop-ipad",
               "open_link2": "_self",
-              "menu2": "laptop-ipad",
+              "menu2": "",
               "col": "4"
             }
           },
           "fed6ad98-1261-40d8-b4a3-dd7618b1bc53": {
             "type": "banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/banner-menu2.jpg",
               "url": "",
               "open_link": "_self",
               "enable_content_banner": false,
@@ -1712,8 +1706,7 @@
               "lb_cl": "",
               "wid": "cus",
               "cus_wid": 500,
-              "cl_bg": "#ffffff",
-              "img_bg": "shopify:\/\/shop_images\/bg2.png"
+              "cl_bg": "#ffffff"
             }
           },
           "7b5afc56-afe1-4ae7-af42-a197582997e8": {
@@ -1722,11 +1715,11 @@
               "tt_hd": "Laptop & Computers",
               "url": "shopify:\/\/collections\/laptop-ipad",
               "open_link": "_self",
-              "menu": "laptop-computers",
+              "menu": "",
               "tt_hd2": "Desktop PC",
               "url2": "shopify:\/\/collections\/desktop-pc",
               "open_link2": "_self",
-              "menu2": "digital-cameras",
+              "menu2": "",
               "col": "6"
             }
           },
@@ -1736,7 +1729,7 @@
               "tt_hd": "Cameras & Photos",
               "url": "shopify:\/\/collections\/cameras-photos",
               "open_link": "_self",
-              "menu": "prime-videos",
+              "menu": "",
               "tt_hd2": "",
               "url2": "",
               "open_link2": "_self",
@@ -1881,7 +1874,7 @@
               "title": "Home",
               "url": "\/",
               "open_link": "_self",
-              "menu": "home",
+              "menu": "",
               "show_icon": false,
               "icon": "<i class=\"las la-campground\"><\/i>",
               "lb": "",
@@ -1894,7 +1887,7 @@
               "title": "Shop",
               "url": "shopify:\/\/collections\/all",
               "open_link": "_self",
-              "menu": "product-categories",
+              "menu": "",
               "show_icon": false,
               "icon": "<i class=\"lnr lnr-store\"><\/i>",
               "lb": "New",
@@ -1907,7 +1900,7 @@
               "title": "page",
               "url": "shopify:\/\/collections",
               "open_link": "_self",
-              "menu": "pages",
+              "menu": "",
               "show_icon": false,
               "icon": "<i class=\"lab la-skyatlas\"><\/i>",
               "lb": "",
@@ -1920,7 +1913,7 @@
               "title": "Blog",
               "url": "shopify:\/\/blogs\/technology",
               "open_link": "_self",
-              "menu": "blog",
+              "menu": "",
               "show_icon": false,
               "icon": "<i class=\"lar la-sticky-note\"><\/i>",
               "lb": "",
@@ -2162,7 +2155,6 @@
         "type": "promotion-newsletter-popup",
         "settings": {
           "use_newsletter_popup": true,
-          "bg_newsletter": "shopify:\/\/shop_images\/bg_newsletter2.png",
           "bg_color": "rgba(0,0,0,0)",
           "title_newslette": "Our Newsletter",
           "description": "Subscribe to the Uminex Store get notified about  exclusive offers every week!",
@@ -2754,7 +2746,6 @@
             "type": "logo-footer",
             "settings": {
               "use_logo_footer": true,
-              "logo_footer": "shopify:\/\/shop_images\/Logo5.png",
               "logo_max_width": 140,
               "email2": "Customersupport@example.com",
               "show_email": true,
@@ -2800,7 +2791,7 @@
             "settings": {
               "title": "Company",
               "text_transform": "none",
-              "menu": "company",
+              "menu": "",
               "col": "16%"
             }
           },
@@ -2809,7 +2800,7 @@
             "settings": {
               "title": "Customer Service",
               "text_transform": "none",
-              "menu": "customer-service",
+              "menu": "",
               "col": "16%"
             }
           },
@@ -2818,7 +2809,7 @@
             "settings": {
               "title": "Infomation",
               "text_transform": "none",
-              "menu": "infomation",
+              "menu": "",
               "col": "16%"
             }
           },
@@ -2827,7 +2818,7 @@
             "settings": {
               "title": "Quick Links",
               "text_transform": "none",
-              "menu": "quick-links",
+              "menu": "",
               "col": "16%"
             }
           }
@@ -2847,7 +2838,6 @@
           "show_bottom": true,
           "copyright": "<p>Copyright © <a href=\"#\" title=\"Uminex\">Uminex<\/a> all rights reserved. Powered by <a href=\"#\" title=\"Alothemes\">Alothemes<\/a>.<\/p>",
           "title-payment": "Payment Method:",
-          "img_payment": "shopify:\/\/shop_images\/payment_acfdf180-1e05-48f1-97a2-adca8e5565e8.png",
           "show_svg_custom": false,
           "svg_custom": "paypal,shopify_pay,visa,amazon_payments,apple_pay,bitcoin,google_pay,maestro,master",
           "svg_height": 30,
