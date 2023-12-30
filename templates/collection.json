@@ -1,0 +1,90 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "show_title_page": false,
+        "h_position": "left",
+        "v_position": "middle",
+        "txt_align": "left",
+        "bg": "#f2f2f6",
+        "b_height": 70,
+        "mg_bottom": 0,
+        "mobile_bg": "#f1f5f6",
+        "mobile_ht": 50,
+        "mobile_mg_bottom": 0
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "932fc3a4-132b-4a34-b5d0-91df6362734c": {
+          "type": "menu",
+          "settings": {
+            "enable_menu_categories": true,
+            "title_categories": "Product Categories",
+            "menu": "product-categories"
+          }
+        },
+        "bd2d3844-64a0-4837-8954-76b36f4ab773": {
+          "type": "product",
+          "settings": {
+            "title": "Featured product",
+            "product1": "form-armchair-black",
+            "product2": "hammershoi-spice-mill-small",
+            "product3": "brown-stoneware-platter-small",
+            "product4": "tivoli-emperor-lamp"
+          }
+        },
+        "d1f87686-4bdb-47c4-a938-983ce2683a19": {
+          "type": "banner_img",
+          "settings": {
+            "image_promobox": "shopify:\/\/shop_images\/img_1_8.jpg",
+            "url": "shopify:\/\/collections\/laptop-ipad",
+            "title": "top cameras",
+            "content": "<h3>Laptop<\/h3>\n<h4>Macbook M1<\/h4>\n<p>Just from: <span class=\"price\">$120.99<\/span><\/p>",
+            "btn": "Shop Now"
+          }
+        }
+      },
+      "block_order": [
+        "932fc3a4-132b-4a34-b5d0-91df6362734c",
+        "bd2d3844-64a0-4837-8954-76b36f4ab773",
+        "d1f87686-4bdb-47c4-a938-983ce2683a19"
+      ],
+      "settings": {
+        "full-width": false,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "h_des": "200px",
+        "h_tb": "200px",
+        "h_mb": "85px",
+        "products_per_page": 20,
+        "grid_list": "4",
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "filter_right": false,
+        "enable_sorting": true,
+        "visible": 4,
+        "widescreen": 4,
+        "desktop": 4,
+        "laptop": 4,
+        "notebook": 3,
+        "tablet": 2,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "padding_lr": 10,
+        "use_border_for_product": false,
+        "mg": ",,100px,",
+        "pd": "40px,,,",
+        "mg_mb": ",,50px,",
+        "pd_mb": "15px,,,"
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "product-grid"
+  ]
+}

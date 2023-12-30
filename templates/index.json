@@ -1,0 +1,1265 @@
+{
+  "sections": {
+    "165018826364c02d6a": {
+      "type": "slideshow",
+      "blocks": {
+        "165018826364c02d6a-0": {
+          "type": "img",
+          "settings": {
+            "image_sl": "shopify:\/\/shop_images\/banner_5_1.png",
+            "link_img": "",
+            "open_link": "_blank",
+            "caption_w": "1",
+            "h_position": "left",
+            "v_position": "middle",
+            "txt_align": "left"
+          }
+        },
+        "abf520f4-9249-4714-b07e-a1dfaa3e0096": {
+          "type": "subhd",
+          "settings": {
+            "title": "20% FLAT DISCOUNT",
+            "text_animate": "fadeInDown",
+            "text_time": 2.5,
+            "color": "#FF6128",
+            "linear_gradient": "",
+            "fw_text": 700,
+            "fs_text": 12,
+            "lh_text": 16,
+            "ls_text": "-0.03em",
+            "font_style": "normal",
+            "text_transform": "uppercase",
+            "hide": false,
+            "first_mark": false,
+            "last_mark": false,
+            "custom_mark": "",
+            "color_mark": "",
+            "mobile_fw_text": 500,
+            "mobile_lh_text": 0,
+            "mobile_font_text": 12
+          }
+        },
+        "83ced24a-64eb-4c96-ac96-071a54993c6a": {
+          "type": "space",
+          "settings": {
+            "hide_mobile": false,
+            "sp": 20,
+            "mobile_sp": 10
+          }
+        },
+        "416867ec-0732-4261-a3f2-30e689d3518d": {
+          "type": "hd",
+          "disabled": true,
+          "settings": {
+            "hide": false,
+            "title": "Today’s Offer",
+            "text_animate": "slideInRight",
+            "text_time": 2.5,
+            "color": "#212529",
+            "linear_gradient": "linear-gradient(91.25deg, rgba(255, 83, 83, 1) 1.83%, rgba(195, 26, 255, 1) 98.55%)",
+            "fw_text": 600,
+            "fs_text": 36,
+            "lh_text": 40,
+            "ls_text": "-0.03em",
+            "font_style": "normal",
+            "text_transform": "none",
+            "first_mark": false,
+            "last_mark": false,
+            "custom_mark": "",
+            "color_mark": "",
+            "mobile_fw_text": 600,
+            "mobile_lh_text": 35,
+            "mobile_font_text": 30
+          }
+        },
+        "b7c972a8-63f1-447a-85e1-5943ea43ad04": {
+          "type": "hd",
+          "settings": {
+            "hide": false,
+            "title": "Sale Off Dinner Table",
+            "text_animate": "slideInLeft",
+            "text_time": 2.5,
+            "color": "#ffffff",
+            "linear_gradient": "",
+            "fw_text": 600,
+            "fs_text": 36,
+            "lh_text": 40,
+            "ls_text": "-0.03em",
+            "font_style": "normal",
+            "text_transform": "none",
+            "first_mark": false,
+            "last_mark": false,
+            "custom_mark": "",
+            "color_mark": "#17f084",
+            "mobile_fw_text": 600,
+            "mobile_lh_text": 35,
+            "mobile_font_text": 30
+          }
+        },
+        "18d23eac-b557-45f5-9b90-55ef0674b247": {
+          "type": "space",
+          "settings": {
+            "hide_mobile": false,
+            "sp": 15,
+            "mobile_sp": 10
+          }
+        },
+        "f8049163-17f4-4e98-92de-21b48eb0e9d5": {
+          "type": "txt",
+          "settings": {
+            "title": "Discover our accessories to create a beautiful kitchen.",
+            "text_animate": "fadeInUp",
+            "text_time": 2.5,
+            "color": "#ffffff",
+            "fw_text": 500,
+            "fs_text": 16,
+            "lh_text": 22,
+            "ls_text": 0,
+            "hide": false,
+            "hide_mobile": false,
+            "mobile_fw_text": 500,
+            "mobile_lh_text": 20,
+            "mobile_font_text": 14
+          }
+        },
+        "5dad6501-4ec3-4b57-8305-3e7052e07c26": {
+          "type": "space",
+          "settings": {
+            "hide_mobile": false,
+            "sp": 35,
+            "mobile_sp": 20
+          }
+        },
+        "a3937595-0962-4042-8971-7fd2a100461b": {
+          "type": "btn",
+          "settings": {
+            "title": "Shop Now",
+            "text_animate": "fadeInUp",
+            "text_time": 2.5,
+            "btn_link": "shopify:\/\/collections",
+            "cl_txt": "#212529",
+            "cl_txt_hover": "#ffffff",
+            "cl_bg": "#ffffff",
+            "cl_bg_hover": "#ff6128",
+            "fs_text": 14,
+            "fw_text": 700,
+            "button_transform": "none",
+            "br_button": "4px 4px",
+            "mg": "0px 0px 0px 0px",
+            "pd": "15px 65px 15px 65px",
+            "ls_text": 0,
+            "mobile_fw_text": 700,
+            "mobile_font_text": 14,
+            "mobile_mg": "0px 0px 0px 0px",
+            "mobile_pd": "10px 50px 10px 50px"
+          }
+        },
+        "165018826364c02d6a-1": {
+          "type": "img",
+          "settings": {
+            "image_sl": "shopify:\/\/shop_images\/banner_5_2.png",
+            "link_img": "",
+            "open_link": "_blank",
+            "caption_w": "2",
+            "h_position": "left",
+            "v_position": "middle",
+            "txt_align": "left"
+          }
+        },
+        "891f8080-a8d5-4eb3-9c53-f3bf3eab615d": {
+          "type": "subhd",
+          "settings": {
+            "title": "This year's Summer picks",
+            "text_animate": "fadeInDown",
+            "text_time": 2.5,
+            "color": "#FF6128",
+            "linear_gradient": "",
+            "fw_text": 700,
+            "fs_text": 12,
+            "lh_text": 16,
+            "ls_text": "-0.03em",
+            "font_style": "normal",
+            "text_transform": "uppercase",
+            "hide": false,
+            "first_mark": false,
+            "last_mark": false,
+            "custom_mark": "",
+            "color_mark": "",
+            "mobile_fw_text": 500,
+            "mobile_lh_text": 0,
+            "mobile_font_text": 12
+          }
+        },
+        "dc125a96-fc0e-40ef-a4bc-72b036244d98": {
+          "type": "space",
+          "settings": {
+            "hide_mobile": false,
+            "sp": 20,
+            "mobile_sp": 10
+          }
+        },
+        "53c479ab-f936-4077-b245-dacc37905cfd": {
+          "type": "hd",
+          "disabled": true,
+          "settings": {
+            "hide": false,
+            "title": "Today’s Offer",
+            "text_animate": "slideInLeft",
+            "text_time": 2.5,
+            "color": "#212529",
+            "linear_gradient": "linear-gradient(91.25deg, rgba(255, 83, 83, 1) 1.83%, rgba(195, 26, 255, 1) 98.55%)",
+            "fw_text": 600,
+            "fs_text": 36,
+            "lh_text": 40,
+            "ls_text": "-0.03em",
+            "font_style": "normal",
+            "text_transform": "none",
+            "first_mark": false,
+            "last_mark": false,
+            "custom_mark": "",
+            "color_mark": "",
+            "mobile_fw_text": 600,
+            "mobile_lh_text": 34,
+            "mobile_font_text": 30
+          }
+        },
+        "8b306135-6ce3-4ccd-ae2e-ad75cb9f095d": {
+          "type": "hd",
+          "settings": {
+            "hide": false,
+            "title": "Trending Dining Chairs",
+            "text_animate": "slideInRight",
+            "text_time": 2.5,
+            "color": "#ffffff",
+            "linear_gradient": "",
+            "fw_text": 600,
+            "fs_text": 36,
+            "lh_text": 40,
+            "ls_text": "-0.03em",
+            "font_style": "normal",
+            "text_transform": "none",
+            "first_mark": false,
+            "last_mark": false,
+            "custom_mark": "",
+            "color_mark": "#17f084",
+            "mobile_fw_text": 600,
+            "mobile_lh_text": 35,
+            "mobile_font_text": 30
+          }
+        },
+        "a7bb083b-645e-4df8-b103-a4f38388cb30": {
+          "type": "space",
+          "settings": {
+            "hide_mobile": false,
+            "sp": 10,
+            "mobile_sp": 5
+          }
+        },
+        "b54e535a-e061-43b5-9faf-01c49dbe929f": {
+          "type": "txt",
+          "settings": {
+            "title": "Discover our accessories to create a beautiful kitchen.",
+            "text_animate": "fadeInLeft",
+            "text_time": 2.5,
+            "color": "#ffffff",
+            "fw_text": 500,
+            "fs_text": 16,
+            "lh_text": 22,
+            "ls_text": 0,
+            "hide": false,
+            "hide_mobile": false,
+            "mobile_fw_text": 500,
+            "mobile_lh_text": 20,
+            "mobile_font_text": 14
+          }
+        },
+        "f9db16a4-5108-4986-8fc5-aa45f6f43b91": {
+          "type": "space",
+          "settings": {
+            "hide_mobile": false,
+            "sp": 50,
+            "mobile_sp": 20
+          }
+        },
+        "a18e2035-2fbd-4496-bb14-bbc57a981498": {
+          "type": "btn",
+          "settings": {
+            "title": "Shop Now",
+            "text_animate": "fadeInUp",
+            "text_time": 2.5,
+            "btn_link": "shopify:\/\/collections\/accessories",
+            "cl_txt": "#212529",
+            "cl_txt_hover": "#ffffff",
+            "cl_bg": "#ffffff",
+            "cl_bg_hover": "#212529",
+            "fs_text": 12,
+            "fw_text": 700,
+            "button_transform": "uppercase",
+            "br_button": "4px 4px",
+            "mg": "0px 0px 0px 0px",
+            "pd": "15px 65px 15px 65px",
+            "ls_text": 0,
+            "mobile_fw_text": 700,
+            "mobile_font_text": 12,
+            "mobile_mg": "0px 0px 0px 0px",
+            "mobile_pd": "10px 50px 10px 50px"
+          }
+        },
+        "b68a79f6-452b-4be4-9485-ab2e5ec818bd": {
+          "type": "img",
+          "settings": {
+            "image_sl": "shopify:\/\/shop_images\/banner_5_3.png",
+            "link_img": "",
+            "open_link": "_blank",
+            "caption_w": "2",
+            "h_position": "left",
+            "v_position": "middle",
+            "txt_align": "left"
+          }
+        },
+        "acf77304-8153-457c-ba2f-d6a42f468938": {
+          "type": "subhd",
+          "settings": {
+            "title": "40% FLAT DISCOUNT",
+            "text_animate": "none",
+            "text_time": 1.5,
+            "color": "#FF6128",
+            "linear_gradient": "",
+            "fw_text": 500,
+            "fs_text": 12,
+            "lh_text": 16,
+            "ls_text": "-0.03em",
+            "font_style": "normal",
+            "text_transform": "uppercase",
+            "hide": false,
+            "first_mark": false,
+            "last_mark": false,
+            "custom_mark": "",
+            "color_mark": "",
+            "mobile_fw_text": 500,
+            "mobile_lh_text": 0,
+            "mobile_font_text": 12
+          }
+        },
+        "30e80c64-0ade-4336-afd9-8c3445b8980e": {
+          "type": "space",
+          "settings": {
+            "hide_mobile": false,
+            "sp": 20,
+            "mobile_sp": 10
+          }
+        },
+        "42b8c976-6e3a-4627-8694-2ce6bafb5f15": {
+          "type": "hd",
+          "disabled": true,
+          "settings": {
+            "hide": false,
+            "title": "Today’s Offer",
+            "text_animate": "slideInLeft",
+            "text_time": 2.5,
+            "color": "#212529",
+            "linear_gradient": "linear-gradient(91.25deg, rgba(255, 83, 83, 1) 1.83%, rgba(195, 26, 255, 1) 98.55%)",
+            "fw_text": 600,
+            "fs_text": 36,
+            "lh_text": 40,
+            "ls_text": "-0.03em",
+            "font_style": "normal",
+            "text_transform": "none",
+            "first_mark": false,
+            "last_mark": false,
+            "custom_mark": "",
+            "color_mark": "",
+            "mobile_fw_text": 600,
+            "mobile_lh_text": 35,
+            "mobile_font_text": 30
+          }
+        },
+        "4ef7ed09-8363-4fe0-801e-b1d36c42d4fd": {
+          "type": "hd",
+          "settings": {
+            "hide": false,
+            "title": "Top Sale Table Lamp",
+            "text_animate": "slideInRight",
+            "text_time": 2.5,
+            "color": "#ffffff",
+            "linear_gradient": "",
+            "fw_text": 600,
+            "fs_text": 36,
+            "lh_text": 40,
+            "ls_text": "-0.03em",
+            "font_style": "normal",
+            "text_transform": "none",
+            "first_mark": false,
+            "last_mark": false,
+            "custom_mark": "",
+            "color_mark": "#ffe603",
+            "mobile_fw_text": 600,
+            "mobile_lh_text": 35,
+            "mobile_font_text": 30
+          }
+        },
+        "209ad461-da21-4f59-996b-0443e0bb9db4": {
+          "type": "space",
+          "settings": {
+            "hide_mobile": false,
+            "sp": 10,
+            "mobile_sp": 5
+          }
+        },
+        "de6571dd-52bc-4ed5-82e8-92ef8cf2e782": {
+          "type": "txt",
+          "settings": {
+            "title": "Discover our accessories to create a beautiful kitchen.",
+            "text_animate": "fadeInUp",
+            "text_time": 2.5,
+            "color": "#ffffff",
+            "fw_text": 500,
+            "fs_text": 16,
+            "lh_text": 22,
+            "ls_text": 0,
+            "hide": false,
+            "hide_mobile": false,
+            "mobile_fw_text": 500,
+            "mobile_lh_text": 20,
+            "mobile_font_text": 14
+          }
+        },
+        "2191a709-e18f-4848-9a5f-2e3153242d25": {
+          "type": "space",
+          "settings": {
+            "hide_mobile": false,
+            "sp": 50,
+            "mobile_sp": 25
+          }
+        },
+        "e9b1486a-5343-4257-a9ce-11829970464f": {
+          "type": "btn",
+          "settings": {
+            "title": "Shop Now",
+            "text_animate": "fadeInUp",
+            "text_time": 2.5,
+            "btn_link": "shopify:\/\/collections\/car-electronics",
+            "cl_txt": "#212529",
+            "cl_txt_hover": "#ffffff",
+            "cl_bg": "#ffffff",
+            "cl_bg_hover": "#212529",
+            "fs_text": 12,
+            "fw_text": 700,
+            "button_transform": "uppercase",
+            "br_button": "4px 4px",
+            "mg": "0px 0px 0px 0px",
+            "pd": "15px 65px 15px 65px",
+            "ls_text": 0,
+            "mobile_fw_text": 700,
+            "mobile_font_text": 12,
+            "mobile_mg": "0px 0px 0px 0px",
+            "mobile_pd": "10px 50px 10px 50px"
+          }
+        }
+      },
+      "block_order": [
+        "165018826364c02d6a-0",
+        "abf520f4-9249-4714-b07e-a1dfaa3e0096",
+        "83ced24a-64eb-4c96-ac96-071a54993c6a",
+        "416867ec-0732-4261-a3f2-30e689d3518d",
+        "b7c972a8-63f1-447a-85e1-5943ea43ad04",
+        "18d23eac-b557-45f5-9b90-55ef0674b247",
+        "f8049163-17f4-4e98-92de-21b48eb0e9d5",
+        "5dad6501-4ec3-4b57-8305-3e7052e07c26",
+        "a3937595-0962-4042-8971-7fd2a100461b",
+        "165018826364c02d6a-1",
+        "891f8080-a8d5-4eb3-9c53-f3bf3eab615d",
+        "dc125a96-fc0e-40ef-a4bc-72b036244d98",
+        "53c479ab-f936-4077-b245-dacc37905cfd",
+        "8b306135-6ce3-4ccd-ae2e-ad75cb9f095d",
+        "a7bb083b-645e-4df8-b103-a4f38388cb30",
+        "b54e535a-e061-43b5-9faf-01c49dbe929f",
+        "f9db16a4-5108-4986-8fc5-aa45f6f43b91",
+        "a18e2035-2fbd-4496-bb14-bbc57a981498",
+        "b68a79f6-452b-4be4-9485-ab2e5ec818bd",
+        "acf77304-8153-457c-ba2f-d6a42f468938",
+        "30e80c64-0ade-4336-afd9-8c3445b8980e",
+        "42b8c976-6e3a-4627-8694-2ce6bafb5f15",
+        "4ef7ed09-8363-4fe0-801e-b1d36c42d4fd",
+        "209ad461-da21-4f59-996b-0443e0bb9db4",
+        "de6571dd-52bc-4ed5-82e8-92ef8cf2e782",
+        "2191a709-e18f-4848-9a5f-2e3153242d25",
+        "e9b1486a-5343-4257-a9ce-11829970464f"
+      ],
+      "settings": {
+        "hidden": false,
+        "h_des": "350px",
+        "h_tb": "350px",
+        "h_mb": "230px",
+        "border": 10,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 1,
+        "widescreen": 1,
+        "desktop": 1,
+        "laptop": 1,
+        "notebook": 1,
+        "tablet": 1,
+        "landscape": 1,
+        "portrait": 1,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": false,
+        "speed": "900",
+        "autoplay-Speed": "6000",
+        "arrows": true,
+        "fade": true,
+        "fade_zoom": true,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": true,
+        "infinite": true,
+        "padding": 0,
+        "vertical": false,
+        "position_dots": "center",
+        "style_dots": "style1",
+        "custom_width": true,
+        "container_width": 1600,
+        "layout": "container",
+        "cl_bg": "#ffffff",
+        "mg": ",,,",
+        "pd": "30px,,60px,",
+        "mg_mb": ",,,",
+        "pd_mb": "15px,,30px,"
+      }
+    },
+    "adb31611-bb52-4257-9fc8-a7003a7eb87a": {
+      "type": "collection-list-slider",
+      "blocks": {
+        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "bedroom",
+            "image": "shopify:\/\/shop_images\/col_5_1.png",
+            "title": "Bedroom"
+          }
+        },
+        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "home-accessories",
+            "image": "shopify:\/\/shop_images\/col_5_2.png",
+            "title": "Home Accessories"
+          }
+        },
+        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "sectional-sofas",
+            "image": "shopify:\/\/shop_images\/col_5_3.png",
+            "title": "Sectional Sofas"
+          }
+        },
+        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "dining-kitchen",
+            "image": "shopify:\/\/shop_images\/col_5_4.png",
+            "title": "Dining & Kitchen"
+          }
+        },
+        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "decor-lighting",
+            "image": "shopify:\/\/shop_images\/col_5_5.png",
+            "title": "Decor & Lighting"
+          }
+        },
+        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-5": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "cameras-photos",
+            "image": "shopify:\/\/shop_images\/collection6.png",
+            "title": "Camera\/Photo"
+          }
+        },
+        "ca39440e-a4cb-439b-bec1-9dd9a54948c7": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "desktop-pc",
+            "image": "shopify:\/\/shop_images\/collection7.png",
+            "title": "Heatsink PC"
+          }
+        },
+        "a6b8dbc7-19c6-43c3-a6bb-f90c47881481": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "home-kitchen",
+            "image": "shopify:\/\/shop_images\/collection8.png",
+            "title": "Home\/Electronics"
+          }
+        }
+      },
+      "block_order": [
+        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-0",
+        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-1",
+        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-2",
+        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-3",
+        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-4",
+        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-5",
+        "ca39440e-a4cb-439b-bec1-9dd9a54948c7",
+        "a6b8dbc7-19c6-43c3-a6bb-f90c47881481"
+      ],
+      "settings": {
+        "title": "Shop by Category",
+        "content": "The best quality products are waiting for you & choose it now.",
+        "text_size": "medium",
+        "text_transform": "capitalize",
+        "border": 10,
+        "num_p_qty": false,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 5,
+        "widescreen": 5,
+        "desktop": 5,
+        "laptop": 4,
+        "notebook": 4,
+        "tablet": 4,
+        "landscape": 3,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": false,
+        "speed": "300",
+        "autoplay-Speed": "6000",
+        "arrows": true,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": false,
+        "padding": 10,
+        "vertical": false,
+        "layout": "container",
+        "cl_bg": "#ffffff",
+        "show_border": true,
+        "cl_border": "#e5e8ec",
+        "mg": ",,60px,",
+        "pd": ",,40px,",
+        "mg_mb": ",,30px,",
+        "pd_mb": ",,20px,"
+      }
+    },
+    "574adbaf-6e05-4837-8111-0b00659cc363": {
+      "type": "collection-carousel-product",
+      "settings": {
+        "title": "This Week's Highlights",
+        "content": "The best quality products are waiting for you & choose it now.",
+        "text_size": "medium",
+        "text_transform": "capitalize",
+        "collection": "bedroom",
+        "max_count": 6,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 5,
+        "widescreen": 5,
+        "desktop": 5,
+        "laptop": 5,
+        "notebook": 3,
+        "tablet": 3,
+        "landscape": 3,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": false,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": true,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": false,
+        "padding": 10,
+        "vertical": false,
+        "layout_des": false,
+        "cl_bg": "rgba(0,0,0,0)",
+        "mg": ",,60px,",
+        "pd": "",
+        "mg_mb": ",,15px,",
+        "pd_mb": ""
+      }
+    },
+    "031734ff-1028-4b77-9bd8-355af17dece0": {
+      "type": "lookbook-carousel",
+      "blocks": {
+        "template--18299509342493__031734ff-1028-4b77-9bd8-355af17dece0-168248499594be194e-0": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_5_6.png",
+            "heading": "Living Room Awesome",
+            "content": "Up to 10% Offer"
+          }
+        },
+        "a4f0b832-8165-49e6-a18b-a6055ba4d180": {
+          "type": "pr",
+          "settings": {
+            "pos_t": 50,
+            "pos_l": 15,
+            "type": "1",
+            "shorttxt": "$59",
+            "pos_pin": "right",
+            "pos_size": "exmedium",
+            "effect": "fade",
+            "bg_cl_br": "#ffffff",
+            "bg_cl_br_opacity": 0.2,
+            "bg_cl": "#f8ba26",
+            "product": "snooze-bed-linen"
+          }
+        },
+        "template--18299509342493__031734ff-1028-4b77-9bd8-355af17dece0-168248499594be194e-2": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_5_7.png",
+            "heading": "Bedroom Interior from $14.00",
+            "content": "Save up to 40%"
+          }
+        },
+        "template--18299509342493__031734ff-1028-4b77-9bd8-355af17dece0-168248499594be194e-3": {
+          "type": "txt",
+          "settings": {
+            "pos_t": 50,
+            "pos_l": 20,
+            "type": "1",
+            "shorttxt": "$59",
+            "pos_pin": "right",
+            "pos_size": "medium",
+            "effect": "fade",
+            "bg_cl_br": "#ffffff",
+            "bg_cl_br_opacity": 0.2,
+            "bg_cl": "#ea0d42",
+            "heading": "Bedroom Interior from $14.00",
+            "text": "<p>Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.<\/p>"
+          }
+        },
+        "3f94ce08-a18c-4d00-bba8-a3eb6535f8c8": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_5_8.png",
+            "heading": "Discover Residential Lighting",
+            "content": "Flat 10% Off"
+          }
+        },
+        "13287fd9-7eee-4e5c-8334-8bf3b9b312a8": {
+          "type": "pr",
+          "settings": {
+            "pos_t": 50,
+            "pos_l": 80,
+            "type": "1",
+            "shorttxt": "$59",
+            "pos_pin": "left",
+            "pos_size": "medium",
+            "effect": "fade",
+            "bg_cl_br": "#ffffff",
+            "bg_cl_br_opacity": 0.2,
+            "bg_cl": "#f8ba26",
+            "product": "tivoli-emperor-lamp"
+          }
+        },
+        "b335de53-2ab7-482f-9394-6c8af20bf317": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_5_9.png",
+            "heading": "Sectional Sofas from $14.00",
+            "content": "Up to 20% Offer"
+          }
+        },
+        "ec36c967-5c71-407d-b6d7-50222cf3ca5a": {
+          "type": "url",
+          "settings": {
+            "pos_t": 50,
+            "pos_l": 50,
+            "type": "1",
+            "shorttxt": "$59",
+            "pos_pin": "top",
+            "pos_size": "medium",
+            "effect": "fade",
+            "bg_cl_br": "#ffffff",
+            "bg_cl_br_opacity": 0.2,
+            "bg_cl": "#212529",
+            "url": "shopify:\/\/collections\/sectional-sofas",
+            "open_link": "_blank"
+          }
+        }
+      },
+      "block_order": [
+        "template--18299509342493__031734ff-1028-4b77-9bd8-355af17dece0-168248499594be194e-0",
+        "a4f0b832-8165-49e6-a18b-a6055ba4d180",
+        "template--18299509342493__031734ff-1028-4b77-9bd8-355af17dece0-168248499594be194e-2",
+        "template--18299509342493__031734ff-1028-4b77-9bd8-355af17dece0-168248499594be194e-3",
+        "3f94ce08-a18c-4d00-bba8-a3eb6535f8c8",
+        "13287fd9-7eee-4e5c-8334-8bf3b9b312a8",
+        "b335de53-2ab7-482f-9394-6c8af20bf317",
+        "ec36c967-5c71-407d-b6d7-50222cf3ca5a"
+      ],
+      "settings": {
+        "title": "Top Offers-Deals",
+        "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+        "text_size": "medium",
+        "text_transform": "capitalize",
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 4,
+        "widescreen": 4,
+        "desktop": 4,
+        "laptop": 3,
+        "notebook": 2,
+        "tablet": 2,
+        "landscape": 1,
+        "portrait": 1,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": true,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": true,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": false,
+        "padding": 10,
+        "vertical": false,
+        "layout_des": false,
+        "cl_bg": "#ffffff",
+        "mg": ",,60px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "3159f294-b2f4-42ab-b5d6-597485eb9827": {
+      "type": "tab-product-style2",
+      "blocks": {
+        "template--18299509342493__3159f294-b2f4-42ab-b5d6-597485eb9827-16814589100d35a09e-0": {
+          "type": "col",
+          "settings": {
+            "title": "Furniture",
+            "collection": "bedroom"
+          }
+        },
+        "template--18299509342493__3159f294-b2f4-42ab-b5d6-597485eb9827-16814589100d35a09e-1": {
+          "type": "col",
+          "settings": {
+            "title": "Bed & Bath",
+            "collection": "bedroom"
+          }
+        },
+        "template--18299509342493__3159f294-b2f4-42ab-b5d6-597485eb9827-16814589100d35a09e-2": {
+          "type": "col",
+          "settings": {
+            "title": "Lighting",
+            "collection": "decor-lighting"
+          }
+        },
+        "f65acdb7-f0b6-4b2f-b751-ce4ec751faf4": {
+          "type": "col",
+          "settings": {
+            "title": "Decor & Pillows",
+            "collection": "decor-lighting"
+          }
+        },
+        "e59ca0ff-4377-44b1-b750-2527fa6879ca": {
+          "type": "col",
+          "settings": {
+            "title": "Outdoor",
+            "collection": "sectional-sofas"
+          }
+        }
+      },
+      "block_order": [
+        "template--18299509342493__3159f294-b2f4-42ab-b5d6-597485eb9827-16814589100d35a09e-0",
+        "template--18299509342493__3159f294-b2f4-42ab-b5d6-597485eb9827-16814589100d35a09e-1",
+        "template--18299509342493__3159f294-b2f4-42ab-b5d6-597485eb9827-16814589100d35a09e-2",
+        "f65acdb7-f0b6-4b2f-b751-ce4ec751faf4",
+        "e59ca0ff-4377-44b1-b750-2527fa6879ca"
+      ],
+      "settings": {
+        "title": "Top Selling Products",
+        "content": "",
+        "text_size": "medium",
+        "text_transform": "none",
+        "max_count": 8,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 5,
+        "widescreen": 5,
+        "desktop": 5,
+        "laptop": 5,
+        "notebook": 4,
+        "tablet": 3,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": true,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": true,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": false,
+        "padding": 10,
+        "vertical": false,
+        "layout": "container",
+        "cl_bg": "rgba(0,0,0,0)",
+        "mg": ",,60px,",
+        "pd": "",
+        "mg_mb": ",,15px,",
+        "pd_mb": ""
+      }
+    },
+    "e3baa68d-b81c-4e8c-9fe8-34918fcc35fb": {
+      "type": "Image-cards",
+      "blocks": {
+        "template--18299509342493__e3baa68d-b81c-4e8c-9fe8-34918fcc35fb-1681554531a21559e1-0": {
+          "type": "banner_img",
+          "settings": {
+            "image_sl": "shopify:\/\/shop_images\/img_5_1.png",
+            "col": "50%",
+            "link_img": "",
+            "open_link": "_blank",
+            "hidden_content": false,
+            "h_position": "left",
+            "v_position": "bottom",
+            "txt_align": "left"
+          }
+        },
+        "f3f351ba-c013-45ed-915b-a9394611ddd1": {
+          "type": "hd",
+          "settings": {
+            "hide": false,
+            "title": "Our Favorite & Best Selling <br>\nHigh-Quality Sofas.",
+            "color": "#212529",
+            "fw_text": 700,
+            "fs_text": 20,
+            "lh_text": 27,
+            "ls_text": "-0.03em",
+            "text_transform": "none",
+            "first_mark": false,
+            "last_mark": false,
+            "custom_mark": "",
+            "color_mark": "",
+            "mg_bottom": 15,
+            "mobile_font_text": 20,
+            "mobile_mg_bottom": 10
+          }
+        },
+        "3fd4bbdd-6f29-46f0-9d1d-9a34431aaf0f": {
+          "type": "txt",
+          "settings": {
+            "title": "The best quality products are waiting for you.",
+            "color": "#515d66",
+            "fw_text": 500,
+            "fs_text": 14,
+            "lh_text": 20,
+            "text_transform": "none",
+            "ls_text": 0,
+            "mg_bottom": 30,
+            "hide": false,
+            "mobile_font_text": 14,
+            "mobile_mg_bottom": 15
+          }
+        },
+        "0b3e75e0-2fb3-4062-aee9-d660ae7cd599": {
+          "type": "btn",
+          "settings": {
+            "title": "Shop Now",
+            "btn_link": "shopify:\/\/collections\/bedroom",
+            "open_link": "_blank",
+            "cl_txt": "#212529",
+            "cl_txt_hover": "#ffffff",
+            "cl_bg": "#ffffff",
+            "cl_bg_hover": "#ff6128",
+            "cl_border": "#343e45",
+            "cl_border_hover": "#ff6128",
+            "fs_text": 14,
+            "fw_text": 700,
+            "button_transform": "none",
+            "br_button": "5px",
+            "mg": "0px 0px 0px 0px",
+            "pd": "10px 30px 10px 30px",
+            "icon_button": "",
+            "ls_text": 1.1,
+            "mobile_font_text": 13,
+            "mobile_mg_bottom": 0,
+            "mobile_mg": "0px 0px 0px 0px",
+            "mobile_pd": "10px 15px 10px 15px"
+          }
+        },
+        "template--18299509342493__e3baa68d-b81c-4e8c-9fe8-34918fcc35fb-1681554531a21559e1-1": {
+          "type": "banner_img",
+          "settings": {
+            "image_sl": "shopify:\/\/shop_images\/img_5_2.png",
+            "col": "50%",
+            "link_img": "",
+            "open_link": "_blank",
+            "hidden_content": false,
+            "h_position": "left",
+            "v_position": "bottom",
+            "txt_align": "left"
+          }
+        },
+        "05dd4904-d7d2-4f50-a254-d16fa10afbf3": {
+          "type": "hd",
+          "settings": {
+            "hide": false,
+            "title": "Premium & Exclusive<br>\nAristocratic Bedroom Class.",
+            "color": "#212529",
+            "fw_text": 700,
+            "fs_text": 20,
+            "lh_text": 27,
+            "ls_text": "-0.03em",
+            "text_transform": "none",
+            "first_mark": false,
+            "last_mark": false,
+            "custom_mark": "",
+            "color_mark": "",
+            "mg_bottom": 15,
+            "mobile_font_text": 20,
+            "mobile_mg_bottom": 10
+          }
+        },
+        "365ebeb3-8d0f-400f-814e-7b871afe8d6d": {
+          "type": "txt",
+          "settings": {
+            "title": "The best quality products are waiting for you.",
+            "color": "#515d66",
+            "fw_text": 500,
+            "fs_text": 14,
+            "lh_text": 19,
+            "text_transform": "none",
+            "ls_text": 0,
+            "mg_bottom": 30,
+            "hide": false,
+            "mobile_font_text": 14,
+            "mobile_mg_bottom": 15
+          }
+        },
+        "a2ee26cd-a80b-45eb-89d4-1db7cf008b21": {
+          "type": "btn",
+          "settings": {
+            "title": "Shop now",
+            "btn_link": "#",
+            "open_link": "_blank",
+            "cl_txt": "#212529",
+            "cl_txt_hover": "#ffffff",
+            "cl_bg": "#ffffff",
+            "cl_bg_hover": "#ff6128",
+            "cl_border": "#212529",
+            "cl_border_hover": "#ff6128",
+            "fs_text": 14,
+            "fw_text": 700,
+            "button_transform": "capitalize",
+            "br_button": "5px",
+            "mg": "0px 0px 0px 0px",
+            "pd": "10px 30px 10px 30px",
+            "icon_button": "",
+            "ls_text": 1.1,
+            "mobile_font_text": 13,
+            "mobile_mg_bottom": 0,
+            "mobile_mg": "0px 0px 0px 0px",
+            "mobile_pd": "10px 15px 10px 15px"
+          }
+        }
+      },
+      "block_order": [
+        "template--18299509342493__e3baa68d-b81c-4e8c-9fe8-34918fcc35fb-1681554531a21559e1-0",
+        "f3f351ba-c013-45ed-915b-a9394611ddd1",
+        "3fd4bbdd-6f29-46f0-9d1d-9a34431aaf0f",
+        "0b3e75e0-2fb3-4062-aee9-d660ae7cd599",
+        "template--18299509342493__e3baa68d-b81c-4e8c-9fe8-34918fcc35fb-1681554531a21559e1-1",
+        "05dd4904-d7d2-4f50-a254-d16fa10afbf3",
+        "365ebeb3-8d0f-400f-814e-7b871afe8d6d",
+        "a2ee26cd-a80b-45eb-89d4-1db7cf008b21"
+      ],
+      "settings": {
+        "hidden": false,
+        "h_des": "450px",
+        "h_tb": "450px",
+        "h_mb": "250px",
+        "item_gap": 20,
+        "full_width": false,
+        "cl_bg": "#ffffff",
+        "mg": ",,60px,",
+        "pd": "",
+        "mg_mb": ",,15px,",
+        "pd_mb": ""
+      }
+    },
+    "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34": {
+      "type": "testimonials",
+      "blocks": {
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-0": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_our_team_3.png",
+            "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
+            "title": "Siarhei Dzenisenka",
+            "address": "Founder\/CEO",
+            "rating": 5
+          }
+        },
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-1": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_our_team_2.png",
+            "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
+            "title": "Siarhei Dzenisenka",
+            "address": "Founder\/CEO",
+            "rating": 5
+          }
+        },
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-2": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_our_team.png",
+            "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
+            "title": "Siarhei Dzenisenka",
+            "address": "Founder\/CEO",
+            "rating": 5
+          }
+        },
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-3": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_our_team_3.png",
+            "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
+            "title": "Siarhei Dzenisenka",
+            "address": "Founder\/CEO",
+            "rating": 5
+          }
+        },
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-4": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_our_team_2.png",
+            "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
+            "title": "Siarhei Dzenisenka",
+            "address": "Founder\/CEO",
+            "rating": 5
+          }
+        },
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-5": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_our_team.png",
+            "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
+            "title": "Siarhei Dzenisenka",
+            "address": "Founder\/CEO",
+            "rating": 5
+          }
+        },
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-6": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_our_team_3.png",
+            "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
+            "title": "Siarhei Dzenisenka",
+            "address": "Founder\/CEO",
+            "rating": 5
+          }
+        },
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-7": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_our_team_2.png",
+            "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
+            "title": "Siarhei Dzenisenka",
+            "address": "Founder\/CEO",
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-0",
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-1",
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-2",
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-3",
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-4",
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-5",
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-6",
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-7"
+      ],
+      "settings": {
+        "title": "Happy Customers Say!",
+        "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+        "text_size": "medium",
+        "text_transform": "none",
+        "show_text_bottom": true,
+        "text_bottom": "<p>Trusted customers are our happiness. <a href=\"\/pages\/contact\" title=\"Contact\"><strong>Contact us.<\/strong><\/a><\/p>",
+        "hidden": false,
+        "layout": "container",
+        "width_c": 100,
+        "style": "style1",
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 3,
+        "widescreen": 3,
+        "desktop": 3,
+        "laptop": 3,
+        "notebook": 2,
+        "tablet": 2,
+        "landscape": 2,
+        "portrait": 1,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": false,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": true,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": false,
+        "padding": 10,
+        "vertical": false,
+        "cl_bg": "#ffffff",
+        "mg": ",,60px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "10360843-48e8-4559-92b6-ed2c627cc19c": {
+      "type": "newsletter",
+      "settings": {
+        "width_c": 40,
+        "title": "Sign Up to Newsletter",
+        "content": "Join 20.000+ subscribers and get a new discount coupon on every\nSaturday. Updates information on Sales and Offers.",
+        "text_size": "medium",
+        "position": "right",
+        "layout": "container",
+        "design": "design-2",
+        "bg_image": "shopify:\/\/shop_images\/bg_newsletter5.png",
+        "cl_bg": "#ffffff",
+        "mg": "30px,,,",
+        "pd": "200px,,",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    }
+  },
+  "order": [
+    "165018826364c02d6a",
+    "adb31611-bb52-4257-9fc8-a7003a7eb87a",
+    "574adbaf-6e05-4837-8111-0b00659cc363",
+    "031734ff-1028-4b77-9bd8-355af17dece0",
+    "3159f294-b2f4-42ab-b5d6-597485eb9827",
+    "e3baa68d-b81c-4e8c-9fe8-34918fcc35fb",
+    "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34",
+    "10360843-48e8-4559-92b6-ed2c627cc19c"
+  ]
+}
