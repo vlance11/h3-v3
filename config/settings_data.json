@@ -5,7 +5,7 @@
     "shop_author": "TSMLabs",
     "rtl": false,
     "show_button_rtl": false,
-    "show_load_page": false,
+    "show_load_page": true,
     "show_cusotm_width": true,
     "cusotm_width": "1410px",
     "select_header": "1",

@@ -8,6 +8,8 @@
         "v_position": "middle",
         "txt_align": "center",
         "bg": "#ffffff",
+        "cl_title": "#212529",
+        "cl_breadcrum": "#8D979E",
         "b_height": 190,
         "mg_bottom": 20,
         "mobile_bg": "#ffffff",
