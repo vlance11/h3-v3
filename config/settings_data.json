@@ -11,7 +11,7 @@
     "select_header": "1",
     "use_vertical_menu": true,
     "title_vertical": "Categories",
-    "vertical_menu_position": "2",
+    "vertical_menu_position": "1",
     "select_footer": "1",
     "show_policy_terms_of_service_page": true,
     "privacy_policy_page_content": "privacy-policy",
