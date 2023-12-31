@@ -8,6 +8,8 @@
         "v_position": "middle",
         "txt_align": "left",
         "bg": "#f2f2f6",
+        "cl_title": "#212529",
+        "cl_breadcrum": "#8D979E",
         "b_height": 70,
         "mg_bottom": 0,
         "mobile_bg": "#f1f5f6",
@@ -23,7 +25,7 @@
           "settings": {
             "enable_menu_categories": true,
             "title_categories": "Product Categories",
-            "menu": "product-categories"
+            "menu": "all-products"
           }
         },
         "bd2d3844-64a0-4837-8954-76b36f4ab773": {
@@ -39,7 +41,6 @@
         "d1f87686-4bdb-47c4-a938-983ce2683a19": {
           "type": "banner_img",
           "settings": {
-            "image_promobox": "shopify:\/\/shop_images\/img_1_8.jpg",
             "url": "shopify:\/\/collections\/laptop-ipad",
             "title": "top cameras",
             "content": "<h3>Laptop<\/h3>\n<h4>Macbook M1<\/h4>\n<p>Just from: <span class=\"price\">$120.99<\/span><\/p>",
@@ -59,12 +60,12 @@
         "h_des": "200px",
         "h_tb": "200px",
         "h_mb": "85px",
-        "products_per_page": 20,
-        "grid_list": "4",
         "enable_filtering": true,
         "filter_type": "vertical",
         "filter_right": false,
         "enable_sorting": true,
+        "products_per_page": 20,
+        "grid_list": "4",
         "visible": 4,
         "widescreen": 4,
         "desktop": 4,
@@ -75,7 +76,6 @@
         "portrait": 2,
         "mobile": 1,
         "padding_lr": 10,
-        "use_border_for_product": false,
         "mg": ",,100px,",
         "pd": "40px,,,",
         "mg_mb": ",,50px,",
