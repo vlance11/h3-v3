@@ -6,7 +6,9 @@
         "165018826364c02d6a-0": {
           "type": "img",
           "settings": {
-            "image_sl": "shopify:\/\/shop_images\/banner_5_1.png",
+            "video": "shopify:\/\/files\/videos\/Installing a Tekonsha® P3™ 90195.mp4",
+            "image_sl": "shopify:\/\/shop_images\/hector-falcon-2BF1jkUjAqY-unsplash.jpg",
+            "image_sl_mobile": "shopify:\/\/shop_images\/BullDog_Towing_logo-200x200w.jpg",
             "link_img": "",
             "open_link": "_blank",
             "caption_w": "1",
@@ -157,7 +159,7 @@
         "165018826364c02d6a-1": {
           "type": "img",
           "settings": {
-            "image_sl": "shopify:\/\/shop_images\/banner_5_2.png",
+            "image_sl": "shopify:\/\/shop_images\/63071-removebg-preview.png",
             "link_img": "",
             "open_link": "_blank",
             "caption_w": "2",
@@ -308,7 +310,7 @@
         "b68a79f6-452b-4be4-9485-ab2e5ec818bd": {
           "type": "img",
           "settings": {
-            "image_sl": "shopify:\/\/shop_images\/banner_5_3.png",
+            "image_sl": "shopify:\/\/shop_images\/hector-falcon-2BF1jkUjAqY-unsplash.jpg",
             "link_img": "",
             "open_link": "_blank",
             "caption_w": "2",
@@ -535,7 +537,6 @@
           "type": "collection",
           "settings": {
             "collection": "bedroom",
-            "image": "shopify:\/\/shop_images\/col_5_1.png",
             "title": "Bedroom"
           }
         },
@@ -543,7 +544,6 @@
           "type": "collection",
           "settings": {
             "collection": "home-accessories",
-            "image": "shopify:\/\/shop_images\/col_5_2.png",
             "title": "Home Accessories"
           }
         },
@@ -551,7 +551,6 @@
           "type": "collection",
           "settings": {
             "collection": "sectional-sofas",
-            "image": "shopify:\/\/shop_images\/col_5_3.png",
             "title": "Sectional Sofas"
           }
         },
@@ -559,7 +558,6 @@
           "type": "collection",
           "settings": {
             "collection": "dining-kitchen",
-            "image": "shopify:\/\/shop_images\/col_5_4.png",
             "title": "Dining & Kitchen"
           }
         },
@@ -567,7 +565,6 @@
           "type": "collection",
           "settings": {
             "collection": "decor-lighting",
-            "image": "shopify:\/\/shop_images\/col_5_5.png",
             "title": "Decor & Lighting"
           }
         },
@@ -576,7 +573,6 @@
           "disabled": true,
           "settings": {
             "collection": "cameras-photos",
-            "image": "shopify:\/\/shop_images\/collection6.png",
             "title": "Camera\/Photo"
           }
         },
@@ -585,7 +581,6 @@
           "disabled": true,
           "settings": {
             "collection": "desktop-pc",
-            "image": "shopify:\/\/shop_images\/collection7.png",
             "title": "Heatsink PC"
           }
         },
@@ -594,7 +589,6 @@
           "disabled": true,
           "settings": {
             "collection": "home-kitchen",
-            "image": "shopify:\/\/shop_images\/collection8.png",
             "title": "Home\/Electronics"
           }
         }
@@ -695,7 +689,6 @@
         "template--18299509342493__031734ff-1028-4b77-9bd8-355af17dece0-168248499594be194e-0": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_5_6.png",
             "heading": "Living Room Awesome",
             "content": "Up to 10% Offer"
           }
@@ -719,7 +712,6 @@
         "template--18299509342493__031734ff-1028-4b77-9bd8-355af17dece0-168248499594be194e-2": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_5_7.png",
             "heading": "Bedroom Interior from $14.00",
             "content": "Save up to 40%"
           }
@@ -744,7 +736,6 @@
         "3f94ce08-a18c-4d00-bba8-a3eb6535f8c8": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_5_8.png",
             "heading": "Discover Residential Lighting",
             "content": "Flat 10% Off"
           }
@@ -768,7 +759,6 @@
         "b335de53-2ab7-482f-9394-6c8af20bf317": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_5_9.png",
             "heading": "Sectional Sofas from $14.00",
             "content": "Up to 20% Offer"
           }
@@ -926,7 +916,6 @@
         "template--18299509342493__e3baa68d-b81c-4e8c-9fe8-34918fcc35fb-1681554531a21559e1-0": {
           "type": "banner_img",
           "settings": {
-            "image_sl": "shopify:\/\/shop_images\/img_5_1.png",
             "col": "50%",
             "link_img": "",
             "open_link": "_blank",
@@ -1001,7 +990,6 @@
         "template--18299509342493__e3baa68d-b81c-4e8c-9fe8-34918fcc35fb-1681554531a21559e1-1": {
           "type": "banner_img",
           "settings": {
-            "image_sl": "shopify:\/\/shop_images\/img_5_2.png",
             "col": "50%",
             "link_img": "",
             "open_link": "_blank",
@@ -1104,7 +1092,6 @@
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-0": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_our_team_3.png",
             "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
             "title": "Siarhei Dzenisenka",
             "address": "Founder\/CEO",
@@ -1114,7 +1101,6 @@
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-1": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_our_team_2.png",
             "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
             "title": "Siarhei Dzenisenka",
             "address": "Founder\/CEO",
@@ -1124,7 +1110,6 @@
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-2": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_our_team.png",
             "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
             "title": "Siarhei Dzenisenka",
             "address": "Founder\/CEO",
@@ -1134,7 +1119,6 @@
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-3": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_our_team_3.png",
             "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
             "title": "Siarhei Dzenisenka",
             "address": "Founder\/CEO",
@@ -1144,7 +1128,6 @@
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-4": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_our_team_2.png",
             "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
             "title": "Siarhei Dzenisenka",
             "address": "Founder\/CEO",
@@ -1154,7 +1137,6 @@
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-5": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_our_team.png",
             "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
             "title": "Siarhei Dzenisenka",
             "address": "Founder\/CEO",
@@ -1164,7 +1146,6 @@
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-6": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_our_team_3.png",
             "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
             "title": "Siarhei Dzenisenka",
             "address": "Founder\/CEO",
@@ -1174,7 +1155,6 @@
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-7": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_our_team_2.png",
             "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
             "title": "Siarhei Dzenisenka",
             "address": "Founder\/CEO",
@@ -1243,7 +1223,6 @@
         "position": "right",
         "layout": "container",
         "design": "design-2",
-        "bg_image": "shopify:\/\/shop_images\/bg_newsletter5.png",
         "cl_bg": "#ffffff",
         "mg": "30px,,,",
         "pd": "200px,,",
