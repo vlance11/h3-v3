@@ -136,7 +136,7 @@
     "collection_info_show_title": true,
     "collection_info_show_price": true,
     "collection_info_hide_reviews_counter": false,
-    "collection_info_show_quantity_box": false,
+    "collection_info_show_quantity_box": true,
     "collection_info_show_button_add_to_compare": true,
     "collection_info_show_button_quick_view": true,
     "collection_info_show_description": true,
