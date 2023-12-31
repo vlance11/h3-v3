@@ -24,7 +24,7 @@
           "type": "menu",
           "settings": {
             "enable_menu_categories": true,
-            "title_categories": "Product Categories",
+            "title_categories": "Bundle Categories",
             "menu": "all-products"
           }
         },
