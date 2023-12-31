@@ -199,21 +199,9 @@
     "170401789281e0ae28": {
       "type": "apps",
       "blocks": {
-        "e27f8338-abb3-44d1-a600-0d7a01153716": {
-          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "808d3f3e-6347-478b-9359-1c8867f7cb4a": {
+          "type": "shopify:\/\/apps\/c-year-make-model-search\/blocks\/ymm-compatible-list\/ce35ea35-ef50-4f43-8cb6-7c34cae4c285",
           "settings": {
-            "form_id": "",
-            "text_color": "#202020",
-            "button_background_color": "#202020",
-            "button_label_color": "#ffffff",
-            "links_color": "#1878b9",
-            "errors_color": "#e02229",
-            "text_alignment": "center",
-            "form_alignment": "center",
-            "padding_top": 0,
-            "padding_bottom": 0,
-            "padding_right": 0,
-            "padding_left": 0
           }
         },
         "44b6611c-a283-4f35-8cb2-5f94425bf1a6": {
@@ -246,7 +234,7 @@
         }
       },
       "block_order": [
-        "e27f8338-abb3-44d1-a600-0d7a01153716",
+        "808d3f3e-6347-478b-9359-1c8867f7cb4a",
         "44b6611c-a283-4f35-8cb2-5f94425bf1a6",
         "0f47da22-0600-4505-9814-4a21b2180a6c",
         "0f23e87c-0f0b-4162-84e7-6f394d508fd1",
