@@ -1454,7 +1454,7 @@
           "container_width": 1520,
           "layout": "container",
           "header_use_search_home": true,
-          "style_search": "3",
+          "style_search": "2",
           "header_use_cart_home": true,
           "header_use_wishlist_home": true,
           "header_use_compare_home": false,
