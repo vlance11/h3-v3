@@ -41,9 +41,10 @@
         "d1f87686-4bdb-47c4-a938-983ce2683a19": {
           "type": "banner_img",
           "settings": {
-            "url": "shopify:\/\/collections\/laptop-ipad",
-            "title": "top cameras",
-            "content": "<h3>Laptop<\/h3>\n<h4>Macbook M1<\/h4>\n<p>Just from: <span class=\"price\">$120.99<\/span><\/p>",
+            "image_promobox": "shopify:\/\/shop_images\/Front-Of-Red-Car.jpg",
+            "url": "shopify:\/\/products\/bargman-clearance-light-module-led-37-red",
+            "title": "top bundles",
+            "content": "<h3>Acura<\/h3>\n<h4>RSX<\/h4>\n<p>Priced from: <span class=\"price\">$120.99<\/span><\/p>",
             "btn": "Shop Now"
           }
         }
