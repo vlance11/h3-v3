@@ -51,29 +51,6 @@
             "cl_text": "#ffffff"
           }
         },
-        "d2caabfb-7c33-47ff-b309-cfca9d0d9b98": {
-          "type": "popup",
-          "settings": {
-            "show_size_chart": true,
-            "text_size_chart": "Size chart",
-            "size_guide_page": "size-guide",
-            "show_shipping_returns": true,
-            "text_shipping_returns": "Shipping and Returns",
-            "shipping_returns_page": "shipping-return",
-            "show_compare_color": true,
-            "text_compare_color": "Compare Color",
-            "show_contact_us": false,
-            "text_contact_us": "Contact us"
-          }
-        },
-        "5c909704-7273-41b5-b5b9-38085bf8c176": {
-          "type": "product_variants",
-          "settings": {
-            "show_title": true,
-            "show_size_guide": true,
-            "size_guide_page": ""
-          }
-        },
         "7dd79963-0728-4ccb-85ae-a4ef29c6e44c": {
           "type": "inventory_qty",
           "settings": {
@@ -89,22 +66,22 @@
             "icon_button_cart": "",
             "qt_show_quantity": true,
             "qt_show_cart": true,
-            "show_popup": true,
+            "show_popup": false,
             "product_terms_conditions_page_content": "terms-and-conditions",
-            "qt_buy_it_now": true,
-            "btn_affiliate": "Buy On Themeforest",
+            "qt_buy_it_now": false,
+            "btn_affiliate": "",
             "qt_show_compare": true,
             "qt_show_wishlist": true,
             "show_social_sharing": true,
             "show_custom_color_btn": true,
             "color_text_cart": "#ffffff",
-            "bg_add_to_cart": "#212529",
+            "bg_add_to_cart": "#20309c",
             "color_text_cart_hover": "#ffffff",
-            "bg_add_to_cart_hv": "#ff6128",
+            "bg_add_to_cart_hv": "#caa923",
             "color_text_buy_now": "#ffffff",
-            "bg_buy_it_now": "#212529",
+            "bg_buy_it_now": "#20309c",
             "color_text_buy_now_hover": "#ffffff",
-            "bg_buy_it_now_hv": "#ff6128"
+            "bg_buy_it_now_hv": "#caa923"
           }
         },
         "26205a69-31b8-41d3-83bf-2e25db4c4dfa": {
@@ -156,8 +133,6 @@
         "c78dd46d-d065-4e43-aaa7-13423da0532f",
         "888fb817-16f3-467a-8d84-48f25bfcf851",
         "579829e4-1aee-4727-9d91-41583b54bebd",
-        "d2caabfb-7c33-47ff-b309-cfca9d0d9b98",
-        "5c909704-7273-41b5-b5b9-38085bf8c176",
         "7dd79963-0728-4ccb-85ae-a4ef29c6e44c",
         "8681d35e-2735-4d23-98a5-4f3b5271e474",
         "26205a69-31b8-41d3-83bf-2e25db4c4dfa",
