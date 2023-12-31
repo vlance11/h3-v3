@@ -138,7 +138,6 @@
           "type": "custom_html",
           "settings": {
             "html_custom": "Guarantee safe &amp; Secure checkout",
-            "image": "shopify:\/\/shop_images\/payment2.png",
             "show_svg_custom": false,
             "svg_custom": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
             "svg_height": 35
@@ -215,10 +214,82 @@
         "mg_mb": "0,0,15px,0",
         "pd_mb": "10px,0,10px,0"
       }
+    },
+    "170401789281e0ae28": {
+      "type": "apps",
+      "blocks": {
+        "e555b288-1216-45b1-bae1-91bd21a643bf": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "e1ecf82e-7e0d-4896-bedf-ae4e79c726a8": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/verified_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "b18f34f2-1768-4d4d-88c2-d8aeb6d94b78": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "e4bfaeef-444f-4180-bc5d-ff32aea47a3b": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "0f35d55d-d802-4a08-b526-4947f40be338": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "e27f8338-abb3-44d1-a600-0d7a01153716": {
+          "type": "shopify:\/\/apps\/forms\/blocks\/inline\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        },
+        "44b6611c-a283-4f35-8cb2-5f94425bf1a6": {
+          "type": "shopify:\/\/apps\/glo-related-products-upsell\/blocks\/app-block-product\/75cf2d86-3988-45e7-8f28-ada23c99704f",
+          "settings": {
+            "widget": "3",
+            "gashortcode": ""
+          }
+        },
+        "0f47da22-0600-4505-9814-4a21b2180a6c": {
+          "type": "shopify:\/\/apps\/fether\/blocks\/widget-block\/f96a0d1a-35b8-40ef-ad54-1cb7fb011e11",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "e555b288-1216-45b1-bae1-91bd21a643bf",
+        "e1ecf82e-7e0d-4896-bedf-ae4e79c726a8",
+        "b18f34f2-1768-4d4d-88c2-d8aeb6d94b78",
+        "e4bfaeef-444f-4180-bc5d-ff32aea47a3b",
+        "0f35d55d-d802-4a08-b526-4947f40be338",
+        "e27f8338-abb3-44d1-a600-0d7a01153716",
+        "44b6611c-a283-4f35-8cb2-5f94425bf1a6",
+        "0f47da22-0600-4505-9814-4a21b2180a6c"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "product-page-tab"
+    "product-page-tab",
+    "170401789281e0ae28"
   ]
 }
