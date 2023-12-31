@@ -1022,6 +1022,8 @@
           "v_position": "middle",
           "txt_align": "left",
           "bg": "#f1f5f6",
+          "cl_title": "#212529",
+          "cl_breadcrum": "#8D979E",
           "b_height": 60,
           "mg_bottom": 0,
           "mobile_bg": "#f1f5f6",
@@ -2996,6 +2998,59 @@
     "blocks": {
       "14060646107696862457": {
         "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "13925620588085469650": {
+        "type": "shopify:\/\/apps\/c-year-make-model-search\/blocks\/app-embed-ymm-pro-script\/ce35ea35-ef50-4f43-8cb6-7c34cae4c285",
+        "disabled": false,
+        "settings": {
+          "searchbox_title": "Search By Year, Make and Model",
+          "search_button": "Search",
+          "reset_button": "Reset",
+          "select_label": "Select",
+          "none_txt": "None",
+          "ymm_searchbox_use": true,
+          "products_limit": "20",
+          "img_dimension": "240x240",
+          "show_sku": false,
+          "show_vendor": false,
+          "product_pagetitle": "Products Result",
+          "products": "Products",
+          "product": "Product",
+          "no_results": "There are No Products found.",
+          "sale_lbl": "Sale",
+          "soldout_lbl": "Soldout",
+          "ymm_custom_css": ""
+        }
+      },
+      "13768625480086291342": {
+        "type": "shopify:\/\/apps\/forms\/blocks\/forms\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "14634609474538694927": {
+        "type": "shopify:\/\/apps\/fether\/blocks\/widget-embed\/f96a0d1a-35b8-40ef-ad54-1cb7fb011e11",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "4294441891937191675": {
+        "type": "shopify:\/\/apps\/recommended-product-salesup\/blocks\/app-embed\/28c5212f-728d-4d10-a8b6-81dc32610afb",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "9144908965052497053": {
+        "type": "shopify:\/\/apps\/glo-related-products-upsell\/blocks\/app-embed\/75cf2d86-3988-45e7-8f28-ada23c99704f",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "5439026248262864547": {
+        "type": "shopify:\/\/apps\/preorder-globo\/blocks\/app-embed\/e547a0ad-8212-4bcc-b02f-761faa9b8af2",
         "disabled": false,
         "settings": {
         }
