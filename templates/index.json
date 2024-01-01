@@ -6,9 +6,6 @@
         "165018826364c02d6a-0": {
           "type": "img",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/Installing a Tekonsha® P3™ 90195.mp4",
-            "image_sl": "shopify:\/\/shop_images\/hector-falcon-2BF1jkUjAqY-unsplash.jpg",
-            "image_sl_mobile": "shopify:\/\/shop_images\/BullDog_Towing_logo-200x200w.jpg",
             "link_img": "",
             "open_link": "_blank",
             "caption_w": "1",
@@ -159,7 +156,6 @@
         "165018826364c02d6a-1": {
           "type": "img",
           "settings": {
-            "image_sl": "shopify:\/\/shop_images\/63071-removebg-preview.png",
             "link_img": "",
             "open_link": "_blank",
             "caption_w": "2",
@@ -310,7 +306,6 @@
         "b68a79f6-452b-4be4-9485-ab2e5ec818bd": {
           "type": "img",
           "settings": {
-            "image_sl": "shopify:\/\/shop_images\/hector-falcon-2BF1jkUjAqY-unsplash.jpg",
             "link_img": "",
             "open_link": "_blank",
             "caption_w": "2",
@@ -528,6 +523,23 @@
         "pd": "30px,,60px,",
         "mg_mb": ",,,",
         "pd_mb": "15px,,30px,"
+      }
+    },
+    "1703977194593aef98": {
+      "type": "apps",
+      "blocks": {
+        "cda53eaf-e90e-4201-9265-6e1ccc9c8431": {
+          "type": "shopify:\/\/apps\/c-year-make-model-search\/blocks\/ymm-searchbox-pro\/ce35ea35-ef50-4f43-8cb6-7c34cae4c285",
+          "settings": {
+            "searchbox_title": "Search By Year, Make and Model",
+            "searchbox_style": "horizontal"
+          }
+        }
+      },
+      "block_order": [
+        "cda53eaf-e90e-4201-9265-6e1ccc9c8431"
+      ],
+      "settings": {
       }
     },
     "adb31611-bb52-4257-9fc8-a7003a7eb87a": {
@@ -1233,6 +1245,7 @@
   },
   "order": [
     "165018826364c02d6a",
+    "1703977194593aef98",
     "adb31611-bb52-4257-9fc8-a7003a7eb87a",
     "574adbaf-6e05-4837-8111-0b00659cc363",
     "031734ff-1028-4b77-9bd8-355af17dece0",
