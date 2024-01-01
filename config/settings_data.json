@@ -2991,7 +2991,32 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "13925620588085469650": {
+        "type": "shopify:\/\/apps\/c-year-make-model-search\/blocks\/app-embed-ymm-pro-script\/ce35ea35-ef50-4f43-8cb6-7c34cae4c285",
+        "disabled": false,
+        "settings": {
+          "searchbox_title": "Search By Year, Make and Model",
+          "search_button": "Search",
+          "reset_button": "Reset",
+          "select_label": "Select",
+          "none_txt": "None",
+          "ymm_searchbox_use": true,
+          "products_limit": "20",
+          "img_dimension": "240x240",
+          "show_sku": false,
+          "show_vendor": false,
+          "product_pagetitle": "Products Result",
+          "products": "Products",
+          "product": "Product",
+          "no_results": "There are No Products found.",
+          "sale_lbl": "Sale",
+          "soldout_lbl": "Soldout",
+          "ymm_custom_css": ""
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
