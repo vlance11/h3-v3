@@ -548,8 +548,8 @@
         "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-0": {
           "type": "collection",
           "settings": {
-            "collection": "bedroom",
-            "title": "Bedroom"
+            "collection": "trailer-wiring",
+            "title": "Trailer Wiring"
           }
         },
         "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-1": {
@@ -618,12 +618,12 @@
       "settings": {
         "title": "Shop by Category",
         "content": "The best quality products are waiting for you & choose it now.",
-        "text_size": "medium",
-        "text_transform": "capitalize",
-        "border": 10,
+        "text_size": "small",
+        "text_transform": "none",
+        "border": 5,
         "num_p_qty": false,
         "use-slider": true,
-        "slides-To-Scroll": 1,
+        "slides-To-Scroll": 6,
         "visible": 5,
         "widescreen": 5,
         "desktop": 5,
