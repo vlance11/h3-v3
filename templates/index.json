@@ -1144,53 +1144,13 @@
             "address": "Nov. 12 2023",
             "rating": 5
           }
-        },
-        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-4": {
-          "type": "quote",
-          "settings": {
-            "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
-            "title": "Siarhei Dzenisenka",
-            "address": "Founder\/CEO",
-            "rating": 5
-          }
-        },
-        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-5": {
-          "type": "quote",
-          "settings": {
-            "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
-            "title": "Siarhei Dzenisenka",
-            "address": "Founder\/CEO",
-            "rating": 5
-          }
-        },
-        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-6": {
-          "type": "quote",
-          "settings": {
-            "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
-            "title": "Siarhei Dzenisenka",
-            "address": "Founder\/CEO",
-            "rating": 5
-          }
-        },
-        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-7": {
-          "type": "quote",
-          "settings": {
-            "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
-            "title": "Siarhei Dzenisenka",
-            "address": "Founder\/CEO",
-            "rating": 5
-          }
         }
       },
       "block_order": [
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-0",
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-1",
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-2",
-        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-3",
-        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-4",
-        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-5",
-        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-6",
-        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-7"
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-3"
       ],
       "settings": {
         "title": "5000+ Happy Customers With Their Best Buying Experience",
@@ -1258,7 +1218,7 @@
         "content": "",
         "style_title": "style_1",
         "collection": "6-way-trailer-end",
-        "max_count": 12,
+        "max_count": 4,
         "use-slider": true,
         "slides-To-Scroll": 4,
         "visible": 5,
@@ -1406,6 +1366,185 @@
         "mg_mb": "",
         "pd_mb": ""
       }
+    },
+    "6f82150a-ccd0-41ec-8976-eb35980615c5": {
+      "type": "section-group",
+      "blocks": {
+        "template--21734502760741__6f82150a-ccd0-41ec-8976-eb35980615c5-collection-1": {
+          "type": "collection",
+          "settings": {
+            "title": "Featured Products",
+            "text_size": "medium",
+            "use_banner": true,
+            "hidden_mobile": true,
+            "w-banner": 230,
+            "collection": "2-speed-hd-square-jacks-side-wind",
+            "limit": 3,
+            "use-slider": true,
+            "slides-To-Scroll": 1,
+            "visible": 5,
+            "widescreen": 4,
+            "desktop": 4,
+            "laptop": 4,
+            "notebook": 3,
+            "tablet": 3,
+            "landscape": 2,
+            "portrait": 2,
+            "mobile": 1,
+            "rows": 1,
+            "autoplay": true,
+            "speed": "300",
+            "autoplay-Speed": "3000",
+            "arrows": true,
+            "fade": false,
+            "center-Mode": false,
+            "adaptive-Height": false,
+            "dots": false,
+            "infinite": false,
+            "padding": 10,
+            "vertical": false,
+            "show_view_all": false,
+            "col": "100%",
+            "mg": "",
+            "pd": "",
+            "mg_mb": "",
+            "pd_mb": ""
+          }
+        },
+        "template--21734502760741__6f82150a-ccd0-41ec-8976-eb35980615c5-collection-2": {
+          "type": "collection",
+          "settings": {
+            "title": "Featured Products",
+            "text_size": "medium",
+            "use_banner": true,
+            "hidden_mobile": true,
+            "w-banner": 230,
+            "collection": "",
+            "limit": 3,
+            "use-slider": true,
+            "slides-To-Scroll": 1,
+            "visible": 5,
+            "widescreen": 4,
+            "desktop": 4,
+            "laptop": 4,
+            "notebook": 3,
+            "tablet": 3,
+            "landscape": 2,
+            "portrait": 2,
+            "mobile": 1,
+            "rows": 1,
+            "autoplay": true,
+            "speed": "300",
+            "autoplay-Speed": "3000",
+            "arrows": true,
+            "fade": false,
+            "center-Mode": false,
+            "adaptive-Height": false,
+            "dots": false,
+            "infinite": false,
+            "padding": 10,
+            "vertical": false,
+            "show_view_all": false,
+            "col": "100%",
+            "mg": "",
+            "pd": "",
+            "mg_mb": "",
+            "pd_mb": ""
+          }
+        },
+        "template--21734502760741__6f82150a-ccd0-41ec-8976-eb35980615c5-collection-3": {
+          "type": "collection",
+          "settings": {
+            "title": "Featured Products",
+            "text_size": "medium",
+            "use_banner": true,
+            "hidden_mobile": true,
+            "w-banner": 230,
+            "collection": "",
+            "limit": 3,
+            "use-slider": true,
+            "slides-To-Scroll": 1,
+            "visible": 5,
+            "widescreen": 4,
+            "desktop": 4,
+            "laptop": 4,
+            "notebook": 3,
+            "tablet": 3,
+            "landscape": 2,
+            "portrait": 2,
+            "mobile": 1,
+            "rows": 1,
+            "autoplay": true,
+            "speed": "300",
+            "autoplay-Speed": "3000",
+            "arrows": true,
+            "fade": false,
+            "center-Mode": false,
+            "adaptive-Height": false,
+            "dots": false,
+            "infinite": false,
+            "padding": 10,
+            "vertical": false,
+            "show_view_all": false,
+            "col": "100%",
+            "mg": "",
+            "pd": "",
+            "mg_mb": "",
+            "pd_mb": ""
+          }
+        },
+        "template--21734502760741__6f82150a-ccd0-41ec-8976-eb35980615c5-collection-4": {
+          "type": "collection",
+          "settings": {
+            "title": "Featured Products",
+            "text_size": "medium",
+            "use_banner": true,
+            "hidden_mobile": true,
+            "w-banner": 230,
+            "collection": "",
+            "limit": 3,
+            "use-slider": true,
+            "slides-To-Scroll": 1,
+            "visible": 5,
+            "widescreen": 4,
+            "desktop": 4,
+            "laptop": 4,
+            "notebook": 3,
+            "tablet": 3,
+            "landscape": 2,
+            "portrait": 2,
+            "mobile": 1,
+            "rows": 1,
+            "autoplay": true,
+            "speed": "300",
+            "autoplay-Speed": "3000",
+            "arrows": true,
+            "fade": false,
+            "center-Mode": false,
+            "adaptive-Height": false,
+            "dots": false,
+            "infinite": false,
+            "padding": 10,
+            "vertical": false,
+            "show_view_all": false,
+            "col": "100%",
+            "mg": "",
+            "pd": "",
+            "mg_mb": "",
+            "pd_mb": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21734502760741__6f82150a-ccd0-41ec-8976-eb35980615c5-collection-1",
+        "template--21734502760741__6f82150a-ccd0-41ec-8976-eb35980615c5-collection-2",
+        "template--21734502760741__6f82150a-ccd0-41ec-8976-eb35980615c5-collection-3",
+        "template--21734502760741__6f82150a-ccd0-41ec-8976-eb35980615c5-collection-4"
+      ],
+      "settings": {
+        "layout_des": false,
+        "cl_bg": "#fff"
+      }
     }
   },
   "order": [
@@ -1420,6 +1559,7 @@
     "10360843-48e8-4559-92b6-ed2c627cc19c",
     "ca82944a-8a4d-4cd8-8468-e150b018a58b",
     "38536d77-cedb-437f-8845-6387ec574d2a",
-    "a5c760d0-7969-423c-9d0d-52e886c0fd90"
+    "a5c760d0-7969-423c-9d0d-52e886c0fd90",
+    "6f82150a-ccd0-41ec-8976-eb35980615c5"
   ]
 }
