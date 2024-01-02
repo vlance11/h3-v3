@@ -572,6 +572,7 @@
           "type": "collection",
           "settings": {
             "collection": "trailer-jacks",
+            "image": "shopify:\/\/shop_images\/183902-removebg-preview.png",
             "title": "Trailer Jacks"
           }
         },
