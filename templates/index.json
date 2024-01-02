@@ -549,6 +549,7 @@
           "type": "collection",
           "settings": {
             "collection": "trailer-wiring",
+            "image": "shopify:\/\/shop_images\/50-97-407-removebg-preview.png",
             "title": "Trailer Wiring"
           }
         },
@@ -556,6 +557,7 @@
           "type": "collection",
           "settings": {
             "collection": "trailer-hitches",
+            "image": "shopify:\/\/shop_images\/63071-removebg-preview.png",
             "title": "Trailer Hitches"
           }
         },
