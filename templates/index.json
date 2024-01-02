@@ -1109,8 +1109,8 @@
           "type": "quote",
           "settings": {
             "content": "<p>“The experience with Uminex has been nothing short of amazing. So much better than other themes I’ve used – wish I had seen this one first and saved my wasted time and money on other themes! I’d recommend this theme in a heartbeat!”<\/p>",
-            "title": "Siarhei Dzenisenka",
-            "address": "Founder\/CEO",
+            "title": "John Smith",
+            "address": "3rd October 2023",
             "rating": 5
           }
         },
@@ -1189,15 +1189,15 @@
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-7"
       ],
       "settings": {
-        "title": "Happy Customers Say!",
+        "title": "5000+ Happy Customers With Their Best Buying Experience",
         "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
-        "text_size": "medium",
+        "text_size": "large",
         "text_transform": "none",
         "show_text_bottom": true,
         "text_bottom": "<p>Trusted customers are our happiness. <a href=\"\/pages\/contact\" title=\"Contact\"><strong>Contact us.<\/strong><\/a><\/p>",
         "hidden": false,
         "layout": "container",
-        "width_c": 100,
+        "width_c": 80,
         "style": "style1",
         "use-slider": true,
         "slides-To-Scroll": 1,
@@ -1253,7 +1253,7 @@
         "sub_title": "",
         "content": "",
         "style_title": "style_1",
-        "collection": "",
+        "collection": "6-way-trailer-end",
         "max_count": 12,
         "use-slider": true,
         "slides-To-Scroll": 4,
@@ -1273,15 +1273,15 @@
         "arrows": true,
         "fade": false,
         "center-Mode": false,
-        "adaptive-Height": false,
-        "dots": false,
-        "infinite": false,
+        "adaptive-Height": true,
+        "dots": true,
+        "infinite": true,
         "padding": 10,
         "vertical": false,
         "show_view_all": true,
         "layout": false,
-        "use_eq_height": false,
-        "image_ratio": "ratio3_2",
+        "use_eq_height": true,
+        "image_ratio": "ratio16_9",
         "cl_bg": "#ffffff",
         "mg": "",
         "pd": "",
@@ -1339,6 +1339,69 @@
         "mg_mb": "",
         "pd_mb": ""
       }
+    },
+    "a5c760d0-7969-423c-9d0d-52e886c0fd90": {
+      "type": "tab-product",
+      "blocks": {
+        "template--21734502760741__a5c760d0-7969-423c-9d0d-52e886c0fd90-col-1": {
+          "type": "col",
+          "settings": {
+            "title": "",
+            "collection": ""
+          }
+        },
+        "template--21734502760741__a5c760d0-7969-423c-9d0d-52e886c0fd90-col-2": {
+          "type": "col",
+          "settings": {
+            "title": "",
+            "collection": ""
+          }
+        },
+        "template--21734502760741__a5c760d0-7969-423c-9d0d-52e886c0fd90-col-3": {
+          "type": "col",
+          "settings": {
+            "title": "",
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21734502760741__a5c760d0-7969-423c-9d0d-52e886c0fd90-col-1",
+        "template--21734502760741__a5c760d0-7969-423c-9d0d-52e886c0fd90-col-2",
+        "template--21734502760741__a5c760d0-7969-423c-9d0d-52e886c0fd90-col-3"
+      ],
+      "settings": {
+        "max_count": 8,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 5,
+        "widescreen": 4,
+        "desktop": 4,
+        "laptop": 4,
+        "notebook": 3,
+        "tablet": 3,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": true,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": true,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": false,
+        "padding": 10,
+        "vertical": false,
+        "layout": "container",
+        "cl_bg": "#fff",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
@@ -1352,6 +1415,7 @@
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34",
     "10360843-48e8-4559-92b6-ed2c627cc19c",
     "ca82944a-8a4d-4cd8-8468-e150b018a58b",
-    "38536d77-cedb-437f-8845-6387ec574d2a"
+    "38536d77-cedb-437f-8845-6387ec574d2a",
+    "a5c760d0-7969-423c-9d0d-52e886c0fd90"
   ]
 }
