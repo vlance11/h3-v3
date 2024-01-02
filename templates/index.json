@@ -661,11 +661,11 @@
     "574adbaf-6e05-4837-8111-0b00659cc363": {
       "type": "collection-carousel-product",
       "settings": {
-        "title": "This Week's Highlights",
+        "title": "Our Latest Product",
         "content": "The best quality products are waiting for you & choose it now.",
         "text_size": "medium",
         "text_transform": "capitalize",
-        "collection": "bedroom",
+        "collection": "2-ball",
         "max_count": 6,
         "use-slider": true,
         "slides-To-Scroll": 1,
