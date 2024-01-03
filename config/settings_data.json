@@ -2824,7 +2824,7 @@
         ],
         "settings": {
           "full_width": false,
-          "cl_bg": "#f5f5f5",
+          "cl_bg": "#f5f7fe",
           "show_bottom": true,
           "copyright": "<p>Copyright © <a href=\"#\" title=\"Uminex\">Uminex<\/a> all rights reserved. Powered by <a href=\"#\" title=\"Alothemes\">Alothemes<\/a>.<\/p>",
           "title-payment": "Payment Method:",
