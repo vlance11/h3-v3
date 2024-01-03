@@ -2746,9 +2746,9 @@
             "type": "logo-footer",
             "settings": {
               "use_logo_footer": true,
-              "logo_max_width": 140,
-              "email2": "Customersupport@example.com",
-              "show_email": true,
+              "logo_max_width": 135,
+              "email2": "info@hitchexpo.com    M-F 9AM - 5PM EST",
+              "show_email": false,
               "use_social": true,
               "facebook": "Facebook.",
               "url_facebook": "#",
@@ -2758,7 +2758,7 @@
               "url_twitter": "#",
               "behance": "Behance.",
               "url_behance": "#",
-              "col": "33%"
+              "col": "16%"
             }
           },
           "e667f7e9-b124-4bfe-8c4d-f9a360e1a6ae": {
@@ -2789,9 +2789,9 @@
           "c5c69ed1-5b2a-4d25-9618-3a370ddbd784": {
             "type": "menu",
             "settings": {
-              "title": "Company",
-              "text_transform": "none",
-              "menu": "",
+              "title": "Customer Care",
+              "text_transform": "capitalize",
+              "menu": "main-menu",
               "col": "16%"
             }
           },
