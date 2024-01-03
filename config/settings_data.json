@@ -2790,7 +2790,7 @@
             "settings": {
               "title": "Infomation",
               "text_transform": "none",
-              "menu": "",
+              "menu": "site",
               "col": "16%"
             }
           },

@@ -1210,49 +1210,6 @@
         "pd_mb": ""
       }
     },
-    "ca82944a-8a4d-4cd8-8468-e150b018a58b": {
-      "type": "product-column",
-      "settings": {
-        "title": "Recommend Product For You",
-        "sub_title": "",
-        "content": "",
-        "style_title": "style_1",
-        "collection": "6-way-trailer-end",
-        "max_count": 4,
-        "use-slider": true,
-        "slides-To-Scroll": 4,
-        "visible": 5,
-        "widescreen": 4,
-        "desktop": 4,
-        "laptop": 4,
-        "notebook": 3,
-        "tablet": 3,
-        "landscape": 2,
-        "portrait": 2,
-        "mobile": 1,
-        "rows": 2,
-        "autoplay": true,
-        "speed": "300",
-        "autoplay-Speed": "3000",
-        "arrows": true,
-        "fade": false,
-        "center-Mode": false,
-        "adaptive-Height": true,
-        "dots": true,
-        "infinite": true,
-        "padding": 10,
-        "vertical": false,
-        "show_view_all": true,
-        "layout": false,
-        "use_eq_height": true,
-        "image_ratio": "ratio16_9",
-        "cl_bg": "#ffffff",
-        "mg": "",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
-    },
     "38536d77-cedb-437f-8845-6387ec574d2a": {
       "type": "product-countdown-banner-style2",
       "settings": {
@@ -1360,7 +1317,7 @@
         "padding": 10,
         "vertical": false,
         "layout": "container",
-        "cl_bg": "#fff",
+        "cl_bg": "#ffffff",
         "mg": "",
         "pd": "",
         "mg_mb": "",
@@ -1543,7 +1500,86 @@
       ],
       "settings": {
         "layout_des": false,
-        "cl_bg": "#fff"
+        "cl_bg": "#ffffff"
+      }
+    },
+    "7931c497-d8c2-4eb3-a5ca-32d8228621f3": {
+      "type": "brand-list",
+      "blocks": {
+        "template--21734502760741__7931c497-d8c2-4eb3-a5ca-32d8228621f3-brand-1": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo__7_-removebg-preview.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "template--21734502760741__7931c497-d8c2-4eb3-a5ca-32d8228621f3-brand-2": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo__6_-removebg-preview.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "template--21734502760741__7931c497-d8c2-4eb3-a5ca-32d8228621f3-brand-3": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo__8_-removebg-preview.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "template--21734502760741__7931c497-d8c2-4eb3-a5ca-32d8228621f3-brand-4": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo__4_-removebg-preview.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        }
+      },
+      "block_order": [
+        "template--21734502760741__7931c497-d8c2-4eb3-a5ca-32d8228621f3-brand-1",
+        "template--21734502760741__7931c497-d8c2-4eb3-a5ca-32d8228621f3-brand-2",
+        "template--21734502760741__7931c497-d8c2-4eb3-a5ca-32d8228621f3-brand-3",
+        "template--21734502760741__7931c497-d8c2-4eb3-a5ca-32d8228621f3-brand-4"
+      ],
+      "settings": {
+        "hidden": false,
+        "show_border_top": true,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 4,
+        "widescreen": 4,
+        "desktop": 4,
+        "laptop": 4,
+        "notebook": 3,
+        "tablet": 3,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": true,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": true,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": true,
+        "padding": 10,
+        "vertical": false,
+        "show_view_all": true,
+        "layout": false,
+        "use_eq_height": false,
+        "image_ratio": "ratio3_2",
+        "cl_bg": "#faf6f0",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
       }
     }
   },
@@ -1557,9 +1593,9 @@
     "e3baa68d-b81c-4e8c-9fe8-34918fcc35fb",
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34",
     "10360843-48e8-4559-92b6-ed2c627cc19c",
-    "ca82944a-8a4d-4cd8-8468-e150b018a58b",
     "38536d77-cedb-437f-8845-6387ec574d2a",
     "a5c760d0-7969-423c-9d0d-52e886c0fd90",
-    "6f82150a-ccd0-41ec-8976-eb35980615c5"
+    "6f82150a-ccd0-41ec-8976-eb35980615c5",
+    "7931c497-d8c2-4eb3-a5ca-32d8228621f3"
   ]
 }
