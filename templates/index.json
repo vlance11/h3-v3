@@ -1582,47 +1582,63 @@
         "pd_mb": ""
       }
     },
-    "24f90e2c-0cfd-4e04-9363-719b3561b48e": {
-      "type": "featured_blog",
+    "c142a47a-ff09-4ac9-88aa-8509dc40eeb8": {
+      "type": "gallery",
+      "blocks": {
+        "template--21734502760741__c142a47a-ff09-4ac9-88aa-8509dc40eeb8-gallery-1": {
+          "type": "gallery",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo__7_-removebg-preview.png",
+            "url": "",
+            "open_link": "_blank",
+            "mg_img": "30px"
+          }
+        },
+        "template--21734502760741__c142a47a-ff09-4ac9-88aa-8509dc40eeb8-gallery-2": {
+          "type": "gallery",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo__6_-removebg-preview.png",
+            "url": "",
+            "open_link": "_blank",
+            "mg_img": "30px"
+          }
+        },
+        "template--21734502760741__c142a47a-ff09-4ac9-88aa-8509dc40eeb8-gallery-3": {
+          "type": "gallery",
+          "settings": {
+            "url": "",
+            "open_link": "_blank",
+            "mg_img": "30px"
+          }
+        },
+        "template--21734502760741__c142a47a-ff09-4ac9-88aa-8509dc40eeb8-gallery-5": {
+          "type": "gallery",
+          "settings": {
+            "url": "",
+            "open_link": "_blank",
+            "mg_img": "30px"
+          }
+        }
+      },
+      "block_order": [
+        "template--21734502760741__c142a47a-ff09-4ac9-88aa-8509dc40eeb8-gallery-1",
+        "template--21734502760741__c142a47a-ff09-4ac9-88aa-8509dc40eeb8-gallery-2",
+        "template--21734502760741__c142a47a-ff09-4ac9-88aa-8509dc40eeb8-gallery-3",
+        "template--21734502760741__c142a47a-ff09-4ac9-88aa-8509dc40eeb8-gallery-5"
+      ],
       "settings": {
-        "hidden": false,
-        "title": "Tips & tricks",
-        "text_size": "small",
-        "blog": "",
-        "show-cate-blog": false,
-        "show-post-info": false,
-        "show-name-blog": false,
-        "show-description": false,
-        "show-read_more": false,
-        "use-slider": true,
-        "slides-To-Scroll": 1,
-        "visible": 5,
-        "widescreen": 4,
-        "desktop": 4,
-        "laptop": 4,
-        "notebook": 3,
-        "tablet": 3,
-        "landscape": 2,
-        "portrait": 2,
-        "mobile": 1,
-        "rows": 1,
-        "autoplay": true,
-        "speed": "300",
-        "autoplay-Speed": "3000",
-        "arrows": true,
-        "fade": false,
-        "center-Mode": false,
-        "adaptive-Height": true,
-        "dots": false,
-        "infinite": true,
-        "padding": 10,
-        "vertical": false,
-        "show_view_all": false,
-        "layout": "container",
+        "title": "Why You Should Purchase From Us?",
+        "sub_title": "",
+        "col_pr": "4",
+        "col_pr_tb": "3",
+        "col_pr_mb": "2",
         "use_eq_height": false,
-        "image_ratio": "ratio3_2",
+        "image_ratio": "ratio2_1",
+        "hidden": false,
+        "cp_code": false,
+        "layout": "container",
         "cl_bg": "#fff",
-        "mg": "",
+        "mg": "30px,,30px,",
         "pd": "",
         "mg_mb": "",
         "pd_mb": ""
@@ -1643,6 +1659,6 @@
     "a5c760d0-7969-423c-9d0d-52e886c0fd90",
     "6f82150a-ccd0-41ec-8976-eb35980615c5",
     "7931c497-d8c2-4eb3-a5ca-32d8228621f3",
-    "24f90e2c-0cfd-4e04-9363-719b3561b48e"
+    "c142a47a-ff09-4ac9-88aa-8509dc40eeb8"
   ]
 }
