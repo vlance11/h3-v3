@@ -124,13 +124,14 @@
     "img_material_2": "shopify:\/\/shop_images\/2.png",
     "name_material_3": "material-3",
     "img_material_3": "shopify:\/\/shop_images\/3.png",
+    "name_material_38": "",
     "collection_info_show_label_in_stock": false,
     "collection_info_show_label_out_stock": false,
     "collection_info_show_label_sale": true,
     "collection_info_show_label_new": true,
     "collection_page_new_product": "9999",
     "collection_info_show_label_hot": true,
-    "collection_info_image_ratio": "portrait",
+    "collection_info_image_ratio": "square",
     "collection_info_show_collections": false,
     "collection_info_show_title": true,
     "collection_info_show_price": true,
@@ -2793,13 +2794,23 @@
               "col": "16%"
             }
           },
-          "c1530249-18de-4a37-8840-5b55a68bf542": {
-            "type": "menu",
+          "89e549ca-195f-474a-8611-0b19f542266b": {
+            "type": "logo-footer",
             "settings": {
-              "title": "Quick Links",
-              "text_transform": "none",
-              "menu": "",
-              "col": "16%"
+              "use_logo_footer": false,
+              "logo_max_width": 115,
+              "email2": "Customersupport@example.com",
+              "show_email": true,
+              "use_social": false,
+              "facebook": "",
+              "url_facebook": "",
+              "instagram": "",
+              "url_instagram": "",
+              "twitter": "",
+              "url_twitter": "",
+              "behance": "",
+              "url_behance": "",
+              "col": "33%"
             }
           }
         },
@@ -2809,7 +2820,7 @@
           "c5c69ed1-5b2a-4d25-9618-3a370ddbd784",
           "90d7fce0-5d4b-415a-bc72-cf3573e40ae6",
           "ab60869c-1612-46fc-949d-d932ecbf37b1",
-          "c1530249-18de-4a37-8840-5b55a68bf542"
+          "89e549ca-195f-474a-8611-0b19f542266b"
         ],
         "settings": {
           "full_width": false,
