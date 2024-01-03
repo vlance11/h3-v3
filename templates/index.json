@@ -1560,7 +1560,7 @@
         "hidden": false,
         "cp_code": false,
         "layout": "container",
-        "cl_bg": "#fff",
+        "cl_bg": "#fffbf5",
         "mg": "30px,,30px,",
         "pd": "",
         "mg_mb": "",
