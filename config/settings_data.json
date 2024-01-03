@@ -2742,25 +2742,6 @@
       "footer1": {
         "type": "footer1",
         "blocks": {
-          "ce1c3204-2b0c-4a4a-9584-c8ed8c85c033": {
-            "type": "logo-footer",
-            "settings": {
-              "use_logo_footer": true,
-              "logo_max_width": 135,
-              "email2": "info@hitchexpo.com    M-F 9AM - 5PM EST",
-              "show_email": false,
-              "use_social": true,
-              "facebook": "Facebook.",
-              "url_facebook": "#",
-              "instagram": "Instagram.",
-              "url_instagram": "#",
-              "twitter": "Twitter.",
-              "url_twitter": "#",
-              "behance": "Behance.",
-              "url_behance": "#",
-              "col": "16%"
-            }
-          },
           "e667f7e9-b124-4bfe-8c4d-f9a360e1a6ae": {
             "type": "contact_information",
             "settings": {
@@ -2823,7 +2804,6 @@
           }
         },
         "block_order": [
-          "ce1c3204-2b0c-4a4a-9584-c8ed8c85c033",
           "e667f7e9-b124-4bfe-8c4d-f9a360e1a6ae",
           "a8d86d01-3851-46ff-a457-4e61aedfa396",
           "c5c69ed1-5b2a-4d25-9618-3a370ddbd784",
