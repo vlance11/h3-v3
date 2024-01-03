@@ -1566,6 +1566,41 @@
         "mg_mb": "",
         "pd_mb": ""
       }
+    },
+    "cf4d05f7-79c3-44f1-bac1-1227b1cbd0a7": {
+      "type": "banner",
+      "blocks": {
+        "template--21734502760741__cf4d05f7-79c3-44f1-bac1-1227b1cbd0a7-banner_img-1": {
+          "type": "banner_img",
+          "settings": {
+            "image_sl": "shopify:\/\/shop_images\/Front-Of-Red-Car.jpg",
+            "col": "12",
+            "ipad_col": "12",
+            "link_img": "",
+            "open_link": "_blank",
+            "hidden_content": false,
+            "h_position": "left",
+            "v_position": "top",
+            "txt_align": "left",
+            "mg_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--21734502760741__cf4d05f7-79c3-44f1-bac1-1227b1cbd0a7-banner_img-1"
+      ],
+      "settings": {
+        "hidden": false,
+        "h_des": "150px",
+        "h_tb": "100px",
+        "h_mb": "150px",
+        "full_width": false,
+        "cl_bg": "#fff",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
@@ -1581,6 +1616,7 @@
     "38536d77-cedb-437f-8845-6387ec574d2a",
     "a5c760d0-7969-423c-9d0d-52e886c0fd90",
     "6f82150a-ccd0-41ec-8976-eb35980615c5",
-    "c142a47a-ff09-4ac9-88aa-8509dc40eeb8"
+    "c142a47a-ff09-4ac9-88aa-8509dc40eeb8",
+    "cf4d05f7-79c3-44f1-bac1-1227b1cbd0a7"
   ]
 }
