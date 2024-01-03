@@ -1503,85 +1503,6 @@
         "cl_bg": "#ffffff"
       }
     },
-    "7931c497-d8c2-4eb3-a5ca-32d8228621f3": {
-      "type": "brand-list",
-      "blocks": {
-        "template--21734502760741__7931c497-d8c2-4eb3-a5ca-32d8228621f3-brand-1": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo__7_-removebg-preview.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--21734502760741__7931c497-d8c2-4eb3-a5ca-32d8228621f3-brand-2": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo__6_-removebg-preview.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--21734502760741__7931c497-d8c2-4eb3-a5ca-32d8228621f3-brand-3": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo__8_-removebg-preview.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--21734502760741__7931c497-d8c2-4eb3-a5ca-32d8228621f3-brand-4": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo__4_-removebg-preview.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        }
-      },
-      "block_order": [
-        "template--21734502760741__7931c497-d8c2-4eb3-a5ca-32d8228621f3-brand-1",
-        "template--21734502760741__7931c497-d8c2-4eb3-a5ca-32d8228621f3-brand-2",
-        "template--21734502760741__7931c497-d8c2-4eb3-a5ca-32d8228621f3-brand-3",
-        "template--21734502760741__7931c497-d8c2-4eb3-a5ca-32d8228621f3-brand-4"
-      ],
-      "settings": {
-        "hidden": false,
-        "show_border_top": true,
-        "use-slider": true,
-        "slides-To-Scroll": 1,
-        "visible": 4,
-        "widescreen": 4,
-        "desktop": 4,
-        "laptop": 4,
-        "notebook": 3,
-        "tablet": 3,
-        "landscape": 2,
-        "portrait": 2,
-        "mobile": 1,
-        "rows": 1,
-        "autoplay": true,
-        "speed": "300",
-        "autoplay-Speed": "3000",
-        "arrows": true,
-        "fade": false,
-        "center-Mode": false,
-        "adaptive-Height": false,
-        "dots": false,
-        "infinite": true,
-        "padding": 10,
-        "vertical": false,
-        "show_view_all": true,
-        "layout": false,
-        "use_eq_height": false,
-        "image_ratio": "ratio3_2",
-        "cl_bg": "#faf6f0",
-        "mg": "",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
-    },
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8": {
       "type": "gallery",
       "blocks": {
@@ -1606,6 +1527,7 @@
         "template--21734502760741__c142a47a-ff09-4ac9-88aa-8509dc40eeb8-gallery-3": {
           "type": "gallery",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo__8_-removebg-preview.png",
             "url": "",
             "open_link": "_blank",
             "mg_img": "30px"
@@ -1614,6 +1536,7 @@
         "template--21734502760741__c142a47a-ff09-4ac9-88aa-8509dc40eeb8-gallery-5": {
           "type": "gallery",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo__4_-removebg-preview.png",
             "url": "",
             "open_link": "_blank",
             "mg_img": "30px"
@@ -1658,7 +1581,6 @@
     "38536d77-cedb-437f-8845-6387ec574d2a",
     "a5c760d0-7969-423c-9d0d-52e886c0fd90",
     "6f82150a-ccd0-41ec-8976-eb35980615c5",
-    "7931c497-d8c2-4eb3-a5ca-32d8228621f3",
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8"
   ]
 }
