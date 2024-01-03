@@ -1581,6 +1581,52 @@
         "mg_mb": "",
         "pd_mb": ""
       }
+    },
+    "24f90e2c-0cfd-4e04-9363-719b3561b48e": {
+      "type": "featured_blog",
+      "settings": {
+        "hidden": false,
+        "title": "Tips & tricks",
+        "text_size": "small",
+        "blog": "",
+        "show-cate-blog": false,
+        "show-post-info": false,
+        "show-name-blog": false,
+        "show-description": false,
+        "show-read_more": false,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 5,
+        "widescreen": 4,
+        "desktop": 4,
+        "laptop": 4,
+        "notebook": 3,
+        "tablet": 3,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": true,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": true,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": true,
+        "dots": false,
+        "infinite": true,
+        "padding": 10,
+        "vertical": false,
+        "show_view_all": false,
+        "layout": "container",
+        "use_eq_height": false,
+        "image_ratio": "ratio3_2",
+        "cl_bg": "#fff",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
@@ -1596,6 +1642,7 @@
     "38536d77-cedb-437f-8845-6387ec574d2a",
     "a5c760d0-7969-423c-9d0d-52e886c0fd90",
     "6f82150a-ccd0-41ec-8976-eb35980615c5",
-    "7931c497-d8c2-4eb3-a5ca-32d8228621f3"
+    "7931c497-d8c2-4eb3-a5ca-32d8228621f3",
+    "24f90e2c-0cfd-4e04-9363-719b3561b48e"
   ]
 }

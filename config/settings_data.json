@@ -1956,6 +1956,14 @@
             "settings": {
               "show_flag": true
             }
+          },
+          "ffb580ec-91f5-45c2-8286-0b383115565e": {
+            "type": "contact",
+            "settings": {
+              "title": "Contact Us?",
+              "show_phone": true,
+              "show_email": true
+            }
           }
         },
         "block_order": [
@@ -1968,7 +1976,8 @@
           "mobile_menu-4",
           "mobile_menu-5",
           "961fa2fa-0c91-4435-8f22-2faa48b985c5",
-          "17e1467a-6fca-4000-9c7d-e57ea87f018a"
+          "17e1467a-6fca-4000-9c7d-e57ea87f018a",
+          "ffb580ec-91f5-45c2-8286-0b383115565e"
         ],
         "settings": {
           "show_close": true,
