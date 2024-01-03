@@ -2763,14 +2763,13 @@
           },
           "e667f7e9-b124-4bfe-8c4d-f9a360e1a6ae": {
             "type": "contact_information",
-            "disabled": true,
             "settings": {
-              "title": "About The Store",
-              "text1": "Got Question? Call us 24\/7",
-              "text2": "268 St, South New York\/NY 98944, United States <br>Customersupport@example.com",
-              "show_phone": true,
+              "title": "Contact Us",
+              "text1": "info@hitchexpo.com",
+              "text2": "M-F 9AM - 5PM EST",
+              "show_phone": false,
               "cl_phone": "#2b38d1",
-              "show_email": true,
+              "show_email": false,
               "col": "33%"
             }
           },
