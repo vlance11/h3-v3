@@ -347,7 +347,7 @@
         "adaptive-Height": false,
         "dots": false,
         "infinite": false,
-        "padding": 10,
+        "padding": 7.5,
         "vertical": false,
         "layout_des": false,
         "cl_bg": "#eceafe",
