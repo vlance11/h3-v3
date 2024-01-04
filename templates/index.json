@@ -1360,6 +1360,7 @@
         "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-5",
         "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-6"
       ],
+      "disabled": true,
       "settings": {
         "hidden": false,
         "show_border_top": false,
@@ -1396,89 +1397,6 @@
         "mg_mb": "",
         "pd_mb": ""
       }
-    },
-    "89bae37f-8100-499c-aa25-2d2164958ef3": {
-      "type": "text-column-with-image",
-      "blocks": {
-        "template--21734502760741__89bae37f-8100-499c-aa25-2d2164958ef3-text_block-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/54006-045-removebg-preview.png",
-            "title": "Add a title or tagline",
-            "sub_title": "",
-            "text": "",
-            "btn_title": "MORE INFO <i class=\"icon-chevrons-right\"><\/i>",
-            "btn_link": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--21734502760741__89bae37f-8100-499c-aa25-2d2164958ef3-text_block-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "title": "Add a title or tagline",
-            "sub_title": "Sub Heading",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "btn_title": "MORE INFO <i class=\"icon-chevrons-right\"><\/i>",
-            "btn_link": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--21734502760741__89bae37f-8100-499c-aa25-2d2164958ef3-text_block-3": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "title": "Add a title or tagline",
-            "sub_title": "Sub Heading",
-            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "btn_title": "MORE INFO <i class=\"icon-chevrons-right\"><\/i>",
-            "btn_link": "",
-            "open_link": "_blank"
-          }
-        }
-      },
-      "block_order": [
-        "template--21734502760741__89bae37f-8100-499c-aa25-2d2164958ef3-text_block-1",
-        "template--21734502760741__89bae37f-8100-499c-aa25-2d2164958ef3-text_block-2",
-        "template--21734502760741__89bae37f-8100-499c-aa25-2d2164958ef3-text_block-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "hidden": false,
-        "title": "",
-        "sub_title": "",
-        "content": "",
-        "use-slider": true,
-        "slides-To-Scroll": 1,
-        "visible": 5,
-        "widescreen": 4,
-        "desktop": 4,
-        "laptop": 4,
-        "notebook": 3,
-        "tablet": 3,
-        "landscape": 2,
-        "portrait": 2,
-        "mobile": 1,
-        "rows": 1,
-        "autoplay": true,
-        "speed": "300",
-        "autoplay-Speed": "3000",
-        "arrows": true,
-        "fade": false,
-        "center-Mode": false,
-        "adaptive-Height": false,
-        "dots": false,
-        "infinite": false,
-        "padding": 10,
-        "vertical": false,
-        "layout": "container",
-        "cl_bg": "#fff",
-        "mg": "",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
     }
   },
   "order": [
@@ -1497,7 +1415,6 @@
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8",
     "165018826364c02d6a",
     "69805983-b566-42af-ba6f-ca890638160a",
-    "d9dc55c5-4e2a-42a1-b1c1-635d7147667b",
-    "89bae37f-8100-499c-aa25-2d2164958ef3"
+    "d9dc55c5-4e2a-42a1-b1c1-635d7147667b"
   ]
 }
