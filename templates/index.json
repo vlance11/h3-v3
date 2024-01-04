@@ -654,7 +654,7 @@
       ],
       "settings": {
         "hidden": false,
-        "show_border_top": false,
+        "show_border_top": true,
         "use-slider": true,
         "slides-To-Scroll": 1,
         "visible": 5,
