@@ -1454,14 +1454,14 @@
           "container_width": 1520,
           "layout": "container",
           "header_use_search_home": true,
-          "style_search": "3",
+          "style_search": "2",
           "header_use_cart_home": true,
           "header_use_wishlist_home": true,
           "header_use_compare_home": false,
           "header_use_account": true,
           "color_icon": "#212529",
           "color_count": "#ff6128",
-          "enable_icon_menu": false,
+          "enable_icon_menu": true,
           "cl_border_menu": "#e5e8ec",
           "custom_html": ""
         }
