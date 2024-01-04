@@ -320,8 +320,8 @@
     "7a017a16-6aff-4e32-9cc0-b8a9344fd6e1": {
       "type": "collection-carousel-product",
       "settings": {
-        "title": "New arrivals",
-        "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+        "title": "",
+        "content": "",
         "text_size": "medium",
         "text_transform": "none",
         "collection": "5-flat",
