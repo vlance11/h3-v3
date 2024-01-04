@@ -310,7 +310,7 @@
         "padding": 10,
         "vertical": false,
         "layout": "container",
-        "cl_bg": "rgba(0,0,0,0)",
+        "cl_bg": "#eceafa",
         "mg": ",,60px,",
         "pd": "",
         "mg_mb": ",,15px,",
