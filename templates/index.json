@@ -767,6 +767,7 @@
         "b0375570-946c-466f-967e-0eab31e16a6e": {
           "type": "brand",
           "settings": {
+            "image": "shopify:\/\/shop_images\/images_6.png",
             "url": "",
             "open_link": "_blank"
           }
