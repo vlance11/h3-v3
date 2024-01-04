@@ -1,23 +1,42 @@
 {
   "sections": {
-    "91e0f90e-ad97-458f-8ab1-a5b274e18a11": {
+    "a0ab8fab-2eb1-4367-9b52-53ff9a0bf4dc": {
       "type": "slideshow",
       "blocks": {
-        "template--21734502760741__91e0f90e-ad97-458f-8ab1-a5b274e18a11-img-1": {
+        "template--21734502760741__a0ab8fab-2eb1-4367-9b52-53ff9a0bf4dc-img-1": {
           "type": "img",
           "settings": {
-            "image_sl": "shopify:\/\/shop_images\/Limited_Offer_11.png",
             "link_img": "",
-            "open_link": "_self",
-            "caption_w": "1",
-            "h_position": "left",
+            "open_link": "_blank",
+            "caption_w": "2",
+            "h_position": "center",
+            "v_position": "middle",
+            "txt_align": "center"
+          }
+        },
+        "7c6eb31a-6060-43b5-852d-c5e16b0a8874": {
+          "type": "logo",
+          "settings": {
+            "text_animate": "none",
+            "text_time": 1.5
+          }
+        },
+        "5bdd15bc-4598-42b9-b55a-af7a98d8176c": {
+          "type": "img",
+          "settings": {
+            "link_img": "",
+            "open_link": "_blank",
+            "caption_w": "2",
+            "h_position": "center",
             "v_position": "middle",
             "txt_align": "center"
           }
         }
       },
       "block_order": [
-        "template--21734502760741__91e0f90e-ad97-458f-8ab1-a5b274e18a11-img-1"
+        "template--21734502760741__a0ab8fab-2eb1-4367-9b52-53ff9a0bf4dc-img-1",
+        "7c6eb31a-6060-43b5-852d-c5e16b0a8874",
+        "5bdd15bc-4598-42b9-b55a-af7a98d8176c"
       ],
       "settings": {
         "hidden": false,
@@ -26,7 +45,7 @@
         "h_mb": "350px",
         "border": 10,
         "use-slider": true,
-        "slides-To-Scroll": 1,
+        "slides-To-Scroll": 3,
         "visible": 1,
         "widescreen": 1,
         "desktop": 1,
@@ -50,10 +69,10 @@
         "padding": 0,
         "vertical": false,
         "position_dots": "left",
-        "style_dots": "default",
+        "style_dots": "style2",
         "custom_width": false,
         "container_width": 1200,
-        "layout": "full-width",
+        "layout": "container",
         "cl_bg": "#f5f5f5",
         "mg": "",
         "pd": "",
@@ -385,7 +404,7 @@
           "type": "col",
           "settings": {
             "title": "Furniture",
-            "collection": "1500-w-factory-7-way"
+            "collection": "bedroom"
           }
         },
         "template--18299509342493__3159f294-b2f4-42ab-b5d6-597485eb9827-16814589100d35a09e-1": {
@@ -1278,7 +1297,7 @@
         "hidden": false,
         "title": "Got a question for Hitch Expo?",
         "sub_title": "",
-        "content": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium<br> lectus qua. Nunc id cursus metus ididunt ut labore metus episcing.",
+        "content": "Lorem ipsumdolor sit amet consectetur, Id vel vitae id mi quis adipicing suspendissim.",
         "layout": "container",
         "cl_bg": "#faf6f0",
         "mg": "",
@@ -1381,7 +1400,7 @@
     }
   },
   "order": [
-    "91e0f90e-ad97-458f-8ab1-a5b274e18a11",
+    "a0ab8fab-2eb1-4367-9b52-53ff9a0bf4dc",
     "1703977194593aef98",
     "adb31611-bb52-4257-9fc8-a7003a7eb87a",
     "574adbaf-6e05-4837-8111-0b00659cc363",
