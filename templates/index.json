@@ -1,42 +1,23 @@
 {
   "sections": {
-    "a0ab8fab-2eb1-4367-9b52-53ff9a0bf4dc": {
+    "91e0f90e-ad97-458f-8ab1-a5b274e18a11": {
       "type": "slideshow",
       "blocks": {
-        "template--21734502760741__a0ab8fab-2eb1-4367-9b52-53ff9a0bf4dc-img-1": {
+        "template--21734502760741__91e0f90e-ad97-458f-8ab1-a5b274e18a11-img-1": {
           "type": "img",
           "settings": {
+            "image_sl": "shopify:\/\/shop_images\/Limited_Offer_11.png",
             "link_img": "",
-            "open_link": "_blank",
-            "caption_w": "2",
-            "h_position": "center",
-            "v_position": "middle",
-            "txt_align": "center"
-          }
-        },
-        "7c6eb31a-6060-43b5-852d-c5e16b0a8874": {
-          "type": "logo",
-          "settings": {
-            "text_animate": "none",
-            "text_time": 1.5
-          }
-        },
-        "5bdd15bc-4598-42b9-b55a-af7a98d8176c": {
-          "type": "img",
-          "settings": {
-            "link_img": "",
-            "open_link": "_blank",
-            "caption_w": "2",
-            "h_position": "center",
+            "open_link": "_self",
+            "caption_w": "1",
+            "h_position": "left",
             "v_position": "middle",
             "txt_align": "center"
           }
         }
       },
       "block_order": [
-        "template--21734502760741__a0ab8fab-2eb1-4367-9b52-53ff9a0bf4dc-img-1",
-        "7c6eb31a-6060-43b5-852d-c5e16b0a8874",
-        "5bdd15bc-4598-42b9-b55a-af7a98d8176c"
+        "template--21734502760741__91e0f90e-ad97-458f-8ab1-a5b274e18a11-img-1"
       ],
       "settings": {
         "hidden": false,
@@ -45,7 +26,7 @@
         "h_mb": "350px",
         "border": 10,
         "use-slider": true,
-        "slides-To-Scroll": 3,
+        "slides-To-Scroll": 1,
         "visible": 1,
         "widescreen": 1,
         "desktop": 1,
@@ -69,10 +50,10 @@
         "padding": 0,
         "vertical": false,
         "position_dots": "left",
-        "style_dots": "style2",
+        "style_dots": "default",
         "custom_width": false,
         "container_width": 1200,
-        "layout": "container",
+        "layout": "full-width",
         "cl_bg": "#f5f5f5",
         "mg": "",
         "pd": "",
@@ -253,6 +234,129 @@
         "pd_mb": ""
       }
     },
+    "3159f294-b2f4-42ab-b5d6-597485eb9827": {
+      "type": "tab-product-style2",
+      "blocks": {
+        "template--18299509342493__3159f294-b2f4-42ab-b5d6-597485eb9827-16814589100d35a09e-0": {
+          "type": "col",
+          "settings": {
+            "title": "Furniture",
+            "collection": "1500-w-factory-7-way"
+          }
+        },
+        "template--18299509342493__3159f294-b2f4-42ab-b5d6-597485eb9827-16814589100d35a09e-1": {
+          "type": "col",
+          "settings": {
+            "title": "Bed & Bath",
+            "collection": "bedroom"
+          }
+        },
+        "template--18299509342493__3159f294-b2f4-42ab-b5d6-597485eb9827-16814589100d35a09e-2": {
+          "type": "col",
+          "settings": {
+            "title": "Lighting",
+            "collection": "decor-lighting"
+          }
+        },
+        "f65acdb7-f0b6-4b2f-b751-ce4ec751faf4": {
+          "type": "col",
+          "settings": {
+            "title": "Decor & Pillows",
+            "collection": "decor-lighting"
+          }
+        },
+        "e59ca0ff-4377-44b1-b750-2527fa6879ca": {
+          "type": "col",
+          "settings": {
+            "title": "Outdoor",
+            "collection": "sectional-sofas"
+          }
+        }
+      },
+      "block_order": [
+        "template--18299509342493__3159f294-b2f4-42ab-b5d6-597485eb9827-16814589100d35a09e-0",
+        "template--18299509342493__3159f294-b2f4-42ab-b5d6-597485eb9827-16814589100d35a09e-1",
+        "template--18299509342493__3159f294-b2f4-42ab-b5d6-597485eb9827-16814589100d35a09e-2",
+        "f65acdb7-f0b6-4b2f-b751-ce4ec751faf4",
+        "e59ca0ff-4377-44b1-b750-2527fa6879ca"
+      ],
+      "settings": {
+        "title": "Recommend Product for you",
+        "content": "",
+        "text_size": "medium",
+        "text_transform": "none",
+        "max_count": 12,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 5,
+        "widescreen": 5,
+        "desktop": 5,
+        "laptop": 5,
+        "notebook": 4,
+        "tablet": 3,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": true,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": true,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": false,
+        "padding": 10,
+        "vertical": false,
+        "layout": "container",
+        "cl_bg": "rgba(0,0,0,0)",
+        "mg": ",,60px,",
+        "pd": "",
+        "mg_mb": ",,15px,",
+        "pd_mb": ""
+      }
+    },
+    "7a017a16-6aff-4e32-9cc0-b8a9344fd6e1": {
+      "type": "collection-carousel-product",
+      "settings": {
+        "title": "New arrivals",
+        "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+        "text_size": "medium",
+        "text_transform": "none",
+        "collection": "5-flat",
+        "max_count": 8,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 5,
+        "widescreen": 4,
+        "desktop": 4,
+        "laptop": 4,
+        "notebook": 3,
+        "tablet": 3,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": true,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": true,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": false,
+        "padding": 10,
+        "vertical": false,
+        "layout_des": false,
+        "cl_bg": "#fff",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
     "031734ff-1028-4b77-9bd8-355af17dece0": {
       "type": "lookbook-carousel",
       "blocks": {
@@ -394,89 +498,6 @@
         "mg": ",,60px,",
         "pd": "",
         "mg_mb": ",,30px,",
-        "pd_mb": ""
-      }
-    },
-    "3159f294-b2f4-42ab-b5d6-597485eb9827": {
-      "type": "tab-product-style2",
-      "blocks": {
-        "template--18299509342493__3159f294-b2f4-42ab-b5d6-597485eb9827-16814589100d35a09e-0": {
-          "type": "col",
-          "settings": {
-            "title": "Furniture",
-            "collection": "bedroom"
-          }
-        },
-        "template--18299509342493__3159f294-b2f4-42ab-b5d6-597485eb9827-16814589100d35a09e-1": {
-          "type": "col",
-          "settings": {
-            "title": "Bed & Bath",
-            "collection": "bedroom"
-          }
-        },
-        "template--18299509342493__3159f294-b2f4-42ab-b5d6-597485eb9827-16814589100d35a09e-2": {
-          "type": "col",
-          "settings": {
-            "title": "Lighting",
-            "collection": "decor-lighting"
-          }
-        },
-        "f65acdb7-f0b6-4b2f-b751-ce4ec751faf4": {
-          "type": "col",
-          "settings": {
-            "title": "Decor & Pillows",
-            "collection": "decor-lighting"
-          }
-        },
-        "e59ca0ff-4377-44b1-b750-2527fa6879ca": {
-          "type": "col",
-          "settings": {
-            "title": "Outdoor",
-            "collection": "sectional-sofas"
-          }
-        }
-      },
-      "block_order": [
-        "template--18299509342493__3159f294-b2f4-42ab-b5d6-597485eb9827-16814589100d35a09e-0",
-        "template--18299509342493__3159f294-b2f4-42ab-b5d6-597485eb9827-16814589100d35a09e-1",
-        "template--18299509342493__3159f294-b2f4-42ab-b5d6-597485eb9827-16814589100d35a09e-2",
-        "f65acdb7-f0b6-4b2f-b751-ce4ec751faf4",
-        "e59ca0ff-4377-44b1-b750-2527fa6879ca"
-      ],
-      "settings": {
-        "title": "Top Selling Products",
-        "content": "",
-        "text_size": "medium",
-        "text_transform": "none",
-        "max_count": 12,
-        "use-slider": true,
-        "slides-To-Scroll": 1,
-        "visible": 5,
-        "widescreen": 5,
-        "desktop": 5,
-        "laptop": 5,
-        "notebook": 4,
-        "tablet": 3,
-        "landscape": 2,
-        "portrait": 2,
-        "mobile": 1,
-        "rows": 1,
-        "autoplay": true,
-        "speed": "300",
-        "autoplay-Speed": "3000",
-        "arrows": true,
-        "fade": false,
-        "center-Mode": false,
-        "adaptive-Height": false,
-        "dots": false,
-        "infinite": false,
-        "padding": 10,
-        "vertical": false,
-        "layout": "container",
-        "cl_bg": "rgba(0,0,0,0)",
-        "mg": ",,60px,",
-        "pd": "",
-        "mg_mb": ",,15px,",
         "pd_mb": ""
       }
     },
@@ -1297,7 +1318,7 @@
         "hidden": false,
         "title": "Got a question for Hitch Expo?",
         "sub_title": "",
-        "content": "Lorem ipsumdolor sit amet consectetur, Id vel vitae id mi quis adipicing suspendissim.",
+        "content": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium<br> lectus qua. Nunc id cursus metus ididunt ut labore metus episcing.",
         "layout": "container",
         "cl_bg": "#faf6f0",
         "mg": "",
@@ -1400,12 +1421,13 @@
     }
   },
   "order": [
-    "a0ab8fab-2eb1-4367-9b52-53ff9a0bf4dc",
+    "91e0f90e-ad97-458f-8ab1-a5b274e18a11",
     "1703977194593aef98",
     "adb31611-bb52-4257-9fc8-a7003a7eb87a",
     "574adbaf-6e05-4837-8111-0b00659cc363",
-    "031734ff-1028-4b77-9bd8-355af17dece0",
     "3159f294-b2f4-42ab-b5d6-597485eb9827",
+    "7a017a16-6aff-4e32-9cc0-b8a9344fd6e1",
+    "031734ff-1028-4b77-9bd8-355af17dece0",
     "e3baa68d-b81c-4e8c-9fe8-34918fcc35fb",
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34",
     "10360843-48e8-4559-92b6-ed2c627cc19c",
