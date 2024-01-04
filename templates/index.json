@@ -937,14 +937,7 @@
             "open_link": "_blank"
           }
         },
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-5": {
-          "type": "brand",
-          "settings": {
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-6": {
+        "0ef0858b-9e9d-4e24-8f37-a12fc8648427": {
           "type": "brand",
           "settings": {
             "url": "",
@@ -957,8 +950,7 @@
         "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-2",
         "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-3",
         "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-4",
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-5",
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-6"
+        "0ef0858b-9e9d-4e24-8f37-a12fc8648427"
       ],
       "settings": {
         "hidden": false,
