@@ -1361,19 +1361,6 @@
               "lb": "",
               "lb_cl": ""
             }
-          },
-          "49f03b2d-2086-45b8-a76f-e35c204976da": {
-            "type": "simple",
-            "settings": {
-              "title": "Buy Uminex!",
-              "url": "https:\/\/themeforest.net\/item\/uminex-fastest-shopify-20-theme\/46350215",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
           }
         },
         "block_order": [
@@ -1385,8 +1372,7 @@
           "3681d0ce-afc6-4344-b966-cfda71fb5b43",
           "91d39423-2228-4261-a575-2a91514f5de6",
           "bab6430c-5d2b-4e8e-8e42-224c6d149882",
-          "407f6f92-2819-4cb0-a735-a3caec3c4cd2",
-          "49f03b2d-2086-45b8-a76f-e35c204976da"
+          "407f6f92-2819-4cb0-a735-a3caec3c4cd2"
         ],
         "settings": {
           "header_design": "logo-left_2l",
