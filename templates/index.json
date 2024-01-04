@@ -423,52 +423,6 @@
     },
     "6f82150a-ccd0-41ec-8976-eb35980615c5": {
       "type": "section-group",
-      "blocks": {
-        "template--21734502760741__6f82150a-ccd0-41ec-8976-eb35980615c5-collection-1": {
-          "type": "collection",
-          "settings": {
-            "title": "Featured Products",
-            "text_size": "medium",
-            "use_banner": true,
-            "hidden_mobile": true,
-            "w-banner": 230,
-            "collection": "2-speed-hd-square-jacks-side-wind",
-            "limit": 3,
-            "use-slider": true,
-            "slides-To-Scroll": 1,
-            "visible": 5,
-            "widescreen": 4,
-            "desktop": 4,
-            "laptop": 4,
-            "notebook": 3,
-            "tablet": 3,
-            "landscape": 2,
-            "portrait": 2,
-            "mobile": 1,
-            "rows": 1,
-            "autoplay": true,
-            "speed": "300",
-            "autoplay-Speed": "3000",
-            "arrows": true,
-            "fade": false,
-            "center-Mode": false,
-            "adaptive-Height": false,
-            "dots": false,
-            "infinite": false,
-            "padding": 10,
-            "vertical": false,
-            "show_view_all": false,
-            "col": "100%",
-            "mg": "",
-            "pd": "",
-            "mg_mb": "",
-            "pd_mb": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21734502760741__6f82150a-ccd0-41ec-8976-eb35980615c5-collection-1"
-      ],
       "settings": {
         "layout_des": false,
         "cl_bg": "#ffffff"
@@ -757,6 +711,7 @@
         "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-1": {
           "type": "brand",
           "settings": {
+            "image": "shopify:\/\/shop_images\/bargman.png",
             "url": "",
             "open_link": "_blank"
           }
@@ -805,7 +760,6 @@
         "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-5",
         "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-6"
       ],
-      "disabled": true,
       "settings": {
         "hidden": false,
         "show_border_top": false,
