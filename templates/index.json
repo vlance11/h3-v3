@@ -234,6 +234,78 @@
         "pd_mb": ""
       }
     },
+    "9f4ee58f-dee6-463d-a620-261f520496e6": {
+      "type": "collection-carousel-product2",
+      "blocks": {
+        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-banner-1": {
+          "type": "banner",
+          "settings": {
+            "title": "Recommended product for you",
+            "content": "",
+            "image": "shopify:\/\/shop_images\/74377-3034-reese-pilot-trailer-brake-control-10-18-winnebago-access-premier-aspect-cambria-chalet-minnie-winnie-outlook-spirit-electric-trailer-brakes-module-box-controller-1-2-axle_5c67c1dc-721d-4da3-a404-4b0cf70e09ec.jpg",
+            "text_btn": "See all",
+            "url": "shopify:\/\/collections\/trailer-accessories",
+            "open_link": "_blank",
+            "cl": "5",
+            "cl_tb": "5",
+            "cl_mb": "12",
+            "mg": "",
+            "pd": "",
+            "mg_mb": "",
+            "pd_mb": ""
+          }
+        },
+        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "trailer-accessories",
+            "limit": 3,
+            "use-slider": true,
+            "slides-To-Scroll": 3,
+            "visible": 3,
+            "widescreen": 3,
+            "desktop": 3,
+            "laptop": 3,
+            "notebook": 3,
+            "tablet": 3,
+            "landscape": 2,
+            "portrait": 2,
+            "mobile": 1,
+            "rows": 2,
+            "autoplay": true,
+            "speed": "300",
+            "autoplay-Speed": "3000",
+            "arrows": true,
+            "fade": false,
+            "center-Mode": false,
+            "adaptive-Height": false,
+            "dots": false,
+            "infinite": false,
+            "padding": 10,
+            "vertical": false,
+            "cl": "7",
+            "cl_tb": "7",
+            "cl_mb": "12"
+          }
+        }
+      },
+      "block_order": [
+        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-banner-1",
+        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-collection-1"
+      ],
+      "settings": {
+        "title": "",
+        "content": "",
+        "text_size": "large",
+        "text_transform": "uppercase",
+        "layout_des": false,
+        "cl_bg": "#f2f2f6",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
     "3159f294-b2f4-42ab-b5d6-597485eb9827": {
       "type": "tab-product-style2",
       "blocks": {
@@ -280,6 +352,7 @@
         "f65acdb7-f0b6-4b2f-b751-ce4ec751faf4",
         "e59ca0ff-4377-44b1-b750-2527fa6879ca"
       ],
+      "disabled": true,
       "settings": {
         "title": "Recommend Product for you",
         "content": "",
@@ -319,6 +392,7 @@
     },
     "7a017a16-6aff-4e32-9cc0-b8a9344fd6e1": {
       "type": "collection-carousel-product",
+      "disabled": true,
       "settings": {
         "title": "",
         "content": "",
@@ -827,150 +901,6 @@
         "mg_mb": "",
         "pd_mb": ""
       }
-    },
-    "9f4ee58f-dee6-463d-a620-261f520496e6": {
-      "type": "collection-carousel-product2",
-      "blocks": {
-        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-banner-1": {
-          "type": "banner",
-          "settings": {
-            "title": "Recommended product for you",
-            "content": "",
-            "image": "shopify:\/\/shop_images\/74377-3034-reese-pilot-trailer-brake-control-10-18-winnebago-access-premier-aspect-cambria-chalet-minnie-winnie-outlook-spirit-electric-trailer-brakes-module-box-controller-1-2-axle_5c67c1dc-721d-4da3-a404-4b0cf70e09ec.jpg",
-            "text_btn": "See all",
-            "url": "shopify:\/\/collections\/trailer-accessories",
-            "open_link": "_blank",
-            "cl": "5",
-            "cl_tb": "5",
-            "cl_mb": "12",
-            "mg": "",
-            "pd": "",
-            "mg_mb": "",
-            "pd_mb": ""
-          }
-        },
-        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "trailer-accessories-1",
-            "limit": 3,
-            "use-slider": true,
-            "slides-To-Scroll": 3,
-            "visible": 3,
-            "widescreen": 3,
-            "desktop": 3,
-            "laptop": 3,
-            "notebook": 3,
-            "tablet": 3,
-            "landscape": 2,
-            "portrait": 2,
-            "mobile": 1,
-            "rows": 2,
-            "autoplay": true,
-            "speed": "300",
-            "autoplay-Speed": "3000",
-            "arrows": true,
-            "fade": false,
-            "center-Mode": false,
-            "adaptive-Height": false,
-            "dots": false,
-            "infinite": false,
-            "padding": 10,
-            "vertical": false,
-            "cl": "7",
-            "cl_tb": "7",
-            "cl_mb": "12"
-          }
-        }
-      },
-      "block_order": [
-        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-banner-1",
-        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-collection-1"
-      ],
-      "settings": {
-        "title": "",
-        "content": "",
-        "text_size": "large",
-        "text_transform": "uppercase",
-        "layout_des": false,
-        "cl_bg": "#f2f2f6",
-        "mg": "",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
-    },
-    "44d4f20d-02b4-4fd9-b22f-7d2471fb9461": {
-      "type": "collection-carousel-product2",
-      "blocks": {
-        "template--21734502760741__44d4f20d-02b4-4fd9-b22f-7d2471fb9461-banner-1": {
-          "type": "banner",
-          "disabled": true,
-          "settings": {
-            "title": "New arrivals",
-            "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
-            "text_btn": "Shop Now",
-            "url": "",
-            "open_link": "_blank",
-            "cl": "5",
-            "cl_tb": "5",
-            "cl_mb": "12",
-            "mg": "",
-            "pd": "",
-            "mg_mb": "",
-            "pd_mb": ""
-          }
-        },
-        "template--21734502760741__44d4f20d-02b4-4fd9-b22f-7d2471fb9461-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "front-mount-trailer-hitches",
-            "limit": 6,
-            "use-slider": true,
-            "slides-To-Scroll": 1,
-            "visible": 8,
-            "widescreen": 3,
-            "desktop": 3,
-            "laptop": 3,
-            "notebook": 3,
-            "tablet": 3,
-            "landscape": 2,
-            "portrait": 2,
-            "mobile": 1,
-            "rows": 2,
-            "autoplay": true,
-            "speed": "300",
-            "autoplay-Speed": "3000",
-            "arrows": true,
-            "fade": false,
-            "center-Mode": false,
-            "adaptive-Height": false,
-            "dots": false,
-            "infinite": false,
-            "padding": 10,
-            "vertical": false,
-            "cl": "7",
-            "cl_tb": "7",
-            "cl_mb": "12"
-          }
-        }
-      },
-      "block_order": [
-        "template--21734502760741__44d4f20d-02b4-4fd9-b22f-7d2471fb9461-banner-1",
-        "template--21734502760741__44d4f20d-02b4-4fd9-b22f-7d2471fb9461-collection-1"
-      ],
-      "settings": {
-        "title": "",
-        "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
-        "text_size": "medium",
-        "text_transform": "none",
-        "layout_des": false,
-        "cl_bg": "#fff",
-        "mg": "",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
     }
   },
   "order": [
@@ -978,6 +908,7 @@
     "1703977194593aef98",
     "adb31611-bb52-4257-9fc8-a7003a7eb87a",
     "574adbaf-6e05-4837-8111-0b00659cc363",
+    "9f4ee58f-dee6-463d-a620-261f520496e6",
     "3159f294-b2f4-42ab-b5d6-597485eb9827",
     "7a017a16-6aff-4e32-9cc0-b8a9344fd6e1",
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8",
@@ -985,8 +916,6 @@
     "165018826364c02d6a",
     "d9dc55c5-4e2a-42a1-b1c1-635d7147667b",
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34",
-    "69805983-b566-42af-ba6f-ca890638160a",
-    "9f4ee58f-dee6-463d-a620-261f520496e6",
-    "44d4f20d-02b4-4fd9-b22f-7d2471fb9461"
+    "69805983-b566-42af-ba6f-ca890638160a"
   ]
 }
