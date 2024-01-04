@@ -887,21 +887,13 @@
             "url": "",
             "open_link": "_blank"
           }
-        },
-        "0ef0858b-9e9d-4e24-8f37-a12fc8648427": {
-          "type": "brand",
-          "settings": {
-            "url": "",
-            "open_link": "_blank"
-          }
         }
       },
       "block_order": [
         "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-1",
         "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-2",
         "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-3",
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-4",
-        "0ef0858b-9e9d-4e24-8f37-a12fc8648427"
+        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-4"
       ],
       "settings": {
         "hidden": false,
