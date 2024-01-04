@@ -755,6 +755,21 @@
             "url": "",
             "open_link": "_blank"
           }
+        },
+        "217e7257-ca10-471b-92bb-3412a9ddc630": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rola-logo.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "b0375570-946c-466f-967e-0eab31e16a6e": {
+          "type": "brand",
+          "settings": {
+            "url": "",
+            "open_link": "_blank"
+          }
         }
       },
       "block_order": [
@@ -763,7 +778,9 @@
         "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-3",
         "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-4",
         "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-5",
-        "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-6"
+        "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-6",
+        "217e7257-ca10-471b-92bb-3412a9ddc630",
+        "b0375570-946c-466f-967e-0eab31e16a6e"
       ],
       "settings": {
         "hidden": false,
