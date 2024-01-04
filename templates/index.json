@@ -743,6 +743,7 @@
         "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-5": {
           "type": "brand",
           "settings": {
+            "image": "shopify:\/\/shop_images\/images_7.png",
             "url": "",
             "open_link": "_blank"
           }
@@ -750,6 +751,7 @@
         "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-6": {
           "type": "brand",
           "settings": {
+            "image": "shopify:\/\/shop_images\/images_13.jpg",
             "url": "",
             "open_link": "_blank"
           }
