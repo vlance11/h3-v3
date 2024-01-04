@@ -889,9 +889,9 @@
       ],
       "settings": {
         "title": "",
-        "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+        "content": "",
         "text_size": "medium",
-        "text_transform": "none",
+        "text_transform": "uppercase",
         "layout_des": false,
         "cl_bg": "#f2f2f6",
         "mg": "",

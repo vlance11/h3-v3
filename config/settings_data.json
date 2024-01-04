@@ -107,7 +107,7 @@
     "product_collection_show_secondary_image": true,
     "product_collection_show_options": true,
     "product_collection_show_button_add_to_cart": true,
-    "product_collection_show_quantity_box": false,
+    "product_collection_show_quantity_box": true,
     "product_collection_show_button_add_to_compare": true,
     "product_auto_selected_options": "",
     "product_options_listing_visibility": "2",
