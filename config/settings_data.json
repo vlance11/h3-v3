@@ -1276,18 +1276,9 @@
               "bg": "#ffffff"
             }
           },
-          "cc1ec0f5-91e2-4b61-a17b-8821a0fb0b57": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "Shop Layout",
-              "url": "#",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
           "eb4b8b78-e314-4cbd-bfd9-fa78f1dbb8d9": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Product Layout",
               "url": "#",
@@ -1298,6 +1289,7 @@
           },
           "e3ad527e-3670-40a3-b827-3adcc2c529d4": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Product Type",
               "url": "#",
@@ -1430,7 +1422,6 @@
         "block_order": [
           "d68538b5-22d3-4082-9b4b-6cf2ab00a70b",
           "2edb69f1-946f-44fb-9516-b508ad1dbadc",
-          "cc1ec0f5-91e2-4b61-a17b-8821a0fb0b57",
           "eb4b8b78-e314-4cbd-bfd9-fa78f1dbb8d9",
           "e3ad527e-3670-40a3-b827-3adcc2c529d4",
           "d549a5e3-6ea0-4959-8cd7-14b46c1fa870",
