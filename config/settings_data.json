@@ -1298,40 +1298,6 @@
               "bg": "#ffffff"
             }
           },
-          "20937395-253c-422a-bd42-fc5aa25ddc2c": {
-            "type": "link2",
-            "settings": {
-              "col": "3",
-              "menu": ""
-            }
-          },
-          "9cffa0e8-d0b2-4efd-9278-4199ced883af": {
-            "type": "link2",
-            "settings": {
-              "col": "3",
-              "menu": ""
-            }
-          },
-          "79f322d8-d36a-4fc7-a97b-de35a91442c8": {
-            "type": "cat",
-            "settings": {
-              "cat_design": "1",
-              "hoverz": true,
-              "collection": "laptop-ipad",
-              "title": "",
-              "col": "3"
-            }
-          },
-          "ca137f59-9acb-47fe-a6a5-a6fead24d524": {
-            "type": "cat",
-            "settings": {
-              "cat_design": "1",
-              "hoverz": true,
-              "collection": "desktop-pc",
-              "title": "",
-              "col": "3"
-            }
-          },
           "2edb69f1-946f-44fb-9516-b508ad1dbadc": {
             "type": "mega",
             "settings": {
@@ -1415,10 +1381,6 @@
           "eb4b8b78-e314-4cbd-bfd9-fa78f1dbb8d9",
           "e3ad527e-3670-40a3-b827-3adcc2c529d4",
           "9ea37089-1ecc-414b-a84c-1aff6ea43af5",
-          "20937395-253c-422a-bd42-fc5aa25ddc2c",
-          "9cffa0e8-d0b2-4efd-9278-4199ced883af",
-          "79f322d8-d36a-4fc7-a97b-de35a91442c8",
-          "ca137f59-9acb-47fe-a6a5-a6fead24d524",
           "2edb69f1-946f-44fb-9516-b508ad1dbadc",
           "3681d0ce-afc6-4344-b966-cfda71fb5b43",
           "91d39423-2228-4261-a575-2a91514f5de6",
