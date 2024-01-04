@@ -1022,6 +1022,8 @@
           "v_position": "middle",
           "txt_align": "left",
           "bg": "#f1f5f6",
+          "cl_title": "#212529",
+          "cl_breadcrum": "#8D979E",
           "b_height": 60,
           "mg_bottom": 0,
           "mobile_bg": "#f1f5f6",

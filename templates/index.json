@@ -827,6 +827,78 @@
         "mg_mb": "",
         "pd_mb": ""
       }
+    },
+    "9f4ee58f-dee6-463d-a620-261f520496e6": {
+      "type": "collection-carousel-product2",
+      "blocks": {
+        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-banner-1": {
+          "type": "banner",
+          "settings": {
+            "title": "Recommended product for you",
+            "content": "",
+            "image": "shopify:\/\/shop_images\/74377-3034-reese-pilot-trailer-brake-control-10-18-winnebago-access-premier-aspect-cambria-chalet-minnie-winnie-outlook-spirit-electric-trailer-brakes-module-box-controller-1-2-axle_5c67c1dc-721d-4da3-a404-4b0cf70e09ec.jpg",
+            "text_btn": "See all",
+            "url": "shopify:\/\/collections\/trailer-accessories",
+            "open_link": "_blank",
+            "cl": "5",
+            "cl_tb": "5",
+            "cl_mb": "12",
+            "mg": "",
+            "pd": "",
+            "mg_mb": "",
+            "pd_mb": ""
+          }
+        },
+        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "trailer-accessories",
+            "limit": 3,
+            "use-slider": true,
+            "slides-To-Scroll": 3,
+            "visible": 3,
+            "widescreen": 3,
+            "desktop": 3,
+            "laptop": 3,
+            "notebook": 3,
+            "tablet": 3,
+            "landscape": 2,
+            "portrait": 2,
+            "mobile": 1,
+            "rows": 2,
+            "autoplay": true,
+            "speed": "300",
+            "autoplay-Speed": "3000",
+            "arrows": true,
+            "fade": false,
+            "center-Mode": false,
+            "adaptive-Height": false,
+            "dots": false,
+            "infinite": false,
+            "padding": 10,
+            "vertical": false,
+            "cl": "7",
+            "cl_tb": "7",
+            "cl_mb": "12"
+          }
+        }
+      },
+      "block_order": [
+        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-banner-1",
+        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-collection-1"
+      ],
+      "settings": {
+        "title": "",
+        "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+        "text_size": "medium",
+        "text_transform": "none",
+        "layout_des": false,
+        "cl_bg": "#f2f2f6",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
@@ -841,6 +913,7 @@
     "165018826364c02d6a",
     "d9dc55c5-4e2a-42a1-b1c1-635d7147667b",
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34",
-    "69805983-b566-42af-ba6f-ca890638160a"
+    "69805983-b566-42af-ba6f-ca890638160a",
+    "9f4ee58f-dee6-463d-a620-261f520496e6"
   ]
 }
