@@ -1,494 +1,29 @@
 {
   "sections": {
-    "165018826364c02d6a": {
+    "a0ab8fab-2eb1-4367-9b52-53ff9a0bf4dc": {
       "type": "slideshow",
       "blocks": {
-        "165018826364c02d6a-0": {
+        "template--21734502760741__a0ab8fab-2eb1-4367-9b52-53ff9a0bf4dc-img-1": {
           "type": "img",
           "settings": {
-            "link_img": "",
-            "open_link": "_blank",
-            "caption_w": "1",
-            "h_position": "left",
-            "v_position": "middle",
-            "txt_align": "left"
-          }
-        },
-        "abf520f4-9249-4714-b07e-a1dfaa3e0096": {
-          "type": "subhd",
-          "settings": {
-            "title": "20% FLAT DISCOUNT",
-            "text_animate": "fadeInDown",
-            "text_time": 2.5,
-            "color": "#FF6128",
-            "linear_gradient": "",
-            "fw_text": 700,
-            "fs_text": 12,
-            "lh_text": 16,
-            "ls_text": "-0.03em",
-            "font_style": "normal",
-            "text_transform": "uppercase",
-            "hide": false,
-            "first_mark": false,
-            "last_mark": false,
-            "custom_mark": "",
-            "color_mark": "",
-            "mobile_fw_text": 500,
-            "mobile_lh_text": 0,
-            "mobile_font_text": 12
-          }
-        },
-        "83ced24a-64eb-4c96-ac96-071a54993c6a": {
-          "type": "space",
-          "settings": {
-            "hide_mobile": false,
-            "sp": 20,
-            "mobile_sp": 10
-          }
-        },
-        "b7c972a8-63f1-447a-85e1-5943ea43ad04": {
-          "type": "hd",
-          "settings": {
-            "hide": false,
-            "title": "Sale Off Dinner Table",
-            "text_animate": "slideInLeft",
-            "text_time": 2.5,
-            "color": "#ffffff",
-            "linear_gradient": "",
-            "fw_text": 600,
-            "fs_text": 36,
-            "lh_text": 40,
-            "ls_text": "-0.03em",
-            "font_style": "normal",
-            "text_transform": "none",
-            "first_mark": false,
-            "last_mark": false,
-            "custom_mark": "",
-            "color_mark": "#17f084",
-            "mobile_fw_text": 600,
-            "mobile_lh_text": 35,
-            "mobile_font_text": 30
-          }
-        },
-        "416867ec-0732-4261-a3f2-30e689d3518d": {
-          "type": "hd",
-          "disabled": true,
-          "settings": {
-            "hide": false,
-            "title": "Today’s Offer",
-            "text_animate": "slideInRight",
-            "text_time": 2.5,
-            "color": "#212529",
-            "linear_gradient": "linear-gradient(91.25deg, rgba(255, 83, 83, 1) 1.83%, rgba(195, 26, 255, 1) 98.55%)",
-            "fw_text": 600,
-            "fs_text": 36,
-            "lh_text": 40,
-            "ls_text": "-0.03em",
-            "font_style": "normal",
-            "text_transform": "none",
-            "first_mark": false,
-            "last_mark": false,
-            "custom_mark": "",
-            "color_mark": "",
-            "mobile_fw_text": 600,
-            "mobile_lh_text": 35,
-            "mobile_font_text": 30
-          }
-        },
-        "18d23eac-b557-45f5-9b90-55ef0674b247": {
-          "type": "space",
-          "settings": {
-            "hide_mobile": false,
-            "sp": 15,
-            "mobile_sp": 10
-          }
-        },
-        "f8049163-17f4-4e98-92de-21b48eb0e9d5": {
-          "type": "txt",
-          "settings": {
-            "title": "Discover our accessories to create a beautiful kitchen.",
-            "text_animate": "fadeInUp",
-            "text_time": 2.5,
-            "color": "#ffffff",
-            "fw_text": 500,
-            "fs_text": 16,
-            "lh_text": 22,
-            "ls_text": 0,
-            "hide": false,
-            "hide_mobile": false,
-            "mobile_fw_text": 500,
-            "mobile_lh_text": 20,
-            "mobile_font_text": 14
-          }
-        },
-        "5dad6501-4ec3-4b57-8305-3e7052e07c26": {
-          "type": "space",
-          "settings": {
-            "hide_mobile": false,
-            "sp": 35,
-            "mobile_sp": 20
-          }
-        },
-        "a3937595-0962-4042-8971-7fd2a100461b": {
-          "type": "btn",
-          "settings": {
-            "title": "Shop Now",
-            "text_animate": "fadeInUp",
-            "text_time": 2.5,
-            "btn_link": "shopify:\/\/collections",
-            "cl_txt": "#212529",
-            "cl_txt_hover": "#ffffff",
-            "cl_bg": "#ffffff",
-            "cl_bg_hover": "#ff6128",
-            "fs_text": 14,
-            "fw_text": 700,
-            "button_transform": "none",
-            "br_button": "4px 4px",
-            "mg": "0px 0px 0px 0px",
-            "pd": "15px 65px 15px 65px",
-            "ls_text": 0,
-            "mobile_fw_text": 700,
-            "mobile_font_text": 14,
-            "mobile_mg": "0px 0px 0px 0px",
-            "mobile_pd": "10px 50px 10px 50px"
-          }
-        },
-        "165018826364c02d6a-1": {
-          "type": "img",
-          "settings": {
-            "image_sl": "shopify:\/\/shop_images\/Front-Of-Red-Car.jpg",
+            "image_sl": "shopify:\/\/shop_images\/Limited_Offer_2.png",
             "link_img": "",
             "open_link": "_blank",
             "caption_w": "2",
-            "h_position": "left",
+            "h_position": "center",
             "v_position": "middle",
-            "txt_align": "left"
-          }
-        },
-        "891f8080-a8d5-4eb3-9c53-f3bf3eab615d": {
-          "type": "subhd",
-          "settings": {
-            "title": "This year's Summer picks",
-            "text_animate": "fadeInDown",
-            "text_time": 2.5,
-            "color": "#FF6128",
-            "linear_gradient": "",
-            "fw_text": 700,
-            "fs_text": 12,
-            "lh_text": 16,
-            "ls_text": "-0.03em",
-            "font_style": "normal",
-            "text_transform": "uppercase",
-            "hide": false,
-            "first_mark": false,
-            "last_mark": false,
-            "custom_mark": "",
-            "color_mark": "",
-            "mobile_fw_text": 500,
-            "mobile_lh_text": 0,
-            "mobile_font_text": 12
-          }
-        },
-        "dc125a96-fc0e-40ef-a4bc-72b036244d98": {
-          "type": "space",
-          "settings": {
-            "hide_mobile": false,
-            "sp": 20,
-            "mobile_sp": 10
-          }
-        },
-        "53c479ab-f936-4077-b245-dacc37905cfd": {
-          "type": "hd",
-          "disabled": true,
-          "settings": {
-            "hide": false,
-            "title": "Today’s Offer",
-            "text_animate": "slideInLeft",
-            "text_time": 2.5,
-            "color": "#212529",
-            "linear_gradient": "linear-gradient(91.25deg, rgba(255, 83, 83, 1) 1.83%, rgba(195, 26, 255, 1) 98.55%)",
-            "fw_text": 600,
-            "fs_text": 36,
-            "lh_text": 40,
-            "ls_text": "-0.03em",
-            "font_style": "normal",
-            "text_transform": "none",
-            "first_mark": false,
-            "last_mark": false,
-            "custom_mark": "",
-            "color_mark": "",
-            "mobile_fw_text": 600,
-            "mobile_lh_text": 34,
-            "mobile_font_text": 30
-          }
-        },
-        "8b306135-6ce3-4ccd-ae2e-ad75cb9f095d": {
-          "type": "hd",
-          "settings": {
-            "hide": false,
-            "title": "Trending Dining Chairs",
-            "text_animate": "slideInRight",
-            "text_time": 2.5,
-            "color": "#ffffff",
-            "linear_gradient": "",
-            "fw_text": 600,
-            "fs_text": 36,
-            "lh_text": 40,
-            "ls_text": "-0.03em",
-            "font_style": "normal",
-            "text_transform": "none",
-            "first_mark": false,
-            "last_mark": false,
-            "custom_mark": "",
-            "color_mark": "#17f084",
-            "mobile_fw_text": 600,
-            "mobile_lh_text": 35,
-            "mobile_font_text": 30
-          }
-        },
-        "a7bb083b-645e-4df8-b103-a4f38388cb30": {
-          "type": "space",
-          "settings": {
-            "hide_mobile": false,
-            "sp": 10,
-            "mobile_sp": 5
-          }
-        },
-        "b54e535a-e061-43b5-9faf-01c49dbe929f": {
-          "type": "txt",
-          "settings": {
-            "title": "Discover our accessories to create a beautiful kitchen.",
-            "text_animate": "fadeInLeft",
-            "text_time": 2.5,
-            "color": "#ffffff",
-            "fw_text": 500,
-            "fs_text": 16,
-            "lh_text": 22,
-            "ls_text": 0,
-            "hide": false,
-            "hide_mobile": false,
-            "mobile_fw_text": 500,
-            "mobile_lh_text": 20,
-            "mobile_font_text": 14
-          }
-        },
-        "f9db16a4-5108-4986-8fc5-aa45f6f43b91": {
-          "type": "space",
-          "settings": {
-            "hide_mobile": false,
-            "sp": 50,
-            "mobile_sp": 20
-          }
-        },
-        "a18e2035-2fbd-4496-bb14-bbc57a981498": {
-          "type": "btn",
-          "settings": {
-            "title": "Shop Now",
-            "text_animate": "fadeInUp",
-            "text_time": 2.5,
-            "btn_link": "shopify:\/\/collections\/accessories",
-            "cl_txt": "#212529",
-            "cl_txt_hover": "#ffffff",
-            "cl_bg": "#ffffff",
-            "cl_bg_hover": "#212529",
-            "fs_text": 12,
-            "fw_text": 700,
-            "button_transform": "uppercase",
-            "br_button": "4px 4px",
-            "mg": "0px 0px 0px 0px",
-            "pd": "15px 65px 15px 65px",
-            "ls_text": 0,
-            "mobile_fw_text": 700,
-            "mobile_font_text": 12,
-            "mobile_mg": "0px 0px 0px 0px",
-            "mobile_pd": "10px 50px 10px 50px"
-          }
-        },
-        "b68a79f6-452b-4be4-9485-ab2e5ec818bd": {
-          "type": "img",
-          "settings": {
-            "link_img": "",
-            "open_link": "_blank",
-            "caption_w": "2",
-            "h_position": "left",
-            "v_position": "middle",
-            "txt_align": "left"
-          }
-        },
-        "acf77304-8153-457c-ba2f-d6a42f468938": {
-          "type": "subhd",
-          "settings": {
-            "title": "40% FLAT DISCOUNT",
-            "text_animate": "none",
-            "text_time": 1.5,
-            "color": "#FF6128",
-            "linear_gradient": "",
-            "fw_text": 500,
-            "fs_text": 12,
-            "lh_text": 16,
-            "ls_text": "-0.03em",
-            "font_style": "normal",
-            "text_transform": "uppercase",
-            "hide": false,
-            "first_mark": false,
-            "last_mark": false,
-            "custom_mark": "",
-            "color_mark": "",
-            "mobile_fw_text": 500,
-            "mobile_lh_text": 0,
-            "mobile_font_text": 12
-          }
-        },
-        "30e80c64-0ade-4336-afd9-8c3445b8980e": {
-          "type": "space",
-          "settings": {
-            "hide_mobile": false,
-            "sp": 20,
-            "mobile_sp": 10
-          }
-        },
-        "42b8c976-6e3a-4627-8694-2ce6bafb5f15": {
-          "type": "hd",
-          "disabled": true,
-          "settings": {
-            "hide": false,
-            "title": "Today’s Offer",
-            "text_animate": "slideInLeft",
-            "text_time": 2.5,
-            "color": "#212529",
-            "linear_gradient": "linear-gradient(91.25deg, rgba(255, 83, 83, 1) 1.83%, rgba(195, 26, 255, 1) 98.55%)",
-            "fw_text": 600,
-            "fs_text": 36,
-            "lh_text": 40,
-            "ls_text": "-0.03em",
-            "font_style": "normal",
-            "text_transform": "none",
-            "first_mark": false,
-            "last_mark": false,
-            "custom_mark": "",
-            "color_mark": "",
-            "mobile_fw_text": 600,
-            "mobile_lh_text": 35,
-            "mobile_font_text": 30
-          }
-        },
-        "4ef7ed09-8363-4fe0-801e-b1d36c42d4fd": {
-          "type": "hd",
-          "settings": {
-            "hide": false,
-            "title": "Top Sale Table Lamp",
-            "text_animate": "slideInRight",
-            "text_time": 2.5,
-            "color": "#ffffff",
-            "linear_gradient": "",
-            "fw_text": 600,
-            "fs_text": 36,
-            "lh_text": 40,
-            "ls_text": "-0.03em",
-            "font_style": "normal",
-            "text_transform": "none",
-            "first_mark": false,
-            "last_mark": false,
-            "custom_mark": "",
-            "color_mark": "#ffe603",
-            "mobile_fw_text": 600,
-            "mobile_lh_text": 35,
-            "mobile_font_text": 30
-          }
-        },
-        "209ad461-da21-4f59-996b-0443e0bb9db4": {
-          "type": "space",
-          "settings": {
-            "hide_mobile": false,
-            "sp": 10,
-            "mobile_sp": 5
-          }
-        },
-        "de6571dd-52bc-4ed5-82e8-92ef8cf2e782": {
-          "type": "txt",
-          "settings": {
-            "title": "Discover our accessories to create a beautiful kitchen.",
-            "text_animate": "fadeInUp",
-            "text_time": 2.5,
-            "color": "#ffffff",
-            "fw_text": 500,
-            "fs_text": 16,
-            "lh_text": 22,
-            "ls_text": 0,
-            "hide": false,
-            "hide_mobile": false,
-            "mobile_fw_text": 500,
-            "mobile_lh_text": 20,
-            "mobile_font_text": 14
-          }
-        },
-        "2191a709-e18f-4848-9a5f-2e3153242d25": {
-          "type": "space",
-          "settings": {
-            "hide_mobile": false,
-            "sp": 50,
-            "mobile_sp": 25
-          }
-        },
-        "e9b1486a-5343-4257-a9ce-11829970464f": {
-          "type": "btn",
-          "settings": {
-            "title": "Shop Now",
-            "text_animate": "fadeInUp",
-            "text_time": 2.5,
-            "btn_link": "shopify:\/\/collections\/car-electronics",
-            "cl_txt": "#212529",
-            "cl_txt_hover": "#ffffff",
-            "cl_bg": "#ffffff",
-            "cl_bg_hover": "#212529",
-            "fs_text": 12,
-            "fw_text": 700,
-            "button_transform": "uppercase",
-            "br_button": "4px 4px",
-            "mg": "0px 0px 0px 0px",
-            "pd": "15px 65px 15px 65px",
-            "ls_text": 0,
-            "mobile_fw_text": 700,
-            "mobile_font_text": 12,
-            "mobile_mg": "0px 0px 0px 0px",
-            "mobile_pd": "10px 50px 10px 50px"
+            "txt_align": "center"
           }
         }
       },
       "block_order": [
-        "165018826364c02d6a-0",
-        "abf520f4-9249-4714-b07e-a1dfaa3e0096",
-        "83ced24a-64eb-4c96-ac96-071a54993c6a",
-        "b7c972a8-63f1-447a-85e1-5943ea43ad04",
-        "416867ec-0732-4261-a3f2-30e689d3518d",
-        "18d23eac-b557-45f5-9b90-55ef0674b247",
-        "f8049163-17f4-4e98-92de-21b48eb0e9d5",
-        "5dad6501-4ec3-4b57-8305-3e7052e07c26",
-        "a3937595-0962-4042-8971-7fd2a100461b",
-        "165018826364c02d6a-1",
-        "891f8080-a8d5-4eb3-9c53-f3bf3eab615d",
-        "dc125a96-fc0e-40ef-a4bc-72b036244d98",
-        "53c479ab-f936-4077-b245-dacc37905cfd",
-        "8b306135-6ce3-4ccd-ae2e-ad75cb9f095d",
-        "a7bb083b-645e-4df8-b103-a4f38388cb30",
-        "b54e535a-e061-43b5-9faf-01c49dbe929f",
-        "f9db16a4-5108-4986-8fc5-aa45f6f43b91",
-        "a18e2035-2fbd-4496-bb14-bbc57a981498",
-        "b68a79f6-452b-4be4-9485-ab2e5ec818bd",
-        "acf77304-8153-457c-ba2f-d6a42f468938",
-        "30e80c64-0ade-4336-afd9-8c3445b8980e",
-        "42b8c976-6e3a-4627-8694-2ce6bafb5f15",
-        "4ef7ed09-8363-4fe0-801e-b1d36c42d4fd",
-        "209ad461-da21-4f59-996b-0443e0bb9db4",
-        "de6571dd-52bc-4ed5-82e8-92ef8cf2e782",
-        "2191a709-e18f-4848-9a5f-2e3153242d25",
-        "e9b1486a-5343-4257-a9ce-11829970464f"
+        "template--21734502760741__a0ab8fab-2eb1-4367-9b52-53ff9a0bf4dc-img-1"
       ],
       "settings": {
         "hidden": false,
-        "h_des": "350px",
-        "h_tb": "350px",
-        "h_mb": "230px",
+        "h_des": "650px",
+        "h_tb": "500px",
+        "h_mb": "350px",
         "border": 10,
         "use-slider": true,
         "slides-To-Scroll": 1,
@@ -502,28 +37,28 @@
         "portrait": 1,
         "mobile": 1,
         "rows": 1,
-        "autoplay": false,
-        "speed": "900",
-        "autoplay-Speed": "6000",
+        "autoplay": true,
+        "speed": "300",
+        "autoplay-Speed": "3000",
         "arrows": true,
-        "fade": true,
-        "fade_zoom": true,
+        "fade": false,
+        "fade_zoom": false,
         "center-Mode": false,
         "adaptive-Height": false,
-        "dots": true,
-        "infinite": true,
+        "dots": false,
+        "infinite": false,
         "padding": 0,
         "vertical": false,
-        "position_dots": "center",
-        "style_dots": "style1",
-        "custom_width": true,
-        "container_width": 1600,
+        "position_dots": "left",
+        "style_dots": "default",
+        "custom_width": false,
+        "container_width": 1200,
         "layout": "container",
-        "cl_bg": "#ffffff",
-        "mg": ",,,",
-        "pd": "30px,,60px,",
-        "mg_mb": ",,,",
-        "pd_mb": "15px,,30px,"
+        "cl_bg": "#f5f5f5",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
       }
     },
     "1703977194593aef98": {
@@ -1567,44 +1102,145 @@
         "pd_mb": ""
       }
     },
-    "cf4d05f7-79c3-44f1-bac1-1227b1cbd0a7": {
-      "type": "banner",
+    "165018826364c02d6a": {
+      "type": "slideshow",
       "blocks": {
-        "template--21734502760741__cf4d05f7-79c3-44f1-bac1-1227b1cbd0a7-banner_img-1": {
-          "type": "banner_img",
+        "165018826364c02d6a-0": {
+          "type": "img",
           "settings": {
-            "image_sl": "shopify:\/\/shop_images\/Front-Of-Red-Car.jpg",
-            "col": "12",
-            "ipad_col": "12",
+            "image_sl": "shopify:\/\/shop_images\/Limited_Offer_6.png",
             "link_img": "",
             "open_link": "_blank",
-            "hidden_content": false,
+            "caption_w": "1",
             "h_position": "left",
-            "v_position": "top",
-            "txt_align": "left",
-            "mg_bottom": 20
+            "v_position": "middle",
+            "txt_align": "left"
+          }
+        },
+        "e02d78a1-afe4-4e1a-9439-890921790a83": {
+          "type": "hd",
+          "settings": {
+            "hide": false,
+            "title": "GFFJHHJJHFJFFF",
+            "text_animate": "none",
+            "text_time": 1.5,
+            "color": "#172170",
+            "linear_gradient": "",
+            "fw_text": 800,
+            "fs_text": 88,
+            "lh_text": 100,
+            "ls_text": "3",
+            "font_style": "normal",
+            "text_transform": "capitalize",
+            "first_mark": true,
+            "last_mark": true,
+            "custom_mark": "",
+            "color_mark": "",
+            "mobile_fw_text": 600,
+            "mobile_lh_text": 0,
+            "mobile_font_text": 14
+          }
+        },
+        "b4c2c02d-2545-4bc7-9384-891115256cf6": {
+          "type": "subhd",
+          "settings": {
+            "title": "bringing you",
+            "text_animate": "none",
+            "text_time": 1.5,
+            "color": "#172170",
+            "linear_gradient": "",
+            "fw_text": 500,
+            "fs_text": 17,
+            "lh_text": 0,
+            "ls_text": "0",
+            "font_style": "normal",
+            "text_transform": "uppercase",
+            "hide": false,
+            "first_mark": false,
+            "last_mark": false,
+            "custom_mark": "",
+            "color_mark": "",
+            "mobile_fw_text": 500,
+            "mobile_lh_text": 0,
+            "mobile_font_text": 12
+          }
+        },
+        "a3937595-0962-4042-8971-7fd2a100461b": {
+          "type": "btn",
+          "settings": {
+            "title": "Shop Now",
+            "text_animate": "fadeInDown",
+            "text_time": 2.5,
+            "btn_link": "shopify:\/\/collections",
+            "cl_txt": "#212529",
+            "cl_txt_hover": "#ffffff",
+            "cl_bg": "#ffffff",
+            "cl_bg_hover": "#ff6128",
+            "fs_text": 14,
+            "fw_text": 500,
+            "button_transform": "none",
+            "br_button": "4px 4px",
+            "mg": "0px 0px 0px 0px",
+            "pd": "15px 65px 15px 65px",
+            "ls_text": 0,
+            "mobile_fw_text": 700,
+            "mobile_font_text": 14,
+            "mobile_mg": "0px 0px 0px 0px",
+            "mobile_pd": "10px 50px 10px 50px"
           }
         }
       },
       "block_order": [
-        "template--21734502760741__cf4d05f7-79c3-44f1-bac1-1227b1cbd0a7-banner_img-1"
+        "165018826364c02d6a-0",
+        "e02d78a1-afe4-4e1a-9439-890921790a83",
+        "b4c2c02d-2545-4bc7-9384-891115256cf6",
+        "a3937595-0962-4042-8971-7fd2a100461b"
       ],
       "settings": {
         "hidden": false,
-        "h_des": "150px",
-        "h_tb": "100px",
-        "h_mb": "150px",
-        "full_width": false,
-        "cl_bg": "#fff",
-        "mg": "",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": ""
+        "h_des": "350px",
+        "h_tb": "350px",
+        "h_mb": "230px",
+        "border": 10,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 1,
+        "widescreen": 1,
+        "desktop": 1,
+        "laptop": 1,
+        "notebook": 1,
+        "tablet": 1,
+        "landscape": 1,
+        "portrait": 1,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": false,
+        "speed": "900",
+        "autoplay-Speed": "6000",
+        "arrows": true,
+        "fade": true,
+        "fade_zoom": true,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": true,
+        "infinite": true,
+        "padding": 0,
+        "vertical": false,
+        "position_dots": "center",
+        "style_dots": "style1",
+        "custom_width": true,
+        "container_width": 1600,
+        "layout": "container",
+        "cl_bg": "#ffffff",
+        "mg": ",,,",
+        "pd": "30px,,60px,",
+        "mg_mb": ",,,",
+        "pd_mb": "15px,,30px,"
       }
     }
   },
   "order": [
-    "165018826364c02d6a",
+    "a0ab8fab-2eb1-4367-9b52-53ff9a0bf4dc",
     "1703977194593aef98",
     "adb31611-bb52-4257-9fc8-a7003a7eb87a",
     "574adbaf-6e05-4837-8111-0b00659cc363",
@@ -1617,6 +1253,6 @@
     "a5c760d0-7969-423c-9d0d-52e886c0fd90",
     "6f82150a-ccd0-41ec-8976-eb35980615c5",
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8",
-    "cf4d05f7-79c3-44f1-bac1-1227b1cbd0a7"
+    "165018826364c02d6a"
   ]
 }
