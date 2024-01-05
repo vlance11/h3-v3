@@ -1324,7 +1324,7 @@
               "menu": "",
               "icon": "",
               "cus_cl": false,
-              "cl": "#ec0101",
+              "cl": "#212529",
               "lb": "",
               "lb_cl": "#4ad295"
             }
@@ -1338,7 +1338,7 @@
           "bab6430c-5d2b-4e8e-8e42-224c6d149882": {
             "type": "dropdown",
             "settings": {
-              "title": "Blog",
+              "title": "All Product",
               "url": "shopify:\/\/blogs\/technology",
               "open_link": "_self",
               "menu": "",
