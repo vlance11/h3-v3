@@ -1339,7 +1339,7 @@
             "type": "dropdown",
             "settings": {
               "title": "All Product",
-              "url": "shopify:\/\/blogs\/technology",
+              "url": "shopify:\/\/collections",
               "open_link": "_self",
               "menu": "",
               "icon": "",
