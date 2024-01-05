@@ -1318,7 +1318,7 @@
           "3681d0ce-afc6-4344-b966-cfda71fb5b43": {
             "type": "dropdown",
             "settings": {
-              "title": "Pages",
+              "title": "Cargo Management",
               "url": "shopify:\/\/pages\/page-demo",
               "open_link": "_self",
               "menu": "",
