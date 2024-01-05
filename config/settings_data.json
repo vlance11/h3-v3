@@ -1319,7 +1319,7 @@
             "type": "dropdown",
             "settings": {
               "title": "Cargo Management",
-              "url": "shopify:\/\/pages\/page-demo",
+              "url": "shopify:\/\/collections\/cargo-management",
               "open_link": "_self",
               "menu": "",
               "icon": "",
