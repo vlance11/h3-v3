@@ -1248,10 +1248,10 @@
           "d68538b5-22d3-4082-9b4b-6cf2ab00a70b": {
             "type": "dropdown",
             "settings": {
-              "title": "Home",
+              "title": "manufacturers",
               "url": "\/",
               "open_link": "_self",
-              "menu": "",
+              "menu": "footer",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
@@ -1301,7 +1301,7 @@
           "2edb69f1-946f-44fb-9516-b508ad1dbadc": {
             "type": "mega",
             "settings": {
-              "title": "Cargo-Management",
+              "title": "Trailer Parts",
               "url": "shopify:\/\/collections\/home-accessories",
               "open_link": "_self",
               "icon": "",
