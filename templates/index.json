@@ -599,8 +599,8 @@
       "settings": {
         "hidden": false,
         "h_des": "650px",
-        "h_tb": "350px",
-        "h_mb": "230px",
+        "h_tb": "500px",
+        "h_mb": "350px",
         "border": 14,
         "use-slider": true,
         "slides-To-Scroll": 1,
