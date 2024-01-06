@@ -621,7 +621,7 @@
         "fade": false,
         "fade_zoom": false,
         "center-Mode": true,
-        "adaptive-Height": false,
+        "adaptive-Height": true,
         "dots": false,
         "infinite": false,
         "padding": 0,
