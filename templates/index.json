@@ -199,7 +199,7 @@
       "settings": {
         "title": "Our Latest Product",
         "content": "The best quality products are waiting for you & choose it now.",
-        "text_size": "medium",
+        "text_size": "large",
         "text_transform": "lowercase",
         "collection": "2-ball",
         "max_count": 8,
@@ -980,6 +980,69 @@
         "mg_mb": "",
         "pd_mb": ""
       }
+    },
+    "715ca768-c094-40a7-9e4b-80fd06437c88": {
+      "type": "tab-product",
+      "blocks": {
+        "template--21734502760741__715ca768-c094-40a7-9e4b-80fd06437c88-col-1": {
+          "type": "col",
+          "settings": {
+            "title": "",
+            "collection": "6-way-trailer-end"
+          }
+        },
+        "template--21734502760741__715ca768-c094-40a7-9e4b-80fd06437c88-col-2": {
+          "type": "col",
+          "settings": {
+            "title": "",
+            "collection": ""
+          }
+        },
+        "template--21734502760741__715ca768-c094-40a7-9e4b-80fd06437c88-col-3": {
+          "type": "col",
+          "settings": {
+            "title": "",
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21734502760741__715ca768-c094-40a7-9e4b-80fd06437c88-col-1",
+        "template--21734502760741__715ca768-c094-40a7-9e4b-80fd06437c88-col-2",
+        "template--21734502760741__715ca768-c094-40a7-9e4b-80fd06437c88-col-3"
+      ],
+      "settings": {
+        "max_count": 8,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 5,
+        "widescreen": 4,
+        "desktop": 4,
+        "laptop": 4,
+        "notebook": 3,
+        "tablet": 3,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": true,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": true,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": false,
+        "padding": 10,
+        "vertical": false,
+        "layout": "container",
+        "cl_bg": "#fff8eb",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
@@ -996,6 +1059,7 @@
     "d9dc55c5-4e2a-42a1-b1c1-635d7147667b",
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34",
     "f886eb1d-f627-408c-b608-f2652dab3a54",
-    "69805983-b566-42af-ba6f-ca890638160a"
+    "69805983-b566-42af-ba6f-ca890638160a",
+    "715ca768-c094-40a7-9e4b-80fd06437c88"
   ]
 }
