@@ -987,12 +987,13 @@
         "template--21734502760741__715ca768-c094-40a7-9e4b-80fd06437c88-col-1": {
           "type": "col",
           "settings": {
-            "title": "",
-            "collection": "6-way-trailer-end"
+            "title": "Our latest product",
+            "collection": "jacks-winches"
           }
         },
         "template--21734502760741__715ca768-c094-40a7-9e4b-80fd06437c88-col-2": {
           "type": "col",
+          "disabled": true,
           "settings": {
             "title": "",
             "collection": ""
@@ -1000,6 +1001,7 @@
         },
         "template--21734502760741__715ca768-c094-40a7-9e4b-80fd06437c88-col-3": {
           "type": "col",
+          "disabled": true,
           "settings": {
             "title": "",
             "collection": ""
@@ -1016,9 +1018,9 @@
         "use-slider": true,
         "slides-To-Scroll": 1,
         "visible": 5,
-        "widescreen": 4,
+        "widescreen": 5,
         "desktop": 4,
-        "laptop": 4,
+        "laptop": 5,
         "notebook": 3,
         "tablet": 3,
         "landscape": 2,
