@@ -82,7 +82,7 @@
     "h4_font_weight": 600,
     "h5_font_weight": 600,
     "h6_font_weight": 600,
-    "show_product_sidebar": false,
+    "show_product_sidebar": true,
     "product_info_show_arrows": false,
     "product_info_show_btn_fullscreen": true,
     "product_info_enable_zoom": true,
