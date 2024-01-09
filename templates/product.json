@@ -306,8 +306,8 @@
       "type": "featured_blog",
       "settings": {
         "hidden": false,
-        "title": "Tips & tricks",
-        "text_size": "medium",
+        "title": "Question and Answer",
+        "text_size": "large",
         "blog": "towing-with-trust-a-hitchexpo-guide",
         "show-cate-blog": true,
         "show-post-info": true,
