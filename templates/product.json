@@ -66,21 +66,21 @@
             "icon_button_cart": "",
             "qt_show_quantity": true,
             "qt_show_cart": true,
-            "show_popup": false,
+            "show_popup": true,
             "product_terms_conditions_page_content": "terms-and-conditions",
-            "qt_buy_it_now": false,
+            "qt_buy_it_now": true,
             "btn_affiliate": "",
             "qt_show_compare": true,
             "qt_show_wishlist": true,
             "show_social_sharing": true,
             "show_custom_color_btn": true,
-            "color_text_cart": "#ffffff",
-            "bg_add_to_cart": "#20309c",
-            "color_text_cart_hover": "#ffffff",
-            "bg_add_to_cart_hv": "#caa923",
-            "color_text_buy_now": "#ffffff",
-            "bg_buy_it_now": "#20309c",
-            "color_text_buy_now_hover": "#ffffff",
+            "color_text_cart": "#232020",
+            "bg_add_to_cart": "#ebeae7",
+            "color_text_cart_hover": "#242020",
+            "bg_add_to_cart_hv": "#232321",
+            "color_text_buy_now": "#242121",
+            "bg_buy_it_now": "#e5c33a",
+            "color_text_buy_now_hover": "#232020",
             "bg_buy_it_now_hv": "#caa923"
           }
         },
@@ -124,6 +124,14 @@
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
+        },
+        "303e9ab8-e392-40c7-9a5c-0e0198af5bed": {
+          "type": "product_variants",
+          "settings": {
+            "show_title": true,
+            "show_size_guide": true,
+            "size_guide_page": "nevada-trailer-towing-laws"
+          }
         }
       },
       "block_order": [
@@ -138,7 +146,8 @@
         "26205a69-31b8-41d3-83bf-2e25db4c4dfa",
         "993a628c-32eb-456f-9eb4-88c3a61fa8e0",
         "f0b169ef-ed96-4dd1-9b76-7e2e8121cc42",
-        "8673dd22-d473-4cf2-a24f-a2c822dbbd0e"
+        "8673dd22-d473-4cf2-a24f-a2c822dbbd0e",
+        "303e9ab8-e392-40c7-9a5c-0e0198af5bed"
       ],
       "settings": {
         "cl_bg": "#ffffff",
