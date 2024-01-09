@@ -1203,9 +1203,10 @@
         "template--21734502760741__674597df-3972-43a9-a933-89d4a3389e99-collection-3",
         "template--21734502760741__674597df-3972-43a9-a933-89d4a3389e99-collection-4"
       ],
+      "disabled": true,
       "settings": {
         "layout_des": false,
-        "cl_bg": "#fff"
+        "cl_bg": "#ffffff"
       }
     },
     "40ba4907-6216-4217-b431-2a4308abe9dc": {
@@ -1262,6 +1263,7 @@
         "template--21734502760741__40ba4907-6216-4217-b431-2a4308abe9dc-brand-5",
         "template--21734502760741__40ba4907-6216-4217-b431-2a4308abe9dc-brand-6"
       ],
+      "disabled": true,
       "settings": {
         "hidden": false,
         "show_border_top": true,
@@ -1292,7 +1294,7 @@
         "layout": false,
         "use_eq_height": false,
         "image_ratio": "ratio3_2",
-        "cl_bg": "#fff",
+        "cl_bg": "#ffffff",
         "mg": "",
         "pd": "",
         "mg_mb": "",
