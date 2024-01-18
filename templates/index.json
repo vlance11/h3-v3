@@ -14,10 +14,67 @@
             "v_position": "middle",
             "txt_align": "center"
           }
+        },
+        "hd_p3aXqn": {
+          "type": "hd",
+          "settings": {
+            "hide": false,
+            "title": "Inner beauty out",
+            "text_animate": "none",
+            "text_time": 1.5,
+            "color": "#111",
+            "linear_gradient": "",
+            "fw_text": 600,
+            "fs_text": 60,
+            "lh_text": 0,
+            "ls_text": "0",
+            "font_style": "normal",
+            "text_transform": "none",
+            "first_mark": false,
+            "last_mark": false,
+            "custom_mark": "",
+            "color_mark": "",
+            "mobile_fw_text": 600,
+            "mobile_lh_text": 0,
+            "mobile_font_text": 14
+          }
+        },
+        "box_dVMCaz": {
+          "type": "box",
+          "settings": {
+            "border": 10,
+            "opacity": 100,
+            "title": "Natural cosmetics",
+            "color": "#111",
+            "fw_title": 600,
+            "fs_title": 60,
+            "title_transform": "none",
+            "content": "Best treatment for curing stubborn whiteheads<br>—  your skin loves it",
+            "color_content": "#111",
+            "fw_text": 500,
+            "fs_text": 18,
+            "contennt_transform": "none",
+            "button_text": "Shop now",
+            "btn_link": "\/",
+            "fs_text_btn": 14,
+            "fw_text_btn": 700,
+            "btn_transform": "uppercase"
+          }
+        },
+        "space_dJyH3p": {
+          "type": "space",
+          "settings": {
+            "hide_mobile": false,
+            "sp": 10,
+            "mobile_sp": 10
+          }
         }
       },
       "block_order": [
-        "template--21734502760741__91e0f90e-ad97-458f-8ab1-a5b274e18a11-img-1"
+        "template--21734502760741__91e0f90e-ad97-458f-8ab1-a5b274e18a11-img-1",
+        "hd_p3aXqn",
+        "box_dVMCaz",
+        "space_dJyH3p"
       ],
       "settings": {
         "hidden": false,
