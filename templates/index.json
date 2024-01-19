@@ -14,67 +14,10 @@
             "v_position": "middle",
             "txt_align": "center"
           }
-        },
-        "hd_p3aXqn": {
-          "type": "hd",
-          "settings": {
-            "hide": false,
-            "title": "Inner beauty out",
-            "text_animate": "none",
-            "text_time": 1.5,
-            "color": "#111",
-            "linear_gradient": "",
-            "fw_text": 600,
-            "fs_text": 60,
-            "lh_text": 0,
-            "ls_text": "0",
-            "font_style": "normal",
-            "text_transform": "none",
-            "first_mark": false,
-            "last_mark": false,
-            "custom_mark": "",
-            "color_mark": "",
-            "mobile_fw_text": 600,
-            "mobile_lh_text": 0,
-            "mobile_font_text": 14
-          }
-        },
-        "box_dVMCaz": {
-          "type": "box",
-          "settings": {
-            "border": 10,
-            "opacity": 100,
-            "title": "Natural cosmetics",
-            "color": "#111",
-            "fw_title": 600,
-            "fs_title": 60,
-            "title_transform": "none",
-            "content": "Best treatment for curing stubborn whiteheads<br>—  your skin loves it",
-            "color_content": "#111",
-            "fw_text": 500,
-            "fs_text": 18,
-            "contennt_transform": "none",
-            "button_text": "Shop now",
-            "btn_link": "\/",
-            "fs_text_btn": 14,
-            "fw_text_btn": 700,
-            "btn_transform": "uppercase"
-          }
-        },
-        "space_dJyH3p": {
-          "type": "space",
-          "settings": {
-            "hide_mobile": false,
-            "sp": 10,
-            "mobile_sp": 10
-          }
         }
       },
       "block_order": [
-        "template--21734502760741__91e0f90e-ad97-458f-8ab1-a5b274e18a11-img-1",
-        "hd_p3aXqn",
-        "box_dVMCaz",
-        "space_dJyH3p"
+        "template--21734502760741__91e0f90e-ad97-458f-8ab1-a5b274e18a11-img-1"
       ],
       "settings": {
         "hidden": false,
@@ -1357,6 +1300,56 @@
         "mg_mb": "",
         "pd_mb": ""
       }
+    },
+    "about_us_tepFXP": {
+      "type": "about-us",
+      "blocks": {
+        "heading_kTgwBP": {
+          "type": "heading",
+          "settings": {
+            "title": "ABOUT US",
+            "sub_title": "wellcome to kalles"
+          }
+        },
+        "image_MXeq3z": {
+          "type": "image",
+          "settings": {
+            "use_border": true,
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "text_qXpyKx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "h_position": "left",
+            "txt_align": "left"
+          }
+        },
+        "sig_N3AFkt": {
+          "type": "sig",
+          "settings": {
+            "img_max_width": 115,
+            "h_position": "left",
+            "txt_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kTgwBP",
+        "image_MXeq3z",
+        "text_qXpyKx",
+        "sig_N3AFkt"
+      ],
+      "settings": {
+        "hidden": false,
+        "cl_bg": "#fff",
+        "layout": "container",
+        "mg": "30px,,,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
@@ -1376,6 +1369,7 @@
     "f886eb1d-f627-408c-b608-f2652dab3a54",
     "69805983-b566-42af-ba6f-ca890638160a",
     "674597df-3972-43a9-a933-89d4a3389e99",
-    "40ba4907-6216-4217-b431-2a4308abe9dc"
+    "40ba4907-6216-4217-b431-2a4308abe9dc",
+    "about_us_tepFXP"
   ]
 }
