@@ -29,5 +29,5 @@
   top: -15px;
   opacity: 1;
 }
-.brand-list .slick-arrow{border-radius: 5px;height: 30px;}
-.brand-list .slick-prev {left: -80px;}
+.brand-list .slick-arrow{border-radius: 5px;height: 30px; width: 35px;}
+.brand-list .slick-prev {left: -50px;}
