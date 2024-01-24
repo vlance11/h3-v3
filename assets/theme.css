@@ -23,6 +23,9 @@
     margin-left: 5px;
 }
 /* used in brand-list */
+.brand-list .wrap-section {
+    margin-bottom: 10px;
+}
 .brand-list .laber_append_arrows {
   position: absolute;
   right: 25px;
