@@ -342,8 +342,8 @@
         "text_transform": "uppercase",
         "layout_des": false,
         "cl_bg": "#f2f2f6",
-        "mg": "",
-        "pd": "",
+        "mg": "10px",
+        "pd": "40px",
         "mg_mb": "",
         "pd_mb": ""
       }
