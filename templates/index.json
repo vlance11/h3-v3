@@ -901,7 +901,7 @@
         "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-1": {
           "type": "brand",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo_9.png",
+            "image": "shopify:\/\/shop_images\/image_10.png",
             "url": "",
             "open_link": "_blank"
           }
@@ -909,7 +909,7 @@
         "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-2": {
           "type": "brand",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo_10.png",
+            "image": "shopify:\/\/shop_images\/image_9.png",
             "url": "",
             "open_link": "_blank"
           }
@@ -917,7 +917,7 @@
         "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-3": {
           "type": "brand",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo_11.png",
+            "image": "shopify:\/\/shop_images\/image_11.png",
             "url": "",
             "open_link": "_blank"
           }
@@ -925,7 +925,7 @@
         "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-4": {
           "type": "brand",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo_12.png",
+            "image": "shopify:\/\/shop_images\/image_12.png",
             "url": "",
             "open_link": "_blank"
           }
@@ -967,9 +967,9 @@
         "layout": false,
         "use_eq_height": false,
         "image_ratio": "ratio3_2",
-        "cl_bg": "#20309c",
-        "mg": "",
-        "pd": "",
+        "cl_bg": "rgba(0,0,0,0)",
+        "mg": "30px 0px 30px 0px",
+        "pd": "30px 0px 30px 0px",
         "mg_mb": "",
         "pd_mb": ""
       }
