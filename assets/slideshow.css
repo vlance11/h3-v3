@@ -587,3 +587,10 @@ div[data-wrapper-slidershow] .content-item video{
 }
 
 /* End slide*/
+
+/* used for image-banner search app */
+@media screen and (min-width: 1024px){
+  .caption:has([class="image-banner-apps-block"]) {
+      margin: 60px 0;
+  }
+}
