@@ -1,6 +1,18 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Featured products",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Our latest products"
+      },
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "Select Collection"
+      }
+    ]
   }
 {% endschema %}
