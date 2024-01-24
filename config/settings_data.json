@@ -2930,7 +2930,7 @@
           "no_results": "There are No Products found.",
           "sale_lbl": "Sale",
           "soldout_lbl": "Soldout",
-          "ymm_custom_css": "<style>\n.image-banner-apps-block #ymm_searchbox select {\n    background: transparent;\n    border: none;\n    padding: 2px 0;\n}\n.image-banner-apps-block #ymm_searchbox ul {\n    list-style: none;\n    display: flex;\n    flex-wrap: inherit;\n    align-items: center;\n}\n.image-banner-apps-block #ymm_searchbox ul li {\n    padding: 0px 7px 0;\n}\n<\/style>"
+          "ymm_custom_css": "<style>\n.image-banner-apps-block #ymm_searchbox {\n    border-radius: 12px;\n}\n.image-banner-apps-block #ymm_searchbox select {\n    background: transparent;\n    border: none;\n    padding: 2px 0;\n}\n.image-banner-apps-block #ymm_searchbox ul {\n    list-style: none;\n    display: flex;\n    flex-wrap: inherit;\n    align-items: center;\n}\n.image-banner-apps-block #ymm_searchbox ul li {\n    padding: 0px 7px 0;\n}\n<\/style>"
         }
       }
     }
