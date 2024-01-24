@@ -2916,7 +2916,7 @@
         "settings": {
           "searchbox_title": "Search By Year, Make and Model",
           "search_button": "Search",
-          "reset_button": "",
+          "reset_button": "Reset",
           "select_label": "Select",
           "none_txt": "None",
           "ymm_searchbox_use": true,
