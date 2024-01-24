@@ -2044,11 +2044,7 @@ details-disclosure > details {
 .control-button a.active path{
   fill: var(--color-main);
 }
-/* used for image-banner search app */
-.image-banner-apps-block #ymm_searchbox select {
-    background: transparent !important;
-    border: none !important;
-}
+
 @media screen and (max-width: 1024px) {
  .control-button{display:none;}
 }
@@ -2060,3 +2056,10 @@ details-disclosure > details {
 {%- else -%}
     {{styleCss}}
 {%- endif -%}
+
+@media screen and (min-width: 1024px){
+   /* used for image-banner search app */
+  .caption:has([class="image-banner-apps-block"]) {
+      margin: 60px 0;
+  }
+}
