@@ -348,6 +348,49 @@
         "pd_mb": ""
       }
     },
+    "featured_products_gxWHDN": {
+      "type": "featured-products",
+      "settings": {
+        "title": "Our latest products",
+        "sub_title": "",
+        "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+        "style_title": "style_1",
+        "collection": "jacks-winches",
+        "max_count": 8,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 5,
+        "widescreen": 4,
+        "desktop": 4,
+        "laptop": 4,
+        "notebook": 3,
+        "tablet": 3,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": true,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": true,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": false,
+        "padding": 10,
+        "vertical": false,
+        "show_view_all": false,
+        "layout": false,
+        "use_eq_height": false,
+        "image_ratio": "ratio3_2",
+        "cl_bg": "#ffffff",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
     "3159f294-b2f4-42ab-b5d6-597485eb9827": {
       "type": "tab-product-style2",
       "blocks": {
@@ -432,47 +475,6 @@
         "pd_mb": ""
       }
     },
-    "7a017a16-6aff-4e32-9cc0-b8a9344fd6e1": {
-      "type": "collection-carousel-product",
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "content": "",
-        "text_size": "large",
-        "text_transform": "none",
-        "collection": "5-flat",
-        "max_count": 8,
-        "use-slider": true,
-        "slides-To-Scroll": 1,
-        "visible": 5,
-        "widescreen": 4,
-        "desktop": 4,
-        "laptop": 4,
-        "notebook": 3,
-        "tablet": 3,
-        "landscape": 2,
-        "portrait": 2,
-        "mobile": 1,
-        "rows": 1,
-        "autoplay": true,
-        "speed": "300",
-        "autoplay-Speed": "3000",
-        "arrows": true,
-        "fade": false,
-        "center-Mode": false,
-        "adaptive-Height": true,
-        "dots": true,
-        "infinite": true,
-        "padding": 7.5,
-        "vertical": false,
-        "layout_des": false,
-        "cl_bg": "#eceafe",
-        "mg": "",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
-    },
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8": {
       "type": "gallery",
       "blocks": {
@@ -535,13 +537,6 @@
         "pd": "30px 30px",
         "mg_mb": "10px 10px",
         "pd_mb": "10px 10px"
-      }
-    },
-    "6f82150a-ccd0-41ec-8976-eb35980615c5": {
-      "type": "section-group",
-      "settings": {
-        "layout_des": false,
-        "cl_bg": "#ffffff"
       }
     },
     "d9dc55c5-4e2a-42a1-b1c1-635d7147667b": {
@@ -914,49 +909,6 @@
         "pd_mb": ""
       }
     },
-    "featured_products_gxWHDN": {
-      "type": "featured-products",
-      "settings": {
-        "title": "Our latest products",
-        "sub_title": "",
-        "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
-        "style_title": "style_1",
-        "collection": "jacks-winches",
-        "max_count": 8,
-        "use-slider": true,
-        "slides-To-Scroll": 1,
-        "visible": 5,
-        "widescreen": 4,
-        "desktop": 4,
-        "laptop": 4,
-        "notebook": 3,
-        "tablet": 3,
-        "landscape": 2,
-        "portrait": 2,
-        "mobile": 1,
-        "rows": 1,
-        "autoplay": true,
-        "speed": "300",
-        "autoplay-Speed": "3000",
-        "arrows": true,
-        "fade": false,
-        "center-Mode": false,
-        "adaptive-Height": false,
-        "dots": false,
-        "infinite": false,
-        "padding": 10,
-        "vertical": false,
-        "show_view_all": false,
-        "layout": false,
-        "use_eq_height": false,
-        "image_ratio": "ratio3_2",
-        "cl_bg": "#ffffff",
-        "mg": "",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
-    },
     "40ba4907-6216-4217-b431-2a4308abe9dc": {
       "type": "brand-list",
       "blocks": {
@@ -1106,15 +1058,13 @@
     "715ca768-c094-40a7-9e4b-80fd06437c88",
     "574adbaf-6e05-4837-8111-0b00659cc363",
     "9f4ee58f-dee6-463d-a620-261f520496e6",
+    "featured_products_gxWHDN",
     "3159f294-b2f4-42ab-b5d6-597485eb9827",
-    "7a017a16-6aff-4e32-9cc0-b8a9344fd6e1",
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8",
-    "6f82150a-ccd0-41ec-8976-eb35980615c5",
     "d9dc55c5-4e2a-42a1-b1c1-635d7147667b",
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34",
     "f886eb1d-f627-408c-b608-f2652dab3a54",
     "69805983-b566-42af-ba6f-ca890638160a",
-    "featured_products_gxWHDN",
     "40ba4907-6216-4217-b431-2a4308abe9dc",
     "about_us_tepFXP"
   ]
