@@ -229,10 +229,10 @@
         "vertical": false,
         "layout": "container",
         "cl_bg": "#fff8eb",
-        "mg": "",
-        "pd": "",
+        "mg": "10px",
+        "pd": "40px",
         "mg_mb": "",
-        "pd_mb": ""
+        "pd_mb": "30px"
       }
     },
     "574adbaf-6e05-4837-8111-0b00659cc363": {
