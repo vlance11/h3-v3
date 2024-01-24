@@ -23,11 +23,16 @@
     margin-left: 5px;
 }
 /* used in brand-list */
-.brand-list .laber_append_arrows {
-  position: absolute;
-  right: 25px;
-  top: -15px;
-  opacity: 1;
+.brand-list .slick-arrow {
+  border-radius: 5px;
+  height: 30px;
+  width: 35px;
+  color: #212121;
+  background-color: transparent;
+  border: 1px solid;
 }
 .brand-list .slick-arrow{border-radius: 5px;height: 30px; width: 35px;}
 .brand-list .slick-prev {left: -50px;}
+.brand-list .slick-arrow:before {
+    color: #212121;
+}
