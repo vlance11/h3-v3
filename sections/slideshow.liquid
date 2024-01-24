@@ -139,7 +139,9 @@
                               {% assign index = index|plus:1 %}                            		
                               {%- case block.type -%}   
                                 {% when '@app' %}
+                                <div class="image-banner-apps-block">
                                 {% render block %}
+                                </div>
                                 {% when 'logo' %}
                                 {% assign logo = block.settings.logo_img %}  
                                 {% assign ratio_logo = logo.aspect_ratio |default:1.0 %}
