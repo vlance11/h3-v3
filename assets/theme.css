@@ -13,3 +13,9 @@
   justify-content: center;
   align-items: center;
 }
+.title-link {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
