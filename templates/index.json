@@ -188,6 +188,114 @@
         "pd_mb": "20px,"
       }
     },
+    "f886eb1d-f627-408c-b608-f2652dab3a54": {
+      "type": "brand-list",
+      "blocks": {
+        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-1": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_10.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-2": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_9.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-3": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_11.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-4": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_12.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "brand_f6TcDG": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_10_ecb6195d-0a8b-48d9-ae31-515c511ee880.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "brand_wYd6nD": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_9_00b30f3a-450b-4513-a843-0b95fdafa9b2.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "brand_DBnQgK": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_12_376f5aa4-3f98-4d3c-9dcd-dd7e53155b80.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        }
+      },
+      "block_order": [
+        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-1",
+        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-2",
+        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-3",
+        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-4",
+        "brand_f6TcDG",
+        "brand_wYd6nD",
+        "brand_DBnQgK"
+      ],
+      "settings": {
+        "title": "Our Top Brands",
+        "sub_title": "",
+        "hidden": false,
+        "show_border_top": false,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 5,
+        "widescreen": 4,
+        "desktop": 4,
+        "laptop": 4,
+        "notebook": 3,
+        "tablet": 3,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": false,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": true,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": false,
+        "padding": 10,
+        "vertical": false,
+        "show_view_all": false,
+        "layout": false,
+        "use_eq_height": false,
+        "image_ratio": "ratio3_2",
+        "cl_bg": "rgba(0,0,0,0)",
+        "mg": "30px 0px 30px 0px",
+        "pd": "30px 0px 30px 0px",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
     "715ca768-c094-40a7-9e4b-80fd06437c88": {
       "type": "tab-product",
       "blocks": {
@@ -496,132 +604,6 @@
         "pd_mb": "10px 10px"
       }
     },
-    "d9dc55c5-4e2a-42a1-b1c1-635d7147667b": {
-      "type": "brand-list",
-      "blocks": {
-        "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-1": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/images_11.jpg",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-2": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/images_10.jpg",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-3": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/images_12.jpg",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-4": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/images_5.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-5": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/images_7.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-6": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/images_13.jpg",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "217e7257-ca10-471b-92bb-3412a9ddc630": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/rola-logo.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "b0375570-946c-466f-967e-0eab31e16a6e": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/images_6.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "a990a918-1018-4b9f-9ec6-8c4662a9863c": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/images_14.jpg",
-            "url": "",
-            "open_link": "_blank"
-          }
-        }
-      },
-      "block_order": [
-        "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-1",
-        "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-2",
-        "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-3",
-        "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-4",
-        "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-5",
-        "template--21734502760741__d9dc55c5-4e2a-42a1-b1c1-635d7147667b-brand-6",
-        "217e7257-ca10-471b-92bb-3412a9ddc630",
-        "b0375570-946c-466f-967e-0eab31e16a6e",
-        "a990a918-1018-4b9f-9ec6-8c4662a9863c"
-      ],
-      "settings": {
-        "title": "Our Top Brands",
-        "sub_title": "",
-        "hidden": false,
-        "show_border_top": true,
-        "use-slider": true,
-        "slides-To-Scroll": 1,
-        "visible": 5,
-        "widescreen": 4,
-        "desktop": 4,
-        "laptop": 4,
-        "notebook": 3,
-        "tablet": 3,
-        "landscape": 2,
-        "portrait": 2,
-        "mobile": 1,
-        "rows": 1,
-        "autoplay": true,
-        "speed": "300",
-        "autoplay-Speed": "3000",
-        "arrows": false,
-        "fade": false,
-        "center-Mode": false,
-        "adaptive-Height": false,
-        "dots": true,
-        "infinite": false,
-        "padding": 5,
-        "vertical": false,
-        "show_view_all": false,
-        "layout": false,
-        "use_eq_height": true,
-        "image_ratio": "ratio1_1",
-        "cl_bg": "#ffffff",
-        "mg": "",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
-    },
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34": {
       "type": "testimonials",
       "blocks": {
@@ -710,114 +692,6 @@
         "mg": ",,60px,",
         "pd": "",
         "mg_mb": ",,30px,",
-        "pd_mb": ""
-      }
-    },
-    "f886eb1d-f627-408c-b608-f2652dab3a54": {
-      "type": "brand-list",
-      "blocks": {
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-1": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_10.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-2": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_9.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-3": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_11.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-4": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_12.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "brand_f6TcDG": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_10_ecb6195d-0a8b-48d9-ae31-515c511ee880.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "brand_wYd6nD": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_9_00b30f3a-450b-4513-a843-0b95fdafa9b2.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "brand_DBnQgK": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_12_376f5aa4-3f98-4d3c-9dcd-dd7e53155b80.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        }
-      },
-      "block_order": [
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-1",
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-2",
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-3",
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-4",
-        "brand_f6TcDG",
-        "brand_wYd6nD",
-        "brand_DBnQgK"
-      ],
-      "settings": {
-        "title": "Our Top Brands",
-        "sub_title": "",
-        "hidden": false,
-        "show_border_top": false,
-        "use-slider": true,
-        "slides-To-Scroll": 1,
-        "visible": 5,
-        "widescreen": 4,
-        "desktop": 4,
-        "laptop": 4,
-        "notebook": 3,
-        "tablet": 3,
-        "landscape": 2,
-        "portrait": 2,
-        "mobile": 1,
-        "rows": 1,
-        "autoplay": false,
-        "speed": "300",
-        "autoplay-Speed": "3000",
-        "arrows": true,
-        "fade": false,
-        "center-Mode": false,
-        "adaptive-Height": false,
-        "dots": false,
-        "infinite": false,
-        "padding": 10,
-        "vertical": false,
-        "show_view_all": false,
-        "layout": false,
-        "use_eq_height": false,
-        "image_ratio": "ratio3_2",
-        "cl_bg": "rgba(0,0,0,0)",
-        "mg": "30px 0px 30px 0px",
-        "pd": "30px 0px 30px 0px",
-        "mg_mb": "",
         "pd_mb": ""
       }
     },
@@ -1058,14 +932,13 @@
   "order": [
     "91e0f90e-ad97-458f-8ab1-a5b274e18a11",
     "adb31611-bb52-4257-9fc8-a7003a7eb87a",
+    "f886eb1d-f627-408c-b608-f2652dab3a54",
     "715ca768-c094-40a7-9e4b-80fd06437c88",
     "574adbaf-6e05-4837-8111-0b00659cc363",
     "9f4ee58f-dee6-463d-a620-261f520496e6",
     "3159f294-b2f4-42ab-b5d6-597485eb9827",
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8",
-    "d9dc55c5-4e2a-42a1-b1c1-635d7147667b",
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34",
-    "f886eb1d-f627-408c-b608-f2652dab3a54",
     "69805983-b566-42af-ba6f-ca890638160a",
     "40ba4907-6216-4217-b431-2a4308abe9dc",
     "about_us_tepFXP",
