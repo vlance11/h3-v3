@@ -35,65 +35,61 @@
   </div>
   {% endif %}
     <div class="products-arrivals">
-      {%- if arr_col.size > 0 -%} 
-            <div class="sorting-collections" data-sorting-collections-ajax>      
-              <div class="content_section slick-carousel">
-                <div data-js-collection-tab class="js_container_cat"> 
-                  {%capture grid %}padding-0-{{padding}}{%endcapture%}
-                  {% include 'grid-slider', settings:section.settings %}
-                  {%- for block in arr_col limit: 1 -%}
-                  <div class="grid-slider js_carousel laber-slick-carousel sorting-collections__products pr_center" data-sorting-collections-items="true" 
-                       data-limit="{{ section.settings.max_count }}"
-                       data-grid="{{grid}}"
-                       {{gridSlider}} 
-                      data-mobile="{{ mobile }}"
-                      data-portrait="{{ portrait }}"
-                      data-landscape="{{ landscape }}"
-                      data-tablet="{{ tablet }}"
-                      data-notebook="{{ notebook }}"
-                      data-laptop="{{ laptop }}"
-                      data-desktop="{{ desktop }}"
-                      data-widescreen="{{ widescreen }}"
-                      data-visible="{{ visible }}"
-                      data-spacing="{{ padding | plus: padding }}"
-                      data-append-Arrows=".arrows_{{sid}}" 
-                      data-append-Dots=".dots_{{sid}}" 
-                      style="--perload-gap: {{ padding | plus: padding }}px"
-                       >  
-                    {%- if section.settings.collection != blank -%}
-                      {%- assign products = section.settings.collection.products -%}
-                      {%- capture url_cat -%}{%- if routes.root_url != '/' -%}{{routes.root_url}}{%- endif -%}{% if collection %}/collections/{{collection.handle}}{% endif %}{%- endcapture -%}
-                      {%- for product in products limit: section.settings.max_count -%}
-                      {% assign pr_hd = product.handle %}
-                      <div data-lazy-product-load  class="product-item productLazyload lazyload "  data-include="{{url_cat}}/products/{{pr_hd}}/?view=pr_lazy_load">                      
+    <div class="sorting-collections" data-sorting-collections-ajax>      
+      <div class="content_section slick-carousel">
+        <div data-js-collection-tab class="js_container_cat"> 
+          {%capture grid %}padding-0-{{padding}}{%endcapture%}
+          {% include 'grid-slider', settings:section.settings %}
+          {%- for block in arr_col limit: 1 -%}
+          <div class="grid-slider js_carousel laber-slick-carousel sorting-collections__products pr_center" data-sorting-collections-items="true" 
+               data-limit="{{ section.settings.max_count }}"
+               data-grid="{{grid}}"
+               {{gridSlider}} 
+              data-mobile="{{ mobile }}"
+              data-portrait="{{ portrait }}"
+              data-landscape="{{ landscape }}"
+              data-tablet="{{ tablet }}"
+              data-notebook="{{ notebook }}"
+              data-laptop="{{ laptop }}"
+              data-desktop="{{ desktop }}"
+              data-widescreen="{{ widescreen }}"
+              data-visible="{{ visible }}"
+              data-spacing="{{ padding | plus: padding }}"
+              data-append-Arrows=".arrows_{{sid}}" 
+              data-append-Dots=".dots_{{sid}}" 
+              style="--perload-gap: {{ padding | plus: padding }}px"
+               >  
+            {%- if section.settings.collection != blank -%}
+              {%- assign products = section.settings.collection.products -%}
+              {%- capture url_cat -%}{%- if routes.root_url != '/' -%}{{routes.root_url}}{%- endif -%}{% if collection %}/collections/{{collection.handle}}{% endif %}{%- endcapture -%}
+              {%- for product in products limit: section.settings.max_count -%}
+              {% assign pr_hd = product.handle %}
+              <div data-lazy-product-load  class="product-item productLazyload lazyload "  data-include="{{url_cat}}/products/{{pr_hd}}/?view=pr_lazy_load">                      
 
-                      </div>
-                      {%- endfor -%}
-                    {%else%}
-                      {%- for i in (1..section.settings.max_count) -%}
-                      <div class="pr_grid_item {{grid}}">
-                        {% include 'product_demo' %} 
-                      </div>
-                      {%- endfor -%} 
-                    {%- endif -%}
-                  </div>
-
-                  {%if dots %}
-                  <div class="laber_append_dots dots_{{sid}}"></div>
-                  {%endif%}
-                    
-                  {%if arrows%}	
-                  	<div class="laber_append_arrows arrows_{{sid}}"></div>	
-                  {% endif %}
-
-                  {%- endfor -%}
-
-                </div>
               </div>
+              {%- endfor -%}
+            {%else%}
+              {%- for i in (1..section.settings.max_count) -%}
+              <div class="pr_grid_item {{grid}}">
+                {% include 'product_demo' %} 
+              </div>
+              {%- endfor -%} 
+            {%- endif -%}
+          </div>
+
+          {%if dots %}
+          <div class="laber_append_dots dots_{{sid}}"></div>
+          {%endif%}
+            
+          {%if arrows%}	
+            <div class="laber_append_arrows arrows_{{sid}}"></div>	
+          {% endif %}
+
+          {%- endfor -%}
+
         </div>
-      {%- else -%}
-      		{% render 'no-blocks' with message: 'homepage.onboarding.no_content' %}        
-      {%- endif -%}
+      </div>
+    </div>
     
   </div>
     {%if section.settings.show_view_all %}
