@@ -1235,6 +1235,46 @@
         "mg_mb": "",
         "pd_mb": ""
       }
+    },
+    "featured_products_gxWHDN": {
+      "type": "featured-products",
+      "settings": {
+        "title": "Our latest products",
+        "collection": "5th-airborne",
+        "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+        "text_size": "medium",
+        "text_transform": "none",
+        "max_count": 8,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 5,
+        "widescreen": 4,
+        "desktop": 4,
+        "laptop": 4,
+        "notebook": 3,
+        "tablet": 3,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": true,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": true,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": false,
+        "padding": 10,
+        "vertical": false,
+        "layout": "container",
+        "cl_bg": "#fff",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
@@ -1253,6 +1293,7 @@
     "69805983-b566-42af-ba6f-ca890638160a",
     "674597df-3972-43a9-a933-89d4a3389e99",
     "40ba4907-6216-4217-b431-2a4308abe9dc",
-    "about_us_tepFXP"
+    "about_us_tepFXP",
+    "featured_products_gxWHDN"
   ]
 }
