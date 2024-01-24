@@ -28,4 +28,5 @@
     right: 0;
     top: 0;
 }
-.brand-list .slick-prev {left: -80px;border-radius: 5px;height: 30px;}
+.slick-arrow{border-radius: 5px;height: 30px;}
+.brand-list .slick-prev {left: -80px;}
