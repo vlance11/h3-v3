@@ -9,9 +9,9 @@
             "image_sl": "shopify:\/\/shop_images\/Limited_Offer_11.png",
             "link_img": "",
             "open_link": "_self",
-            "caption_w": "1",
+            "caption_w": "2",
             "h_position": "left",
-            "v_position": "middle",
+            "v_position": "bottom",
             "txt_align": "center"
           }
         },
