@@ -69,23 +69,6 @@
         "pd_mb": ""
       }
     },
-    "1703977194593aef98": {
-      "type": "apps",
-      "blocks": {
-        "cda53eaf-e90e-4201-9265-6e1ccc9c8431": {
-          "type": "shopify:\/\/apps\/c-year-make-model-search\/blocks\/ymm-searchbox-pro\/ce35ea35-ef50-4f43-8cb6-7c34cae4c285",
-          "settings": {
-            "searchbox_title": "Search By Year, Make and Model",
-            "searchbox_style": "horizontal"
-          }
-        }
-      },
-      "block_order": [
-        "cda53eaf-e90e-4201-9265-6e1ccc9c8431"
-      ],
-      "settings": {
-      }
-    },
     "adb31611-bb52-4257-9fc8-a7003a7eb87a": {
       "type": "collection-list-slider",
       "blocks": {
@@ -1362,7 +1345,6 @@
   },
   "order": [
     "91e0f90e-ad97-458f-8ab1-a5b274e18a11",
-    "1703977194593aef98",
     "adb31611-bb52-4257-9fc8-a7003a7eb87a",
     "715ca768-c094-40a7-9e4b-80fd06437c88",
     "574adbaf-6e05-4837-8111-0b00659cc363",
