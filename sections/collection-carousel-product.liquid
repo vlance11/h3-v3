@@ -34,7 +34,7 @@
     <div class="products-arrivals ">
           <div class="section-content">
             {% include 'grid-slider', settings:section.settings %} 
-            <div class="content_section {% unless section.settings.use-slider  %}slick-carousel{% endunless %}">
+            <div class="content_section{% if section.settings.use-slider  %} slick-carousel{% endif %}">
               <div class="grid-slider js_carousel laber-slick-carousel" {{gridSlider}} 
                 data-mobile="{{ mobile }}"
                 data-portrait="{{ portrait }}"
