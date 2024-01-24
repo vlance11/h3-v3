@@ -36,7 +36,7 @@
           <div class="section-content">
             {% include 'grid-slider', settings:section.settings %} 
             <div class="content_section slick-carousel">
-              <div class="grid-slider collection-slider laber-slick-carousel {%if sett_equal%}{{image_ratio}} {%endif%}" {{gridSlider}} data-append-Arrows=".arrows_{{sid}}" data-append-Dots=".dots_{{sid}}" > 
+              <div class="grid-slider collection-slider laber-slick-carousel {% if sett_equal %}{{image_ratio}} {% endif %}" {{gridSlider}} data-append-Arrows=".arrows_{{sid}}" data-append-Dots=".dots_{{sid}}" > 
                 {%- if collection  != blank -%} 
                 {%- assign products = collection.products -%}
                 {%- for product in products limit: section.settings.max_count -%}
