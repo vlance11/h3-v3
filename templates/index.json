@@ -292,7 +292,7 @@
         "cl_bg": "rgba(0,0,0,0)",
         "mg": "30px 0px 30px 0px",
         "pd": "30px 0px 30px 0px",
-        "mg_mb": "",
+        "mg_mb": "30px 0 30px 0",
         "pd_mb": ""
       }
     },
