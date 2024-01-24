@@ -152,7 +152,7 @@
         "text_size": "small",
         "text_transform": "capitalize",
         "border": 10,
-        "num_p_qty": true,
+        "num_p_qty": false,
         "button_label": "See All",
         "button_url": "shopify:\/\/collections",
         "use-slider": false,
