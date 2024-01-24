@@ -28,8 +28,8 @@
   <div class="container {%if layout == 'full-width' %}{{layout}}{%endif%}" >   
     <div class="collection_featured ">
     {% if section.settings.title != blank %}
-      <div class="wrap_title {{ section.settings.text_size }}">
-        <div class="section-title alo-text-transform" style="--alo-text-transform:{{ section.settings.text_transform }}; align-items: {{ section.settings.heading_alignment }}">
+      <div class="title {{ section.settings.text_size }} {{ section.settings.heading_alignment }}">
+        <div class="section-title alo-text-transform" style="--alo-text-transform:{{ section.settings.text_transform }}">
           {{section.settings.title}}
         </div>
         {% if section.settings.content!= blank %}
