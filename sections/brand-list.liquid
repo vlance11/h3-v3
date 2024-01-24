@@ -10,7 +10,7 @@
   {%- if section.settings.hidden %}{% break %}{% endif -%}
   {% if section.settings.show_border_top %}<div class="line"></div>{% endif %}
  <section id="laber_{{sid}}">   
-  <div class="{% if section.settings.layout %}full-width{% else %}container{% endif %}">
+  <div class="brand-list {% if section.settings.layout %}full-width{% else %}container{% endif %}">
     <div class="wrap-section">
       {% if section.settings.title != blank or section.settings.sub_title!= blank %}
         <div class="wrap_title left">     
