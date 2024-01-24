@@ -523,7 +523,7 @@
         "title": "Why You Should Purchase From Us?",
         "sub_title": "",
         "col_pr": "4",
-        "col_pr_tb": "3",
+        "col_pr_tb": "4",
         "col_pr_mb": "2",
         "use_eq_height": false,
         "image_ratio": "ratio2_3",
@@ -531,10 +531,10 @@
         "cp_code": false,
         "layout": "container",
         "cl_bg": "#fffbf5",
-        "mg": "30px,,30px,",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": ""
+        "mg": "30px 30px",
+        "pd": "30px 30px",
+        "mg_mb": "10px 10px",
+        "pd_mb": "10px 10px"
       }
     },
     "6f82150a-ccd0-41ec-8976-eb35980615c5": {
