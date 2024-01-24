@@ -30,7 +30,10 @@
     {% if section.settings.title != blank %}
       <div class="wrap_title {{ section.settings.text_size }} {{ section.settings.heading_alignment }}">
         <div class="section-title alo-text-transform" style="--alo-text-transform:{{ section.settings.text_transform }}">
-          {{section.settings.title}}
+          {{section.settings.title}} 
+          {% if section.settings.button_label != blank %}
+          <a href="{{ section.settings.button_url }}" class="title-link">{{ section.settings.button_label }}</a>
+          {% endif %}
         </div>
         {% if section.settings.content!= blank %}
           <div class="content">{{section.settings.content}}</div>
@@ -178,9 +181,17 @@
         "id": "num_p_qty",
         "label": "Show product quantity",
         "default": true
-      },      
-
-
+      },    
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Link label"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Link url"
+    },
 	{
         "type": "header",
         "content": "---- Slider Show Collection ----",
