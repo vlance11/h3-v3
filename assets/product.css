@@ -556,6 +556,7 @@
 .product-collection {
   flex-direction: column;
   display: flex;
+  padding: 12px;
 }
 .product-collection .product-collection__image {
   position: relative;
