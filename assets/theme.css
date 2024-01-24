@@ -24,9 +24,10 @@
 }
 /* used in brand-list */
 .brand-list .laber_append_arrows {
-    position: absolute;
-    right: 0;
-    top: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 1;
 }
 .brand-list .slick-arrow{border-radius: 5px;height: 30px;}
 .brand-list .slick-prev {left: -80px;}
