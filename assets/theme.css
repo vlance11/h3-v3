@@ -19,3 +19,6 @@
     align-items: center;
     margin-left: 15px;
 }
+.title-link svg {
+    margin-left: 5px;
+}
