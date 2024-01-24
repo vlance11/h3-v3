@@ -38,6 +38,7 @@
   {% include 'google-fonts' %}
   {% include 'header-stylesheets' %}
   {% include 'header-scripts' %}  
+  {{ 'theme.css' | asset_url | stylesheet_tag }}
   <script>
     var theme = { currency :'{{ shop.currency }}', moneyFormat: {{ shop.money_format | json }},moneyFormatWithCurrency: {{ shop.money_with_currency_format | json }}, {% if customer %}customer: {id : {{customer.id}}, name: '{{customer.name}}'}{% endif %}},
         shopCurrency = '{{ shop.currency }}';
