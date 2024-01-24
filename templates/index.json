@@ -147,7 +147,7 @@
       ],
       "settings": {
         "title": "Shop by Category",
-        "heading_alignment": "center",
+        "heading_alignment": "left",
         "content": "",
         "text_size": "small",
         "text_transform": "capitalize",
