@@ -32,7 +32,7 @@
         <div class="section-title alo-text-transform" style="--alo-text-transform:{{ section.settings.text_transform }}">
           {{section.settings.title}} 
           {% if section.settings.button_label != blank %}
-          <a href="{{ section.settings.button_url }}" class="title-link">{{ section.settings.button_label }} <i class="icon-caret icon-caret"></i></a>
+          <a href="{{ section.settings.button_url }}" class="title-link">{{ section.settings.button_label }} {% render 'icons', icon: 'chevron-right' %}</a>
           {% endif %}
         </div>
         {% if section.settings.content!= blank %}
