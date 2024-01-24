@@ -929,13 +929,40 @@
             "url": "",
             "open_link": "_blank"
           }
+        },
+        "brand_f6TcDG": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_10_ecb6195d-0a8b-48d9-ae31-515c511ee880.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "brand_wYd6nD": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_9_00b30f3a-450b-4513-a843-0b95fdafa9b2.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "brand_DBnQgK": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_12_376f5aa4-3f98-4d3c-9dcd-dd7e53155b80.png",
+            "url": "",
+            "open_link": "_blank"
+          }
         }
       },
       "block_order": [
         "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-1",
         "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-2",
         "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-3",
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-4"
+        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-4",
+        "brand_f6TcDG",
+        "brand_wYd6nD",
+        "brand_DBnQgK"
       ],
       "settings": {
         "hidden": false,
