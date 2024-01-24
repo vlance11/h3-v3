@@ -1043,7 +1043,7 @@
         "layout_des": false,
         "cl_bg": "#fff",
         "mg": "",
-        "pd": "",
+        "pd": "20px 0 20px 0",
         "mg_mb": "",
         "pd_mb": ""
       }
