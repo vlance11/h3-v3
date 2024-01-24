@@ -584,6 +584,8 @@
         "a990a918-1018-4b9f-9ec6-8c4662a9863c"
       ],
       "settings": {
+        "title": "Our Top Brands",
+        "sub_title": "",
         "hidden": false,
         "show_border_top": true,
         "use-slider": true,
@@ -781,6 +783,8 @@
         "brand_DBnQgK"
       ],
       "settings": {
+        "title": "",
+        "sub_title": "",
         "hidden": false,
         "show_border_top": false,
         "use-slider": true,
@@ -922,6 +926,8 @@
       ],
       "disabled": true,
       "settings": {
+        "title": "",
+        "sub_title": "",
         "hidden": false,
         "show_border_top": true,
         "use-slider": true,
@@ -1041,7 +1047,7 @@
         "padding": 10,
         "vertical": false,
         "layout_des": false,
-        "cl_bg": "#fff",
+        "cl_bg": "#ffffff",
         "mg": "",
         "pd": "20px 0 20px 0",
         "mg_mb": "",
