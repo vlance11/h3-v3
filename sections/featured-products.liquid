@@ -11,8 +11,6 @@
 
  
 %}
-   
-{%- for i in (1..1) -%}  
 <section id="laber_{{sid}}">
   <div class="laber_product_section_{{sid}}">
     <div class="container {%if layout%}full-width{%endif%}">
@@ -69,7 +67,7 @@
             <div class="content_section slick-carousel">
               <div class="grid-slider collection-slider laber-slick-carousel {%if sett_equal%}{{image_ratio}} {%endif%}" {{gridSlider}} data-append-Arrows=".arrows_{{sid}}" data-append-Dots=".dots_{{sid}}" > 
                 {%- if collection  != blank -%} 
-                {%- assign products = collections[collection].products -%}
+                {%- assign products = collection.products -%}
                 {%- for product in products limit: section.settings.max_count -%}
                 {% include 'product-column' %} 
                 {%- endfor -%}  
@@ -95,7 +93,6 @@
   </div>
   </div>
 </section>
-{%- endfor -%}
 
 {%- render 'section_style' -%} 
 
@@ -112,7 +109,12 @@
         "type": "text",
         "id": "title",
         "label": "Heading",
-        "default": "New arrivals"
+        "default": "Our latest products"
+      },
+      {
+        "type": "collection",
+        "id": "collections",
+        "label": "Select collection"
       },
       {
         "type": "text",
