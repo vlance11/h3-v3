@@ -348,49 +348,6 @@
         "pd_mb": ""
       }
     },
-    "featured_products_gxWHDN": {
-      "type": "featured-products",
-      "settings": {
-        "title": "Our latest products",
-        "sub_title": "",
-        "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
-        "style_title": "style_1",
-        "collection": "jacks-winches",
-        "max_count": 8,
-        "use-slider": true,
-        "slides-To-Scroll": 1,
-        "visible": 5,
-        "widescreen": 4,
-        "desktop": 4,
-        "laptop": 4,
-        "notebook": 3,
-        "tablet": 3,
-        "landscape": 2,
-        "portrait": 2,
-        "mobile": 1,
-        "rows": 1,
-        "autoplay": false,
-        "speed": "300",
-        "autoplay-Speed": "3000",
-        "arrows": true,
-        "fade": false,
-        "center-Mode": false,
-        "adaptive-Height": false,
-        "dots": false,
-        "infinite": false,
-        "padding": 10,
-        "vertical": false,
-        "show_view_all": false,
-        "layout": false,
-        "use_eq_height": false,
-        "image_ratio": "ratio3_2",
-        "cl_bg": "#ffffff",
-        "mg": "",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
-    },
     "3159f294-b2f4-42ab-b5d6-597485eb9827": {
       "type": "tab-product-style2",
       "blocks": {
@@ -1050,6 +1007,46 @@
         "mg_mb": "",
         "pd_mb": ""
       }
+    },
+    "collection_carousel_product_JafAVa": {
+      "type": "collection-carousel-product",
+      "settings": {
+        "title": "New arrivals",
+        "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+        "text_size": "medium",
+        "text_transform": "none",
+        "collection": "",
+        "max_count": 8,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 5,
+        "widescreen": 4,
+        "desktop": 4,
+        "laptop": 4,
+        "notebook": 3,
+        "tablet": 3,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": true,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": true,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": false,
+        "padding": 10,
+        "vertical": false,
+        "layout_des": false,
+        "cl_bg": "#fff",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
@@ -1058,7 +1055,6 @@
     "715ca768-c094-40a7-9e4b-80fd06437c88",
     "574adbaf-6e05-4837-8111-0b00659cc363",
     "9f4ee58f-dee6-463d-a620-261f520496e6",
-    "featured_products_gxWHDN",
     "3159f294-b2f4-42ab-b5d6-597485eb9827",
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8",
     "d9dc55c5-4e2a-42a1-b1c1-635d7147667b",
@@ -1066,6 +1062,7 @@
     "f886eb1d-f627-408c-b608-f2652dab3a54",
     "69805983-b566-42af-ba6f-ca890638160a",
     "40ba4907-6216-4217-b431-2a4308abe9dc",
-    "about_us_tepFXP"
+    "about_us_tepFXP",
+    "collection_carousel_product_JafAVa"
   ]
 }
