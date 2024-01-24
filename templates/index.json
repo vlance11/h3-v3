@@ -855,7 +855,7 @@
         "text_transform": "none",
         "collection": "jacks-winches",
         "max_count": 8,
-        "use-slider": true,
+        "use-slider": false,
         "slides-To-Scroll": 1,
         "visible": 5,
         "widescreen": 4,
