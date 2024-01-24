@@ -182,8 +182,8 @@
         "cl_bg": "#ffffff",
         "show_border": true,
         "cl_border": "#e5e8ec",
-        "mg": ",,60px,",
-        "pd": ",,40px,",
+        "mg": "60px,",
+        "pd": "40px,",
         "mg_mb": ",,30px,",
         "pd_mb": ",,20px,"
       }
