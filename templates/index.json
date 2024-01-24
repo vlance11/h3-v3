@@ -290,10 +290,10 @@
         "use_eq_height": false,
         "image_ratio": "ratio3_2",
         "cl_bg": "rgba(0,0,0,0)",
-        "mg": "30px 0px 30px 0px",
-        "pd": "30px 0px 30px 0px",
-        "mg_mb": "30px 0 30px 0",
-        "pd_mb": ""
+        "mg": "30px",
+        "pd": "30px",
+        "mg_mb": "15px",
+        "pd_mb": "15px"
       }
     },
     "715ca768-c094-40a7-9e4b-80fd06437c88": {
