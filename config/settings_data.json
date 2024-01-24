@@ -2930,7 +2930,7 @@
           "no_results": "There are No Products found.",
           "sale_lbl": "Sale",
           "soldout_lbl": "Soldout",
-          "ymm_custom_css": ""
+          "ymm_custom_css": ".image-banner-apps-block #ymm_searchbox select {\n    background: transparent !important;\n    border: none !important;\n}"
         }
       }
     }
