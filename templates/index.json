@@ -281,7 +281,7 @@
         "fade": false,
         "center-Mode": false,
         "adaptive-Height": false,
-        "dots": false,
+        "dots": true,
         "infinite": false,
         "padding": 10,
         "vertical": false,
