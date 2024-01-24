@@ -22,3 +22,10 @@
 .title-link svg {
     margin-left: 5px;
 }
+/* used in brand-list */
+.brand-list .laber_append_arrows {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.brand-list .slick-prev {left: -80px;border-radius: 5px;height: 30px;}
