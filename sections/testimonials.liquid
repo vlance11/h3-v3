@@ -44,7 +44,7 @@
         {% endif %}
       </div>
     {% endif %}
-    <div class="container {%if layout == 'full-width' %}{{layout}}{%endif%}">
+    <div class="container {% if layout == 'full-width' %}{{layout}}{% endif %}">
       <div class="quotes_wrapper {{section.settings.style}}">
         {%- if section.blocks.size > 0 -%}
           {% assign index = 0 %}
