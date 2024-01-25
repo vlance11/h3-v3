@@ -393,11 +393,11 @@
             "enable_text": true,
             "text_1": "100+",
             "text_2": "registered manufacturer",
-            "text_1_color": "#4269F2",
-            "text_2_color": "#333333",
             "url": "",
             "open_link": "_blank",
-            "mg_img": "30px"
+            "mg_img": "30px",
+            "text_1_color": "#4269F2",
+            "text_2_color": "#333333"
           }
         },
         "template--21734502760741__c142a47a-ff09-4ac9-88aa-8509dc40eeb8-gallery-2": {
@@ -407,11 +407,11 @@
             "enable_text": true,
             "text_1": "450+",
             "text_2": "Branded products",
-            "text_1_color": "#4269F2",
-            "text_2_color": "#333333",
             "url": "",
             "open_link": "_blank",
-            "mg_img": "30px"
+            "mg_img": "30px",
+            "text_1_color": "#4269F2",
+            "text_2_color": "#333333"
           }
         },
         "template--21734502760741__c142a47a-ff09-4ac9-88aa-8509dc40eeb8-gallery-3": {
@@ -419,13 +419,13 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo__8_-removebg-preview.png",
             "enable_text": true,
-            "text_1": "450+",
+            "text_1": "20K+",
             "text_2": "satisfied customers",
-            "text_1_color": "#4269F2",
-            "text_2_color": "#333333",
             "url": "",
             "open_link": "_blank",
-            "mg_img": "30px"
+            "mg_img": "30px",
+            "text_1_color": "#4269F2",
+            "text_2_color": "#333333"
           }
         },
         "template--21734502760741__c142a47a-ff09-4ac9-88aa-8509dc40eeb8-gallery-5": {
@@ -433,13 +433,13 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo__4_-removebg-preview.png",
             "enable_text": true,
-            "text_1": "450+",
+            "text_1": "10",
             "text_2": "Years of service",
-            "text_1_color": "#4269F2",
-            "text_2_color": "#333333",
             "url": "",
             "open_link": "_blank",
-            "mg_img": "30px"
+            "mg_img": "30px",
+            "text_1_color": "#4269F2",
+            "text_2_color": "#333333"
           }
         }
       },
