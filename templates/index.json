@@ -748,7 +748,7 @@
         "h_tb": "250px",
         "h_mb": "150px",
         "full_width": true,
-        "cl_bg": "",
+        "cl_bg": "rgba(0,0,0,0)",
         "mg": "",
         "pd": "",
         "mg_mb": "",
