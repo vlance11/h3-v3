@@ -691,10 +691,48 @@
             "v_position": "top",
             "txt_align": "left"
           }
+        },
+        "txt_Fwnkc4": {
+          "type": "txt",
+          "settings": {
+            "title": "Short Description.",
+            "color": "#111",
+            "fw_text": 400,
+            "fs_text": 14,
+            "lh_text": 0,
+            "text_transform": "none",
+            "ls_text": 0,
+            "mg_bottom": 0,
+            "hide": false,
+            "mobile_font_text": 14,
+            "mobile_mg_bottom": 0
+          }
+        },
+        "hd_pPyEJQ": {
+          "type": "hd",
+          "settings": {
+            "hide": false,
+            "title": "Get 30% On Your Next <br>Purchase",
+            "color": "#111",
+            "fw_text": 600,
+            "fs_text": 58,
+            "lh_text": 0,
+            "ls_text": "0",
+            "text_transform": "none",
+            "first_mark": false,
+            "last_mark": false,
+            "custom_mark": "",
+            "color_mark": "",
+            "mg_bottom": 0,
+            "mobile_font_text": 30,
+            "mobile_mg_bottom": 0
+          }
         }
       },
       "block_order": [
-        "banner_img_6cLcC6"
+        "banner_img_6cLcC6",
+        "txt_Fwnkc4",
+        "hd_pPyEJQ"
       ],
       "settings": {
         "hidden": false,
