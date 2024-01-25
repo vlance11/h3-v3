@@ -7,6 +7,14 @@
 .text-highlight_1{
   color: var(--color-btn);
 }
+.sub-heading-h1{
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0px;
+  text-align: left;
+}
 .left{
   text-align: left;
   justify-content: flex-start;
