@@ -18,7 +18,9 @@
   <div class="laber_se_{{sid}}">
     <div class=" container {%if layout == 'full-width' %}{{layout}}{%endif%}">
     <div class="{% if section.settings.title != blank %} wrap_title {% endif %}">
-      <h3 class="section-title"><span > {{section.settings.title}}</span></h3>        
+    {% if section.settings.title != blank %}
+      <h3 class="section-title"><span > {{section.settings.title}}</span></h3> 
+    {% endif %}
       <span class="section-subtitle">{{section.settings.sub_title}}</span>
     </div> 
     <div class="row{% if sett_equal %} {{image_ratio}}{% endif %}">
