@@ -556,7 +556,7 @@
         "arrows": true,
         "fade": false,
         "center-Mode": true,
-        "adaptive-Height": true,
+        "adaptive-Height": false,
         "dots": false,
         "infinite": false,
         "padding": 10,
