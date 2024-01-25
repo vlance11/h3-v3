@@ -648,6 +648,10 @@
         "default": "Jost",
         "options": [
           {
+            "value": "Inter",
+            "label": "Font Inter"
+          },
+          {
             "value": "Jost",
             "label": "Font Jost"
           },
