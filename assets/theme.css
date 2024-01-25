@@ -115,9 +115,9 @@ span.number_counter {
 }
 span.text-summ {
   font-family: Inter;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 29px;
+  line-height: 26px;
   letter-spacing: 0px;
   text-align: left;
 }
