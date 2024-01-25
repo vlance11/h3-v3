@@ -58,8 +58,16 @@
     border: 1px solid #DDDDDD;
     border-radius: 22px;
 }
+.search-box-area{
+  padding-bottom: 15px;
+}
+.search-box-area .header-search {
+    padding-bottom: 0;
+}
 .search-box-area {
   margin-top: 10px;
+  display: flex;
+  align-items: center;
 }
 .search-box-area .header-search .search_header input.search_header__input:not([type=submit]):not([type=checkbox]){
   height: 30px;
