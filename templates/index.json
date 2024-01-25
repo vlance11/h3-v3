@@ -393,6 +393,8 @@
             "enable_text": true,
             "text_1": "100+",
             "text_2": "registered manufacturer",
+            "text_1_color": "#4269F2",
+            "text_2_color": "#333333",
             "url": "",
             "open_link": "_blank",
             "mg_img": "30px"
@@ -405,6 +407,8 @@
             "enable_text": true,
             "text_1": "450+",
             "text_2": "Branded products",
+            "text_1_color": "#4269F2",
+            "text_2_color": "#333333",
             "url": "",
             "open_link": "_blank",
             "mg_img": "30px"
@@ -417,6 +421,8 @@
             "enable_text": true,
             "text_1": "450+",
             "text_2": "Branded products",
+            "text_1_color": "#4269F2",
+            "text_2_color": "#333333",
             "url": "",
             "open_link": "_blank",
             "mg_img": "30px"
@@ -429,6 +435,8 @@
             "enable_text": true,
             "text_1": "450+",
             "text_2": "Branded products",
+            "text_1_color": "#4269F2",
+            "text_2_color": "#333333",
             "url": "",
             "open_link": "_blank",
             "mg_img": "30px"
@@ -442,8 +450,8 @@
         "template--21734502760741__c142a47a-ff09-4ac9-88aa-8509dc40eeb8-gallery-5"
       ],
       "settings": {
-        "title": "Why You Should Purchase From Us?",
-        "sub_title": "",
+        "title": "",
+        "sub_title": "<h1>Why you should <br> Purchace From us!<\/h1>",
         "col_pr": "4",
         "col_pr_tb": "4",
         "col_pr_mb": "2",
