@@ -24,7 +24,10 @@
               <div class="js_sr_txt"></div>
             </div>
             {% else %}
-              <a href="{{block.settings.title}}" class="title-link">See all</a>
+              <div class="section-title alo-text-transform" style="--alo-text-transform:none">
+              <span>{{block.settings.title}}</span>
+              <a href="/collections/jacks-winches" class="title-link">See all </a>
+        </div>
             {% endif %}
             <ul>
               {% assign index = 1 %}
