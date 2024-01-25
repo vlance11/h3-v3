@@ -78,6 +78,10 @@
 .sugget.btn {
   padding: 5px 12px;
   margin-left: 10px;
+  background-color: var(--color-cart-product);
+}
+.sugget.btn >svg {
+   margin-right: 8px;
 }
 button.search_action {
   display: flex;
