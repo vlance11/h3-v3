@@ -82,6 +82,8 @@ button.search_action {
   }
   .image-banner-apps-block #ymm_searchbox .btn{
     min-height: 35px;
+    padding: 4px 12px;
+    font-size: 12px;
   }
   .image-banner-apps-block #ymm_searchbox ul{
     flex-wrap: wrap !important;
