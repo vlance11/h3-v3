@@ -696,7 +696,7 @@
           "type": "txt",
           "settings": {
             "title": "Short Description.",
-            "color": "#111",
+            "color": "#111111",
             "fw_text": 400,
             "fs_text": 14,
             "lh_text": 0,
@@ -713,7 +713,7 @@
           "settings": {
             "hide": false,
             "title": "Get 30% On Your Next <br>Purchase",
-            "color": "#111",
+            "color": "#111111",
             "fw_text": 600,
             "fs_text": 58,
             "lh_text": 0,
@@ -727,12 +727,20 @@
             "mobile_font_text": 30,
             "mobile_mg_bottom": 0
           }
+        },
+        "button_YkhTHi": {
+          "type": "button",
+          "settings": {
+            "btn_label": "Sign up now",
+            "btn_url": ""
+          }
         }
       },
       "block_order": [
         "banner_img_6cLcC6",
         "txt_Fwnkc4",
-        "hd_pPyEJQ"
+        "hd_pPyEJQ",
+        "button_YkhTHi"
       ],
       "settings": {
         "hidden": false,
