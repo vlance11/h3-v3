@@ -18,10 +18,12 @@
         {%- if arr_col.size > 0 -%} 
         <div class="tabcontent tabcontent_style1">
           <div class="tab-products" data-sorting-collections-control="">
+            {% if section_blocks.size > 1 %}
             <div class="display-mobile section_heading">
               <span>{{'sections.tab.you_are_in' | t}}	</span>
               <div class="js_sr_txt"></div>
             </div>
+            {% endif %}
             <ul>
               {% assign index = 1 %}
               {%- for block in arr_col -%}
