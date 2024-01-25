@@ -313,45 +313,62 @@
         "placeholder": "30px,,30px,"
       }
     ],
-	"blocks": [{
-    "type": "gallery",
-    "name": "Gallery",
-    "settings": [
+	"blocks": [
       {
-         "type": "image_picker",
-         "id": "image",
-         "label": "Image"
-       },
-       {
-        "label": "Link to (Optional)",
-        "id": "url",
-        "type": "url"
-      },
-      {
-        "type": "select",
-        "id": "open_link",
-        "options": [
+        "type": "gallery",
+        "name": "Gallery",
+        "settings": [
+        {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         },
           {
-            "value": "_self",
-            "label": "Current window (_self)"
+            "type": "checkbox",
+            "id": "enable_text",
+            "label": "Enable text instead image"
+          },
+          {
+            "type": "text",
+            "id": "text_1",
+            "label": "Text 1"
+          },
+          {
+            "type": "text",
+            "id": "text_2",
+            "label": "Text 2"
           },
          {
-            "value": "_blank",
-            "label": "New window (_blank)"
+            "label": "Link to (Optional)",
+            "id": "url",
+            "type": "url"
+          },
+          {
+            "type": "select",
+            "id": "open_link",
+            "options": [
+              {
+                "value": "_self",
+                "label": "Current window (_self)"
+              },
+             {
+                "value": "_blank",
+                "label": "New window (_blank)"
+              }
+            ],
+            "label": "Open link in",
+            "default": "_blank"
+          },
+    	  {
+            "type": "text",
+            "id": "mg_img",
+            "label": "Margin bottom",
+      	    "info":"Margin bottom. If you not use to blank",	
+            "default": "30px"
           }
-        ],
-        "label": "Open link in",
-        "default": "_blank"
-      },
-		{
-        "type": "text",
-        "id": "mg_img",
-        "label": "Margin bottom",
-		"info":"Margin bottom. If you not use to blank",	
-        "default": "30px"
+        ]
       }
-      ]
-    }],
+    ],
     "presets": [
       {
         "name": "6. Gallery",
