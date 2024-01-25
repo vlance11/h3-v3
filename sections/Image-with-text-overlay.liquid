@@ -43,7 +43,7 @@
                           </div>
                             <div class="banner_text_{{block.id}}" {%if hidden_content %}style="display:none;"{%endif%}>
                             <div class="banner_text h_{{block.settings.h_position}} v_{{block.settings.v_position}} text_{{block.settings.txt_align}}">
-                            <div class="content_banner">
+                            <div class="content_banner" style="background-color: {{ block.settings.cl_content_bg }};">
                                   {% for block in section_blocks offset:index %}
                                   {% assign index = index|plus:1 %}                          		
                                   {%- case block.type -%}
@@ -221,12 +221,15 @@
           "default": false
         },
       {
-      "type": "color",
-      "id": "cl_bg",
-      "label": "Background color"
+        "type": "color",
+        "id": "cl_bg",
+        "label": "Background color"
       },
-	  
-	  
+	  {
+        "type": "color",
+        "id": "cl_content_bg",
+        "label": "Content Background color"
+      },	  
       {
         "type": "text",
         "id": "mg",
