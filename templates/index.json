@@ -377,10 +377,10 @@
         "vertical": false,
         "layout_des": false,
         "cl_bg": "#eceafe",
-        "mg": "30px",
-        "pd": "30px",
-        "mg_mb": "10px",
-        "pd_mb": "10px"
+        "mg": "50px",
+        "pd": "50px",
+        "mg_mb": "30px",
+        "pd_mb": "30px"
       }
     },
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8": {
