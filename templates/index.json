@@ -390,6 +390,9 @@
           "type": "gallery",
           "settings": {
             "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo__7_-removebg-preview.png",
+            "enable_text": true,
+            "text_1": "100+",
+            "text_2": "registered manufacturer",
             "url": "",
             "open_link": "_blank",
             "mg_img": "30px"
@@ -399,6 +402,9 @@
           "type": "gallery",
           "settings": {
             "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo__6_-removebg-preview.png",
+            "enable_text": true,
+            "text_1": "450+",
+            "text_2": "Branded products",
             "url": "",
             "open_link": "_blank",
             "mg_img": "30px"
@@ -408,6 +414,9 @@
           "type": "gallery",
           "settings": {
             "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo__8_-removebg-preview.png",
+            "enable_text": true,
+            "text_1": "450+",
+            "text_2": "Branded products",
             "url": "",
             "open_link": "_blank",
             "mg_img": "30px"
@@ -417,6 +426,9 @@
           "type": "gallery",
           "settings": {
             "image": "shopify:\/\/shop_images\/Blue_Bag_Online_Store_Logo__4_-removebg-preview.png",
+            "enable_text": true,
+            "text_1": "450+",
+            "text_2": "Branded products",
             "url": "",
             "open_link": "_blank",
             "mg_img": "30px"
