@@ -58,6 +58,9 @@
     border: 1px solid #DDDDDD;
     border-radius: 22px;
 }
+.search-box-area .header-search .search_header input.search_header__input:not([type=submit]):not([type=checkbox]){
+  height: 30px;
+}
 .search-box-area .header-search .search_header .search_header__submit{
   height: 30px;
 }
