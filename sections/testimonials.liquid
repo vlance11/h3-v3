@@ -212,9 +212,6 @@
                             <div class="quote_author">{{ block.settings.title }}</div>
                             <div class="quote_address">{{ block.settings.address }}</div>
                         {% else %}
-                          <div class="cms_content_quote">
-                            {{ block.settings.content }}
-                          </div>
                           {%- if block.settings.rating >= 1 -%}
                             {%- case block.settings.rating -%}
                               {%- when 1 -%}
@@ -245,6 +242,9 @@
                               <i class="icon-star{{arr[4]}}"></i>
                             </div>
                           {%- endif -%}
+                          <div class="cms_content_quote">
+                            {{ block.settings.content }}
+                          </div>                          
                           <div class="quote_author">{{ block.settings.title }}</div>
                           <div class="quote_address">{{ block.settings.address }}</div>
                           <div class="testimonial_{{index}} testimonial_avatar">
