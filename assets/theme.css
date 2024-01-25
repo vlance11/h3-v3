@@ -135,6 +135,13 @@ span.text-summ {
 .summary-text:not(.summary-text:last-child) {
     border-right: 1px solid #DDDDDD;
 }
+/* testimonial */
+.quote_content.style3 {
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    padding: 30px 15px;
+    background-color: #FFFFFF;
+}
 .testimonial_avatar.style3{
   text-align: -webkit-center;
 }
