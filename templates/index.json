@@ -461,9 +461,9 @@
         "cp_code": false,
         "layout": "container",
         "cl_bg": "#fffbf5",
-        "mg": "60px",
-        "pd": "60px",
-        "mg_mb": "50",
+        "mg": "",
+        "pd": "60px,,60px",
+        "mg_mb": "",
         "pd_mb": "50"
       }
     },
