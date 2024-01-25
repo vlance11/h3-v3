@@ -64,3 +64,11 @@
 .search-box-area .header-search .search_header .search_header__submit{
   height: 30px;
 }
+button.search_action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  padding: 5px 10px;
+  border: 0;
+}
