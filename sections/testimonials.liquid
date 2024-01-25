@@ -245,8 +245,7 @@
                           <div class="cms_content_quote">
                             {{ block.settings.content }}
                           </div>                          
-                          <div class="quote_author">{{ block.settings.title }}</div>
-                          <div class="quote_address">{{ block.settings.address }}</div>
+                          
                           <div class="testimonial_{{index}} testimonial_avatar">
                           {%- if block.settings.image -%}
                             {% assign image = block.settings.image %}
@@ -273,6 +272,8 @@
                               ></div>
                             </div>
                           {%- endif -%}
+                          <div class="quote_author">{{ block.settings.title }}</div>
+                          <div class="quote_address">{{ block.settings.address }}</div>
                           {% assign index = index | plus: 1 %}
                           {% comment %}
                             <div class="quote_icon">
