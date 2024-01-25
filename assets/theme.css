@@ -135,6 +135,9 @@ span.text-summ {
 .summary-text:not(.summary-text:last-child) {
     border-right: 1px solid #DDDDDD;
 }
+.button-area{
+  margin-top: 30px;
+}
 /* testimonial */
 .quote_content.style3 {
     border: 1px solid #DDDDDD;
