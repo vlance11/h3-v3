@@ -75,7 +75,10 @@
                                           <div id="b_{{block.id}}" class="slide_item_p {% if block.settings.hide %} d-none{% endif %}">
                                               <p  {{ block.shopify_attributes }}>{{block.settings.title}}</p> 
                                           </div>
-                
+                                      {% when 'button' %}
+                                      <div class="button-area">
+                                        <a href="{{ block.settings.btn_url }}" class="btn btn-primary">{{ block.settings.btn_label }}</a>
+                                      </div>
                               
                                   {% else %} 
                                   {%- break -%}
