@@ -441,10 +441,10 @@
         "cp_code": false,
         "layout": "container",
         "cl_bg": "#fffbf5",
-        "mg": "30px 30px",
-        "pd": "30px 30px",
-        "mg_mb": "10px 10px",
-        "pd_mb": "10px 10px"
+        "mg": "50px",
+        "pd": "50px",
+        "mg_mb": "30",
+        "pd_mb": "30"
       }
     },
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34": {
