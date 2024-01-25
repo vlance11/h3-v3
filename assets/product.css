@@ -368,14 +368,18 @@
   position: absolute;
   right: 15px;
   top: 15px;
-  opacity: 1;
-  visibility: visible;
+  opacity: 0;
+  visibility: hidden;
   -webkit-transition: all 400ms linear 0ms;
   -khtml-transition: all 400ms linear 0ms;
   -moz-transition: all 400ms linear 0ms;
   -ms-transition: all 400ms linear 0ms;
   -o-transition: all 400ms linear 0ms;
   transition: all 400ms linear 0ms;
+}
+.slider-disabled .product-item .product-image__overlay-bottom{
+  opacity: 1;
+  visibility: visible;
 }
 .product-item:hover .product-image__overlay-bottom {
   opacity: 1;
