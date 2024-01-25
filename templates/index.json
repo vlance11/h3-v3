@@ -235,78 +235,6 @@
         "pd_mb": "30px"
       }
     },
-    "9f4ee58f-dee6-463d-a620-261f520496e6": {
-      "type": "collection-carousel-product2",
-      "blocks": {
-        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-banner-1": {
-          "type": "banner",
-          "settings": {
-            "title": "Recommended product for you",
-            "content": "",
-            "image": "shopify:\/\/shop_images\/74377-3034-reese-pilot-trailer-brake-control-10-18-winnebago-access-premier-aspect-cambria-chalet-minnie-winnie-outlook-spirit-electric-trailer-brakes-module-box-controller-1-2-axle_5c67c1dc-721d-4da3-a404-4b0cf70e09ec.jpg",
-            "text_btn": "See all",
-            "url": "shopify:\/\/collections\/trailer-accessories",
-            "open_link": "_blank",
-            "cl": "5",
-            "cl_tb": "5",
-            "cl_mb": "12",
-            "mg": "",
-            "pd": "",
-            "mg_mb": "",
-            "pd_mb": ""
-          }
-        },
-        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "trailer-accessories",
-            "limit": 3,
-            "use-slider": true,
-            "slides-To-Scroll": 3,
-            "visible": 3,
-            "widescreen": 3,
-            "desktop": 3,
-            "laptop": 3,
-            "notebook": 3,
-            "tablet": 3,
-            "landscape": 2,
-            "portrait": 2,
-            "mobile": 1,
-            "rows": 2,
-            "autoplay": true,
-            "speed": "300",
-            "autoplay-Speed": "3000",
-            "arrows": true,
-            "fade": false,
-            "center-Mode": false,
-            "adaptive-Height": false,
-            "dots": false,
-            "infinite": false,
-            "padding": 10,
-            "vertical": false,
-            "cl": "7",
-            "cl_tb": "7",
-            "cl_mb": "12"
-          }
-        }
-      },
-      "block_order": [
-        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-banner-1",
-        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-collection-1"
-      ],
-      "settings": {
-        "title": "",
-        "content": "",
-        "text_size": "large",
-        "text_transform": "uppercase",
-        "layout_des": false,
-        "cl_bg": "#f2f2f6",
-        "mg": "10px",
-        "pd": "40px",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
-    },
     "f886eb1d-f627-408c-b608-f2652dab3a54": {
       "type": "brand-list",
       "blocks": {
@@ -413,6 +341,118 @@
         "pd": "30px",
         "mg_mb": "15px",
         "pd_mb": "15px"
+      }
+    },
+    "collection_carousel_product_JafAVa": {
+      "type": "collection-carousel-product",
+      "settings": {
+        "title": "Recommended products for you",
+        "content": "",
+        "text_size": "medium",
+        "text_transform": "none",
+        "collection": "jacks-winches",
+        "max_count": 8,
+        "use-slider": false,
+        "slides-To-Scroll": 1,
+        "visible": 5,
+        "widescreen": 4,
+        "desktop": 4,
+        "laptop": 4,
+        "notebook": 3,
+        "tablet": 3,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": false,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": false,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": true,
+        "infinite": false,
+        "padding": 10,
+        "vertical": false,
+        "layout_des": false,
+        "cl_bg": "#ffffff",
+        "mg": "30px",
+        "pd": "30px",
+        "mg_mb": "10px",
+        "pd_mb": "10px"
+      }
+    },
+    "9f4ee58f-dee6-463d-a620-261f520496e6": {
+      "type": "collection-carousel-product2",
+      "blocks": {
+        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-banner-1": {
+          "type": "banner",
+          "settings": {
+            "title": "Recommended product for you",
+            "content": "",
+            "image": "shopify:\/\/shop_images\/74377-3034-reese-pilot-trailer-brake-control-10-18-winnebago-access-premier-aspect-cambria-chalet-minnie-winnie-outlook-spirit-electric-trailer-brakes-module-box-controller-1-2-axle_5c67c1dc-721d-4da3-a404-4b0cf70e09ec.jpg",
+            "text_btn": "See all",
+            "url": "shopify:\/\/collections\/trailer-accessories",
+            "open_link": "_blank",
+            "cl": "5",
+            "cl_tb": "5",
+            "cl_mb": "12",
+            "mg": "",
+            "pd": "",
+            "mg_mb": "",
+            "pd_mb": ""
+          }
+        },
+        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "trailer-accessories",
+            "limit": 3,
+            "use-slider": true,
+            "slides-To-Scroll": 3,
+            "visible": 3,
+            "widescreen": 3,
+            "desktop": 3,
+            "laptop": 3,
+            "notebook": 3,
+            "tablet": 3,
+            "landscape": 2,
+            "portrait": 2,
+            "mobile": 1,
+            "rows": 2,
+            "autoplay": true,
+            "speed": "300",
+            "autoplay-Speed": "3000",
+            "arrows": true,
+            "fade": false,
+            "center-Mode": false,
+            "adaptive-Height": false,
+            "dots": false,
+            "infinite": false,
+            "padding": 10,
+            "vertical": false,
+            "cl": "7",
+            "cl_tb": "7",
+            "cl_mb": "12"
+          }
+        }
+      },
+      "block_order": [
+        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-banner-1",
+        "template--21734502760741__9f4ee58f-dee6-463d-a620-261f520496e6-collection-1"
+      ],
+      "settings": {
+        "title": "",
+        "content": "",
+        "text_size": "large",
+        "text_transform": "uppercase",
+        "layout_des": false,
+        "cl_bg": "#f2f2f6",
+        "mg": "10px",
+        "pd": "40px",
+        "mg_mb": "",
+        "pd_mb": ""
       }
     },
     "3159f294-b2f4-42ab-b5d6-597485eb9827": {
@@ -845,60 +885,20 @@
         "mg_mb": "",
         "pd_mb": ""
       }
-    },
-    "collection_carousel_product_JafAVa": {
-      "type": "collection-carousel-product",
-      "settings": {
-        "title": "Recommended products for you",
-        "content": "",
-        "text_size": "medium",
-        "text_transform": "none",
-        "collection": "jacks-winches",
-        "max_count": 8,
-        "use-slider": false,
-        "slides-To-Scroll": 1,
-        "visible": 5,
-        "widescreen": 4,
-        "desktop": 4,
-        "laptop": 4,
-        "notebook": 3,
-        "tablet": 3,
-        "landscape": 2,
-        "portrait": 2,
-        "mobile": 1,
-        "rows": 1,
-        "autoplay": false,
-        "speed": "300",
-        "autoplay-Speed": "3000",
-        "arrows": false,
-        "fade": false,
-        "center-Mode": false,
-        "adaptive-Height": false,
-        "dots": true,
-        "infinite": false,
-        "padding": 10,
-        "vertical": false,
-        "layout_des": false,
-        "cl_bg": "#ffffff",
-        "mg": "30px",
-        "pd": "30px",
-        "mg_mb": "10px",
-        "pd_mb": "10px"
-      }
     }
   },
   "order": [
     "91e0f90e-ad97-458f-8ab1-a5b274e18a11",
     "adb31611-bb52-4257-9fc8-a7003a7eb87a",
     "715ca768-c094-40a7-9e4b-80fd06437c88",
-    "9f4ee58f-dee6-463d-a620-261f520496e6",
     "f886eb1d-f627-408c-b608-f2652dab3a54",
+    "collection_carousel_product_JafAVa",
+    "9f4ee58f-dee6-463d-a620-261f520496e6",
     "3159f294-b2f4-42ab-b5d6-597485eb9827",
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8",
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34",
     "69805983-b566-42af-ba6f-ca890638160a",
     "40ba4907-6216-4217-b431-2a4308abe9dc",
-    "about_us_tepFXP",
-    "collection_carousel_product_JafAVa"
+    "about_us_tepFXP"
   ]
 }
