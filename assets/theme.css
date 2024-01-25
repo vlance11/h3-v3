@@ -78,6 +78,7 @@
 .sugget.btn {
   padding: 5px 12px;
   margin-left: 10px;
+  font-size: 12px;
   background-color: var(--color-cart-product);
 }
 .sugget.btn >svg {
