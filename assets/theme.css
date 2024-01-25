@@ -44,3 +44,7 @@
 .brand-list .slick-arrow:before {
     color: #212121;
 }
+/* collection-carousel-product */
+.product-item.slider-disabled {
+    margin-bottom: 30px;
+}
