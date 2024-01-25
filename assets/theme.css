@@ -75,6 +75,11 @@ button.search_action {
   padding: 5px 10px;
   border: 0;
 }
+.image-banner-apps-block #ymm_actions .ymm_search {
+  color: #000000;
+  border-color: none;
+  background-color: var(--color-cart-product);
+}
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox {
     padding: 10px 10px;
