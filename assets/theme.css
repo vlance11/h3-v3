@@ -48,3 +48,7 @@
 .product-item.slider-disabled {
     margin-bottom: 30px;
 }
+.product-item.slider-disabled .product-collection {
+    border: 1px solid #DDDDDD;
+    border-radius: 22px;
+}
