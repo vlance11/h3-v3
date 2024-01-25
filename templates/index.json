@@ -396,7 +396,7 @@
             "url": "",
             "open_link": "_blank",
             "mg_img": "30px",
-            "text_1_color": "#4269F2",
+            "text_1_color": "#4269f2",
             "text_2_color": "#333333"
           }
         },
@@ -410,7 +410,7 @@
             "url": "",
             "open_link": "_blank",
             "mg_img": "30px",
-            "text_1_color": "#4269F2",
+            "text_1_color": "#4269f2",
             "text_2_color": "#333333"
           }
         },
@@ -424,7 +424,7 @@
             "url": "",
             "open_link": "_blank",
             "mg_img": "30px",
-            "text_1_color": "#4269F2",
+            "text_1_color": "#4269f2",
             "text_2_color": "#333333"
           }
         },
@@ -438,7 +438,7 @@
             "url": "",
             "open_link": "_blank",
             "mg_img": "30px",
-            "text_1_color": "#4269F2",
+            "text_1_color": "#4269f2",
             "text_2_color": "#333333"
           }
         }
@@ -509,13 +509,23 @@
             "address": "Nov. 12 2023",
             "rating": 5
           }
+        },
+        "quote_gfKrPQ": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks!<\/p>",
+            "title": "Alexander Ball",
+            "address": "New York",
+            "rating": 5
+          }
         }
       },
       "block_order": [
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-0",
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-1",
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-2",
-        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-3"
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-3",
+        "quote_gfKrPQ"
       ],
       "settings": {
         "title": "5000+ Happy Customers With Their Best Buying Experience",
@@ -527,7 +537,7 @@
         "hidden": false,
         "layout": "container",
         "width_c": 80,
-        "style": "style1",
+        "style": "style2",
         "use-slider": true,
         "slides-To-Scroll": 1,
         "visible": 3,
@@ -552,10 +562,10 @@
         "padding": 10,
         "vertical": false,
         "cl_bg": "#f5f7fe",
-        "mg": ",,60px,",
-        "pd": "",
-        "mg_mb": ",,30px,",
-        "pd_mb": ""
+        "mg": "60px",
+        "pd": "60px",
+        "mg_mb": "30px,",
+        "pd_mb": "30px"
       }
     },
     "69805983-b566-42af-ba6f-ca890638160a": {
