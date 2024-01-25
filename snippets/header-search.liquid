@@ -21,9 +21,13 @@
             <input class="search_header__input js_iput_search" autocomplete="off" type="text" name="q" placeholder="{{ 'general.search.placeholder' | t }}">
           </div>
           <div class="col-auto btn_search">
+            {% if use-icon %}
+              {% render 'icons', icon:'icon-search' %}
+            {% else %}
             <button class="search_header__submit js_btn_search" aria-label="{{ 'general.search.btn' | t }}">
               <span>{{ 'general.search.btn' | t }}</span>
-            </button> 
+            </button>
+            {% endif %}
           </div>
         </div>  
         {%comment%}<div class="ld_bar_search"></div>{%endcomment%}
