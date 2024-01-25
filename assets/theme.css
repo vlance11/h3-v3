@@ -77,7 +77,8 @@ button.search_action {
 }
 .image-banner-apps-block #ymm_actions .ymm_search {
   color: #000000;
-  border-color: none;
+  border-color: transparent;
+  border-radius: 8px;
   background-color: var(--color-cart-product);
 }
 @media screen and (max-width: 600px){
