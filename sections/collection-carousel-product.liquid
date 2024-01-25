@@ -25,7 +25,10 @@
     <div class="{%if layout_des%}full-width{% else %}container{%endif%}">
     {% if section.settings.title != blank %}
       <div class="wrap_title {{ section.settings.text_size }}">
-        <div class="section-title alo-text-transform" style="--alo-text-transform:{{ section.settings.text_transform }}">{{section.settings.title}}</div>  
+        <div class="section-title alo-text-transform" style="--alo-text-transform:{{ section.settings.text_transform }}">
+          {{section.settings.title}}
+          <a href="{{ collection.url }}" class="title-link">See all {% render 'icons', icon: 'chevron-right', size: '12' %}</a>
+        </div>  
         {% if section.settings.content!= blank %}
           <div class="content">{{section.settings.content}}</div>
         {% endif %}
