@@ -377,7 +377,7 @@
   -o-transition: all 400ms linear 0ms;
   transition: all 400ms linear 0ms;
 }
-.slider-disabled .product-item .product-image__overlay-bottom{
+.slider-disabled.product-item .product-image__overlay-bottom{
   opacity: 1;
   visibility: visible;
 }
