@@ -23,6 +23,16 @@
     </div> 
     <div class="row {%if sett_equal%}{{image_ratio}} {%endif%}">
       	{%- for block in section.blocks -%}
+          {% if block.settings.enable_text %}
+            <div class="summary-text cat_space_item brand_list">
+              <div class="summary-inner-text">
+                <span class="number_counter">{{ block.settings.text_1 }}</span>
+              </div>
+              <div class="summary-inner-text">
+                <span class="text-summ">{{ block.settings.text_2 }}</span>
+              </div>
+            </div>
+          {% else %}
           {%- assign image = block.settings.image -%}
       	  {%- assign url = block.settings.url -%}
           <div class="cat_space_item brand_list laber_b_{{block.id}} tc col-lg-{{col}} col-md-{{col_tb}} col-sm-{{col_mb}} col-xs-12" style="margin-bottom:{{block.settings.mg_img}};">
@@ -34,6 +44,7 @@
                 {%- endif -%}
               {%- if url != blank -%}</a>{%- endif -%}
           </div>
+          {% endif %}
         {%- endfor -%}
     </div>
     </div>
