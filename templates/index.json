@@ -696,7 +696,7 @@
           "type": "txt",
           "settings": {
             "title": "Short Description.",
-            "color": "#111111",
+            "color": "#ffffff",
             "fw_text": 400,
             "fs_text": 14,
             "lh_text": 35,
@@ -713,7 +713,7 @@
           "settings": {
             "hide": false,
             "title": "Get 30% On Your Next <br>Purchase",
-            "color": "#111111",
+            "color": "#ffffff",
             "fw_text": 600,
             "fs_text": 35,
             "lh_text": 0,
@@ -749,6 +749,7 @@
         "h_mb": "150px",
         "full_width": true,
         "cl_bg": "rgba(0,0,0,0)",
+        "cl_content_bg": "rgba(0,0,0,0)",
         "mg": "",
         "pd": "",
         "mg_mb": "",
