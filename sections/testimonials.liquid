@@ -71,7 +71,7 @@
                 {%- case block.type -%}
                   {%- when 'quote' -%}
                     <div class="post-item quote_slide">
-                      <div class="quote_content{% if section.settings.style == 'style3' %} center{% endif %}">
+                      <div class="quote_content {{ section.settings.style}}{% if section.settings.style == 'style3' %} center{% endif %}">
                         {% if section.settings.style == 'style1' %}
                         <div class="testimonial_{{index}} testimonial_avatar">
                           {%- if block.settings.image -%}
