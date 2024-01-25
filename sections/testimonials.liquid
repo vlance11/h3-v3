@@ -250,7 +250,7 @@
                           {%- if block.settings.image -%}
                             {% assign image = block.settings.image %}
                             {% assign ratio = image.aspect_ratio %}
-                            <div class="quote_avatar {% if forloop.first%} active {% endif %}">
+                            <div class="quote_avatar{% if forloop.first%} active{% endif %}">
                               <div
                                 data-image-effect
                                 class="pr_lazy_img main-img lazyload laber_bg_lz "
