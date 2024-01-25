@@ -77,7 +77,7 @@ button.search_action {
 }
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox ul{
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
   }
 }
 @media screen and (min-width: 768px){
