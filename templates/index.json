@@ -229,9 +229,9 @@
         "vertical": false,
         "layout": "container",
         "cl_bg": "#fff8eb",
-        "mg": "10px",
-        "pd": "40px",
-        "mg_mb": "",
+        "mg": "50ppx",
+        "pd": "50px",
+        "mg_mb": "30px",
         "pd_mb": "30px"
       }
     },
