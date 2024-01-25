@@ -18,7 +18,7 @@
           {% endif %}
       
           <div class="frm_search_input col">
-            <input class="search_header__input js_iput_search" autocomplete="off" type="text" name="q" placeholder="{{ 'general.search.placeholder' | t }}">
+            <input class="search_header__input js_iput_search" autocomplete="off" type="text" name="q" placeholder="{% if use-icon %}Search within collection{% else %}{{ 'general.search.placeholder' | t }}{% endif %}">
           </div>
           <div class="col-auto btn_search">
             {% if use-icon %}
