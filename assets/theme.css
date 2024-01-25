@@ -98,6 +98,12 @@ button.search_action {
   border-radius: 8px;
   background-color: var(--color-cart-product);
 }
+/* gallery */
+.summary-text-main {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox {
     padding: 10px 10px;
