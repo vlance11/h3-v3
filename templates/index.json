@@ -849,7 +849,7 @@
     "collection_carousel_product_JafAVa": {
       "type": "collection-carousel-product",
       "settings": {
-        "title": "Our latest product",
+        "title": "Recommended products for you",
         "content": "",
         "text_size": "medium",
         "text_transform": "none",
@@ -880,10 +880,10 @@
         "vertical": false,
         "layout_des": false,
         "cl_bg": "#ffffff",
-        "mg": "",
-        "pd": "20px 0 20px 0",
-        "mg_mb": "",
-        "pd_mb": ""
+        "mg": "30px",
+        "pd": "30px",
+        "mg_mb": "10px",
+        "pd_mb": "10px"
       }
     }
   },
