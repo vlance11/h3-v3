@@ -378,7 +378,7 @@
         "layout_des": false,
         "cl_bg": "#eceafe",
         "mg": "30px",
-        "pd": "",
+        "pd": "30px",
         "mg_mb": "10px",
         "pd_mb": "10px"
       }
