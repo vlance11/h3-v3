@@ -715,6 +715,10 @@
         "default": "Jost",
         "options": [
           {
+            "value": "Inter",
+            "label": "Font Inter"
+          },
+          {
             "value": "Jost",
             "label": "Font Jost"
           },
@@ -777,6 +781,10 @@
         "label": "Google Font",
         "default": "Jost",
         "options": [
+          {
+            "value": "Inter",
+            "label": "Font Inter"
+          },
           {
             "value": "Jost",
             "label": "Font Jost"
@@ -841,6 +849,10 @@
         "default": "Jost",
         "options": [
           {
+            "value": "Inter",
+            "label": "Font Inter"
+          },
+          {
             "value": "Jost",
             "label": "Font Jost"
           },
@@ -903,6 +915,10 @@
         "label": "Google Font",
         "default": "Jost",
         "options": [
+          {
+            "value": "Inter",
+            "label": "Font Inter"
+          },
           {
             "value": "Jost",
             "label": "Font Jost"
@@ -967,6 +983,10 @@
         "default": "Jost",
         "options": [
           {
+            "value": "Inter",
+            "label": "Font Inter"
+          },
+          {
             "value": "Jost",
             "label": "Font Jost"
           },
@@ -1029,6 +1049,10 @@
         "label": "Google Font",
         "default": "Jost",
         "options": [
+          {
+            "value": "Inter",
+            "label": "Font Inter"
+          },
           {
             "value": "Jost",
             "label": "Font Jost"
