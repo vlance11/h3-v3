@@ -78,7 +78,7 @@ button.search_action {
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox {
     padding: 10px 10px;
-    margin: 30px auto;
+    margin: 25px auto;
   }
   .image-banner-apps-block #ymm_searchbox ul{
     flex-wrap: wrap !important;
