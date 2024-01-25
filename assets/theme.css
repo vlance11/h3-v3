@@ -80,6 +80,9 @@ button.search_action {
     padding: 10px 10px;
     margin: 25px auto;
   }
+  .image-banner-apps-block #ymm_searchbox .btn{
+    min-height: 35px;
+  }
   .image-banner-apps-block #ymm_searchbox ul{
     flex-wrap: wrap !important;
   }
