@@ -79,6 +79,10 @@ button.search_action {
   .image-banner-apps-block #ymm_searchbox ul{
     flex-wrap: wrap !important;
   }
+  .image-banner-apps-block #ymm_searchbox label {
+    font-size: 12px;
+    margin: 0 0 5px;
+  }
   .image-banner-apps-block #ymm_searchbox select {
     font-size: 12px;    
     min-height: 38px;    
