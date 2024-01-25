@@ -75,6 +75,10 @@
 .search-box-area .header-search .search_header .search_header__submit{
   height: 30px;
 }
+.sugget.btn {
+  padding: 5px 12px;
+  margin-left: 10px;
+}
 button.search_action {
   display: flex;
   justify-content: center;
