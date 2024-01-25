@@ -516,6 +516,15 @@
             "content": "<p>I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks!<\/p>",
             "title": "Alexander Ball",
             "address": "New York",
+            "rating": 4.5
+          }
+        },
+        "quote_RcQeQa": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks!<\/p>",
+            "title": "Anik Ahmed",
+            "address": "Dhaka, Bangladesh",
             "rating": 5
           }
         }
@@ -525,7 +534,8 @@
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-1",
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-2",
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-3",
-        "quote_gfKrPQ"
+        "quote_gfKrPQ",
+        "quote_RcQeQa"
       ],
       "settings": {
         "title": "5000+ Happy Customers With Their Best Buying Experience",
