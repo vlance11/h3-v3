@@ -34,6 +34,11 @@
         {% endif %}
       <div class="search-box-area">
         {% render 'header-search', use-icon: 'icon-search' %}
+        <div class="suggest-button">
+          <a href="{{ collection.url }}" class="sugget btn btn-primary">
+            {% render 'icons', icon: 'robot' %} <span>Suggest me</span>
+          </a>
+        </div>
       </div>
       </div>
     {% endif %}
