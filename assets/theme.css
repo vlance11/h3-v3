@@ -121,6 +121,9 @@ span.text-summ {
   letter-spacing: 0px;
   text-align: left;
 }
+.summary-text:not(.summary-text:last-child) {
+    border-right: 1px solid #DDDDDD;
+}
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox {
     padding: 10px 10px;
