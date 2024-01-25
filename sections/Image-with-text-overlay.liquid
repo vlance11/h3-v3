@@ -77,7 +77,9 @@
                                           </div>
                                       {% when 'button' %}
                                       <div class="button-area">
-                                        <a href="{{ block.settings.btn_url }}" class="btn btn-primary">{{ block.settings.btn_label }}</a>
+                                        <a href="{{ block.settings.btn_url }}" class="btn btn-primary" style="background-color:{{ block.settings.btn_bg_clr }};color:{{ block.settings.btn_label_clr }}">
+                                        {{ block.settings.btn_label }}
+                                        </a>
                                       </div>
                               
                                   {% else %} 
