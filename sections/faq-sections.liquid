@@ -6,7 +6,8 @@
 {%- if section.settings.hidden %}{% break %}{% endif -%}	
 <section id="laber_{{sid}}">
   <div class="container {% if section.settings.layout == "full-width"%}{{section.settings.layout}}{% endif %}">
-		{% if section.settings.title!= blank %}
+		{% if section.settings.image != blank %}
+        {% if section.settings.title!= blank %}
     	<div class="wrap_title style2">
 		  {% if section.settings.sub_title!= blank %}
     		  <span class="section-subtitle h4">{{section.settings.sub_title}}</span>
@@ -18,7 +19,8 @@
     		  <div class="content">{{section.settings.content}}</div>
 		  {% endif %}
 		</div>
-    {% endif %}
+        {% endif %}
+        {% endif %}
     <div class="content_section">
     <div class="row">
         <div class="col-lg-6 col-md-6 col-12" style="order:2">
@@ -52,6 +54,20 @@
           </div>
 
         {% else %}
+
+          {% if section.settings.title!= blank %}
+        	<div class="wrap_title style2">
+    		  {% if section.settings.sub_title!= blank %}
+        		  <span class="section-subtitle h4">{{section.settings.sub_title}}</span>
+    		  {% endif %}
+              {% if section.settings.title != blank %}
+        		  <h3 class="section-title h3">{{section.settings.title}}</h3>  
+    		  {% endif %}
+              {% if section.settings.content!= blank %}
+        		  <div class="content">{{section.settings.content}}</div>
+    		  {% endif %}
+    		</div>
+          {% endif %}
           <div class="newsletter">                                   	
             {%- form 'customer', class:'newsletter-form-footer' -%}
               <input type="hidden" name="contact[tags]" value="newsletter">
