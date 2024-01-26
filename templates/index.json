@@ -660,6 +660,77 @@
         "mg_mb": "",
         "pd_mb": "30px,,30px"
       }
+    },
+    "collection_carousel_products3_34dfLd": {
+      "type": "collection-carousel-products3",
+      "blocks": {
+        "banner_fNgmma": {
+          "type": "banner",
+          "settings": {
+            "title": "New arrivals",
+            "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+            "text_btn": "Shop Now",
+            "url": "",
+            "open_link": "_blank",
+            "cl": "5",
+            "cl_tb": "5",
+            "cl_mb": "12",
+            "mg": "",
+            "pd": "",
+            "mg_mb": "",
+            "pd_mb": ""
+          }
+        },
+        "collection_pNaEUH": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "limit": 6,
+            "use-slider": true,
+            "slides-To-Scroll": 1,
+            "visible": 3,
+            "widescreen": 3,
+            "desktop": 3,
+            "laptop": 3,
+            "notebook": 3,
+            "tablet": 3,
+            "landscape": 2,
+            "portrait": 2,
+            "mobile": 1,
+            "rows": 2,
+            "autoplay": true,
+            "speed": "300",
+            "autoplay-Speed": "3000",
+            "arrows": true,
+            "fade": false,
+            "center-Mode": false,
+            "adaptive-Height": false,
+            "dots": false,
+            "infinite": false,
+            "padding": 10,
+            "vertical": false,
+            "cl": "7",
+            "cl_tb": "7",
+            "cl_mb": "12"
+          }
+        }
+      },
+      "block_order": [
+        "banner_fNgmma",
+        "collection_pNaEUH"
+      ],
+      "settings": {
+        "title": "",
+        "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+        "text_size": "medium",
+        "text_transform": "none",
+        "layout_des": false,
+        "cl_bg": "#fff",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
@@ -670,6 +741,7 @@
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8",
     "image_with_text_overlay_DReYH6",
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34",
-    "69805983-b566-42af-ba6f-ca890638160a"
+    "69805983-b566-42af-ba6f-ca890638160a",
+    "collection_carousel_products3_34dfLd"
   ]
 }
