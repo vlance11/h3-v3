@@ -32,42 +32,10 @@
             </a>
           </div>
         </div>
-        {%- if show_label_in_stock or show_label_out_stock or show_label_sale or show_label_new or show_label_hot -%}
-          {%- assign label_present = true -%}
-        {%- else -%}
-          {%- assign label_present = false -%}
-        {%- endif -%}
-        {%- if label_present -%}
-          <div class="product-image__overlay-top-left ">
-            {% include 'product-get-label' with product: product %}
-          </div>
-        {%- endif -%}
-        {% if show_button_add_to_cart %}
           <div class="button-cart-bottom">
             {% if variants_size == 1 %}
               <div class="flex alo-gap" style="--alo-gap:5px;">
                 {% if product.available %}
-                  {% if show_quantity_box %}
-                    <div data-product-quantity class="js-quantity quantity justify-content-center focus-form">
-                      <div class="inner-quantity flex">
-                        <input
-                          data-step="1"
-                          data-min="1"
-                          data-max="{{ product.variants.first.inventory_quantity }}"
-                          class="input-text js_qty focus-form-input"
-                          type="text"
-                          size="4"
-                          title="Qty"
-                          value="1"
-                          name="quantity"
-                        >
-                        <p class="qty-btn">
-                          <a class="js_plus" href="#"><i class="icon-chevron-up"></i></a>
-                          <a class="js_minus" href="#"><i class="icon-chevron-down"></i></a>
-                        </p>
-                      </div>
-                    </div>
-                  {% endif %}
                   <button
                     type="submit"
                     class="add-to-cart js_add_to_cart_button {%if settings.disable_ajax_cart %}page_{{settings.custom_page_cart}}{%endif%} alo-border-radius"
@@ -100,33 +68,21 @@
               </a>
             {% endif %}
           </div>
-        {% endif %}
       </div>
-      <div class="product-collection__content style_{{style_product}}">
-        {% if show_collection %}
-          <div class="product-collection__info">
-            <div class="product-collection__more-info">
-              {%- if product.collections.size > 0 -%}
-                {% render 'product-get-collections' with product: product %}
-              {%- endif -%}
-            </div>
-          </div>
-        {% endif %}
-        {%- if show_title -%}
-          <div class="product-collection__title">
-            <h2>
-              <a href="{{ url }}">{{ title }}</a>
-            </h2>
-          </div>
-        {%- endif -%}
-        {%- if show_reviews -%}
+      <div class="product-collection__content style_{{settings.content_style_product}}">
+        <div class="product-collection__title">
+          <h2>
+            <a href="{{ url }}">{{ title }}</a>
+          </h2>
+        </div>
+        {%- if settings.product_collection_show_reviews -%}
           {% include 'reviews-count' %}
           <div class="product-collection__reviews">
             {% render 'product-get-review' with id: product.id hide_counter: hide_reviews_counter %}
           </div>
         {%- endif -%}
         <div class="frm-price-color">
-          {%- if show_price -%}
+          {%- if settings.product_collection_show_price -%}
             <div class="product-collection__price ">
               {%- if product.price_varies -%}
                 <span class="price"
@@ -138,33 +94,6 @@
             </div>
           {%- endif -%}
         </div>
-        {%- if show_availability -%}
-          <div class="product-collection__availability">
-            <p
-              class="{% if available %}in_stock{% else %}out_stock{% endif %} {% if quantity < 10 %}small-quantity{% endif %} "
-              data-js-product-availability
-            >
-              {% if available %}
-                <i class="icon-check"></i>
-                {% if quantity < 10 %}
-                  {{ 'products.product.only_left_in_stock_html' | t: count: quantity }}
-                {% else %}
-                  {{ 'products.product.availability_value_in_stock' | t }}
-                  {{ 'products.product.value_in_stock_html' | t: count: quantity }}
-                {% endif %}
-              {% else %}
-                <i class="icon-check"></i>{{ 'products.product.availability_value_out_stock' | t }}
-              {% endif %}
-            </p>
-          </div>
-        {%- endif -%}
-
-        {%- if show_options and show_custom_options and variants_size > 1 -%}
-          <div class="product-collection__options">
-            {% include 'product-get-options' %}
-          </div>
-          {%- assign enable_select_options_button = true -%}
-        {%- endif -%}
       </div>
     {% endform %}
   </div>
