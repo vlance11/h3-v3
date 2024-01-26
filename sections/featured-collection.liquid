@@ -21,7 +21,7 @@
 {% style %}
 {% if section.settings.background_image != blank %}
 #laber_{{sid}}{
-  backgound-image: url("{{ section.settings.background_image | img_url }}");
+  backgound-image: url({{ section.settings.background_image | img_url }});
 }
 {% endif %}
 {% endstyle %}
