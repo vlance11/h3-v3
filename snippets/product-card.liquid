@@ -71,9 +71,9 @@
           </h2>
         </div>
         {%- if settings.product_collection_show_reviews -%}
-          {% include 'reviews-count' %}
+          {% render 'reviews-count', product: product %}
           <div class="product-collection__reviews">
-            {% render 'product-get-review' with id: product.id hide_counter: hide_reviews_counter %}
+            {% render 'product-get-review' with id: product.id hide_counter: false %}
           </div>
         {%- endif -%}
         <div class="frm-price-color">
