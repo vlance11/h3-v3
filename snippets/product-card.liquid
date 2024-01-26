@@ -83,7 +83,7 @@
                 ><span>{{ product.price_min | money }} – {{ product.price_max | money }}</span></span
               >
             {%- else -%}
-              {% render 'product-get-price' with price: price compare_at_price: product.compare_at_price %}
+              {% render 'product-get-price' with price: product.price compare_at_price: product.compare_at_price %}
             {%- endif -%}
           </div>
         </div>
