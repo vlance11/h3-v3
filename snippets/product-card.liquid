@@ -22,18 +22,6 @@
 {% assign show_title_variant = false %}
 {% assign build_variant = 'all' %}
 
-{%- if pageUrl contains '?' -%}
-  {%- assign params = pageUrl | remove: '?' | split: '&#38;' -%}
-  {%- for param in params -%}
-    {%- assign prop_n_value = param | split: '=' -%}
-    {%- if prop_n_value[0] == 'column' -%}
-      {%- assign col = prop_n_value[1] -%}
-    {%- endif -%}
-  {%- endfor -%}
-{%- endif -%}
-{%- unless col -%}
-  {%- assign col = 15 -%}
-{%- endunless -%}
 <div class="product-card">
   <div class="product-collection" data-js-product>
     <script class="data-json-product" type="application/json">
