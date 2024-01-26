@@ -665,8 +665,8 @@
     "featured_collection_PkxFB3": {
       "type": "featured-collection",
       "settings": {
-        "title": "New arrivals",
-        "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+        "title": "Our Latest Products",
+        "content": "",
         "text_size": "medium",
         "text_transform": "none",
         "background_image": "shopify:\/\/shop_images\/Frame_1000008025.png",
