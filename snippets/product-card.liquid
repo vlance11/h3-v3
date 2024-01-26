@@ -42,24 +42,6 @@
             {% include 'product-get-label' with product: product %}
           </div>
         {%- endif -%}
-
-        {%- if show_button_add_to_wishlist or show_button_add_to_compare or show_button_quick_view -%}
-          <div class="product-image__overlay-bottom">
-            <div class="group-button">
-              <div class="inner">
-                {% if show_button_add_to_wishlist %}
-                  {% include 'product-get-button-wishlist' %}
-                {% endif %}
-                {% if show_button_add_to_compare %}
-                  {% include 'product-get-button-compare' %}
-                {% endif %}
-                {% if show_button_quick_view %}
-                  {% include 'product-get-button-quickview' %}
-                {% endif %}
-              </div>
-            </div>
-          </div>
-        {%- endif -%}
         {% if show_button_add_to_cart %}
           <div class="button-cart-bottom">
             {% if variants_size == 1 %}
