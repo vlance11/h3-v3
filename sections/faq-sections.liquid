@@ -22,14 +22,12 @@
     <div class="content_section">
     <div class="row">
         <div class="col-lg-6 col-md-6 col-12" style="order:2">
-        {% assign index = 0 %} 
       	{%- for block in section.blocks -%}
           {%- assign image = block.settings.image -%}
       	  {%- assign url = block.settings.url -%}
-          {% if index < 4 %}
              
               <div id="id_b_{{ block.id }}" class="item-faq {{ index }}">
-                <div class="js-item-faq item {% if index == 0 %}active{% endif %}">	
+                <div class="js-item-faq item {% if forloop.first %}active{% endif %}">	
                   {% if block.settings.title != blank %}
                     <h3 class="heading-title">
                         <a href="{{block.settings.btn_link}}" target="{{block.settings.open_link}}" title="{{ block.settings.title | escape }}">{{ block.settings.title | escape }}</a>
@@ -44,9 +42,6 @@
                   {% endif %}
                 </div>	
               </div>
-
-            {% endif %}
-            {% assign index = index | plus: 1 %}
         {%- endfor -%}
         </div>
 
