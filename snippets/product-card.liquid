@@ -1,27 +1,3 @@
-
-{%- assign style_product = settings.content_style_product -%}
-{%- assign show_label_sale = settings.product_collection_show_label_sale -%}
-{%- assign show_label_new = settings.product_collection_show_label_new -%}
-{%- assign show_label_hot = settings.product_collection_show_label_hot -%}
-{%- assign show_collection = settings.collection_info_show_collections -%}
-{%- assign show_title = settings.product_collection_show_title -%}
-{%- assign show_price = settings.product_collection_show_price -%}
-{%- assign show_availability = settings.product_collection_show_label_in_stock -%}
-{%- assign show_custom_options = true | default: settings.product_show_custom_options -%}
-{%- assign show_options = settings.product_collection_show_options -%}
-{%- assign show_button_add_to_cart = settings.product_collection_show_button_add_to_cart -%}
-{% assign show_quantity_box = settings.product_collection_show_quantity_box %}
-{%- assign show_button_add_to_wishlist = settings.product_collection_show_button_add_to_wishlist -%}
-{%- assign show_button_add_to_compare = settings.product_collection_show_button_add_to_compare -%}
-{%- assign show_button_quick_view = settings.product_collection_show_button_quick_view -%}
-{%- assign show_reviews = settings.product_collection_show_reviews -%}
-{%- assign hide_reviews_counter = settings.product_collection_hide_reviews_counter -%}
-{% assign show_secondary_image = settings.product_collection_show_secondary_image %}
-{% assign media_aspect_ratio = settings.product_collection_image_ratio %}
-{%- assign variants_size = product.variants | size -%}
-{% assign show_title_variant = false %}
-{% assign build_variant = 'all' %}
-
 <div class="product-card">
   <div class="product-collection" data-js-product>
     <script class="data-json-product" type="application/json">
