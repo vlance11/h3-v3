@@ -201,14 +201,20 @@ button.subcribe_btn {
   }
   
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
   .summary-text-main {
     flex-wrap: wrap;
   }
+  span.number_counter {
+    font-size: 30px;
+  }  
+}
+@media screen and (max-width: 768px){
   .type_banner .laber_banner .banner_text{
     position: relative;
   }
 }
+
 @media screen and (min-width: 768px){
   .search-box-area .header-search .search_header {
     width: 330px;
