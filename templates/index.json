@@ -524,7 +524,7 @@
             "btn_label": "Sign up now",
             "btn_url": "",
             "btn_label_clr": "#000000",
-            "btn_bg_clr": "#E5C33A"
+            "btn_bg_clr": "#e5c33a"
           }
         }
       },
@@ -703,9 +703,9 @@
         "layout": "container",
         "cl_bg": "#faf6f0",
         "mg": "",
-        "pd": "",
+        "pd": "60px,,60px",
         "mg_mb": "",
-        "pd_mb": ""
+        "pd_mb": "30px,,30px"
       }
     },
     "about_us_tepFXP": {
