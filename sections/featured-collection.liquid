@@ -68,7 +68,7 @@
               {%- for product in products limit: section.settings.max_count -%}
               {% assign pr_hd = product.handle %}
                 {% if section.settings.style == 'style1' %}
-            <p>Product card</p>
+                {% render 'product-card', product: product %}
                 {% else %}
                 <div data-lazy-product-load class="product-item{% unless section.settings.use-slider %} slider-disabled{% endunless %} productLazyload lazyload" data-include="{{url_cat}}/products/{{pr_hd}}/?view=pr_lazy_load"></div>
                 {% endif %}
