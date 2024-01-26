@@ -199,13 +199,14 @@ button.subcribe_btn {
     font-size: 12px;    
     min-height: 38px;    
   }
-  .type_banner .laber_banner .banner_text{
-    position: relative;
-  }
+  
 }
 @media screen and (max-width: 768px){
   .summary-text-main {
     flex-wrap: wrap;
+  }
+  .type_banner .laber_banner .banner_text{
+    position: relative;
   }
 }
 @media screen and (min-width: 768px){
