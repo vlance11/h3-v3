@@ -22,6 +22,9 @@
 {% if section.settings.background_image != blank %}
 #laber_{{sid}}{
   background-image: url({{ section.settings.background_image | image_url }});
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: inherit;
 }
 {% endif %}
 {% endstyle %}
