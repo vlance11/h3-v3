@@ -44,9 +44,6 @@
                     data-pid="{{ product.variants.first.id }}"
                     data-js-product-button-add-to-cart
                   >
-                    <div class="laber-loading">
-                      <div class="circle-loadding"><span></span></div>
-                    </div>
                     <span class="text">{{ 'products.product.add_to_cart' | t }}</span>
                   </button>
                 {% else %}
@@ -62,9 +59,6 @@
                 class="js_select_options select_options alo-border-radius"
                 style="--alo-border-radius:5px;"
               >
-                <div class="laber-loading">
-                  <div class="circle-loadding"><span></span></div>
-                </div>
                 <span class="text">{{ 'products.grid_items.select_options' | t }}</span>
               </a>
             {% endif %}
