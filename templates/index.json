@@ -707,56 +707,6 @@
         "mg_mb": "",
         "pd_mb": "30px,,30px"
       }
-    },
-    "about_us_tepFXP": {
-      "type": "about-us",
-      "blocks": {
-        "heading_kTgwBP": {
-          "type": "heading",
-          "settings": {
-            "title": "ABOUT US",
-            "sub_title": "wellcome to kalles"
-          }
-        },
-        "image_MXeq3z": {
-          "type": "image",
-          "settings": {
-            "use_border": true,
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        },
-        "text_qXpyKx": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "h_position": "left",
-            "txt_align": "left"
-          }
-        },
-        "sig_N3AFkt": {
-          "type": "sig",
-          "settings": {
-            "img_max_width": 115,
-            "h_position": "left",
-            "txt_align": "left"
-          }
-        }
-      },
-      "block_order": [
-        "heading_kTgwBP",
-        "image_MXeq3z",
-        "text_qXpyKx",
-        "sig_N3AFkt"
-      ],
-      "settings": {
-        "hidden": false,
-        "cl_bg": "#ffffff",
-        "layout": "container",
-        "mg": "30px,,,",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
     }
   },
   "order": [
@@ -768,7 +718,6 @@
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8",
     "image_with_text_overlay_DReYH6",
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34",
-    "69805983-b566-42af-ba6f-ca890638160a",
-    "about_us_tepFXP"
+    "69805983-b566-42af-ba6f-ca890638160a"
   ]
 }
