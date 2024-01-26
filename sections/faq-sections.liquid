@@ -74,14 +74,18 @@
               <div class="mc4wp-form-fields">
                 <div class="signup-newsletter-form alo-border-radius" style="--alo-border-radius:5px;">
 
-                  <div class="row">
-                    <div class="frm_search_input col">
-                      <input class="search_header__input js_iput_search" autocomplete="off" type="email" name="contact[email]" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}" required="required">
-                    </div>
-                    <div class="col-auto btn_search">
-                      <button type="submit" class="subcribe_btn" aria-label="email">
-                        <span>Subscribe</span>
-                      </button> 
+                  <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-7">
+                      <div class="row">
+                        <div class="frm_search_input col">
+                          <input class="search_header__input js_iput_search" autocomplete="off" type="email" name="contact[email]" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}" required="required">
+                        </div>
+                        <div class="col-auto btn_search">
+                          <button type="submit" class="subcribe_btn" aria-label="email">
+                            <span>Subscribe</span>
+                          </button> 
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
