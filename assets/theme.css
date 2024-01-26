@@ -214,7 +214,15 @@ button.subcribe_btn {
     position: relative;
   }
 }
-
+@media screen and (max-width: 1024px){
+  span.number_counter {
+    font-size: 30px;
+  }
+  span.text-summ {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
 @media screen and (min-width: 768px){
   .search-box-area .header-search .search_header {
     width: 330px;
