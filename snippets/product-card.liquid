@@ -1,4 +1,4 @@
-{%- layout none -%}
+
 {%- assign style_product = settings.content_style_product -%}
 {%- assign show_label_sale = settings.product_collection_show_label_sale -%}
 {%- assign show_label_new = settings.product_collection_show_label_new -%}
@@ -22,18 +22,6 @@
 {% assign show_title_variant = false %}
 {% assign build_variant = 'all' %}
 
-{%- assign pageUrl = content_for_header
-  | split: '"pageurl":"'
-  | last
-  | split: '"'
-  | first
-  | replace: '\/', '/'
-  | prepend: 'https://'
-  | remove: canonical_url
-  | url_decode
-  | replace: '\u0026', '&#38;'
-  | replace: '%20', ' '
--%}
 {%- if pageUrl contains '?' -%}
   {%- assign params = pageUrl | remove: '?' | split: '&#38;' -%}
   {%- for param in params -%}
