@@ -50,6 +50,39 @@
           <div class="fa-image-banner">
             <img src="{{ section.settings.image | img_url:'master' }}" width="100%" height="auto" alt="{{ section.settings.image.alt | escape }}">
           </div>
+
+        {% else %}
+          <div class="newsletter">                                   	
+            {%- form 'customer', class:'newsletter-form-footer' -%}
+              <input type="hidden" name="contact[tags]" value="newsletter">
+              <div class="mc4wp-form-fields">
+                <div class="signup-newsletter-form alo-border-radius" style="--alo-border-radius:5px;">
+                  <div class="col pd-0">
+                    <div class="i-email">
+                      <input type="email" name="contact[email]" placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}"  value="{% if customer %}{{ customer.email }}{% endif %}" class="{{class_ip}} input-text" required="required">
+                    </div>
+                  </div>
+                   <div class="col-auto pd-0">
+                    <button type="submit" class="submit-btn truncate{% if settings.checkbox_mail %} mail_agree pr{% endif %}" aria-label="submit">
+                        <span>{{ 'general.newsletter_form.submit' | t }} </span>
+                        <svg width="21" height="12" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.998167 6.99379H17.7438L14.6065 10.2754C13.7054 11.218 15.0571 12.6319 15.9582 11.6893L18.8154 8.69597L20.7228 6.69775C21.0924 6.30879 21.0924 5.68059 20.7228 5.29162L15.9582 0.302062C15.777 0.10722 15.5275 -0.00210476 15.2675 0.000156464C14.4094 0.000269525 13.9882 1.09358 14.6065 1.71602L17.7512 4.99765H0.948827C-0.372784 5.06624 -0.274105 7.06261 0.998167 6.99379Z" fill="black"/>
+                        </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              {%- if form.posted_successfully? -%}
+                <div class="mc4wp-response">  
+                  <div class="shopify-message"><i class="las la-check"></i>{{ 'general.newsletter_form.confirmation' | t }}</div>
+                </div>
+              {%- elsif form.errors -%}
+                <div class="mc4wp-response"> 
+                  <div class="shopify-error"><i class="las la-exclamation-triangle"></i>{{ form.errors | default_errors }}</div>
+                </div>
+              {%- endif -%}
+              {%- endform -%}								
+            </div>  
         {% endif %}
         </div>
     </div>
