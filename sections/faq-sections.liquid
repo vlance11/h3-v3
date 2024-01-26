@@ -57,6 +57,19 @@
               <input type="hidden" name="contact[tags]" value="newsletter">
               <div class="mc4wp-form-fields">
                 <div class="signup-newsletter-form alo-border-radius" style="--alo-border-radius:5px;">
+
+<div class="row">
+  <div class="frm_search_input col">
+    <input class="search_header__input js_iput_search" autocomplete="off" type="text" name="q" placeholder="Search for products ...">
+  </div>
+  <div class="col-auto btn_search">
+    <button class="search_header__submit js_btn_search" aria-label="Search">
+      <span>Search</span>
+    </button> 
+  </div>
+</div>
+
+              
                   <div class="col pd-0">
                     <div class="i-email">
                       <input type="email" name="contact[email]" placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}"  value="{% if customer %}{{ customer.email }}{% endif %}" class="{{class_ip}} input-text" required="required">
