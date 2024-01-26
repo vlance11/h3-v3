@@ -163,6 +163,9 @@ button.subcribe_btn {
 .subscribe-input.col {
     padding-right: 0;
 }
+.btn_subscribe > button {
+    border-radius: 0 8px 8px 0;
+}
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox {
     padding: 10px 10px;
