@@ -197,6 +197,11 @@ button.btn.add-to-cart {
   font-weight: 600;
   text-transform: uppercase;
 }
+.featured-collection.style1 .product-collection__title a {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+}
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox {
     padding: 10px 10px;
