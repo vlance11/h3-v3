@@ -148,6 +148,19 @@ span.text-summ {
 .testimonial_avatar.style3{
   text-align: -webkit-center;
 }
+/* Faq newsletter */
+button.subcribe_btn {
+  padding: 0;
+  width: auto;
+  border: none;
+  background-color: yellow;
+  color: var(
+  --color-main);
+  height: 43px;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+}
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox {
     padding: 10px 10px;
