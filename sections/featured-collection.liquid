@@ -34,48 +34,48 @@
       </div>
     {% endif %}
     <div class="featured-collection products-arrivals">
-          <div class="section-content">
-            {% include 'grid-slider', settings:section.settings %} 
-            <div class="content_section slick-carousel">
-              <div class="{% unless section.settings.use-slider %}row {% endunless %}grid-slider js_carousel laber-slick-carousel" {{gridSlider}} 
-                data-mobile="{{ mobile }}"
-                data-portrait="{{ portrait }}"
-                data-landscape="{{ landscape }}"
-                data-tablet="{{ tablet }}"
-                data-notebook="{{ notebook }}"
-                data-laptop="{{ laptop }}"
-                data-desktop="{{ desktop }}"
-                data-widescreen="{{ widescreen }}"
-                data-visible="{{ visible }}"
-                data-spacing="{{ padding | plus: padding }}"
-                data-append-Arrows=".arrows_{{sid}}" 
-                data-append-Dots=".dots_{{sid}}" 
-                style="--perload-gap: {{ padding | plus: padding }}px"
-                > 
-                {%- if collection  != blank -%} 
-                  {%- assign products = collections[collection].products -%}
-                  {%- capture url_cat -%}{%- if routes.root_url != '/' -%}{{routes.root_url}}{%- endif -%}{% if collection %}/collections/{{collection.handle}}{% endif %}{%- endcapture -%}
-                  {%- for product in products limit: section.settings.max_count -%}
-                  {% assign pr_hd = product.handle %}
-                    <div data-lazy-product-load class="product-item{% unless section.settings.use-slider %} slider-disabled{% endunless %} productLazyload lazyload" data-include="{{url_cat}}/products/{{pr_hd}}/?view=pr_lazy_load"></div>
-                  {%- endfor -%}  
-				{%- else -%}
-                  {%- for i in (1..16) -%}
-                  <div class="pr_grid_item">
-                    {% include 'product_demo' %} 
-                  </div>
-                  {%- endfor -%}
-                {%- endif -%}
+      <div class="section-content">
+        {% include 'grid-slider', settings:section.settings %} 
+        <div class="content_section slick-carousel">
+          <div class="{% unless section.settings.use-slider %}row {% endunless %}grid-slider js_carousel laber-slick-carousel" {{gridSlider}} 
+            data-mobile="{{ mobile }}"
+            data-portrait="{{ portrait }}"
+            data-landscape="{{ landscape }}"
+            data-tablet="{{ tablet }}"
+            data-notebook="{{ notebook }}"
+            data-laptop="{{ laptop }}"
+            data-desktop="{{ desktop }}"
+            data-widescreen="{{ widescreen }}"
+            data-visible="{{ visible }}"
+            data-spacing="{{ padding | plus: padding }}"
+            data-append-Arrows=".arrows_{{sid}}" 
+            data-append-Dots=".dots_{{sid}}" 
+            style="--perload-gap: {{ padding | plus: padding }}px"
+            > 
+            {%- if collection  != blank -%} 
+              {%- assign products = collections[collection].products -%}
+              {%- capture url_cat -%}{%- if routes.root_url != '/' -%}{{routes.root_url}}{%- endif -%}{% if collection %}/collections/{{collection.handle}}{% endif %}{%- endcapture -%}
+              {%- for product in products limit: section.settings.max_count -%}
+              {% assign pr_hd = product.handle %}
+                <div data-lazy-product-load class="product-item{% unless section.settings.use-slider %} slider-disabled{% endunless %} productLazyload lazyload" data-include="{{url_cat}}/products/{{pr_hd}}/?view=pr_lazy_load"></div>
+              {%- endfor -%}  
+            {%- else -%}
+              {%- for i in (1..16) -%}
+              <div class="pr_grid_item">
+                {% include 'product_demo' %} 
               </div>
-              {%if arrows%}	
-              <div class="laber_append_arrows arrows_{{sid}}"></div>	
-              {% endif %}
-
-            </div>
-            {%if dots %}
-              <div class="laber_append_dots dots_{{sid}}"></div>
-              {%endif%}
+              {%- endfor -%}
+            {%- endif -%}
           </div>
+          {%if arrows%}	
+          <div class="laber_append_arrows arrows_{{sid}}"></div>	
+          {% endif %}
+
+        </div>
+        {%if dots %}
+          <div class="laber_append_dots dots_{{sid}}"></div>
+          {%endif%}
+      </div>
     </div>
   </div>
     
