@@ -77,17 +77,15 @@
           </div>
         {%- endif -%}
         <div class="frm-price-color">
-          {%- if settings.product_collection_show_price -%}
-            <div class="product-collection__price ">
-              {%- if product.price_varies -%}
-                <span class="price"
-                  ><span>{{ product.price_min | money }} – {{ product.price_max | money }}</span></span
-                >
-              {%- else -%}
-                {% render 'product-get-price' with price: price compare_at_price: product.compare_at_price %}
-              {%- endif -%}
-            </div>
-          {%- endif -%}
+          <div class="product-collection__price ">
+            {%- if product.price_varies -%}
+              <span class="price"
+                ><span>{{ product.price_min | money }} – {{ product.price_max | money }}</span></span
+              >
+            {%- else -%}
+              {% render 'product-get-price' with price: price compare_at_price: product.compare_at_price %}
+            {%- endif -%}
+          </div>
         </div>
       </div>
     {% endform %}
