@@ -188,6 +188,9 @@ button.btn.add-to-cart {
   background-color: var(--color-btn);
   padding: 14px;
 }
+.featured-collection .product-collection__content.style_left {
+    line-height: 44px;
+}
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox {
     padding: 10px 10px;
