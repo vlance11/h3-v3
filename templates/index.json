@@ -665,6 +665,7 @@
     "featured_collection_PkxFB3": {
       "type": "featured-collection",
       "settings": {
+        "style": "style1",
         "title": "Our Latest Products",
         "content": "",
         "text_size": "medium",
@@ -674,10 +675,10 @@
         "max_count": 8,
         "use-slider": true,
         "slides-To-Scroll": 1,
-        "visible": 5,
-        "widescreen": 4,
-        "desktop": 4,
-        "laptop": 4,
+        "visible": 4,
+        "widescreen": 3,
+        "desktop": 3,
+        "laptop": 3,
         "notebook": 3,
         "tablet": 3,
         "landscape": 2,
