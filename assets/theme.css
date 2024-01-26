@@ -165,8 +165,11 @@ button.subcribe_btn {
   border-radius: 8px 0 0 8px;
   border-right: none;
 }
-.subscribe-input.col,.col-auto.btn_subscribe {
+.subscribe-input.col {
     padding-right: 0 !important;
+}
+.col-auto.btn_subscribe{
+  padding-left: 0 !important;
 }
 .btn_subscribe > button {
     border-radius: 0 8px 8px 0;
