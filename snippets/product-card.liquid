@@ -33,6 +33,30 @@
             </a>
           </div>
         </div>
+        <div class="product-collection__content style_{{settings.content_style_product}}">
+          <div class="product-collection__title">
+            <h2>
+              <a href="{{ product.url }}">{{ product.title }}</a>
+            </h2>
+          </div>
+          {%- if settings.product_collection_show_reviews -%}
+            {% render 'reviews-count', product: product %}
+            <div class="product-collection__reviews">
+              {% render 'product-get-review' with id: product.id hide_counter: false %}
+            </div>
+          {%- endif -%}
+          <div class="frm-price-color">
+            <div class="product-collection__price ">
+              {%- if product.price_varies -%}
+                <span class="price"
+                  ><span>{{ product.price_min | money }} – {{ product.price_max | money }}</span></span
+                >
+              {%- else -%}
+                {% render 'product-get-price' with price: product.price compare_at_price: product.compare_at_price %}
+              {%- endif -%}
+            </div>
+          </div>
+        </div>
           <div class="button-cart-bottom">
             {% if product.variants.size == 1 %}
               <div class="flex alo-gap" style="--alo-gap:5px;">
@@ -63,31 +87,7 @@
               </a>
             {% endif %}
           </div>
-      </div>
-      <div class="product-collection__content style_{{settings.content_style_product}}">
-        <div class="product-collection__title">
-          <h2>
-            <a href="{{ product.url }}">{{ product.title }}</a>
-          </h2>
-        </div>
-        {%- if settings.product_collection_show_reviews -%}
-          {% render 'reviews-count', product: product %}
-          <div class="product-collection__reviews">
-            {% render 'product-get-review' with id: product.id hide_counter: false %}
-          </div>
-        {%- endif -%}
-        <div class="frm-price-color">
-          <div class="product-collection__price ">
-            {%- if product.price_varies -%}
-              <span class="price"
-                ><span>{{ product.price_min | money }} – {{ product.price_max | money }}</span></span
-              >
-            {%- else -%}
-              {% render 'product-get-price' with price: product.price compare_at_price: product.compare_at_price %}
-            {%- endif -%}
-          </div>
-        </div>
-      </div>
+      </div>      
     {% endform %}
   </div>
 </div>
