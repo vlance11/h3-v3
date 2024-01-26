@@ -32,19 +32,9 @@
         {% if section.settings.content!= blank %}
           <div class="content">{{section.settings.content}}</div>
         {% endif %}
-      {% if section.settings.enable_search %}
-      <div class="search-box-area">
-        {% render 'header-search', use-icon: 'icon-search' %}
-        <div class="suggest-button">
-          <a href="{{ collection.url }}" class="sugget btn btn-primary">
-            {% render 'icons', icon: 'robot' %} <span>Suggest me</span>
-          </a>
-        </div>
-      </div>
-      {% endif %}
       </div>
     {% endif %}
-    <div class="products-arrivals ">
+    <div class="featured-collection products-arrivals">
           <div class="section-content">
             {% include 'grid-slider', settings:section.settings %} 
             <div class="content_section slick-carousel">
@@ -167,10 +157,10 @@
           "label": "Text transform:"
         },
       {
-        "type": "checkbox",
-        "id": "enable_search",
-        "label": "Enable search",
-        "default": false
+        "type": "image_picker",
+        "id": "background_image",
+        "label": "Background image",
+        "info": "Section Background"
       },
       {
         "type": "header",
