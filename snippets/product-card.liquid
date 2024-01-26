@@ -34,7 +34,7 @@
           </div>
         </div>
           <div class="button-cart-bottom">
-            {% if variants_size == 1 %}
+            {% if product.variants.size == 1 %}
               <div class="flex alo-gap" style="--alo-gap:5px;">
                 {% if product.available %}
                   <button
