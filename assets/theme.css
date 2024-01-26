@@ -153,9 +153,8 @@ button.subcribe_btn {
   padding: 0;
   width: auto;
   border: none;
-  background-color: yellow;
-  color: var(
-  --color-main);
+  background-color: var(--color-btn);
+  color: var(--color-main);
   height: 43px;
   font-weight: 400;
   font-size: 20px;
