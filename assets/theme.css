@@ -189,7 +189,13 @@ button.btn.add-to-cart {
   padding: 14px;
 }
 .featured-collection .product-collection__content.style_left {
-    line-height: 44px;
+  line-height: 44px;
+}
+.featured-collection.style1 span.current {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox {
