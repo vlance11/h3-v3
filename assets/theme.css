@@ -238,3 +238,8 @@ button.btn.add-to-cart {
     width: 330px;
   }
 }
+@media screen and (min-width:1024px){
+  .featured-collection.products-arrivals.style1 {
+    margin-left: 100px;
+  }
+}
