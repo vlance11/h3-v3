@@ -177,6 +177,7 @@ button.subcribe_btn {
 .newsletter-section {
     margin-bottom: 20px;
 }
+
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox {
     padding: 10px 10px;
@@ -197,6 +198,9 @@ button.subcribe_btn {
   .image-banner-apps-block #ymm_searchbox select {
     font-size: 12px;    
     min-height: 38px;    
+  }
+  .type_banner .laber_banner .banner_text{
+    position: relative;
   }
 }
 @media screen and (max-width: 768px){
