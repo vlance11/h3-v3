@@ -202,6 +202,10 @@ button.btn.add-to-cart {
     font-size: 16px;
     font-weight: 400;
 }
+.featured-collection.style1 span.compare {
+    text-decoration: line-through;
+    font-size: 16px;
+}
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox {
     padding: 10px 10px;
