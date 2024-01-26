@@ -230,7 +230,7 @@
         "layout": "container",
         "cl_bg": "#fff8eb",
         "mg": "50ppx",
-        "pd": "50px",
+        "pd": "50px,,50px",
         "mg_mb": "30px",
         "pd_mb": "30px"
       }
