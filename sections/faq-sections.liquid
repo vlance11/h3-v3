@@ -82,7 +82,7 @@
                     <div class="col-lg-8 col-md-8 col-12">
                       <div class="row">
                         <div class="subscribe-input col">
-                          <input class="search_header__input js_iput_search" autocomplete="off" type="email" name="contact[email]" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}" required="required">
+                          <input class="search_header__input" autocomplete="off" type="email" name="contact[email]" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}" required="required">
                         </div>
                         <div class="col-auto btn_subscribe">
                           <button type="submit" class="subcribe_btn" aria-label="email">
