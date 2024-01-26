@@ -18,7 +18,13 @@
   assign padding = section.settings.padding
   
 %} 
-
+{% style %}
+{% if section.settings.background_image != blank %}
+#laber_{{sid}}{
+  backgound-image: url("{{ section.settings.background_image | img_url }}");
+}
+{% endif %}
+{% endstyle %}
 {%- for i in (1..1) -%}  
 <section id="laber_{{sid}}" class="{% if section.settings.use_border_for_product %}alo-border-product{% endif%}">
   <div class="laber_product_section_{{id}}">
