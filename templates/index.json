@@ -697,7 +697,7 @@
         "layout_des": false,
         "cl_bg": "#fff",
         "mg": "",
-        "pd": "",
+        "pd": "50px,,50px",
         "mg_mb": "",
         "pd_mb": ""
       }
