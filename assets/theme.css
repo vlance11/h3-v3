@@ -177,7 +177,11 @@ button.subcribe_btn {
 .newsletter-section {
     margin-bottom: 20px;
 }
-
+/* product-card */
+.product-card .product-collection {
+  border: 2px solid #000;
+  background: #FFFFFF;
+}
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox {
     padding: 10px 10px;
