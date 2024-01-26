@@ -56,17 +56,21 @@
         {% else %}
 
           {% if section.settings.title!= blank %}
-        	<div class="wrap_title style2 left">
-    		  {% if section.settings.sub_title!= blank %}
-        		  <span class="section-subtitle h4">{{section.settings.sub_title}}</span>
-    		  {% endif %}
-              {% if section.settings.title != blank %}
-        		  <h3 class="section-title h3">{{section.settings.title}}</h3>  
-    		  {% endif %}
-              {% if section.settings.content!= blank %}
-        		  <div class="content left">{{section.settings.content}}</div>
-    		  {% endif %}
-    		</div>
+        	<div class="row">
+              <div class="col-lg-8 col-md-8 col-12">
+                <div class="wrap_title style2 left">
+        		  {% if section.settings.sub_title!= blank %}
+            		  <span class="section-subtitle h4">{{section.settings.sub_title}}</span>
+        		  {% endif %}
+                  {% if section.settings.title != blank %}
+            		  <h3 class="section-title h3">{{section.settings.title}}</h3>  
+        		  {% endif %}
+                  {% if section.settings.content!= blank %}
+            		  <div class="content left">{{section.settings.content}}</div>
+        		  {% endif %}
+        		</div>
+              </div>
+            </div>
           {% endif %}
           <div class="newsletter">                                   	
             {%- form 'customer', class:'newsletter-form-footer' -%}
