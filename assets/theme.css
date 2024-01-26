@@ -186,6 +186,7 @@ button.btn.add-to-cart {
   width: 100%;
   margin: 0 10px;
   background-color: var(--color-btn);
+  padding: 14px;
 }
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox {
