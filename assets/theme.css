@@ -201,7 +201,7 @@ button.subcribe_btn {
   }
   
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .summary-text-main {
     flex-wrap: wrap;
   }
