@@ -540,7 +540,7 @@
         "h_tb": "250px",
         "h_mb": "150px",
         "full_width": true,
-        "cl_bg": "rgba(0,0,0,0)",
+        "cl_bg": "#8d979e",
         "cl_content_bg": "rgba(0,0,0,0)",
         "mg": "",
         "pd": "",
