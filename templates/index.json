@@ -662,15 +662,14 @@
         "pd_mb": "30px,,30px"
       }
     },
-    "collection_carousel_product_3JVFEf": {
-      "type": "collection-carousel-product",
+    "featured_collection_PkxFB3": {
+      "type": "featured-collection",
       "settings": {
         "title": "New arrivals",
         "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
         "text_size": "medium",
         "text_transform": "none",
-        "enable_search": false,
-        "collection": "",
+        "collection": "brake-winches",
         "max_count": 8,
         "use-slider": true,
         "slides-To-Scroll": 1,
@@ -691,16 +690,16 @@
         "fade": false,
         "center-Mode": false,
         "adaptive-Height": false,
-        "dots": false,
+        "dots": true,
         "infinite": false,
         "padding": 10,
         "vertical": false,
         "layout_des": false,
-        "cl_bg": "#ffffff",
+        "cl_bg": "#fff",
         "mg": "",
-        "pd": "50px,,50px",
+        "pd": "",
         "mg_mb": "",
-        "pd_mb": "20px,,20px"
+        "pd_mb": ""
       }
     }
   },
@@ -713,6 +712,6 @@
     "image_with_text_overlay_DReYH6",
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34",
     "69805983-b566-42af-ba6f-ca890638160a",
-    "collection_carousel_product_3JVFEf"
+    "featured_collection_PkxFB3"
   ]
 }
