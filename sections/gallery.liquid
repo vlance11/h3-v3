@@ -26,7 +26,7 @@
     <div class="row{% if sett_equal %} {{image_ratio}}{% endif %}">
       	{%- for block in section.blocks -%}
           {% if block.settings.enable_text %}
-            <div class="summary-text cat_space_item brand_list col-lg-{{col}} col-md-{{col_tb}} col-sm-{{col_mb}}" style="margin-bottom:{{block.settings.mg_img}};">
+            <div class="summary-text cat_space_item brand_list col-lg-{{col}} col-md-{{col_tb}} col-sm-{{col_mb}} col-xs-6" style="margin-bottom:{{block.settings.mg_img}};">
               <div class="summary-text-main">
                 <div class="summary-inner-text">
                   <span class="number_counter" style="color: {{ block.settings.text_1_color }}">{{ block.settings.text_1 }}</span>
