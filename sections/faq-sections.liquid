@@ -47,7 +47,7 @@
         {%- endfor -%}
         </div>
 
-        <div class="col-lg-6 col-md-6 col-12">
+        <div class="col-lg-6 col-md-6 col-12 newsletter-section">
         {% if section.settings.image != blank %}
           <div class="fa-image-banner">
             <img src="{{ section.settings.image | img_url:'master' }}" width="100%" height="auto" alt="{{ section.settings.image.alt | escape }}">
