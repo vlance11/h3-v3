@@ -91,11 +91,11 @@
                 </div>
               </div>
               {%- if form.posted_successfully? -%}
-                <div class="mc4wp-response">  
+                <div class="mc4wp-response left">  
                   <div class="shopify-message"><i class="las la-check"></i>{{ 'general.newsletter_form.confirmation' | t }}</div>
                 </div>
               {%- elsif form.errors -%}
-                <div class="mc4wp-response"> 
+                <div class="mc4wp-response left"> 
                   <div class="shopify-error"><i class="las la-exclamation-triangle"></i>{{ form.errors | default_errors }}</div>
                 </div>
               {%- endif -%}
