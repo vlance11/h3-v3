@@ -33,7 +33,7 @@
             </a>
           </div>
         </div>
-        <div class="product-collection__content style_{{settings.content_style_product}}">
+        <div class="product-collection__content style_{{settings.content_style_product}} center">
           <div class="product-collection__title">
             <h2>
               <a href="{{ product.url }}">{{ product.title }}</a>
@@ -57,7 +57,7 @@
             </div>
           </div>
         </div>
-          <div class="button-cart-bottom">
+          <div class="button-cart-bottom center">
             {% if product.variants.size == 1 %}
               <div class="flex alo-gap" style="--alo-gap:5px;">
                 {% if product.available %}
