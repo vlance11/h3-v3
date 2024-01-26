@@ -187,6 +187,8 @@ button.btn.add-to-cart {
   margin: 0 10px;
   background-color: var(--color-btn);
   padding: 14px;
+  font-size: 15px;
+  font-weight: 500;
 }
 .featured-collection .product-collection__content.style_left {
   line-height: 44px;
