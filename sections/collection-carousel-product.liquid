@@ -32,16 +32,6 @@
         {% if section.settings.content!= blank %}
           <div class="content">{{section.settings.content}}</div>
         {% endif %}
-      {% if section.settings.enable_search %}
-      <div class="search-box-area">
-        {% render 'header-search', use-icon: 'icon-search' %}
-        <div class="suggest-button">
-          <a href="{{ collection.url }}" class="sugget btn btn-primary">
-            {% render 'icons', icon: 'robot' %} <span>Suggest me</span>
-          </a>
-        </div>
-      </div>
-      {% endif %}
       </div>
     {% endif %}
     <div class="products-arrivals ">
@@ -166,12 +156,6 @@
           ],
           "label": "Text transform:"
         },
-      {
-        "type": "checkbox",
-        "id": "enable_search",
-        "label": "Enable search",
-        "default": false
-      },
       {
         "type": "header",
         "content": "== General Settings"
