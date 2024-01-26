@@ -40,12 +40,10 @@
               <a href="{{ product.url }}">{{ product.title }}</a>
             </h2>
           </div>
-          {%- if settings.product_collection_show_reviews -%}
             {% render 'reviews-count', product: product %}
             <div class="product-collection__reviews">
               {% render 'product-get-review' with id: product.id hide_counter: false %}
             </div>
-          {%- endif -%}
           <div class="frm-price-color">
             <div class="product-collection__price ">
               {%- if product.price_varies -%}
