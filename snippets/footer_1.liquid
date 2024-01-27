@@ -271,7 +271,16 @@
           <div class="{% if full_width %}full-width{% else %}container{% endif %}">
               <div class="row">
                   {% if section.settings.copyright %}
-                    <div class="copyright col-lg-6 col-md-12 col-12">{{ section.settings.copyright }}</div>
+                    <div class="copyright col-lg-6 col-md-12 col-12">
+                    {% if section.settings.store_img != blank %}
+                      <div class="footer-logo-with-text">
+                      {{ section.settings.store_img | image_url: width: 200 | image_tag: height: 50 }}
+                      {{ section.settings.copyright }}
+                      </div>
+                    {% else %}
+                    {{ section.settings.copyright }}
+                    {% endif %}
+                    </div>
                   {% endif %}
                   {% if section.settings.title-payment %}
                   <div class="payment col-lg-6 col-md-12 col-12">
