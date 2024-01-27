@@ -243,7 +243,7 @@
                       <div class="masonary-content">
                       {% for image in floatImages %}
                       {% if image.settings.float_image != blank %}
-                        <div class="image-{{ forloop.index }}">
+                        <div class="image-{{ forloop.index }}" style="padding-top: {{ image.settings.padding_top }}">
                           {{ image.settings.float_image | image_url: width: image.settings.image_width | image_tag: height: image.settings.image_height }}
                         </div>
                       {% endif %}
@@ -1916,6 +1916,16 @@
             "id": "image_height",
             "label": "Image height",
             "default": 550
+          },
+          {
+            "type": "range",
+            "id": "padding_top",
+            "label": "Padding top",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "default": 0
           }
         ]
       },
