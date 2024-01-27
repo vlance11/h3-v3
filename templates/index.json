@@ -35,8 +35,8 @@
             "custom_mark": "7",
             "color_mark": "#e5c33a",
             "mobile_fw_text": 600,
-            "mobile_lh_text": 0,
-            "mobile_font_text": 14
+            "mobile_lh_text": 22,
+            "mobile_font_text": 17
           }
         },
         "txt_gfznrw": {
@@ -52,8 +52,8 @@
             "ls_text": 0,
             "hide": false,
             "hide_mobile": false,
-            "mobile_fw_text": 600,
-            "mobile_lh_text": 0,
+            "mobile_fw_text": 500,
+            "mobile_lh_text": 18,
             "mobile_font_text": 14
           }
         },
@@ -151,7 +151,8 @@
           "settings": {
             "collection": "trailer-wiring",
             "image": "shopify:\/\/shop_images\/50-97-407-removebg-preview.png",
-            "title": "Trailer Wiring"
+            "title": "Trailer Wiring",
+            "bg_color": "#DDDDDD"
           }
         },
         "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-1": {
@@ -159,14 +160,16 @@
           "settings": {
             "collection": "trailer-hitches",
             "image": "shopify:\/\/shop_images\/63071-removebg-preview.png",
-            "title": "Trailer Hitches"
+            "title": "Trailer Hitches",
+            "bg_color": "#DDDDDD"
           }
         },
         "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-2": {
           "type": "collection",
           "settings": {
             "collection": "wiring-vehicle-end",
-            "title": "Wiring Vehicle End"
+            "title": "Wiring Vehicle End",
+            "bg_color": "#DDDDDD"
           }
         },
         "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-3": {
@@ -174,14 +177,16 @@
           "settings": {
             "collection": "trailer-jacks",
             "image": "shopify:\/\/shop_images\/183902-removebg-preview.png",
-            "title": "Trailer Jacks"
+            "title": "Trailer Jacks",
+            "bg_color": "#DDDDDD"
           }
         },
         "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-4": {
           "type": "collection",
           "settings": {
             "collection": "fifth-wheel-sliders",
-            "title": "Fifth Wheel Sliders"
+            "title": "Fifth Wheel Sliders",
+            "bg_color": "#DDDDDD"
           }
         },
         "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-5": {
@@ -189,7 +194,8 @@
           "disabled": true,
           "settings": {
             "collection": "cameras-photos",
-            "title": "Camera\/Photo"
+            "title": "Camera\/Photo",
+            "bg_color": "#DDDDDD"
           }
         },
         "ca39440e-a4cb-439b-bec1-9dd9a54948c7": {
@@ -197,7 +203,8 @@
           "disabled": true,
           "settings": {
             "collection": "desktop-pc",
-            "title": "Heatsink PC"
+            "title": "Heatsink PC",
+            "bg_color": "#DDDDDD"
           }
         },
         "a6b8dbc7-19c6-43c3-a6bb-f90c47881481": {
@@ -205,7 +212,8 @@
           "disabled": true,
           "settings": {
             "collection": "home-kitchen",
-            "title": "Home\/Electronics"
+            "title": "Home\/Electronics",
+            "bg_color": "#DDDDDD"
           }
         }
       },
