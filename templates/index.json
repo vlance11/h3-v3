@@ -781,7 +781,9 @@
         "text_block_BbBLmb": {
           "type": "text_block",
           "settings": {
-            "enable_image": true,
+            "enable_image": false,
+            "enable_icon": true,
+            "icon": "shield",
             "title": "Add a title or tagline",
             "sub_title": "Sub Heading",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
@@ -794,6 +796,8 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "enable_icon": false,
+            "icon": "shield",
             "title": "Add a title or tagline",
             "sub_title": "Sub Heading",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
@@ -806,6 +810,8 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "enable_icon": false,
+            "icon": "shield",
             "title": "Add a title or tagline",
             "sub_title": "Sub Heading",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
@@ -825,7 +831,7 @@
         "title": "Text column with image",
         "sub_title": "",
         "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
-        "use-slider": true,
+        "use-slider": false,
         "slides-To-Scroll": 1,
         "visible": 5,
         "widescreen": 4,
@@ -849,7 +855,7 @@
         "padding": 10,
         "vertical": false,
         "layout": "container",
-        "cl_bg": "#fff",
+        "cl_bg": "#ffffff",
         "mg": "",
         "pd": "",
         "mg_mb": "",
