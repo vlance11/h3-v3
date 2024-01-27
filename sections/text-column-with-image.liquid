@@ -42,6 +42,10 @@
                      <img class="lazyload" loading="lazy" data-src="https://via.placeholder.com/250x250.png/a1a19f/ffffff?text=Image+{{forloop.index}}"/>
                  {%- endif -%}
             	</div>
+              {% elsif block.settings.enable_icon %}
+                <div class="main-icon-area">
+                  <i class="icon-{{ block.settings.icon }}"></i>
+                </div>
               {%- endif -%}
             <div class="text-content">	
               {% if block.settings.title != blank %}
