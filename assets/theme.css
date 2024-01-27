@@ -212,6 +212,9 @@ button.btn.add-to-cart {
 .content-text-area {
     margin: 30px 0;
 }
+.content-text-area .content {
+    margin-bottom: 20px;
+}
 .main-icon-area .icon {
     padding-right: 10px;
     padding-top: 0;
