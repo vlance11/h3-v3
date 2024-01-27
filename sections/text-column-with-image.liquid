@@ -3,6 +3,12 @@
   assign arrows =  section.settings.arrows
   assign dots =  section.settings.dots  
 %}
+{% style %}
+.laber_text-column-with-image .main-content.box .text_column_with_img {
+  text-align: left;
+  align-items: flex-start;
+}
+{% endstyle %}
    
 {%- for i in (1..1) -%}
 {%- if section.settings.hidden %}{% break %}{% endif -%}	
