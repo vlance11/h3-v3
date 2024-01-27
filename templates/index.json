@@ -734,7 +734,7 @@
             "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
           }
         },
-        "icon_text_Kn77ky": {
+        "icon_text_7xDMRd": {
           "type": "icon-text",
           "settings": {
             "icon": "sheild",
@@ -742,15 +742,7 @@
             "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
           }
         },
-        "icon_text_WXRfcL": {
-          "type": "icon-text",
-          "settings": {
-            "icon": "sheild",
-            "title": "Variety of Brands",
-            "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
-          }
-        },
-        "icon_text_bLN89V": {
+        "icon_text_yRXw7V": {
           "type": "icon-text",
           "settings": {
             "icon": "sheild",
@@ -764,9 +756,8 @@
         "title_xrYi74",
         "description_npw6Xd",
         "icon_text_cBiqAz",
-        "icon_text_Kn77ky",
-        "icon_text_WXRfcL",
-        "icon_text_bLN89V"
+        "icon_text_7xDMRd",
+        "icon_text_yRXw7V"
       ],
       "settings": {
       }
