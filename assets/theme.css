@@ -271,6 +271,9 @@ button.btn.add-to-cart {
 div[data-wrapper-slidershow] .content-item .wrap_text .wrapper_caption .caption {
   z-index: 2;
 }
+.footer-logo-with-text {
+    display: flex;
+}
 
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox {
