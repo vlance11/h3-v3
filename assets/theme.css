@@ -286,6 +286,9 @@ button.btn.add-to-cart {
   .type_banner .laber_banner .banner_text{
     position: relative;
   }
+  .images-with-text-area .container .row > div {
+    order: 2;
+  }
   .images-area .first-image {
       position: relative;
       margin: 20px 0 0 20px;
