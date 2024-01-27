@@ -3067,7 +3067,10 @@ line-height: 16px;
   flex-direction: column;
   align-items: center;
 }
-  
+
+.laber_text-column-with-image .main-content.box .text_column_with_img{
+  text-align:left;
+}
 .text_column_with_img .text-content{
     display: flex;
     flex-direction: column;
