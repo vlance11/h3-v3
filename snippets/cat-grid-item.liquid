@@ -4,6 +4,11 @@
   assign home_t = 'homepage.onboarding.collection_title' | t
   assign ratio = image.aspect_ratio 
 -%}
+{% style %}
+#bk_{{block.id}}{
+  background-color: {{ block.settings.bg_color }};
+}
+{% endstyle %}
 <div id="bk_{{block.id}}" class="laber_banner cat_grid_item cat_space_item cat_grid_item_{{for_i}} {{ccol}}" style="margin-bottom:{{ block.settings.mg_bottom }}px;" {{ block.shopify_attributes }} >
   <div class="cat_grid_item__content overflow-hidden alo-border-radius" style="--alo-border-radius:{{ section.settings.border }}px;">
     <a href="{{ collection.url | default:'/admin/collections' }}" class="cat_grid_item__link" aria-label="link">
