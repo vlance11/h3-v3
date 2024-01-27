@@ -24,11 +24,11 @@
               {% assign iconIndex = 0 %}
               {% case block.type %}
                 {% when 'title' %}
-
+                  <h1 class="title">{{ block.settings.title }}</h1>
                 {% when 'subtext' %}
-
+                  <p class="subtext">{{ block.settings.subtext }}</p>
                 {% when 'description' %}
-
+                  <div class="rte">{{ block.settings.description }}</div>
                 {% when 'icon-text' %}
                 {% if iconIndex == 0 %}
                   <div class="row">
