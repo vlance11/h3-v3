@@ -22,6 +22,9 @@
   assign mobile = section.settings.mobile
   assign padding = section.settings.padding
 %}
+{% style %}
+
+{% endstyle %}
   
 {%- for i in (1..1) -%}  
 <section id="laber_{{sid}}" class="{% if show_border %}alo-border-bottom{% endif %}" style="{% if show_border %}--alo-color-border:{{ section.settings.cl_border}};{% endif %}">
@@ -485,6 +488,12 @@
         "id": "title",
         "label": "Title block (optional)",
         "info": "Leave empty to use 'collection title' title."
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background color",
+        "default": "#DDDDDD"
       }
       ]
     }],
