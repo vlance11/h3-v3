@@ -290,7 +290,7 @@
                       <div class="payment_type_svg">
                       {%- assign svg_custom = section.settings.svg_custom | remove: ' ' | split:"," -%}
                       {%- for img in svg_custom -%}
-                            <img class="lazyload img_tr_svg" src="{{ img | payment_type_img_url }}" data-src="{{ img | payment_type_img_url }}" alt="{{img | replace:'_',' '}}" />
+                        <img class="lazyload img_tr_svg" src="{{ img | payment_type_img_url }}" data-src="{{ img | payment_type_img_url }}" alt="{{img | replace:'_',' '}}" />
                       {%- endfor -%}
                       </div>
                     <style>
