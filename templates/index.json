@@ -77,6 +77,14 @@
           "settings": {
             "float_image": "shopify:\/\/shop_images\/Frame_34030.png"
           }
+        },
+        "float_image_XkgUcc": {
+          "type": "float-image",
+          "settings": {
+            "float_image": "shopify:\/\/shop_images\/Frame_34029_1.png",
+            "image_width": 250,
+            "image_height": 250
+          }
         }
       },
       "block_order": [
@@ -85,7 +93,8 @@
         "txt_gfznrw",
         "c_year_make_model_search_ymm_searchbox_pro_XpTRGe",
         "float_image_EknjB9",
-        "float_image_GrcNGe"
+        "float_image_GrcNGe",
+        "float_image_XkgUcc"
       ],
       "settings": {
         "hidden": false,
