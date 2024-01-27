@@ -25,7 +25,6 @@
         <div class="col-lg-6 col-md-6">
           <div class="content-container">
             {% for block in section.blocks %}
-              {% assign iconIndex = 0 %}
               {% case block.type %}
                 {% when 'title' %}
                   <h1 class="title">{{ block.settings.title }}</h1>
@@ -34,7 +33,7 @@
                 {% when 'description' %}
                   <div class="rte">{{ block.settings.description }}</div>
                 {% when 'icon-text' %}
-                {{ iconIndex }}
+                {% assign iconIndex = 0 %}
                 {% if iconIndex == 0 %}
                   <div class="row">
                 {% endif %}
