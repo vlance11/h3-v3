@@ -219,18 +219,18 @@ button.btn.add-to-cart {
     padding-right: 10px;
     padding-top: 0;
 }
-.main-icon-area .icon {
+.main-icon-area .icon i {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50px;
+    height: 50px;
     padding: 8px;
     border-radius: 8px;
-    border: 2px;    
-}
-.main-icon-area .icon svg{
-  color: #4269f2;
-  font-size: 25px;
-  background: #d6eaf5;
+    border: 2px;
+    color: #4269f2;
+    font-size: 25px;
+    background: #d6eaf5;
 }
 .content-text-area .title {
     font-weight: 600;
