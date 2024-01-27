@@ -745,8 +745,16 @@
         "icon_text_aKqiej": {
           "type": "icon-text",
           "settings": {
-            "icon": "robot",
-            "title": "Variety of Brands",
+            "icon": "headphones",
+            "title": "Customer-centric approach",
+            "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
+          }
+        },
+        "icon_text_GXgLmk": {
+          "type": "icon-text",
+          "settings": {
+            "icon": "lock",
+            "title": "Secure system",
             "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
           }
         }
@@ -757,7 +765,8 @@
         "description_npw6Xd",
         "icon_text_nUzwPp",
         "icon_text_NaCC8c",
-        "icon_text_aKqiej"
+        "icon_text_aKqiej",
+        "icon_text_GXgLmk"
       ],
       "settings": {
       }
