@@ -273,6 +273,7 @@ div[data-wrapper-slidershow] .content-item .wrap_text .wrapper_caption .caption 
 }
 .footer-logo-with-text {
     display: flex;
+    align-items: center;
 }
 
 @media screen and (max-width: 600px){
