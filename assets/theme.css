@@ -281,6 +281,11 @@ button.btn.add-to-cart {
   span.number_counter {
     font-size: 30px;
   } 
+}
+@media screen and (max-width: 767px){
+  .type_banner .laber_banner .banner_text{
+    position: relative;
+  }
   .images-area .first-image {
       position: relative;
       margin: 20px 0 0 20px;
@@ -292,11 +297,6 @@ button.btn.add-to-cart {
       bottom: 0;
       top: -75px;
       right: 0;
-  }
-}
-@media screen and (max-width: 768px){
-  .type_banner .laber_banner .banner_text{
-    position: relative;
   }
 }
 @media screen and (max-width: 1024px){
