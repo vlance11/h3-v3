@@ -871,10 +871,9 @@
         "padding": 10,
         "vertical": false,
         "layout": "container",
-        "cl_bg": "#ffffff",
+        "cl_bg": "#20309c",
         "mg": "",
         "pd": "",
-        "bg_clr": "#20309c",
         "mg_mb": "",
         "pd_mb": ""
       }
