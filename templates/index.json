@@ -770,7 +770,9 @@
       ],
       "settings": {
         "first_image": "shopify:\/\/shop_images\/image_49.png",
-        "second_image": "shopify:\/\/shop_images\/image_48.png"
+        "second_image": "shopify:\/\/shop_images\/image_48.png",
+        "padding-top": 50,
+        "padding-bottom": 50
       }
     }
   },
