@@ -1,6 +1,92 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Images with text",
+    "settings": [],
+    "blocks":[
+      {
+        "type": "title",
+        "name": "Title",
+        "settings":[
+          {
+            "type":"html",
+            "id": "title",
+            "label": "Heading",
+            "default": "Feel the best experience with <span class='text-highlight_1'>HitchExpo.com</span>"
+          }
+        ]
+      },
+      {
+        "type":"subtext",
+        "name": "Subtext",
+        "settings":[
+          {
+            "type":"text",
+            "id": "subtext",
+            "label": "Subtext",
+            "default": "Explore our first class services"
+          },
+          {
+            "type":"color",
+            "id": "Sub_clr",
+            "label": "Color",
+            "default": "#4269F2"
+          }
+        ]
+      },
+      {
+        "type": "description",
+        "name": "Description",
+        "settings":[
+          {
+            "type":"richtext",
+            "id": "description",
+            "label": "Description",
+            "default": "<p>Lorem ipsum dolor sit amet consectetur. Duis in mauris dui ut. Nulla ullamcorper tempus volutpat viverra viverra aenean amet egestas neque.</p>"
+          }
+        ]
+      },
+      {
+        "type": "icon-text",
+        "name": "Icon with text",
+        "settings": [
+          {
+            "type": "select",
+            "id": "icon",
+            "label": "Select icon",
+            "options":[
+              {
+                "label": "Sheild",
+                "value": "sheild"
+              },
+              {
+                "label": "Lock",
+                "value": "lock"
+              },
+              {
+                "label": "Star",
+                "value": "star"
+              },
+              {
+                "label": "Robot",
+                "value": "robot"
+              }
+            ],
+            "default": "sheild"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Variety of Brands"
+          },
+          {
+            "type": "richtext",
+            "id": "description",
+            "label": "Description",
+            "default": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.</p>"
+          }
+        ]
+      }
+    ]
   }
 {% endschema %}
