@@ -251,9 +251,7 @@ button.btn.add-to-cart {
 .content-text-area .title {
     font-weight: 600;
 }
-.images-area img {
-    width: 100%;
-}
+
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox {
     padding: 10px 10px;
@@ -286,6 +284,9 @@ button.btn.add-to-cart {
   } 
 }
 @media screen and (max-width: 767px){
+  .images-area img {
+    width: 100%;
+  }
   .type_banner .laber_banner .banner_text{
     position: relative;
   }
