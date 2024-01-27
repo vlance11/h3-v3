@@ -251,6 +251,9 @@ button.btn.add-to-cart {
 .content-text-area .title {
     font-weight: 600;
 }
+.images-area img {
+    width: 100%;
+}
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox {
     padding: 10px 10px;
