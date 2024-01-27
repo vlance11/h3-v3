@@ -7,11 +7,15 @@
           <div class="first-image">
             {{ section.settings.first_image | image_url | image_tag }}
           </div>
+          {% else %}
+            {{ 'product-1' | placeholder_svg_tag }}
           {% endif %}
           {% if section.settings.second_image != blank %}
           <div class="second-image">
             {{ section.settings.second_image | image_url | image_tag }}
           </div>
+          {% else %}
+            {{ 'product-1' | placeholder_svg_tag }}
           {% endif %}
         </div>
         <div class="col-lg-6 col-md-6">
