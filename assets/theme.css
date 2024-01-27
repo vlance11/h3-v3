@@ -251,6 +251,12 @@ button.btn.add-to-cart {
 .content-text-area .title {
     font-weight: 600;
 }
+/* slideshow float-image */
+.float-image-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox {
