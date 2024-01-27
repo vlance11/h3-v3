@@ -290,8 +290,8 @@ button.btn.add-to-cart {
   .images-area .second-image {
       position: relative;
       bottom: 0;
-      top: 200px;
-      right: 50px;
+      top: -75px;
+      right: 0;
   }
 }
 @media screen and (max-width: 768px){
