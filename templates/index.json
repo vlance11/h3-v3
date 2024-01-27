@@ -188,6 +188,48 @@
         "pd_mb": "20px,"
       }
     },
+    "featured_collection_PkxFB3": {
+      "type": "featured-collection",
+      "settings": {
+        "style": "style1",
+        "title": "Our Latest Products",
+        "content": "",
+        "text_size": "medium",
+        "text_transform": "none",
+        "background_image": "shopify:\/\/shop_images\/Frame_1000008025.png",
+        "collection": "brake-winches",
+        "max_count": 8,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 4,
+        "widescreen": 3,
+        "desktop": 3,
+        "laptop": 3,
+        "notebook": 3,
+        "tablet": 3,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": true,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": false,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": true,
+        "dots": true,
+        "infinite": false,
+        "padding": 15,
+        "vertical": false,
+        "layout_des": false,
+        "cl_bg": "#ffffff",
+        "mg": "",
+        "pd": "50px,,50px",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
     "f886eb1d-f627-408c-b608-f2652dab3a54": {
       "type": "brand-list",
       "blocks": {
@@ -661,59 +703,17 @@
         "mg_mb": "",
         "pd_mb": "30px,,30px"
       }
-    },
-    "featured_collection_PkxFB3": {
-      "type": "featured-collection",
-      "settings": {
-        "style": "style1",
-        "title": "Our Latest Products",
-        "content": "",
-        "text_size": "medium",
-        "text_transform": "none",
-        "background_image": "shopify:\/\/shop_images\/Frame_1000008025.png",
-        "collection": "brake-winches",
-        "max_count": 8,
-        "use-slider": true,
-        "slides-To-Scroll": 1,
-        "visible": 4,
-        "widescreen": 3,
-        "desktop": 3,
-        "laptop": 3,
-        "notebook": 3,
-        "tablet": 3,
-        "landscape": 2,
-        "portrait": 2,
-        "mobile": 1,
-        "rows": 1,
-        "autoplay": true,
-        "speed": "300",
-        "autoplay-Speed": "3000",
-        "arrows": false,
-        "fade": false,
-        "center-Mode": false,
-        "adaptive-Height": true,
-        "dots": true,
-        "infinite": false,
-        "padding": 15,
-        "vertical": false,
-        "layout_des": false,
-        "cl_bg": "#ffffff",
-        "mg": "",
-        "pd": "50px,,50px",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
     }
   },
   "order": [
     "91e0f90e-ad97-458f-8ab1-a5b274e18a11",
     "adb31611-bb52-4257-9fc8-a7003a7eb87a",
+    "featured_collection_PkxFB3",
     "f886eb1d-f627-408c-b608-f2652dab3a54",
     "collection_carousel_product_JafAVa",
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8",
     "image_with_text_overlay_DReYH6",
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34",
-    "69805983-b566-42af-ba6f-ca890638160a",
-    "featured_collection_PkxFB3"
+    "69805983-b566-42af-ba6f-ca890638160a"
   ]
 }
