@@ -68,7 +68,7 @@
           "type": "float-image",
           "settings": {
             "float_image": "shopify:\/\/shop_images\/Frame_34029.png",
-            "image_width": 200,
+            "image_width": 150,
             "image_height": 350
           }
         },
