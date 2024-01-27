@@ -229,12 +229,13 @@
 
                               {% when 'float-image' %}
                                 {% assign float_img_count = float_img_count | plus: 1 %}
+                                {% if block.settings.float_image != blank %}
                                 <div class="float-image-container">
                                   <div class="image-{{ float_img_count }}">
                                     {{ block.settings.float_image | image_url: width: 300 | image_tag }}
                                   </div>
                                 </div>
-
+                                {% endif %}
                               {% else %}                            				
                               {%- break -%}
                               {%- endcase -%}
