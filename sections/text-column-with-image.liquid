@@ -9,7 +9,7 @@
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.13), inset 0 0 10px rgba(255, 255, 255, 0.13);
 }
 .main-content.box .text_column_with_img .rte-setting p {
-    color: #fcfcfd;
+    color: {{ section.settings.cl_text }};
     font-size: 14px;
     margin: 0;
 }
@@ -369,6 +369,12 @@
         "type": "color",
         "id": "cl_bg",
         "label": "Background color",
+        "default": "#fff"
+      },
+      {
+        "type": "color",
+        "id": "cl_text",
+        "label": "Text color",
         "default": "#fff"
       },
       {
