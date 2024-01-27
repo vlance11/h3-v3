@@ -238,15 +238,17 @@
                       </div>
                       
                       {% assign floatImages = section.blocks | where: "type", 'float-image' %}
+                      {% if floatImages.size > 0 %}
+                      <div class="float-image-container">
                       {% for image in floatImages %}
                       {% if image.settings.float_image != blank %}
-                      <div class="float-image-container">
                         <div class="image-{{ forloop.index }}">
                           {{ block.settings.float_image | image_url: width: 300 | image_tag }}
                         </div>
-                      </div>
                       {% endif %}
                       {% endfor %}
+                      </div>
+                      {% endif %}
 <!-- wrap text -->
                     </div>
                   </div> 
