@@ -2686,18 +2686,6 @@
               "col": "33%"
             }
           },
-          "a8d86d01-3851-46ff-a457-4e61aedfa396": {
-            "type": "mail",
-            "disabled": true,
-            "settings": {
-              "title": "Newsletter Signup",
-              "sub_title": "Join 20.000+ subscribers and get a new discount coupon on every  Saturday. Updates information on Sales and Offers.",
-              "sub_title2": "Subscribe for Uminex and get 20% off your first purchase.",
-              "cl_text": "#515d66",
-              "cl_border": "#f8ba26",
-              "col": "42%"
-            }
-          },
           "c5c69ed1-5b2a-4d25-9618-3a370ddbd784": {
             "type": "menu",
             "settings": {
@@ -2748,7 +2736,6 @@
         },
         "block_order": [
           "e667f7e9-b124-4bfe-8c4d-f9a360e1a6ae",
-          "a8d86d01-3851-46ff-a457-4e61aedfa396",
           "c5c69ed1-5b2a-4d25-9618-3a370ddbd784",
           "90d7fce0-5d4b-415a-bc72-cf3573e40ae6",
           "ab60869c-1612-46fc-949d-d932ecbf37b1",

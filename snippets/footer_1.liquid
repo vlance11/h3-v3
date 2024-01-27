@@ -122,6 +122,11 @@
                                    {%- if block.settings.show_email -%}
                                  		<a href="mailto:{{shop.email}}">{{shop.email}}</a>
                                    {%endif%}
+                                  {% if block.settings.custom_content %}
+                                  <div class="custom-content">
+                                    {{ block.settings.custom_content }}
+                                  </div>
+                                  {% endif %}
                                </div>	
                           	 </div>
                           </aside>
