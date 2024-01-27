@@ -314,6 +314,9 @@ div[data-wrapper-slidershow] .content-item .wrap_text .wrapper_caption .caption 
   span.number_counter {
     font-size: 30px;
   } 
+  .float-image-container{
+    display: none;
+  }
 }
 @media screen and (max-width: 767px){
   .images-area img {
