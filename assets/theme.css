@@ -258,6 +258,9 @@ button.btn.add-to-cart {
     right: 0;
     display: flex;
 }
+.float-image-container img {
+    padding: 6px;
+}
 
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox {
