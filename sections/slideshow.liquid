@@ -13,6 +13,7 @@
   assign h_des = section.settings.h_des
   assign h_tb = section.settings.h_tb
   assign h_mb = section.settings.h_mb
+  assign float_img_count = 0
 %}
 
 <section id="laber_{{sid}}" class="laber_slidershow_{{sid}}  {% if settings.use_vertical_menu and settings.vertical_menu_position == '2' %}with_vertical_menu{% endif %} ">
@@ -225,6 +226,14 @@
                                   </div>
                                 </div>
                               </div>
+
+                              {% when 'float-image' %}
+                                {% assign float_img_count = float_img_count | plus: 1 %}
+                                <div class="float-image-container">
+                                  <div class="image-{{ float_img_count }}">
+                                    {{ block.settings.float_image | image_url: width: 300 | image_tag }}
+                                  </div>
+                                </div>
 
                               {% else %}                            				
                               {%- break -%}
