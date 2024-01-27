@@ -286,7 +286,7 @@
                   <div class="payment col-lg-6 col-md-12 col-12">
                     <span>{{ section.settings.title-payment }}</span>
                      
-                    {% if section.settings.svg_custom and section.settings.show_svg_custom%}
+                    {% if section.settings.svg_custom and section.settings.show_svg_custom %}
                       <div class="payment_type_svg">
                       {%- assign svg_custom = section.settings.svg_custom | remove: ' ' | split:"," -%}
                       {%- for img in svg_custom -%}
