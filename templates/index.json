@@ -737,7 +737,7 @@
         "icon_text_NaCC8c": {
           "type": "icon-text",
           "settings": {
-            "icon": "shield",
+            "icon": "star",
             "title": "Variety of Brands",
             "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
           }
