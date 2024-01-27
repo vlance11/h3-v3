@@ -209,6 +209,11 @@ button.btn.add-to-cart {
     font-size: 16px;
 }
 /* images-with-text-section */
+.images-area .first-image {
+    position: absolute;
+    margin: 20px 0 0 20px;
+    top: 0;
+}
 .content-text-area {
     margin: 30px 0;
 }
