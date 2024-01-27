@@ -312,6 +312,9 @@ div[data-wrapper-slidershow] .content-item .wrap_text .wrapper_caption .caption 
   
 }
 @media screen and (max-width: 768px){
+  .main-content.box.alo-item {
+    margin-bottom: 10px;
+  }
   .summary-text-main {
     flex-wrap: wrap;
   }
