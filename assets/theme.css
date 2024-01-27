@@ -219,12 +219,10 @@ button.btn.add-to-cart {
     padding-right: 10px;
     padding-top: 0;
 }
-.main-icon-area .icon i {
+.main-icon-area .icon svg {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
     padding: 8px;
     border-radius: 8px;
     border: 2px;
