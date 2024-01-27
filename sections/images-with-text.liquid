@@ -36,7 +36,9 @@
             {% for block in section.blocks %}
               {% case block.type %}
                 {% when 'title' %}
+                <div class="wrap_title style2">
                   <h3 class="section-title h3">{{ block.settings.title }}</h3>
+                </div>
                 {% when 'subtext' %}
                   <p class="subtext">{{ block.settings.subtext }}</p>
                 {% when 'description' %}
