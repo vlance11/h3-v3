@@ -209,7 +209,7 @@ button.btn.add-to-cart {
     font-size: 16px;
 }
 /* images-with-text-section */
-.icon i {
+.main-icon-area .icon i {
     width: 50px;
     height: 50px;
     padding: 8px;
