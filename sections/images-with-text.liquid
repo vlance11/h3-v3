@@ -6,7 +6,7 @@
           <div class="images-area">
             {% if section.settings.first_image != blank %}
             <div class="first-image">
-              {{ section.settings.first_image | image_url | image_tag }}
+              {{ section.settings.first_image | image_url:'master' | image_tag }}
             </div>
             {% else %}
               <div class="first-image">
@@ -15,7 +15,7 @@
             {% endif %}
             {% if section.settings.second_image != blank %}
             <div class="second-image">
-              {{ section.settings.second_image | image_url | image_tag }}
+              {{ section.settings.second_image | image_url:'master' | image_tag }}
             </div>
             {% else %}
             <div class="second-image">
