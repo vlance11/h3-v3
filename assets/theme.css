@@ -275,6 +275,9 @@ div[data-wrapper-slidershow] .content-item .wrap_text .wrapper_caption .caption 
     display: flex;
     align-items: center;
 }
+.footer-logo-with-text img {
+    margin-right: 10px;
+}
 
 @media screen and (max-width: 600px){
   .image-banner-apps-block #ymm_searchbox {
