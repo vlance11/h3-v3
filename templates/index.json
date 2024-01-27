@@ -726,55 +726,6 @@
         "pd_mb": "30px"
       }
     },
-    "69805983-b566-42af-ba6f-ca890638160a": {
-      "type": "faq-sections",
-      "blocks": {
-        "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-1": {
-          "type": "faq",
-          "settings": {
-            "title": "Why is Hitch Expo?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
-            "link": "shopify:\/\/policies\/contact-information",
-            "open_link": "_self"
-          }
-        },
-        "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-2": {
-          "type": "faq",
-          "settings": {
-            "title": "What Is the Payment Process For Buying a Product?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
-            "link": "",
-            "open_link": "_self"
-          }
-        },
-        "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-3": {
-          "type": "faq",
-          "settings": {
-            "title": "What is your cancellation and Refund policy",
-            "text": "",
-            "link": "shopify:\/\/policies\/refund-policy",
-            "open_link": "_self"
-          }
-        }
-      },
-      "block_order": [
-        "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-1",
-        "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-2",
-        "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-3"
-      ],
-      "settings": {
-        "hidden": false,
-        "title": "Got a question for Hitch Expo?",
-        "sub_title": "",
-        "content": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium",
-        "layout": "container",
-        "cl_bg": "#faf6f0",
-        "mg": "",
-        "pd": "60px,,60px",
-        "mg_mb": "",
-        "pd_mb": "30px,,30px"
-      }
-    },
     "text_column_with_image_YqYpVW": {
       "type": "text-column-with-image",
       "blocks": {
@@ -878,6 +829,55 @@
         "mg_mb": "",
         "pd_mb": ""
       }
+    },
+    "69805983-b566-42af-ba6f-ca890638160a": {
+      "type": "faq-sections",
+      "blocks": {
+        "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-1": {
+          "type": "faq",
+          "settings": {
+            "title": "Why is Hitch Expo?",
+            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "link": "shopify:\/\/policies\/contact-information",
+            "open_link": "_self"
+          }
+        },
+        "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-2": {
+          "type": "faq",
+          "settings": {
+            "title": "What Is the Payment Process For Buying a Product?",
+            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "link": "",
+            "open_link": "_self"
+          }
+        },
+        "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-3": {
+          "type": "faq",
+          "settings": {
+            "title": "What is your cancellation and Refund policy",
+            "text": "",
+            "link": "shopify:\/\/policies\/refund-policy",
+            "open_link": "_self"
+          }
+        }
+      },
+      "block_order": [
+        "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-1",
+        "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-2",
+        "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-3"
+      ],
+      "settings": {
+        "hidden": false,
+        "title": "Got a question for Hitch Expo?",
+        "sub_title": "",
+        "content": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium",
+        "layout": "container",
+        "cl_bg": "#faf6f0",
+        "mg": "",
+        "pd": "60px,,60px",
+        "mg_mb": "",
+        "pd_mb": "30px,,30px"
+      }
     }
   },
   "order": [
@@ -890,7 +890,7 @@
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8",
     "image_with_text_overlay_DReYH6",
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34",
-    "69805983-b566-42af-ba6f-ca890638160a",
-    "text_column_with_image_YqYpVW"
+    "text_column_with_image_YqYpVW",
+    "69805983-b566-42af-ba6f-ca890638160a"
   ]
 }
