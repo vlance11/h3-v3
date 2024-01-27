@@ -3,11 +3,6 @@
   assign arrows =  section.settings.arrows
   assign dots =  section.settings.dots  
 %}
-{% style %}
-#laber_{{sid}} .container{
-  background-color: {{ section.settings.bg_clr }};
-}
-{% endstyle %}
    
 {%- for i in (1..1) -%}
 {%- if section.settings.hidden %}{% break %}{% endif -%}	
@@ -380,11 +375,6 @@
       {
         "type": "header",
         "content": "== Design Mobile Options"
-      },
-      {
-        "type": "color",
-        "id": "bg_clr",
-        "label": "Background Color"
       },
       {
         "type": "text",
