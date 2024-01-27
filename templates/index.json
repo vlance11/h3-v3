@@ -799,7 +799,7 @@
             "enable_icon": true,
             "icon": "check-circle",
             "title": "Add a title or tagline",
-            "sub_title": "Sub Heading",
+            "sub_title": "",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
             "btn_title": "",
             "btn_link": "",
@@ -844,9 +844,9 @@
       "settings": {
         "hidden": false,
         "style": "box",
-        "title": "Text column with image",
+        "title": "",
         "sub_title": "",
-        "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+        "content": "",
         "use-slider": false,
         "slides-To-Scroll": 1,
         "visible": 5,
@@ -872,8 +872,9 @@
         "vertical": false,
         "layout": "container",
         "cl_bg": "#20309c",
+        "cl_text": "#000000",
         "mg": "",
-        "pd": "",
+        "pd": "50px,,50px",
         "mg_mb": "",
         "pd_mb": ""
       }
