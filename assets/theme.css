@@ -274,9 +274,14 @@ div[data-wrapper-slidershow] .content-item .wrap_text .wrapper_caption .caption 
 .footer-logo-with-text {
     display: flex;
     align-items: center;
+  justify-content: center;
 }
 .footer-logo-with-text img {
     margin-right: 10px;
+}
+.footer-bottom {
+    background: #124B7A;
+    color: #FFFFFF;
 }
 
 @media screen and (max-width: 600px){
