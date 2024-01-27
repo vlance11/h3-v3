@@ -27,8 +27,8 @@
 		</div>
     {% endif %}
     {% include 'grid-slider', settings:section.settings %} 
-    <div class="content_section slick-carousel">
-    <div class="grid-slider js_carousel laber-slick-carousel row" {{gridSlider}} data-append-Arrows=".arrows_{{sid}}" data-append-Dots=".dots_{{sid}}" >
+    <div class="content_section{% if section.settings.use-slider %} slick-carousel{% endif %}">
+    <div class="{% if section.settings.use-slider %}grid-slider{% else %}row{% endif %} js_carousel laber-slick-carousel row" {{gridSlider}} data-append-Arrows=".arrows_{{sid}}" data-append-Dots=".dots_{{sid}}" >
       	{%- for block in section.blocks -%}
           {%- assign image = block.settings.image -%}
       	  {%- assign url = block.settings.url -%}
