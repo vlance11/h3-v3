@@ -711,7 +711,7 @@
           "type": "subtext",
           "settings": {
             "subtext": "Explore our first class services",
-            "Sub_clr": "#4269F2"
+            "Sub_clr": "#4269f2"
           }
         },
         "title_xrYi74": {
@@ -729,7 +729,7 @@
         "icon_text_nUzwPp": {
           "type": "icon-text",
           "settings": {
-            "icon": "sheild",
+            "icon": "shield",
             "title": "Variety of Brands",
             "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
           }
@@ -737,7 +737,7 @@
         "icon_text_NaCC8c": {
           "type": "icon-text",
           "settings": {
-            "icon": "sheild",
+            "icon": "shield",
             "title": "Variety of Brands",
             "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
           }
@@ -745,7 +745,7 @@
         "icon_text_aKqiej": {
           "type": "icon-text",
           "settings": {
-            "icon": "sheild",
+            "icon": "shield",
             "title": "Variety of Brands",
             "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
           }
