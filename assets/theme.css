@@ -289,6 +289,9 @@ div[data-wrapper-slidershow] .content-item .wrap_text .wrapper_caption .caption 
 }
 
 @media screen and (max-width: 600px){
+  .header-logo.hide-desktop img {
+    width: 100% !important;
+  }
   .image-banner-apps-block #ymm_searchbox {
     padding: 10px 10px;
     margin: 25px auto;
