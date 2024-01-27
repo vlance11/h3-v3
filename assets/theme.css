@@ -225,17 +225,17 @@ button.btn.add-to-cart {
     top: 200px;
     right: 50px;
 }
-.content-text-area {
+.images-with-text-area .content-text-area {
     margin: 30px 0;
 }
-.content-text-area .content {
+.images-with-text-area .content-text-area .content {
     margin-bottom: 20px;
 }
-.main-icon-area .icon {
+.images-with-text-area .main-icon-area .icon {
     padding-right: 10px;
     padding-top: 0;
 }
-.main-icon-area .icon i {
+.images-with-text-area .main-icon-area .icon i {
     display: flex;
     justify-content: center;
     align-items: center;
