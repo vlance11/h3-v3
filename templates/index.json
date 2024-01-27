@@ -738,7 +738,7 @@
           "type": "icon-text",
           "settings": {
             "icon": "star",
-            "title": "Variety of Brands",
+            "title": "Top quality parts",
             "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
           }
         },
@@ -769,6 +769,8 @@
         "icon_text_GXgLmk"
       ],
       "settings": {
+        "first_image": "shopify:\/\/shop_images\/image_49.png",
+        "second_image": "shopify:\/\/shop_images\/image_48.png"
       }
     }
   },
