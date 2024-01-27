@@ -1,7 +1,54 @@
+<section id="image-text--{{ section.id }}">
+  <div class="images-with-text-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          {% if section.settings.first_image != blank %}
+          <div class="first-image">
+            {{ section.settings.first_image | image_url | image_tag }}
+          </div>
+          {% endif %}
+          {% if section.settings.second_image != blank %}
+          <div class="second-image">
+            {{ section.settings.second_image | image_url | image_tag }}
+          </div>
+          {% endif %}
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="content-container">
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when 'title' %}
+
+                {% when 'subtext' %}
+
+                {% when 'description' %}
+
+                
+              {% endcase %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 {% schema %}
   {
     "name": "Images with text",
-    "settings": [],
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "first_image",
+        "label": "First image"
+      },
+      {
+        "type": "image_picker",
+        "id": "second_image",
+        "label": "Second image"
+      }
+    ],
     "blocks":[
       {
         "type": "title",
