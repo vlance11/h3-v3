@@ -27,28 +27,12 @@
 		</div>
     {% endif %}
     {% include 'grid-slider', settings:section.settings %} 
-    <div class="content_section{% if section.settings.use-slider %} slick-carousel{% endif %}">
-    <div class="{% if section.settings.use-slider %}grid-slider{% else %}row{% endif %} js_carousel laber-slick-carousel row" {{gridSlider}} data-append-Arrows=".arrows_{{sid}}" data-append-Dots=".dots_{{sid}}" >
-        {% if section.settings.use-slider %}
-          {% liquid
-            case section.blocks.size
-            when 1
-            assign col = 'col-lg-6 col-md-6'
-            when 2
-            assign col = 'col-lg-6 col-md-6'
-            when 3
-            assign col = 'col-lg-4 col-md-4 col-sm-6 col-xs-12'
-            when 4
-            assign col = 'col-lg-3 col-md-3 col-sm-2 col-xs-12'
-            else
-            assign col = 'col-lg-2 col-md-3 col-sm-2 col-xs-12'
-          endcase
-          %}
-        {% endif %}
-        {%- for block in section.blocks -%}
+    <div class="content_section slick-carousel">
+    <div class="grid-slider js_carousel laber-slick-carousel row" {{gridSlider}} data-append-Arrows=".arrows_{{sid}}" data-append-Dots=".dots_{{sid}}" >
+      	{%- for block in section.blocks -%}
           {%- assign image = block.settings.image -%}
       	  {%- assign url = block.settings.url -%}
-          <div class="main-content{% if section.settings.use-slider %} {{ col }} {% endif %}{{ section.settings.style }}">
+          <div class="main-content {{ section.settings.style }}">
             <div class="text_column_with_img">
               {%- if block.settings.enable_image -%}           
             	<div class="images">
