@@ -93,8 +93,8 @@
 .type_testimonials .quotes_wrapper .quote_content .cms_content_quote p{
   margin-bottom: 0;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 15px;
+  line-height: 25px;
 }
 .type_testimonials .quote_content .cms_header_quote {
   display: flex;
