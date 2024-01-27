@@ -8,14 +8,18 @@
             {{ section.settings.first_image | image_url | image_tag }}
           </div>
           {% else %}
+            <div class="first-image">
             {{ 'product-apparel-1' | placeholder_svg_tag }}
+            </div>
           {% endif %}
           {% if section.settings.second_image != blank %}
           <div class="second-image">
             {{ section.settings.second_image | image_url | image_tag }}
           </div>
           {% else %}
+          <div class="second-image">
             {{ 'product-apparel-2' | placeholder_svg_tag }}
+          </div>
           {% endif %}
         </div>
         <div class="col-lg-6 col-md-6">
