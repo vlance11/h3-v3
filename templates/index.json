@@ -726,7 +726,7 @@
             "description": "<p>Lorem ipsum dolor sit amet consectetur. Duis in mauris dui ut. Nulla ullamcorper tempus volutpat viverra viverra aenean amet egestas neque.<\/p>"
           }
         },
-        "icon_text_cBiqAz": {
+        "icon_text_nUzwPp": {
           "type": "icon-text",
           "settings": {
             "icon": "sheild",
@@ -734,7 +734,7 @@
             "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
           }
         },
-        "icon_text_7xDMRd": {
+        "icon_text_NaCC8c": {
           "type": "icon-text",
           "settings": {
             "icon": "sheild",
@@ -742,7 +742,7 @@
             "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
           }
         },
-        "icon_text_yRXw7V": {
+        "icon_text_aKqiej": {
           "type": "icon-text",
           "settings": {
             "icon": "sheild",
@@ -755,9 +755,9 @@
         "subtext_XNATh6",
         "title_xrYi74",
         "description_npw6Xd",
-        "icon_text_cBiqAz",
-        "icon_text_7xDMRd",
-        "icon_text_yRXw7V"
+        "icon_text_nUzwPp",
+        "icon_text_NaCC8c",
+        "icon_text_aKqiej"
       ],
       "settings": {
       }
