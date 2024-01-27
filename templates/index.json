@@ -312,185 +312,6 @@
         "pd_mb": ""
       }
     },
-    "f886eb1d-f627-408c-b608-f2652dab3a54": {
-      "type": "brand-list",
-      "blocks": {
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-1": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_10.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-2": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_9.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-3": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_11.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-4": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_12.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "brand_f6TcDG": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_10_ecb6195d-0a8b-48d9-ae31-515c511ee880.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "brand_wYd6nD": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_9_00b30f3a-450b-4513-a843-0b95fdafa9b2.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        },
-        "brand_DBnQgK": {
-          "type": "brand",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_12_376f5aa4-3f98-4d3c-9dcd-dd7e53155b80.png",
-            "url": "",
-            "open_link": "_blank"
-          }
-        }
-      },
-      "block_order": [
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-1",
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-2",
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-3",
-        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-4",
-        "brand_f6TcDG",
-        "brand_wYd6nD",
-        "brand_DBnQgK"
-      ],
-      "settings": {
-        "title": "Our Top Brands",
-        "sub_title": "",
-        "hidden": false,
-        "show_border_top": false,
-        "use-slider": true,
-        "slides-To-Scroll": 1,
-        "visible": 5,
-        "widescreen": 4,
-        "desktop": 4,
-        "laptop": 4,
-        "notebook": 3,
-        "tablet": 3,
-        "landscape": 2,
-        "portrait": 2,
-        "mobile": 1,
-        "rows": 1,
-        "autoplay": false,
-        "speed": "300",
-        "autoplay-Speed": "3000",
-        "arrows": true,
-        "fade": false,
-        "center-Mode": false,
-        "adaptive-Height": false,
-        "dots": true,
-        "infinite": false,
-        "padding": 10,
-        "vertical": false,
-        "show_view_all": false,
-        "layout": false,
-        "use_eq_height": false,
-        "image_ratio": "ratio3_2",
-        "cl_bg": "rgba(0,0,0,0)",
-        "mg": "30px",
-        "pd": "30px",
-        "mg_mb": "15px",
-        "pd_mb": "15px"
-      }
-    },
-    "images_with_text_CLXYcP": {
-      "type": "images-with-text",
-      "blocks": {
-        "subtext_XNATh6": {
-          "type": "subtext",
-          "settings": {
-            "subtext": "Explore our first class services",
-            "Sub_clr": "#4269f2"
-          }
-        },
-        "title_xrYi74": {
-          "type": "title",
-          "settings": {
-            "title": "Feel the best experience with<br> <span class=\"text-highlight_1\">HitchExpo.com<\/span>"
-          }
-        },
-        "description_npw6Xd": {
-          "type": "description",
-          "settings": {
-            "description": "<p>Lorem ipsum dolor sit amet consectetur. Duis in mauris dui ut. Nulla ullamcorper tempus volutpat viverra viverra aenean amet egestas neque.<\/p>"
-          }
-        },
-        "icon_text_nUzwPp": {
-          "type": "icon-text",
-          "settings": {
-            "icon": "shield",
-            "title": "Variety of Brands",
-            "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
-          }
-        },
-        "icon_text_NaCC8c": {
-          "type": "icon-text",
-          "settings": {
-            "icon": "star",
-            "title": "Top quality parts",
-            "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
-          }
-        },
-        "icon_text_aKqiej": {
-          "type": "icon-text",
-          "settings": {
-            "icon": "headphones",
-            "title": "Customer-centric approach",
-            "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
-          }
-        },
-        "icon_text_GXgLmk": {
-          "type": "icon-text",
-          "settings": {
-            "icon": "lock",
-            "title": "Secure system",
-            "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "subtext_XNATh6",
-        "title_xrYi74",
-        "description_npw6Xd",
-        "icon_text_nUzwPp",
-        "icon_text_NaCC8c",
-        "icon_text_aKqiej",
-        "icon_text_GXgLmk"
-      ],
-      "settings": {
-        "first_image": "shopify:\/\/shop_images\/image_49.png",
-        "second_image": "shopify:\/\/shop_images\/image_48.png",
-        "padding-top": 50,
-        "padding-bottom": 50
-      }
-    },
     "collection_carousel_product_JafAVa": {
       "type": "collection-carousel-product",
       "settings": {
@@ -695,6 +516,185 @@
         "pd": "",
         "mg_mb": "",
         "pd_mb": ""
+      }
+    },
+    "f886eb1d-f627-408c-b608-f2652dab3a54": {
+      "type": "brand-list",
+      "blocks": {
+        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-1": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_10.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-2": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_9.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-3": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_11.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-4": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_12.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "brand_f6TcDG": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_10_ecb6195d-0a8b-48d9-ae31-515c511ee880.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "brand_wYd6nD": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_9_00b30f3a-450b-4513-a843-0b95fdafa9b2.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "brand_DBnQgK": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_12_376f5aa4-3f98-4d3c-9dcd-dd7e53155b80.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        }
+      },
+      "block_order": [
+        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-1",
+        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-2",
+        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-3",
+        "template--21734502760741__f886eb1d-f627-408c-b608-f2652dab3a54-brand-4",
+        "brand_f6TcDG",
+        "brand_wYd6nD",
+        "brand_DBnQgK"
+      ],
+      "settings": {
+        "title": "Our Top Brands",
+        "sub_title": "",
+        "hidden": false,
+        "show_border_top": false,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 5,
+        "widescreen": 4,
+        "desktop": 4,
+        "laptop": 4,
+        "notebook": 3,
+        "tablet": 3,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": false,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": true,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": true,
+        "infinite": false,
+        "padding": 10,
+        "vertical": false,
+        "show_view_all": false,
+        "layout": false,
+        "use_eq_height": false,
+        "image_ratio": "ratio3_2",
+        "cl_bg": "rgba(0,0,0,0)",
+        "mg": "30px",
+        "pd": "30px",
+        "mg_mb": "15px",
+        "pd_mb": "15px"
+      }
+    },
+    "images_with_text_CLXYcP": {
+      "type": "images-with-text",
+      "blocks": {
+        "subtext_XNATh6": {
+          "type": "subtext",
+          "settings": {
+            "subtext": "Explore our first class services",
+            "Sub_clr": "#4269f2"
+          }
+        },
+        "title_xrYi74": {
+          "type": "title",
+          "settings": {
+            "title": "Feel the best experience with<br> <span class=\"text-highlight_1\">HitchExpo.com<\/span>"
+          }
+        },
+        "description_npw6Xd": {
+          "type": "description",
+          "settings": {
+            "description": "<p>Lorem ipsum dolor sit amet consectetur. Duis in mauris dui ut. Nulla ullamcorper tempus volutpat viverra viverra aenean amet egestas neque.<\/p>"
+          }
+        },
+        "icon_text_nUzwPp": {
+          "type": "icon-text",
+          "settings": {
+            "icon": "shield",
+            "title": "Variety of Brands",
+            "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
+          }
+        },
+        "icon_text_NaCC8c": {
+          "type": "icon-text",
+          "settings": {
+            "icon": "star",
+            "title": "Top quality parts",
+            "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
+          }
+        },
+        "icon_text_aKqiej": {
+          "type": "icon-text",
+          "settings": {
+            "icon": "headphones",
+            "title": "Customer-centric approach",
+            "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
+          }
+        },
+        "icon_text_GXgLmk": {
+          "type": "icon-text",
+          "settings": {
+            "icon": "lock",
+            "title": "Secure system",
+            "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subtext_XNATh6",
+        "title_xrYi74",
+        "description_npw6Xd",
+        "icon_text_nUzwPp",
+        "icon_text_NaCC8c",
+        "icon_text_aKqiej",
+        "icon_text_GXgLmk"
+      ],
+      "settings": {
+        "first_image": "shopify:\/\/shop_images\/image_49.png",
+        "second_image": "shopify:\/\/shop_images\/image_48.png",
+        "padding-top": 50,
+        "padding-bottom": 50
       }
     },
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34": {
@@ -966,11 +966,11 @@
     "91e0f90e-ad97-458f-8ab1-a5b274e18a11",
     "adb31611-bb52-4257-9fc8-a7003a7eb87a",
     "featured_collection_PkxFB3",
-    "f886eb1d-f627-408c-b608-f2652dab3a54",
-    "images_with_text_CLXYcP",
     "collection_carousel_product_JafAVa",
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8",
     "image_with_text_overlay_DReYH6",
+    "f886eb1d-f627-408c-b608-f2652dab3a54",
+    "images_with_text_CLXYcP",
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34",
     "text_column_with_image_YqYpVW",
     "69805983-b566-42af-ba6f-ca890638160a"
