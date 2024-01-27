@@ -4,9 +4,14 @@
   assign dots =  section.settings.dots  
 %}
 {% style %}
-.text_column_with_img {
-    padding: 6px 15px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5), inset 0 0 10px rgba(255, 255, 255, 0.5);
+.main-content.box .text_column_with_img {
+    padding: 15px 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.13), inset 0 0 10px rgba(255, 255, 255, 0.13);
+}
+.main-content.box .text_column_with_img .rte-setting p {
+    color: #fcfcfd;
+    font-size: 14px;
+    margin: 0;
 }
 {% endstyle %}
    
@@ -57,7 +62,7 @@
                 <h3 class="h3">{{ block.settings.title | escape }}</h3>
               {% endif %}
               {% if block.settings.sub_title != blank %}
-                <h4 class="h4">{{ block.settings.sub_title | escape }}</h3>
+                <h4 class="h4">{{ block.settings.sub_title | escape }}</h4>
               {% endif %}
               {% if block.settings.text != blank %}
                 <div class="rte-setting">{{ block.settings.text }}</div>
