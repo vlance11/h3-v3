@@ -774,6 +774,87 @@
         "mg_mb": "",
         "pd_mb": "30px,,30px"
       }
+    },
+    "text_column_with_image_YqYpVW": {
+      "type": "text-column-with-image",
+      "blocks": {
+        "text_block_BbBLmb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "sub_title": "Sub Heading",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "btn_title": "MORE INFO <i class=\"icon-chevrons-right\"><\/i>",
+            "btn_link": "",
+            "open_link": "_blank"
+          }
+        },
+        "text_block_7nzBX8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "sub_title": "Sub Heading",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "btn_title": "MORE INFO <i class=\"icon-chevrons-right\"><\/i>",
+            "btn_link": "",
+            "open_link": "_blank"
+          }
+        },
+        "text_block_YHGVeY": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Add a title or tagline",
+            "sub_title": "Sub Heading",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "btn_title": "MORE INFO <i class=\"icon-chevrons-right\"><\/i>",
+            "btn_link": "",
+            "open_link": "_blank"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_BbBLmb",
+        "text_block_7nzBX8",
+        "text_block_YHGVeY"
+      ],
+      "settings": {
+        "hidden": false,
+        "title": "Text column with image",
+        "sub_title": "",
+        "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 5,
+        "widescreen": 4,
+        "desktop": 4,
+        "laptop": 4,
+        "notebook": 3,
+        "tablet": 3,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": true,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": true,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": false,
+        "padding": 10,
+        "vertical": false,
+        "layout": "container",
+        "cl_bg": "#fff",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
@@ -786,6 +867,7 @@
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8",
     "image_with_text_overlay_DReYH6",
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34",
-    "69805983-b566-42af-ba6f-ca890638160a"
+    "69805983-b566-42af-ba6f-ca890638160a",
+    "text_column_with_image_YqYpVW"
   ]
 }
