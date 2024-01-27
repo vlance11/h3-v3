@@ -3070,7 +3070,7 @@ line-height: 16px;
 
 .laber_text-column-with-image .main-content.box .text_column_with_img{
   text-align:left;
-  align-items: left;
+  align-items: flex-start;
 }
 .text_column_with_img .text-content{
     display: flex;
