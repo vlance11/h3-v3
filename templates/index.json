@@ -703,6 +703,73 @@
         "mg_mb": "",
         "pd_mb": "30px,,30px"
       }
+    },
+    "images_with_text_CLXYcP": {
+      "type": "images-with-text",
+      "blocks": {
+        "subtext_XNATh6": {
+          "type": "subtext",
+          "settings": {
+            "subtext": "Explore our first class services",
+            "Sub_clr": "#4269F2"
+          }
+        },
+        "title_xrYi74": {
+          "type": "title",
+          "settings": {
+            "title": "Feel the best experience with <span class=\"text-highlight_1\">HitchExpo.com<\/span>"
+          }
+        },
+        "description_npw6Xd": {
+          "type": "description",
+          "settings": {
+            "description": "<p>Lorem ipsum dolor sit amet consectetur. Duis in mauris dui ut. Nulla ullamcorper tempus volutpat viverra viverra aenean amet egestas neque.<\/p>"
+          }
+        },
+        "icon_text_cBiqAz": {
+          "type": "icon-text",
+          "settings": {
+            "icon": "sheild",
+            "title": "Variety of Brands",
+            "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
+          }
+        },
+        "icon_text_Kn77ky": {
+          "type": "icon-text",
+          "settings": {
+            "icon": "sheild",
+            "title": "Variety of Brands",
+            "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
+          }
+        },
+        "icon_text_WXRfcL": {
+          "type": "icon-text",
+          "settings": {
+            "icon": "sheild",
+            "title": "Variety of Brands",
+            "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
+          }
+        },
+        "icon_text_bLN89V": {
+          "type": "icon-text",
+          "settings": {
+            "icon": "sheild",
+            "title": "Variety of Brands",
+            "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subtext_XNATh6",
+        "title_xrYi74",
+        "description_npw6Xd",
+        "icon_text_cBiqAz",
+        "icon_text_Kn77ky",
+        "icon_text_WXRfcL",
+        "icon_text_bLN89V"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -714,6 +781,7 @@
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8",
     "image_with_text_overlay_DReYH6",
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34",
-    "69805983-b566-42af-ba6f-ca890638160a"
+    "69805983-b566-42af-ba6f-ca890638160a",
+    "images_with_text_CLXYcP"
   ]
 }
