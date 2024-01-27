@@ -783,11 +783,11 @@
           "settings": {
             "enable_image": false,
             "enable_icon": true,
-            "icon": "shield",
+            "icon": "truck",
             "title": "Add a title or tagline",
-            "sub_title": "Sub Heading",
+            "sub_title": "",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "btn_title": "MORE INFO <i class=\"icon-chevrons-right\"><\/i>",
+            "btn_title": "",
             "btn_link": "",
             "open_link": "_blank"
           }
@@ -795,13 +795,13 @@
         "text_block_7nzBX8": {
           "type": "text_block",
           "settings": {
-            "enable_image": true,
-            "enable_icon": false,
-            "icon": "shield",
+            "enable_image": false,
+            "enable_icon": true,
+            "icon": "check-circle",
             "title": "Add a title or tagline",
             "sub_title": "Sub Heading",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "btn_title": "MORE INFO <i class=\"icon-chevrons-right\"><\/i>",
+            "btn_title": "",
             "btn_link": "",
             "open_link": "_blank"
           }
@@ -809,13 +809,27 @@
         "text_block_YHGVeY": {
           "type": "text_block",
           "settings": {
-            "enable_image": true,
-            "enable_icon": false,
+            "enable_image": false,
+            "enable_icon": true,
             "icon": "shield",
             "title": "Add a title or tagline",
-            "sub_title": "Sub Heading",
+            "sub_title": "",
             "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "btn_title": "MORE INFO <i class=\"icon-chevrons-right\"><\/i>",
+            "btn_title": "",
+            "btn_link": "",
+            "open_link": "_blank"
+          }
+        },
+        "text_block_Cp7EgY": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "enable_icon": true,
+            "icon": "layers",
+            "title": "Add a title or tagline",
+            "sub_title": "",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "btn_title": "",
             "btn_link": "",
             "open_link": "_blank"
           }
@@ -824,7 +838,8 @@
       "block_order": [
         "text_block_BbBLmb",
         "text_block_7nzBX8",
-        "text_block_YHGVeY"
+        "text_block_YHGVeY",
+        "text_block_Cp7EgY"
       ],
       "settings": {
         "hidden": false,
