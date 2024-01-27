@@ -2713,39 +2713,19 @@
               "menu": "site",
               "col": "16%"
             }
-          },
-          "89e549ca-195f-474a-8611-0b19f542266b": {
-            "type": "logo-footer",
-            "settings": {
-              "use_logo_footer": true,
-              "logo_footer": "shopify:\/\/shop_images\/hitch-expo-logo.png",
-              "logo_max_width": 145,
-              "email2": "Customersupport@example.com",
-              "show_email": true,
-              "use_social": true,
-              "facebook": "",
-              "url_facebook": "",
-              "instagram": "",
-              "url_instagram": "",
-              "twitter": "",
-              "url_twitter": "",
-              "behance": "",
-              "url_behance": "",
-              "col": "58%"
-            }
           }
         },
         "block_order": [
           "e667f7e9-b124-4bfe-8c4d-f9a360e1a6ae",
           "c5c69ed1-5b2a-4d25-9618-3a370ddbd784",
           "90d7fce0-5d4b-415a-bc72-cf3573e40ae6",
-          "ab60869c-1612-46fc-949d-d932ecbf37b1",
-          "89e549ca-195f-474a-8611-0b19f542266b"
+          "ab60869c-1612-46fc-949d-d932ecbf37b1"
         ],
         "settings": {
           "full_width": false,
           "cl_bg": "#f2f2f6",
           "show_bottom": true,
+          "store_img": "shopify:\/\/shop_images\/hitch-expo-logo.png",
           "copyright": "<p>Copyright © <a href=\"#\" title=\"Uminex\">Uminex<\/a> all rights reserved. Powered by <a href=\"#\" title=\"Alothemes\">Alothemes<\/a>.<\/p>",
           "title-payment": "Payment Method:",
           "show_svg_custom": false,
