@@ -464,7 +464,7 @@ line-height: 16px;
 }
 .slick-dots{position: static;line-height: 1;}
 .slick-dots li{
-  margin:0 3px;
+  margin:0 5px;
   width: auto;
   height: auto;
   border-radius: 100%;
