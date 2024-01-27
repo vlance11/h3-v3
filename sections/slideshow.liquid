@@ -243,7 +243,7 @@
                       {% for image in floatImages %}
                       {% if image.settings.float_image != blank %}
                         <div class="image-{{ forloop.index }}">
-                          {{ image.settings.float_image | image_url: width: 300 | image_tag }}
+                          {{ image.settings.float_image | image_url: width: image.settings.image_width | image_tag: height: image.settings.image_height }}
                         </div>
                       {% endif %}
                       {% endfor %}
