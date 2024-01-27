@@ -32,7 +32,7 @@
       	{%- for block in section.blocks -%}
           {%- assign image = block.settings.image -%}
       	  {%- assign url = block.settings.url -%}
-          <div>
+          <div class="main-content {{ section.settings.style }}">
             <div class="text_column_with_img">
               {%- if block.settings.enable_image -%}           
             	<div class="images">
@@ -47,7 +47,7 @@
                   <i class="icon-{{ block.settings.icon }}"></i>
                 </div>
               {%- endif -%}
-            <div class="text-content">	
+            <div class="text-content {{ section.settings.style }}">	
               {% if block.settings.title != blank %}
                 <h3 class="h3">{{ block.settings.title | escape }}</h3>
               {% endif %}
@@ -63,7 +63,8 @@
                 </div>
               {%endif%}	
             </div>	
-            </div></div>
+            </div>
+          </div>
         {%- endfor -%}
     </div>
        {%if dots %}
