@@ -202,6 +202,35 @@
                               </div>
                           </aside>
 						</div>
+                      {% when 'social-info' %}
+                        <div class="footer-iteam {{ block_width }}" {{ block.shopify_attributes }}>
+                            <aside id="block_{{block.id}}" class="widget widget_text ">
+                             {%- if block.settings.title != blank -%}
+                                <h3 class="widget-title"><span class="txt_title">{{block.settings.title}}</span>
+                                 <span class="icon_mobile">
+                                    <i class="laber-icon-down icon-chevron-down"></i>
+                                     <i class="laber-icon-up icon-chevron-up"></i>
+                                </span>	
+                                </h3>
+                            {%- endif -%}
+                             <div class="textwidget widget_footer">                               
+                               {%if block.settings.show_social%}
+                                  {% render 'social_link' %}
+                              {% endif %}
+                              {% if block.settings.payment_title != blank %}
+                                <h3 class="payment_heading">{{ block.settings.payment_title }}</h3>
+                              {% endif %}
+                              {% if block.settings.image_payment != blank %}
+                              {% render 'responsive-image', image: block.settings.image_payment, image_class: 'w-auto h-full' %}
+                              {% endif %}
+                              {%- if block.settings.custom_content != blank-%}
+                               <div class="contentHtml">
+                                    {{block.settings.custom_content}}
+                               </div>
+                               {%endif%}
+                              </div>
+                          </aside>
+                        </div>
                        {%- when 'image' -%}
                           <div class="footer-iteam {{ block_width }}" {{ block.shopify_attributes }}>
                             <aside id="block_{{block.id}}" class="widget widget_text ">
