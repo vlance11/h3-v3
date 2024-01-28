@@ -152,7 +152,7 @@
             "collection": "trailer-wiring",
             "image": "shopify:\/\/shop_images\/50-97-407-removebg-preview.png",
             "title": "Trailer Wiring",
-            "bg_color": "#DDDDDD"
+            "bg_color": "#dddddd"
           }
         },
         "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-1": {
@@ -161,7 +161,7 @@
             "collection": "trailer-hitches",
             "image": "shopify:\/\/shop_images\/63071-removebg-preview.png",
             "title": "Trailer Hitches",
-            "bg_color": "#DDDDDD"
+            "bg_color": "#dddddd"
           }
         },
         "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-2": {
@@ -169,7 +169,7 @@
           "settings": {
             "collection": "wiring-vehicle-end",
             "title": "Wiring Vehicle End",
-            "bg_color": "#DDDDDD"
+            "bg_color": "#dddddd"
           }
         },
         "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-3": {
@@ -178,7 +178,7 @@
             "collection": "trailer-jacks",
             "image": "shopify:\/\/shop_images\/183902-removebg-preview.png",
             "title": "Trailer Jacks",
-            "bg_color": "#DDDDDD"
+            "bg_color": "#dddddd"
           }
         },
         "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-4": {
@@ -186,7 +186,7 @@
           "settings": {
             "collection": "fifth-wheel-sliders",
             "title": "Fifth Wheel Sliders",
-            "bg_color": "#DDDDDD"
+            "bg_color": "#dddddd"
           }
         },
         "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-5": {
@@ -195,7 +195,7 @@
           "settings": {
             "collection": "cameras-photos",
             "title": "Camera\/Photo",
-            "bg_color": "#DDDDDD"
+            "bg_color": "#dddddd"
           }
         },
         "ca39440e-a4cb-439b-bec1-9dd9a54948c7": {
@@ -204,7 +204,7 @@
           "settings": {
             "collection": "desktop-pc",
             "title": "Heatsink PC",
-            "bg_color": "#DDDDDD"
+            "bg_color": "#dddddd"
           }
         },
         "a6b8dbc7-19c6-43c3-a6bb-f90c47881481": {
@@ -213,7 +213,7 @@
           "settings": {
             "collection": "home-kitchen",
             "title": "Home\/Electronics",
-            "bg_color": "#DDDDDD"
+            "bg_color": "#dddddd"
           }
         }
       },
@@ -237,7 +237,7 @@
         "num_p_qty": false,
         "button_label": "See All",
         "button_url": "shopify:\/\/collections",
-        "use-slider": false,
+        "use-slider": true,
         "slides-To-Scroll": 5,
         "visible": 5,
         "widescreen": 5,
@@ -249,15 +249,15 @@
         "portrait": 2,
         "mobile": 1,
         "rows": 1,
-        "autoplay": true,
+        "autoplay": false,
         "speed": "300",
         "autoplay-Speed": "6000",
-        "arrows": true,
-        "fade": true,
-        "center-Mode": true,
-        "adaptive-Height": true,
+        "arrows": false,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
         "dots": true,
-        "infinite": true,
+        "infinite": false,
         "padding": 10,
         "vertical": false,
         "layout": "container",
