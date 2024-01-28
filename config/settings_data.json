@@ -2713,13 +2713,24 @@
               "menu": "site",
               "col": "16%"
             }
+          },
+          "social_info_ULmB3n": {
+            "type": "social-info",
+            "settings": {
+              "title": "Join us",
+              "show_social": true,
+              "payment_title": "Payment methods",
+              "image_payment": "shopify:\/\/shop_images\/Frame_34038.png",
+              "custom_content": ""
+            }
           }
         },
         "block_order": [
           "e667f7e9-b124-4bfe-8c4d-f9a360e1a6ae",
           "c5c69ed1-5b2a-4d25-9618-3a370ddbd784",
           "90d7fce0-5d4b-415a-bc72-cf3573e40ae6",
-          "ab60869c-1612-46fc-949d-d932ecbf37b1"
+          "ab60869c-1612-46fc-949d-d932ecbf37b1",
+          "social_info_ULmB3n"
         ],
         "settings": {
           "full_width": false,
