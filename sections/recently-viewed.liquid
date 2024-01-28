@@ -72,23 +72,21 @@
       // Create a empty Array
       const recentViewHtml = []
       // Loop through all the data and inject into HTML using ES6
-      pdpData.forEach(function(item){ 
+      pdpData.forEach(function(item,index){ 
           recentViewHtml.push(`
-              <section id="Recent">
-              <div class="c-product">
-                  <div class="c-product__img">
-                  <a href="${item.productUrl}"><img src='${item.productImg}'/></a>
-                  </div>
-                  <h3 class="c-product__title">
-                      <a class="c-product__url" href="${item.productUrl}">
-                      ${item.productTitle}
-                      </a>
-                  </h3>
-                  <p class="c-productPrice">${item.productPrice}</p>
+              <div id="Recent-${index}">
+                <div class="c-product">
+                    <div class="c-product__img">
+                    <a href="${item.productUrl}"><img src='${item.productImg}'/></a>
+                    </div>
+                    <h3 class="c-product__title">
+                        <a class="c-product__url" href="${item.productUrl}">
+                        ${item.productTitle}
+                        </a>
+                    </h3>
+                    <p class="c-productPrice">${item.productPrice}</p>
+                </div>
               </div>
-              
-              
-              </section>
           `)
       })
       // Now consolidate the data 
