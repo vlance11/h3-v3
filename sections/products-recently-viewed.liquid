@@ -75,6 +75,7 @@
               productTitle : "{{ product.title }}",
               productImg : "{{ product.featured_image | img_url: '' }}",
               productPrice : "{{ product.price | money | remove_first: '' }}",
+              productCompPrice: "{{ product.compare_at_price | money | remove_first: '' }}",
               productUrl : "{{ product.url }}"
           };
 
