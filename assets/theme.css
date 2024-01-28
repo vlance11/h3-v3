@@ -287,6 +287,9 @@ div[data-wrapper-slidershow] .content-item .wrap_text .wrapper_caption .caption 
     background: #124B7A;
     color: #FFFFFF;
 }
+h3.payment_heading {
+    margin: 10px 0;
+}
 
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
