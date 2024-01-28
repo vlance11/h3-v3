@@ -221,7 +221,8 @@
                                 <h3 class="payment_heading">{{ block.settings.payment_title }}</h3>
                               {% endif %}
                               {% if block.settings.image_payment != blank %}
-                              {% render 'responsive-image', image: block.settings.image_payment, image_class: 'w-auto h-full' %}
+                                {{ block.settings.image_payment | image_url: width: 150 | image_tag }}
+                              {% render 'responsive-image', image: block.settings.image_payment, image_class: 'w-auto h-half' %}
                               {% endif %}
                               {%- if block.settings.custom_content != blank-%}
                                <div class="contentHtml">
