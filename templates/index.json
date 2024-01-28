@@ -254,7 +254,7 @@
         "center-Mode": false,
         "adaptive-Height": false,
         "dots": true,
-        "infinite": false,
+        "infinite": true,
         "padding": 10,
         "vertical": false,
         "layout": "container",
