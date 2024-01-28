@@ -77,8 +77,8 @@
         "portrait": 2,
         "mobile": 1,
         "padding_lr": 10,
-        "mg": ",,100px,",
-        "pd": "40px,,,",
+        "mg": "",
+        "pd": "",
         "mg_mb": ",,50px,",
         "pd_mb": "15px,,,"
       }
