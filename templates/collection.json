@@ -71,10 +71,16 @@
         "mg_mb": "",
         "pd_mb": ""
       }
+    },
+    "recently_viewed_6K8HzD": {
+      "type": "recently-viewed",
+      "settings": {
+      }
     }
   },
   "order": [
     "breadcrumb",
-    "product-grid"
+    "product-grid",
+    "recently_viewed_6K8HzD"
   ]
 }
