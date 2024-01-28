@@ -82,50 +82,10 @@
         "mg_mb": "",
         "pd_mb": ""
       }
-    },
-    "products_recently_viewed_77kTEM": {
-      "type": "products-recently-viewed",
-      "settings": {
-        "title": "Recently viewed products",
-        "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
-        "text_size": "medium",
-        "text_transform": "none",
-        "limit": 4,
-        "use-slider": true,
-        "slides-To-Scroll": 1,
-        "visible": 5,
-        "widescreen": 4,
-        "desktop": 4,
-        "laptop": 4,
-        "notebook": 3,
-        "tablet": 3,
-        "landscape": 2,
-        "portrait": 2,
-        "mobile": 1,
-        "rows": 1,
-        "autoplay": true,
-        "speed": "300",
-        "autoplay-Speed": "3000",
-        "arrows": true,
-        "fade": false,
-        "center-Mode": false,
-        "adaptive-Height": false,
-        "dots": false,
-        "infinite": false,
-        "padding": 10,
-        "vertical": false,
-        "layout": "container",
-        "cl_bg": "#fff",
-        "mg": "",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
     }
   },
   "order": [
     "breadcrumb",
-    "product-grid",
-    "products_recently_viewed_77kTEM"
+    "product-grid"
   ]
 }
