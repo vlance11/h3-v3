@@ -28,16 +28,6 @@
             "menu": "all-products"
           }
         },
-        "bd2d3844-64a0-4837-8954-76b36f4ab773": {
-          "type": "product",
-          "settings": {
-            "title": "Featured product",
-            "product1": "form-armchair-black",
-            "product2": "hammershoi-spice-mill-small",
-            "product3": "brown-stoneware-platter-small",
-            "product4": "tivoli-emperor-lamp"
-          }
-        },
         "d1f87686-4bdb-47c4-a938-983ce2683a19": {
           "type": "banner_img",
           "settings": {
@@ -51,7 +41,6 @@
       },
       "block_order": [
         "932fc3a4-132b-4a34-b5d0-91df6362734c",
-        "bd2d3844-64a0-4837-8954-76b36f4ab773",
         "d1f87686-4bdb-47c4-a938-983ce2683a19"
       ],
       "settings": {
