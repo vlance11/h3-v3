@@ -82,97 +82,10 @@
         "mg_mb": "",
         "pd_mb": ""
       }
-    },
-    "29ac14af-4f6d-46df-a917-a2c9848ef8ec": {
-      "type": "slideshow",
-      "blocks": {
-        "template--21734502990117__29ac14af-4f6d-46df-a917-a2c9848ef8ec-img-1": {
-          "type": "img",
-          "settings": {
-            "image_sl": "shopify:\/\/shop_images\/Limited_Offer_8.png",
-            "link_img": "",
-            "open_link": "_blank",
-            "caption_w": "2",
-            "h_position": "left",
-            "v_position": "middle",
-            "txt_align": "left"
-          }
-        },
-        "ee4cf167-98e0-4c16-bce9-58ed93884d49": {
-          "type": "btn",
-          "settings": {
-            "title": "Shop now",
-            "text_animate": "fadeInDown",
-            "text_time": 1.5,
-            "btn_link": "shopify:\/\/collections",
-            "cl_txt": "#212529",
-            "cl_txt_hover": "#ffffff",
-            "cl_bg": "#e5c33a",
-            "cl_bg_hover": "#f26460",
-            "fs_text": 14,
-            "fw_text": 600,
-            "button_transform": "none",
-            "br_button": "3px 3px",
-            "mg": "0px 0px 0px 0px",
-            "pd": "15px 32px 10px 32px",
-            "ls_text": 2.1,
-            "mobile_fw_text": 500,
-            "mobile_font_text": 12,
-            "mobile_mg": "0px 0px 0px 0px",
-            "mobile_pd": "15px 32px 10px 32px"
-          }
-        }
-      },
-      "block_order": [
-        "template--21734502990117__29ac14af-4f6d-46df-a917-a2c9848ef8ec-img-1",
-        "ee4cf167-98e0-4c16-bce9-58ed93884d49"
-      ],
-      "settings": {
-        "hidden": false,
-        "h_des": "650px",
-        "h_tb": "500px",
-        "h_mb": "350px",
-        "border": 10,
-        "use-slider": true,
-        "slides-To-Scroll": 1,
-        "visible": 1,
-        "widescreen": 1,
-        "desktop": 1,
-        "laptop": 1,
-        "notebook": 1,
-        "tablet": 1,
-        "landscape": 1,
-        "portrait": 1,
-        "mobile": 1,
-        "rows": 1,
-        "autoplay": true,
-        "speed": "300",
-        "autoplay-Speed": "3000",
-        "arrows": true,
-        "fade": false,
-        "fade_zoom": false,
-        "center-Mode": false,
-        "adaptive-Height": false,
-        "dots": false,
-        "infinite": false,
-        "padding": 0,
-        "vertical": false,
-        "position_dots": "left",
-        "style_dots": "default",
-        "custom_width": false,
-        "container_width": 1200,
-        "layout": "container",
-        "cl_bg": "#f5f5f5",
-        "mg": "",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
     }
   },
   "order": [
     "breadcrumb",
-    "product-grid",
-    "29ac14af-4f6d-46df-a917-a2c9848ef8ec"
+    "product-grid"
   ]
 }
