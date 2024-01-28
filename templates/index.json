@@ -191,7 +191,6 @@
         },
         "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-5": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "cameras-photos",
             "title": "Camera\/Photo",
@@ -200,7 +199,6 @@
         },
         "ca39440e-a4cb-439b-bec1-9dd9a54948c7": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "desktop-pc",
             "title": "Heatsink PC",
@@ -209,7 +207,6 @@
         },
         "a6b8dbc7-19c6-43c3-a6bb-f90c47881481": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "home-kitchen",
             "title": "Home\/Electronics",
