@@ -19,6 +19,9 @@
       const recentViewHtml = []
       // Loop through all the data and inject into HTML using ES6
       pdpData.forEach(function(item,index){ 
+        if(item == 4){
+           return true;
+        }
           recentViewHtml.push(`
               <div id="Recent-${index}" class="grid__item product-item laber-product-item-default">
                 <div class="c-product">
@@ -34,9 +37,6 @@
                 </div>
               </div>
           `);
-        if(item == 3){
-           return true;
-        }
       })
       // Now consolidate the data 
       const recentBlock = `${recentViewHtml.join('')}`
