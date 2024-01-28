@@ -33,7 +33,10 @@
                     <p class="c-productPrice">${item.productPrice}</p>
                 </div>
               </div>
-          `)
+          `);
+        if (index==3) {
+            break;
+        }
       })
       // Now consolidate the data 
       const recentBlock = `${recentViewHtml.join('')}`
