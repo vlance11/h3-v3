@@ -76,7 +76,7 @@
       // Loop through all the data and inject into HTML using ES6
       pdpData.forEach(function(item,index){ 
           recentViewHtml.push(`
-              <div id="Recent-${index}">
+              <div id="Recent-${index}" class="col-lg-3 col-md-3 col-sm-12">
                 <div class="c-product">
                     <div class="c-product__img">
                     <a href="${item.productUrl}"><img src='${item.productImg}'/></a>
