@@ -2891,7 +2891,6 @@ input.search_header__input:focus {
 }
 .header-search .search_header .search_header__submit {
   position: static;
-  min-width: 110px;
   height: 45px;
   border: none;
   cursor: pointer;
