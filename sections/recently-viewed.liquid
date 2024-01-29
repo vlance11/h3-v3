@@ -16,7 +16,7 @@
 <script>
   // Third Block
   function getRecentPdp (){
-      const pdpData = JSON.parse(localStorage.getItem('recently_viewed'));
+      const pdpData = JSON.parse(localStorage.getItem('recently_viewed')).reverse();
       console.log(pdpData)
       const recentViewHtml = []
       pdpData.forEach(function(item,index){ 
