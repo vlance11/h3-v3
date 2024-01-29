@@ -20,7 +20,7 @@
   // Third Block
   function getRecentPdp (){
       const pdpData = JSON.parse(localStorage.getItem('recently_viewed')).reverse();
-      console.log(pdpData)
+      console.log(pdpData.length)
       const recentViewHtml = []
       pdpData.forEach(function(item,index){ 
         if(item == 4){
@@ -57,7 +57,6 @@
           `);
       })
       const recentBlock = `${recentViewHtml.join('')}`
-      console.log(recentBlock);
       const contentBlock = document.querySelectorAll('.js-recentPdpBlock');
       contentBlock.forEach(element =>{
           element.innerHTML = recentBlock;
