@@ -196,7 +196,7 @@
                   </div>
                   <div id="product-grid" data-id="{{ section.id }}" class="product-grid row">
                     {%- for product in collection.products -%}
-                      {% render 'product-card', product: product %}
+                      {% include 'card-product' %}
                     {%- endfor -%}
                   </div>
                   {%- if paginate.pages > 1 -%}
