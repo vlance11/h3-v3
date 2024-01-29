@@ -9,7 +9,7 @@
   <div class="container">
     <div class="wrap_title large">
         <h3 class="section-title alo-text-transform" style="--alo-text-transform:none">
-          Recently viewed
+          {{ section.settings.title }}
         </h3>
       </div>
     <div id="product-grid" class="js-recentPdpBlock product-grid row"></div>
@@ -68,7 +68,14 @@
 {% schema %}
   {
     "name": "Recently viewed",
-    "settings": [],
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Section title",
+        "default": "Recently viewed"
+      }
+    ],
     "presets":[
       {
         "name": "Recently viewed",
