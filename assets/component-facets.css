@@ -1379,7 +1379,7 @@ input.mobile-facets__checkbox {
     width: 351px;
   }
   .facets-vertical .facets-wrapper .facets-container {
-    padding: 0;
+    padding: 12px;
     margin-bottom: 0;
     border: none;
   }
