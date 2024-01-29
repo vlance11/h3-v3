@@ -41,10 +41,19 @@
         "mg_mb": "",
         "pd_mb": "40px,,40px,"
       }
+    },
+    "recently_viewed_f79jrT": {
+      "type": "recently-viewed",
+      "settings": {
+        "title": "Recently viewed",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
     }
   },
   "order": [
     "breadcrumb",
-    "main"
+    "main",
+    "recently_viewed_f79jrT"
   ]
 }
