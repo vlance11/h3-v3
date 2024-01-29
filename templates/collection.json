@@ -56,10 +56,10 @@
         "enable_sorting": true,
         "products_per_page": 20,
         "grid_list": "4",
-        "visible": 4,
-        "widescreen": 4,
-        "desktop": 4,
-        "laptop": 4,
+        "visible": 3,
+        "widescreen": 3,
+        "desktop": 3,
+        "laptop": 3,
         "notebook": 3,
         "tablet": 2,
         "landscape": 2,
@@ -75,6 +75,9 @@
     "recently_viewed_6K8HzD": {
       "type": "recently-viewed",
       "settings": {
+        "title": "Recently viewed",
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     }
   },
