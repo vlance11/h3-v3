@@ -11,13 +11,9 @@
 <script>
   // Third Block
   function getRecentPdp (){
-
-      // First let's convert localStorage data into object again
       const pdpData = JSON.parse(localStorage.getItem('recently_viewed'));
       console.log(pdpData)
-      // Create a empty Array
       const recentViewHtml = []
-      // Loop through all the data and inject into HTML using ES6
       pdpData.forEach(function(item,index){ 
         if(item == 4){
            return true;
@@ -50,13 +46,9 @@
               </div>
           `);
       })
-      // Now consolidate the data 
       const recentBlock = `${recentViewHtml.join('')}`
-      // console.log() to check data is correct 
       console.log(recentBlock);
-      // Inject into PDP page
       const contentBlock = document.querySelectorAll('.js-recentPdpBlock');
-      // Push the data
       contentBlock.forEach(element =>{
           element.innerHTML = recentBlock;
       })
