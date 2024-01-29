@@ -55,7 +55,7 @@
         "filter_right": false,
         "enable_sorting": true,
         "products_per_page": 20,
-        "grid_list": "4",
+        "grid_list": "3",
         "visible": 3,
         "widescreen": 3,
         "desktop": 3,
