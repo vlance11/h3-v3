@@ -28,7 +28,9 @@
           recentViewHtml.push(`
               <div id="Recent-${index}" class="recent-card-item grid__item product-item laber-product-item-default">
                 <div class="c-product">
-                    <div class="label label--sale" data-js-product-label-sale="">${item.salePercent ? '-'+item.salePercent+'%':''}</div>
+                    <div class="product-image__overlay-top-left">
+                      <div class="label label--sale" data-js-product-label-sale="">${item.salePercent ? '-'+item.salePercent+'%':''}</div>
+                    </div>
                     <div class="c-product__img">
                     <a href="${item.productUrl}"><img src='${item.productImg}'/></a>
                     </div>
