@@ -31,7 +31,7 @@
         "landscape": 2,
         "portrait": 2,
         "mobile": 1,
-        "padding_lr": 2.5,
+        "padding_lr": 5,
         "enable_filtering": true,
         "filter_type": "vertical",
         "enable_sorting": true,
