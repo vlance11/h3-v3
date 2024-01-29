@@ -19,8 +19,11 @@
 <script>
   // Third Block
   function getRecentPdp (){
+      let sectionTitle = document.querySelector('#laber_{{ section.id }} .wrap_title');
       const pdpData = JSON.parse(localStorage.getItem('recently_viewed')).reverse();
-      console.log(pdpData.length)
+      if(pdpData.length > 0){
+        sectionTitle.classList.remove('d-none');
+      }
       const recentViewHtml = []
       pdpData.forEach(function(item,index){ 
         if(item == 4){
