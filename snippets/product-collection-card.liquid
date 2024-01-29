@@ -189,18 +189,6 @@
           </div>
         {%- endif -%}
       </div>
-      {%- if show_availability -%}
-        <div class="product-collection__availability">
-          <p class="{% if available %}in_stock{% else %}out_stock{% endif %}" data-js-product-availability>
-            {% if available %}
-              <i class="icon-check"></i>{{ 'products.product.availability_value_in_stock' | t }}
-              {{ 'products.product.value_in_stock_html' | t: count: quantity }}
-            {% else -%}
-              <i class="icon-check"></i>{{ 'products.product.availability_value_out_stock' | t -}}
-            {%- endif %}
-          </p>
-        </div>
-      {%- endif -%}
     </div>
 
     <div class="product-collection__content product-list-style style_{{style_product}}">
