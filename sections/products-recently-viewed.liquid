@@ -71,8 +71,8 @@
 <script>
 // First Block
   function setRecentlyViewedPdp() {
-    {%- if compare_at_price > price -%}
-    	{%- assign sale_percent = price | times: 100 | divided_by: compare_at_price | minus: 100 | times: -1 -%}                       
+    {%- if product.compare_at_price > product.price -%}
+    	{%- assign sale_percent = product.price | times: 100 | divided_by: product.compare_at_price | minus: 100 | times: -1 -%}                       
     {%- endif -%}
       const pdpData = {
           productTitle : "{{ product.title }}",
