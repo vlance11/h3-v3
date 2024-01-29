@@ -35,7 +35,7 @@
         "enable_filtering": true,
         "filter_type": "vertical",
         "enable_sorting": true,
-        "cl_bg": "rgba(0,0,0,0)",
+        "cl_bg": "#fafafa",
         "mg": "",
         "pd": "60px,,60px,",
         "mg_mb": "",
