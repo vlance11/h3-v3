@@ -44,7 +44,7 @@
         "d1f87686-4bdb-47c4-a938-983ce2683a19"
       ],
       "settings": {
-        "full-width": true,
+        "full-width": false,
         "show_collection_description": true,
         "show_collection_image": true,
         "h_des": "200px",
