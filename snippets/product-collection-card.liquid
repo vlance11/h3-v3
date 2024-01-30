@@ -178,9 +178,8 @@
         </div>
         {% endcomment %}
         
-        <div class='jdgm-widget jdgm-preview-badge'>
-          {{ shop.metafields.judgeme.all_reviews_rating | round: 1 }}
-        </div>
+        <div class="judge-reviews" data-judgify-widget="judgify-widget-product" data-product-id="{{ product.id }}"></div>
+       
       {%- endif -%}
       <div class="frm-price-color">
         {%- if show_price -%}
