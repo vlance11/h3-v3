@@ -6,7 +6,7 @@
 }
 .pagination-wrapper .pagination{
   display: flex;
-  justify-content: center;
+  justify-content: flex-right;
 }
 .pagination__list {
     display: flex;
