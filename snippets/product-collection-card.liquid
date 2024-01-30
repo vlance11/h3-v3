@@ -177,9 +177,8 @@
           {% render 'product-get-review' with id: id hide_counter: hide_reviews_counter %}
         </div>
         {% endcomment %}
-        {{ product.metafields.judgeme.badge }}
         <div class='jdgm-widget jdgm-preview-badge'>
-          <!-- {{ product.metafields.judgeme.badge }} -->
+          {{ product.metafields.judgeme.rating_count }}
         </div>
       {%- endif -%}
       <div class="frm-price-color">
