@@ -166,7 +166,11 @@
                           <div id="product-grid" data-id="{{ section.id }}" class="js_products_holder products product-container pr_center row section-content {%if sett_equal%}{{image_ratio}} {%endif%}" >
                             {% assign view_mod = "grid" %}
                             {% for item in search.results %}
-                             {% include 'product-collection-card', product: item %}   
+                              {% if section.settings.card_style == 'style_2' %}
+                               {% include 'product-collection-card', product: item %}  
+                              {% else %}
+                               {% include 'card-product', product: item %}  
+                             {% endif %}
                             {% endfor %}
                           </div>
                       </div>
