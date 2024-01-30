@@ -127,6 +127,11 @@
             "show_size_guide": true,
             "size_guide_page": "nevada-trailer-towing-laws"
           }
+        },
+        "judge_me_reviews_preview_badge_MkVPH7": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -141,7 +146,8 @@
         "26205a69-31b8-41d3-83bf-2e25db4c4dfa",
         "993a628c-32eb-456f-9eb4-88c3a61fa8e0",
         "f0b169ef-ed96-4dd1-9b76-7e2e8121cc42",
-        "303e9ab8-e392-40c7-9a5c-0e0198af5bed"
+        "303e9ab8-e392-40c7-9a5c-0e0198af5bed",
+        "judge_me_reviews_preview_badge_MkVPH7"
       ],
       "settings": {
         "cl_bg": "#ffffff",
