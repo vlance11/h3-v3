@@ -90,116 +90,43 @@
               {%- endif -%}
             {%- endif -%}
             <div class="product-grid-container js_products_arrivals products-arrivals {{ class_style }}" id="ProductGridContainer">
-            {%- if section.settings.enable_sorting and section.settings.filter_type == 'vertical' and search.filters != empty -%}
-              <facet-filters-form class="facets facets-vertical-sort page-width small-hide no-js-hidden">
-                <form class="facets-vertical-form" id="FacetSortForm">
-                  <div class="facet-filters sorting caption">
-                    <div class="facet-filters__field">
-                      <h2 class="facet-filters__label caption-large text-body">
-                        <label for="SortBy">{{ 'products.facets.sort_by_label' | t }}</label>
-                      </h2>
-                      <div class="select">
-                        {%- assign sort_by = search.sort_by | default: search.default_sort_by -%}
-                        <select name="sort_by" class="facet-filters__sort select__select caption-large" id="SortBy" aria-describedby="a11y-refresh-page-message">
-                          {%- for option in search.sort_options -%}
-                            <option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name | escape }}</option>
-                          {%- endfor -%}
-                        </select>
-                        <i class="icon-chevron-down icon-caret"></i>
-                      </div>
-                    </div>
-                    <noscript>
-                      <button type="submit" class="facets__button-no-js button button--secondary">{{ 'products.facets.sort_button' | t }}</button>
-                    </noscript>
-                  </div>
+              <!-- Start YMM short code -->
+{%- capture the_snippet_content -%} 
+	{% render 'ymm-searchbox' %}{%- endcapture -%}
+	{% unless the_snippet_content contains "Liquid error" %}
+		{%- assign searchbox_style = "horizontal" -%}<!-- eg. horizontal or vertical -->
+		{%- assign searchbox_title = "Search By Year, Make and Model" -%}
+		{% render 'ymm-searchbox', searchbox_style: searchbox_style, searchbox_title: searchbox_title %}
+{% endunless %}	
+<!-- Ended YMM short code --> 
+
+{%- assign is_sidebar = false -%}
+
+<div class="page-width container{% if is_sidebar == true %} ymm-result-page{% endif %}">
+{% if is_sidebar == true %}
+<div class="sidebar">SIDE BAR FILE INCLUDE</div>
+{% endif %}
+<div class="ymm-grid">
+    <div class="page-ymm-custom">
+      <div class="section-header text-center">
+        <h1 id="title" class="ymm_pg_title"></h1>
+        <h4><span id="total_products"></span></h4>
+      </div>
+      <div class="ymm_content">
+        	{{ page.content }}
         
-                  <div class="product-count-vertical light" role="status">
-                    <h2 class="product-count__text text-body">
-                      <span id="ProductCountDesktop">
-                        {%- if search.results_count -%}
-                          {{ 'templates.search.results_with_count' | t: terms: search.terms, count: search.results_count }}
-                        {%- elsif search.products_count == search.all_products_count -%}
-                          {{ 'products.facets.product_count_simple' | t: count: search.products_count }}
-                        {%- else -%}
-                          {{ 'products.facets.product_count' | t: product_count: search.products_count, count: search.all_products_count }}
-                        {%- endif -%}
-                      </span>
-                    </h2>
-                    <div class="loading-overlay__spinner">
-                      <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-                        <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
-                      </svg>
-                    </div>
-                  </div>
-                </form>
-              </facet-filters-form>
-            {%- endif -%}
-              {%- if search.results.size == 0 and search.filters != empty -%}
-              <div class="template-search__results collection collection--empty{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}" id="product-grid" data-id="{{ section.id }}">
-                <div class="loading-overlay gradient"></div>
-                <div class="title-wrapper center">
-                  <h2 class="title title--primary">
-                    {{ 'sections.collection_template.empty' | t }}<br>
-                    {{ 'sections.collection_template.use_fewer_filters_html' | t: link: search_url, class: "underlined-link link" }}
-                  </h2>
-                </div>
-              </div>
-            {%- else -%}
-                {% paginate search.results by section.settings.pagination_limit %}
-                <div id="primary" class="js_categories_content" >
-                  <div class="top-control box-has-content"> 
-                    <div class="control"> 
-                      {% if paginate.pages > 1 %}
-                      {% assign val_1 = paginate.current_offset%}
-                      {% assign val_2 = val_1 | plus: paginate.page_size %}
-                      {% if val_2 > paginate.items %}
-                      {% assign val_2 = paginate.items %}
-                      {% endif %}
-                      <div class="col laber-products-count">
-                        <span class="note products-result-count  align-left">{{'collections.general.showing' | t}} {% if paginate.items >0 %}{{val_1 | plus:1}}{% else %} {{val_1}} {% endif %}&ndash;{{val_2}} of {{paginate.items}} {{'collections.general.results' | t}}</span>
-                      </div>
-                      {% endif %} 
-                      {% include 'collection-views' %}  
-                    </div>
-                  </div>
-                    <div id="collection-product" class="collection">
-                      <div id="product-grid" data-id="{{ section.id }}" class="js_products_holder products product-container pr_center row section-content {%if sett_equal%}{{image_ratio}} {%endif%}" >
-                        {% assign view_mod = "grid" %}
-                        {% for item in search.results %}
-                          {% if section.settings.card_style == 'style_2' %}
-                           {% include 'product-collection-card', product: item %}  
-                          {% else %}
-                           {% include 'card-product', product: item %}  
-                         {% endif %}
-                        {% endfor %}
-                      </div>
-                  </div>
-                  {% if section.settings.enable_related_search %}
-                  <div class="related-search">
-                    <div class="section-title related-s-terms">
-                      <h2>Related search</h2>
-                    </div>
-                    <div class="related-terms">
-                      <div id="shuffled-collections-container">
-                        {% for collection in collections %}
-                          <a href="{{ collection.url }}" class="related-search-btn" style="display: none;">
-                            <span class="icon icon-search"></span>
-                            <span class="terms-title">{{ collection.title }}</span>
-                          </a>
-                        {% endfor %}
-                      </div>
-                    </div>
-                  </div>
-                  {% endif %}
-                  {%- if paginate.pages > 1 -%}
-                    {% render 'pagination', paginate: paginate, anchor: '' %}
-                  {%- endif -%}
-                  <span class="note products-result-count" style="display:none;">Showing {% if paginate.items >0 %}{{val_1 | plus:1}}{% else %} {{val_1}} {% endif %}&ndash;{{val_2}} of {{paginate.items}}</span>  
-                </div>
-                </div>
-                {% endpaginate %}
-              {%- endif -%}
-          </div
+        	{%- comment -%} DO NOT EDIT BELOW LINES [ PRODUCTS ARE WRITTEN IN THIS PART DYNAMICALLY ] {%- endcomment -%}
+        	<div id="product_container" class="clearfix">
+              <div class="ymm-prd-loader" style="display: none;"></div>
+              <div id="products" class="grid search-result-ctm"></div>
+              <div class="clearfix paging-outr"><ul class="pagination" id="paginate"></ul></div>
+        	</div>
+        	{%- comment -%} ENDS HERE {%- endcomment -%}
+      </div>
+    </div>
+</div>
+</div>
+            </div>
         </div>
         </div>
         </div>
@@ -207,10 +134,6 @@
     </div>
 </div>
 {% endif %}
-
-
-</div>
-</div>
 </section>
 {% render 'grid-style', settings:section.settings %}
 {%- render 'section_style' -%}
