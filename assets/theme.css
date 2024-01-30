@@ -251,6 +251,10 @@ button.btn.add-to-cart {
 .section-title.related-s-terms h2 {
     font-size: 20px;
 }
+.pagination__item:hover, .pagination__item.pagination__item--current {
+    color: #ffffff;
+    background: #124B7A;
+}
 /* images-with-text-section */
 .images-area .first-image {
     position: absolute;
