@@ -181,30 +181,14 @@
                         </div>
                         <div class="related-terms">
                           <div id="shuffled-collections-container">
-                            {% for collection in collections %}
-                              <a href="{{ collection.url }}" class="related-search-btn" style="display: none;">
-                                <span class="icon icon-search"></span>
-                                <span class="terms-title">{{ collection.title }}</span>
-                              </a>
-                            {% endfor %}
-                          </div>
-                          
-                          <script>
-                            document.addEventListener('DOMContentLoaded', function() {
-                              var container = document.querySelector('#shuffled-collections-container');
-                              var collectionLinks = container.querySelectorAll('.related-search-btn');
-                          
-                              var shuffledCollectionLinks = Array.from(collectionLinks).sort(function() {
-                                return 0.5 - Math.random();
-                              });
-                          
-                              shuffledCollectionLinks.forEach(function(link) {
-                                link.style.display = 'inline-block'; // or 'block' depending on your styling
-                                container.appendChild(link);
-                              });
-                            });
-                          </script>
-
+  {% assign shuffled_collections = collections | sort: 'title' | shuffle %}
+  {% for collection in shuffled_collections limit: 5 %}
+    <a href="{{ collection.url }}" class="related-search-btn">
+      <span class="icon icon-search"></span>
+      <span class="terms-title">{{ collection.title }}</span>
+    </a>
+  {% endfor %}
+</div>
 
                         </div>
                         {% endif %}
