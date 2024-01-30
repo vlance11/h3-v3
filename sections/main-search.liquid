@@ -181,14 +181,16 @@
                         </div>
                         <div class="related-terms">
                           
-                        {% assign shuffled_collections = collections %}
-                        
-                        {% for collection in shuffled_collections %}
-                          <a href="{{ collection.url }}" class="related-search-btn">
-                          <span class="icon icon-search"></span>
-                          <span class="terms-title">{{ collection.title }}</span>
-                          </a>
-                        {% endfor %}
+                        {% assign shuffled_collections = collections.all | sort: 'title' | shuffle %}
+{% assign random_collections = shuffled_collections | slice: 0, 5 %}
+
+{% for collection in random_collections %}
+  <a href="{{ collection.url }}" class="related-search-btn">
+    <span class="icon icon-search"></span>
+    <span class="terms-title">{{ collection.title }}</span>
+  </a>
+{% endfor %}
+
                         </div>
                         {% endif %}
                       </div>
