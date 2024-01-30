@@ -62,20 +62,6 @@
 <div class="template-search{% unless search.performed and search.results_count > 0 %} template-search--empty{% endunless %} section-{{ section.id }}-padding">
 
   <div class="main-container shop-page">
-      {% if search.results_count == 0 or search.performed == false %}
-        <div class="container empty-page-content text-center">
-          <h1 class="h2">{{ 'general.search.title' | t }}</h1>
-      {% else %}
-          <div class="container section-header text-center">
-          <h1 class="section-title h2">{{ 'general.search.results_with_count' | t: terms: search_terms, count: search.results_count }}</h1>
-      {% endif %}
-      {% if search.performed and search.results_count == 0 %}
-        <hr class="hr--small hr--invisible">
-        <p>{{ 'general.search.no_results_html' | t: terms: search_terms }}</p>
-      {% endif %}
-    </div>
-  </div>
-  
     <div class=" main-content-grid js_container_cat ">
     <div class="js_categories_content">
       <div class="container wrap-main-collection">
@@ -84,49 +70,46 @@
           <div{% if section.settings.filter_type == 'vertical' %} class="facets-vertical page-width"{% endif %}>
             <div class="product-grid-container js_products_arrivals products-arrivals {{ class_style }}" id="ProductGridContainer">
               <!-- Start YMM short code -->
-{%- capture the_snippet_content -%} 
-	{% render 'ymm-searchbox' %}{%- endcapture -%}
-	{% unless the_snippet_content contains "Liquid error" %}
-		{%- assign searchbox_style = "horizontal" -%}<!-- eg. horizontal or vertical -->
-		{%- assign searchbox_title = "Search By Year, Make and Model" -%}
-		{% render 'ymm-searchbox', searchbox_style: searchbox_style, searchbox_title: searchbox_title %}
-{% endunless %}	
-<!-- Ended YMM short code --> 
-
-{%- assign is_sidebar = false -%}
-
-<div class="page-width container{% if is_sidebar == true %} ymm-result-page{% endif %}">
-{% if is_sidebar == true %}
-<div class="sidebar">SIDE BAR FILE INCLUDE</div>
-{% endif %}
-<div class="ymm-grid">
-    <div class="page-ymm-custom">
-      <div class="section-header text-center">
-        <h1 id="title" class="ymm_pg_title"></h1>
-        <h4><span id="total_products"></span></h4>
-      </div>
-      <div class="ymm_content">
-        	{{ page.content }}
-        
-        	{%- comment -%} DO NOT EDIT BELOW LINES [ PRODUCTS ARE WRITTEN IN THIS PART DYNAMICALLY ] {%- endcomment -%}
-        	<div id="product_container" class="clearfix">
-              <div class="ymm-prd-loader" style="display: none;"></div>
-              <div id="products" class="grid search-result-ctm"></div>
-              <div class="clearfix paging-outr"><ul class="pagination" id="paginate"></ul></div>
-        	</div>
-        	{%- comment -%} ENDS HERE {%- endcomment -%}
-      </div>
-    </div>
-</div>
-</div>
+              {%- capture the_snippet_content -%} 
+              	{% render 'ymm-searchbox' %}{%- endcapture -%}
+              	{% unless the_snippet_content contains "Liquid error" %}
+              		{%- assign searchbox_style = "horizontal" -%}<!-- eg. horizontal or vertical -->
+              		{%- assign searchbox_title = "Search By Year, Make and Model" -%}
+              		{% render 'ymm-searchbox', searchbox_style: searchbox_style, searchbox_title: searchbox_title %}
+              {% endunless %}	
+              <!-- Ended YMM short code --> 
+              
+              {%- assign is_sidebar = false -%}
+              
+              <div class="page-width container{% if is_sidebar == true %} ymm-result-page{% endif %}">
+              {% if is_sidebar == true %}
+              <div class="sidebar">SIDE BAR FILE INCLUDE</div>
+              {% endif %}
+              <div class="ymm-grid">
+                  <div class="page-ymm-custom">
+                    <div class="section-header text-center">
+                      <h1 id="title" class="ymm_pg_title"></h1>
+                      <h4><span id="total_products"></span></h4>
+                    </div>
+                    <div class="ymm_content">
+                      	{{ page.content }}
+                      
+                      	{%- comment -%} DO NOT EDIT BELOW LINES [ PRODUCTS ARE WRITTEN IN THIS PART DYNAMICALLY ] {%- endcomment -%}
+                      	<div id="product_container" class="clearfix">
+                            <div class="ymm-prd-loader" style="display: none;"></div>
+                            <div id="products" class="grid search-result-ctm"></div>
+                            <div class="clearfix paging-outr"><ul class="pagination" id="paginate"></ul></div>
+                      	</div>
+                      	{%- comment -%} ENDS HERE {%- endcomment -%}
+                    </div>
+                  </div>
+              </div>
+            </div>
             </div>
         </div>
         </div>
         </div>
       </div>
-    </div>
-</div>
-</section>
 {% render 'grid-style', settings:section.settings %}
 {%- render 'section_style' -%}
 
