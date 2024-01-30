@@ -16,11 +16,9 @@
       }
     },
     "main": {
-      "type": "main-page",
+      "type": "ymm-search-result",
       "settings": {
-        "show_page": false,
         "cl_bg": "#ffffff",
-        "pd_c": "",
         "mg": "",
         "pd": "80px,0,80px,0",
         "mg_mb": "",
