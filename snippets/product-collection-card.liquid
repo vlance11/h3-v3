@@ -177,16 +177,14 @@
           {% render 'product-get-review' with id: id hide_counter: hide_reviews_counter %}
         </div>
         {% endcomment %}
-        {% assign judgeme_data = product.metafields.judgeme | json %}
+   {% assign averageRatingIndex = product.metafields.judgeme | split: "data-average-rating='" | size %}
+{% assign average_rating = product.metafields.judgeme | split: "data-average-rating='" | last | split: "'" | first %}
 
-{% if judgeme_data %}
-  {% assign badge_data = judgeme_data.badge | json %}
-  {% assign average_rating = badge_data | split: "data-average-rating='" | last | split: "'" | first %}
-
+{% if averageRatingIndex > 1 %}
   <div class="product-ratings">
     <p>Product Rating: {{ average_rating }}</p>
     <!-- You can also access other properties like number_of_reviews, etc. if needed -->
-    <p>Total Reviews: {{ badge_data | split: "data-number-of-reviews='" | last | split: "'" | first }}</p>
+    <p>Total Reviews: {{ product.metafields.judgeme | split: "data-number-of-reviews='" | last | split: "'" | first }}</p>
   </div>
 {% endif %}
       {%- endif -%}
