@@ -181,7 +181,7 @@
                         </div>
                         <div class="related-terms">
                           
-                        {% assign shuffled_collections = collections.all | sort: 'title' | shuffle %}
+                        {% assign shuffled_collections = collections | sort: 'title' | shuffle %}
 {% assign random_collections = shuffled_collections | slice: 0, 5 %}
 
 {% for collection in random_collections %}
