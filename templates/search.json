@@ -109,9 +109,9 @@
         "sub_title": "",
         "content": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium<br> lectus qua. Nunc id cursus metus ididunt ut labore metus episcing.",
         "layout": "container",
-        "cl_bg": "#fff",
+        "cl_bg": "#fffbf5",
         "mg": "",
-        "pd": "",
+        "pd": "30px,,30px",
         "mg_mb": "",
         "pd_mb": ""
       }
