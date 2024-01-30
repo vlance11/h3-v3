@@ -112,7 +112,7 @@
     "product_collection_show_options": true,
     "product_collection_show_button_add_to_cart": true,
     "product_collection_show_quantity_box": false,
-    "product_collection_show_button_add_to_wishlist": false,
+    "product_collection_show_button_add_to_wishlist": true,
     "product_collection_show_button_add_to_compare": false,
     "product_collection_show_button_quick_view": false,
     "product_auto_selected_options": "",
