@@ -154,23 +154,6 @@
             {%- endif -%}
           {%- endif -%}
         {% endform %}
-
-        {%- if product.metafields.custom.short_description != blank -%}
-          <div class="product-collection__description">
-            {{ product.metafields.custom.short_description }}
-          </div>
-        {%- endif -%}
-        {% if show_short_description %}
-          {% assign short_description = product.metafields['short-description'] %}
-          {% if short_description.size > 0 %}
-            <div class="short-description">
-              {% for short_content in short_description %}
-                {% assign content = short_content | last %}
-                {{ content }}
-              {% endfor %}
-            </div>
-          {% endif %}
-        {% endif %}
       </div>
       <div class="actions-info">
         {%- if show_sku or show_barcode or show_availability or show_type or show_vendor or show_description- %}
