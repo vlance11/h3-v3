@@ -217,7 +217,12 @@ button.btn.add-to-cart {
     font-size: 16px;
 }
 /* product-collection-card */
-
+.frm-price-color {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 /* images-with-text-section */
 .images-area .first-image {
     position: absolute;
