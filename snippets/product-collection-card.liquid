@@ -156,59 +156,6 @@
         {% endform %}
       </div>
       <div class="actions-info">
-        {%- if show_sku or show_barcode or show_availability or show_type or show_vendor or show_description- %}
-          <div class="product-collection__details">
-            {%- if show_sku -%}
-              <div class="product-collection__sku{% if sku == blank %} d-none-important{% endif %} mb-5">
-                <p class="m-0" data-js-product-sku>
-                  <label>{{ 'products.product.sku' | t }}:</label> <span>{{ sku }}</span>
-                </p>
-              </div>
-            {%- endif -%}
-            {%- if show_barcode -%}
-              <div class="product-collection__barcode{% if barcode == blank %} d-none-important{% endif %} mb-5">
-                <p class="m-0" data-js-product-barcode>
-                  <label>{{ 'products.product.barcode' | t }}:</label> <span>{{ barcode }}</span>
-                </p>
-              </div>
-            {%- endif -%}
-            {%- if show_availability -%}
-              <div class="product-collection__availability">
-                <p class="{% if available %}in_stock{% else %}out_stock{% endif %}" data-js-product-availability>
-                  {% if available %}
-                    <i class="icon-check"></i>{{ 'products.product.availability_value_in_stock' | t }}
-                    {{ 'products.product.value_in_stock_html' | t: count: quantity }}
-                  {% else -%}
-                    <i class="icon-check"></i>{{ 'products.product.availability_value_out_stock' | t -}}
-                  {%- endif %}
-                </p>
-              </div>
-            {%- endif -%}
-            {%- if show_type -%}
-              <div class="product-collection__type{% if type == blank %} d-none-important{% endif %} mb-5">
-                <p class="m-0" data-js-product-type>
-                  <label>{{ 'products.product.type' | t }}:</label> <span>{{ type }}</span>
-                </p>
-              </div>
-            {%- endif -%}
-            {%- if show_vendor -%}
-              <div class="product-collection__vendor{% if vendor == blank %} d-none-important{% endif %} mb-5">
-                <p class="m-0" data-js-product-vendor>
-                  <label>{{ 'products.product.vendor' | t }}:</label> <span>{{ vendor }}</span>
-                </p>
-              </div>
-            {%- endif -%}
-          </div>
-        {%- endif -%}
-
-        <div class="frm-price-color">
-          {%- if show_price -%}
-            <div class="product-collection__price ">
-              {% render 'product-get-price' with price: price compare_at_price: product.compare_at_price %}
-            </div>
-          {%- endif -%}
-        </div>
-
         <div class="product-bottom-content">
           <div class="product-content">
             {% if show_button_add_to_cart %}
