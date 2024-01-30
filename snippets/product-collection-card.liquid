@@ -178,7 +178,8 @@
         </div>
         {% endcomment %}
         <div class='jdgm-widget jdgm-preview-badge'>
-          {{ card_product.metafields.judgeme.badge }}
+          <!-- {{ card_product.metafields.judgeme.badge }} -->
+        {{ product.metafields.reviews.rating.value }}
         </div>
       {%- endif -%}
       <div class="frm-price-color">
