@@ -180,6 +180,21 @@
                           <h2>Related search</h2>
                         </div>
                         <div class="related-terms">
+                          {%- assign array = collections | split: ',' -%}
+                          {%- assign loops = array.size | times: 10 -%}
+                          
+                          {%- capture indexes -%}
+                          	{%- for i in (1..loops) -%}{{ "now" | date: "%N" | modulo: array.size }},{%- endfor -%}
+                          {%- endcapture -%}
+                          
+                          {%- assign indexes = indexes | split: ',' | uniq -%}
+                          
+                          {%- for a in indexes -%}
+                            {% assign b = a | plus: 0 %}
+                            {{ array[b] }}
+                            {% unless forloop.last %},{% endunless %}
+                          {%- endfor -%}
+                          
                         {% assign shuffled_collections = collections | sample: 5 %}
                         
                         {% for collection in shuffled_collections limit: 5 %}
