@@ -179,7 +179,10 @@
                         {% assign random_collections = shuffled_collections | slice: 0, 3 %}
                         
                         {% for collection in shuffled_collections limit: 4 %}
-                          <h2><a href="{{ collection.url }}">{{ collection.title }}</a></h2>
+                          <a href="{{ collection.url }}">
+                          <span class="terms-title">{{ collection.title }}</span>
+                          <span class="icon icon-search"></span>
+                          </a>
                         {% endfor %}
 
                       </div>
