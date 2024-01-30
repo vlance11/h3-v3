@@ -179,9 +179,9 @@
                         {% assign random_collections = shuffled_collections | slice: 0, 3 %}
                         
                         {% for collection in shuffled_collections limit: 4 %}
-                          <a href="{{ collection.url }}">
-                          <span class="terms-title">{{ collection.title }}</span>
+                          <a href="{{ collection.url }}" class="related-search-btn">
                           <span class="icon icon-search"></span>
+                          <span class="terms-title">{{ collection.title }}</span>
                           </a>
                         {% endfor %}
 
