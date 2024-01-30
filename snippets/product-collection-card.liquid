@@ -140,29 +140,6 @@
 
     <div class="product-collection__content product-list-style2 style_{{style_product}}">
       <div class="product-info flex-1">
-        {% if show_collection %}
-          <div class="product-collection__info">
-            <div class="product-collection__more-info">
-              {%- if product.collections.size > 0 -%}
-                {% render 'product-get-collections' with product: product %}
-              {%- endif -%}
-            </div>
-          </div>
-        {% endif %}
-        {%- if show_title -%}
-          <div class="product-collection__title">
-            <h2>
-              <a href="{{ url }}">{{ title }}</a>
-            </h2>
-          </div>
-        {%- endif -%}
-        {%- if show_reviews -%}
-          {% include 'reviews-count' %}
-          <div class="product-collection__reviews">
-            {% render 'product-get-review' with id: id hide_counter: hide_reviews_counter %}
-          </div>
-        {%- endif -%}
-
         {% form 'product', product, id: null, class: 'frm_product_collection', data-js-product-form: '' %}
           <input type="hidden" name="id" value="{{ current_variant.id }}" data-js-product-variant-input>
           {%- if show_options and show_custom_options -%}
