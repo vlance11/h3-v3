@@ -175,8 +175,10 @@
                           </div>
                       </div>
                       <div class="related-search">
-                        <div class="section-title">Related search</div>
                         {% if section.settings.enable_related_search %}
+                        <div class="section-title">
+                          <h2>Related search</h2>
+                        </div>
                         {% assign shuffled_collections = collections | shuffle | sort: search_terms %}
                         {% assign random_collections = shuffled_collections | slice: 0, 3 %}
                         
