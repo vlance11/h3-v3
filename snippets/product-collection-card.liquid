@@ -178,7 +178,7 @@
         </div>
         {% endcomment %}
         {% if product.metafields.judgeme %}
-        Ratings: {{ product.metafields.judgeme.review_summary }}
+        Ratings:<pre>{{ product.metafields.judgeme | json }}</pre>
         {{ product.metafields.judgeme.number_of_reviews }}
        {% endif %}
       {%- endif -%}
