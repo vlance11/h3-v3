@@ -44,7 +44,7 @@
       {%- if paginate.next -%}
         <li>
           <a href="{{ paginate.next.url }}{{ anchor }}" class="page-next pagination__item pagination__item--prev pagination__item-arrow link motion-reduce" aria-label="{{ 'general.pagination.next' | t }}" >
-            {% render 'icon-next' %}
+            <span class="icon-chevron-right"></span>
           </a>
         </li>
       {%- endif -%}
