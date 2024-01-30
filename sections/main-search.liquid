@@ -175,7 +175,7 @@
                           </div>
                       </div>
                       <div class="related-search">
-                        {% assign shuffled_collections = collections | shuffle %}
+                        {% assign shuffled_collections = collections | shuffle | sort: search_terms %}
                         {% assign random_collections = shuffled_collections | slice: 0, 3 %}
                         
                         {% for collection in shuffled_collections limit: 4 %}
