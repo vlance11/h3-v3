@@ -56,12 +56,72 @@
       "type": "apps",
       "settings": {
       }
+    },
+    "faq_sections_wFRzFH": {
+      "type": "faq-sections",
+      "blocks": {
+        "faq_9MDwaL": {
+          "type": "faq",
+          "settings": {
+            "title": "Problems sending or receiving messages?",
+            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "link": "",
+            "open_link": "_blank"
+          }
+        },
+        "faq_jdxCeC": {
+          "type": "faq",
+          "settings": {
+            "title": "Problems sending or receiving messages?",
+            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "link": "",
+            "open_link": "_blank"
+          }
+        },
+        "faq_wT3LQ8": {
+          "type": "faq",
+          "settings": {
+            "title": "Problems sending or receiving messages?",
+            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "link": "",
+            "open_link": "_blank"
+          }
+        },
+        "faq_nK6fqw": {
+          "type": "faq",
+          "settings": {
+            "title": "Problems sending or receiving messages?",
+            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "link": "",
+            "open_link": "_blank"
+          }
+        }
+      },
+      "block_order": [
+        "faq_9MDwaL",
+        "faq_jdxCeC",
+        "faq_wT3LQ8",
+        "faq_nK6fqw"
+      ],
+      "settings": {
+        "hidden": false,
+        "title": "Got a question for Hitch Expo?",
+        "sub_title": "",
+        "content": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium<br> lectus qua. Nunc id cursus metus ididunt ut labore metus episcing.",
+        "layout": "container",
+        "cl_bg": "#fff",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
     "breadcrumb",
     "main",
     "recently_viewed_f79jrT",
-    "1706595352746ae524"
+    "1706595352746ae524",
+    "faq_sections_wFRzFH"
   ]
 }
