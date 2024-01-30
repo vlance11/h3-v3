@@ -227,6 +227,13 @@ button.btn.add-to-cart {
     visibility: visible;
     opacity: 1;
 }
+/* search pgae */
+.related-search-btn {
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    padding: 4px 10px;
+    margin: 12px;
+}
 /* images-with-text-section */
 .images-area .first-image {
     position: absolute;
