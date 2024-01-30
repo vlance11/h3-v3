@@ -241,6 +241,9 @@ button.btn.add-to-cart {
     margin-right: 20px;
     font-size: 12px;
 }
+.related-search-btn .terms-title {
+    font-size: 13px;
+}
 .related-search .related-terms {
     display: flex;
     flex-wrap: wrap;
