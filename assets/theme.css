@@ -228,6 +228,9 @@ button.btn.add-to-cart {
     opacity: 1;
 }
 /* search pgae */
+.related-search {
+    margin-top: 50px;
+}
 .related-search-btn {
     border: 1px solid #DDDDDD;
     border-radius: 8px;
@@ -241,6 +244,9 @@ button.btn.add-to-cart {
 .related-search .related-terms {
     display: flex;
     flex-wrap: wrap;
+}
+.section-title.related-s-terms h2 {
+    font-size: 20px;
 }
 /* images-with-text-section */
 .images-area .first-image {
