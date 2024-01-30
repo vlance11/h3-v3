@@ -178,7 +178,7 @@
         </div>
         {% endcomment %}
         {% if product.metafields.judgeme %}
-        Ratings: {{ product.metafields.judgeme.review_summary.average_score }}
+        Ratings: {{ product.metafields.judgeme.review_summary }}
         {{ product.metafields.judgeme.number_of_reviews }}
        {% endif %}
       {%- endif -%}
