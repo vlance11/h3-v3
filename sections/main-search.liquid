@@ -182,13 +182,13 @@
                         <div class="related-terms">
                         {% assign shuffled_collections = collections | shuffle | sort: search_terms %}
                         
-                        {% for collection in shuffled_collections limit: 4 %}
+                        {% for collection in shuffled_collections limit: 5 %}
                           <a href="{{ collection.url }}" class="related-search-btn">
                           <span class="icon icon-search"></span>
                           <span class="terms-title">{{ collection.title }}</span>
                           </a>
                         {% endfor %}
-                        </div
+                        </div>
                         {% endif %}
                       </div>
                       {%- if paginate.pages > 1 -%}
