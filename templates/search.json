@@ -49,11 +49,17 @@
         "padding_top": 30,
         "padding_bottom": 30
       }
+    },
+    "1706595352746ae524": {
+      "type": "apps",
+      "settings": {
+      }
     }
   },
   "order": [
     "breadcrumb",
     "main",
-    "recently_viewed_f79jrT"
+    "recently_viewed_f79jrT",
+    "1706595352746ae524"
   ]
 }
