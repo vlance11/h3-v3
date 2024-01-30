@@ -170,22 +170,7 @@
           </h2>
         </div>
       {%- endif -%}
-      {%- if show_reviews -%}
-        {% comment %}
-        {% include 'reviews-count' %}
-        <div class="product-collection__reviews">
-          {% render 'product-get-review' with id: id hide_counter: hide_reviews_counter %}
-        </div>
-        {% endcomment %}
-       {% assign averageRatingIndex = product.metafields.judgeme | split: "data-average-rating='" | size %}
-       {% assign average_rating = product.metafields.judgeme | split: "data-average-rating='" | last | split: "'" | first %}
-      {% if averageRatingIndex > 1 %}
-        <div class="product-ratings">
-          <p><i class="icon icon-star"></i> {{ average_rating }}</p>
-        </div>
-      {% endif %}
-        
-      {%- endif -%}
+      
       <div class="frm-price-color">
         {%- if show_price -%}
           <div class="product-collection__price ">
@@ -196,6 +181,24 @@
             {%- else -%}
               {% render 'product-get-price' with price: price compare_at_price: product.compare_at_price %}
             {%- endif -%}
+
+            {%- if show_reviews -%}
+              {% comment %}
+              {% include 'reviews-count' %}
+              <div class="product-collection__reviews">
+                {% render 'product-get-review' with id: id hide_counter: hide_reviews_counter %}
+              </div>
+              {% endcomment %}
+             {% assign averageRatingIndex = product.metafields.judgeme | split: "data-average-rating='" | size %}
+             {% assign average_rating = product.metafields.judgeme | split: "data-average-rating='" | last | split: "'" | first %}
+             {% if averageRatingIndex > 1 %}
+              <div class="product-ratings">
+                <i class="icon icon-star"></i>{{ average_rating }}
+              </div>
+             {% endif %}
+        
+      {%- endif -%}
+          
           </div>
         {%- endif -%}
       </div>
