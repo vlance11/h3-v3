@@ -181,7 +181,7 @@
                         </div>
                         <div class="related-terms">
                           {%- assign array = collections -%}
-                          {%- assign loops = array.size | times: 10 -%}
+                          {%- assign loops = array.size | times: 1 -%}
                           
                           {%- capture indexes -%}
                           	{%- for i in (1..loops) -%}{{ "now" | date: "%N" | modulo: array.size }},{%- endfor -%}
