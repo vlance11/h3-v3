@@ -177,10 +177,10 @@
           {% render 'product-get-review' with id: id hide_counter: hide_reviews_counter %}
         </div>
         {% endcomment %}
-        
+        {% if product.metafields.judgeme %}
         {{ product.metafields.judgeme.average_rating | plus: 0 }}
         {{ product.metafields.judgeme.reviews_count }}
-       
+       {% endif %}
       {%- endif -%}
       <div class="frm-price-color">
         {%- if show_price -%}
