@@ -181,8 +181,9 @@
             {%- else -%}
               {% render 'product-get-price' with price: price compare_at_price: product.compare_at_price %}
             {%- endif -%}
-
-            {%- if show_reviews -%}
+          </div>
+        {%- endif -%}
+        {%- if show_reviews -%}
               {% comment %}
               {% include 'reviews-count' %}
               <div class="product-collection__reviews">
@@ -196,11 +197,7 @@
                 <span class="icon icon-star"></span>
                <span class="avarage-ratings">{{ average_rating }}</span>
               </div>
-             {% endif %}
-        
-      {%- endif -%}
-          
-          </div>
+             {% endif %}        
         {%- endif -%}
       </div>
     </div>
