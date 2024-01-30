@@ -175,8 +175,9 @@
                           </div>
                       </div>
                       <div class="related-search">
-                        {% assign collections = collections.all %}
-                        {% assign random_collections = collections | sample: 3 %}
+                       {% assign collections = collections.all | sort: 'title' %}
+                        {% assign shuffled_collections = collections | shuffle %}
+                        {% assign random_collections = shuffled_collections | slice: 0, 3 %}
                         
                         {% for collection in random_collections %}
                           <h2><a href="{{ collection.url }}">{{ collection.title }}</a></h2>
