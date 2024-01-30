@@ -181,7 +181,7 @@
                         </div>
                         <div class="related-terms">
                           
-                        {% assign shuffled_collections = collections | sample: 5 %}
+                        {% assign shuffled_collections = collections %}
                         
                         {% for collection in shuffled_collections %}
                           <a href="{{ collection.url }}" class="related-search-btn">
