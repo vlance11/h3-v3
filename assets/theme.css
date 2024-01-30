@@ -223,6 +223,10 @@ button.btn.add-to-cart {
     align-items: center;
     width: 100%;
 }
+.product-item.card-style2 .product-image__overlay-bottom {
+    visibility: visible;
+    opacity: 1;
+}
 /* images-with-text-section */
 .images-area .first-image {
     position: absolute;
