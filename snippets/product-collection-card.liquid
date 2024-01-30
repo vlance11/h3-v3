@@ -178,7 +178,7 @@
         </div>
         {% endcomment %}
         
-        <div class="judge-reviews" data-judgify-widget="judgify-widget-product" data-product-id="{{ product.id }}"></div>
+        {{ product.metafields.judgeme.average_rating | plus: 0 }}
        
       {%- endif -%}
       <div class="frm-price-color">
