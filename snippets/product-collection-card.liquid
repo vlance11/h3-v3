@@ -193,7 +193,7 @@
              {% assign average_rating = product.metafields.judgeme | split: "data-average-rating='" | last | split: "'" | first %}
              {% if averageRatingIndex > 1 %}
               <div class="product-ratings">
-                <i class="icon icon-star"></i>
+                <span class="icon icon-star"></span>
                <span class="avarage-ratings">{{ average_rating }}</span>
               </div>
              {% endif %}
