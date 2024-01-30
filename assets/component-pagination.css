@@ -38,7 +38,8 @@
 
 .pagination__item:hover,
 .pagination__item.pagination__item--current{
-      color:var(--color-link-hover);
+  color: #FFFFFF;
+  background: #124b7a;
 }
 .pagination__item--next .icon {
   margin-left: -0.2rem;
