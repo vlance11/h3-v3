@@ -179,7 +179,7 @@
         {% endcomment %}
         
         <div class='jdgm-widget jdgm-preview-badge'>
-          <i class="icon icon-star-fill"></i>{{ product.metafields.judgeme.all_reviews_rating | round: 1 }}/5
+          {{ product.metafields.judgeme.badge }}
         </div>
       {%- endif -%}
       <div class="frm-price-color">
