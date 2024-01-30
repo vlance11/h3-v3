@@ -179,6 +179,7 @@
         {% endcomment %}
         
         {{ product.metafields.judgeme.average_rating | plus: 0 }}
+        {{ product.metafields.judgeme.reviews_count }}
        
       {%- endif -%}
       <div class="frm-price-color">
