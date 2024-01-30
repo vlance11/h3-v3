@@ -255,6 +255,9 @@ button.btn.add-to-cart {
     color: #ffffff;
     background: #124B7A;
 }
+price-range input[type="number"] {
+    text-align: right;
+}
 /* images-with-text-section */
 .images-area .first-image {
     position: absolute;
