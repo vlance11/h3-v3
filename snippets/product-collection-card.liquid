@@ -185,7 +185,7 @@
                     {% endif %}
                     <button
                       type="submit"
-                      class="add-to-cart js_add_to_cart_button alo-border-radius {%if settings.disable_ajax_cart %}page_{{settings.custom_page_cart}}{%endif%}"
+                      class="add-to-cart js_add_to_cart_button alo-border-radius {% if settings.disable_ajax_cart %}page_{{settings.custom_page_cart}}{% endif %}"
                       data-pid="{{ product.variants.first.id }}"
                       style="--alo-border-radius:5px;"
                       data-js-product-button-add-to-cart
