@@ -48,7 +48,6 @@
               onload="this.media='all'"
             >
           {%- endif -%}
-          Ratings: {{ product.metafields.judgeme.review_summary.average_score }}
           <div class="row">
           {%- if mediaDawn -%}
             {% render 'product-media-modal' variant_images: variant_images %}
