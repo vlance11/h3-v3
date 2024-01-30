@@ -174,48 +174,23 @@
                             {% endfor %}
                           </div>
                       </div>
+                      {% if section.settings.enable_related_search %}
                       <div class="related-search">
-                        {% if section.settings.enable_related_search %}
                         <div class="section-title related-s-terms">
                           <h2>Related search</h2>
                         </div>
                         <div class="related-terms">
                           <div id="shuffled-collections-container">
-  {% for collection in collections %}
-    <a href="{{ collection.url }}" class="related-search-btn" style="display: none;">
-      <span class="icon icon-search"></span>
-      <span class="terms-title">{{ collection.title }}</span>
-    </a>
-  {% endfor %}
-</div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var container = document.querySelector('#shuffled-collections-container');
-    var collectionLinks = container.querySelectorAll('.related-search-btn');
-
-    // Convert the NodeList to an array for easier manipulation
-    var shuffledCollectionLinks = Array.from(collectionLinks);
-
-    // Shuffle the array
-    for (var i = shuffledCollectionLinks.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));
-      var temp = shuffledCollectionLinks[i];
-      shuffledCollectionLinks[i] = shuffledCollectionLinks[j];
-      shuffledCollectionLinks[j] = temp;
-    }
-
-    // Display only the first 5 elements
-    for (var i = 0; i < 5; i++) {
-      shuffledCollectionLinks[i].style.display = 'inline-block'; // or 'block' depending on your styling
-      container.appendChild(shuffledCollectionLinks[i]);
-    }
-  });
-</script>
-
+                            {% for collection in collections %}
+                              <a href="{{ collection.url }}" class="related-search-btn" style="display: none;">
+                                <span class="icon icon-search"></span>
+                                <span class="terms-title">{{ collection.title }}</span>
+                              </a>
+                            {% endfor %}
+                          </div>
                         </div>
-                        {% endif %}
                       </div>
+                      {% endif %}
                       {%- if paginate.pages > 1 -%}
                         {% render 'pagination', paginate: paginate, anchor: '' %}
                       {%- endif -%}
@@ -318,6 +293,32 @@
 </section>
 {% render 'grid-style', settings:section.settings %}
 {%- render 'section_style' -%}
+
+{% if section.settings.enable_related_search %}
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var container = document.querySelector('#shuffled-collections-container');
+    var collectionLinks = container.querySelectorAll('.related-search-btn');
+
+    // Convert the NodeList to an array for easier manipulation
+    var shuffledCollectionLinks = Array.from(collectionLinks);
+
+    // Shuffle the array
+    for (var i = shuffledCollectionLinks.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var temp = shuffledCollectionLinks[i];
+      shuffledCollectionLinks[i] = shuffledCollectionLinks[j];
+      shuffledCollectionLinks[j] = temp;
+    }
+
+    // Display only the first 5 elements
+    for (var i = 0; i < 5; i++) {
+      shuffledCollectionLinks[i].style.display = 'inline-block'; // or 'block' depending on your styling
+      container.appendChild(shuffledCollectionLinks[i]);
+    }
+  });
+</script>
+{% endif %}
 {% schema %}
   {
     "name": "Product search",
