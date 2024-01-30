@@ -171,9 +171,14 @@
         </div>
       {%- endif -%}
       {%- if show_reviews -%}
+        {% comment %}
         {% include 'reviews-count' %}
         <div class="product-collection__reviews">
           {% render 'product-get-review' with id: id hide_counter: hide_reviews_counter %}
+        </div>
+        {% endcomment %}
+        <div class='jdgm-widget jdgm-preview-badge'>
+          {{ card_product.metafields.judgeme.badge }}
         </div>
       {%- endif -%}
       <div class="frm-price-color">
