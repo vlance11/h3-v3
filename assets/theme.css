@@ -365,6 +365,9 @@ h3.payment_heading {
 .details-info .cms-product-meta {
   align-items: center;
 }
+.available-quantity .laber_title {
+    margin-bottom: 0;
+}
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
     width: 100% !important;
