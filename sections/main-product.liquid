@@ -115,6 +115,10 @@
                               </p>	
                             {%- endif -%}
                           </div>
+
+                          <div class="pay-terns">
+                            <div class="shopify-payment-terms product__policies">{{ form | payment_terms }}</div>
+                          </div>
             			
             			{%- when 'show_description' -%}
             				<div class="product_description clearfix">
