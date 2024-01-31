@@ -355,6 +355,10 @@ h3.payment_heading {
   justify-content: space-between;
   align-items: center;
 }
+.wishlist-with-share {
+    display: flex;
+    align-items: center;
+}
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
     width: 100% !important;
