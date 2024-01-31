@@ -53,15 +53,6 @@
             "custom_liquid": "{{product.metafields.custom.short_description}}"
           }
         },
-        "7dd79963-0728-4ccb-85ae-a4ef29c6e44c": {
-          "type": "inventory_qty",
-          "settings": {
-            "total_items": 50,
-            "bg_1": "#ef262c",
-            "bg_2": "#edf1f2",
-            "h_stock": 1
-          }
-        },
         "8681d35e-2735-4d23-98a5-4f3b5271e474": {
           "type": "quantity_button",
           "settings": {
@@ -122,7 +113,6 @@
         "f1e09af0-0154-41e2-996f-755cdde44ea4",
         "payment_terms_LmkiqF",
         "c78dd46d-d065-4e43-aaa7-13423da0532f",
-        "7dd79963-0728-4ccb-85ae-a4ef29c6e44c",
         "8681d35e-2735-4d23-98a5-4f3b5271e474",
         "26205a69-31b8-41d3-83bf-2e25db4c4dfa",
         "f0b169ef-ed96-4dd1-9b76-7e2e8121cc42",
