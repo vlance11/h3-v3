@@ -187,20 +187,24 @@
                                   </div>  
                 				</div>
                               {% endif %}  
-                              {%- if block.settings.show_sku  -%}
-                                {% if sku != blank %}
-                                  <div class="product-collection__sku">
-                                    <p data-js-product-sku><label class="label">{{ 'products.product.sku' | t }}:</label> <span>{{ sku }}</span></p>
+
+                              {% if block.settings.show_sku or block.settings.show_barcode %}
+                                <div class="sku-barcode-container">
+                                  {%- if block.settings.show_sku  -%}
+                                    {% if sku != blank %}
+                                      <div class="product-collection__sku">
+                                        <p data-js-product-sku><label class="label">{{ 'products.product.sku' | t }}:</label> <span>{{ sku }}</span></p>
+                                      </div>
+                                      {% endif %}
+                                  {%endif%}
+                    			  
+                                  {%- if block.settings.show_barcode -%}
+                                  <div class="product-collection__barcode{% if barcode == blank %} d-none{% endif %}">
+                                    <p data-js-product-barcode><label class="label">{{ 'products.product.barcode' | t }}:</label> <span>{{ barcode }}</span></p>
                                   </div>
                                   {% endif %}
-                              {%endif%}
-                			  
-                              {%- if block.settings.show_barcode -%}
-                              <div class="product-collection__barcode{% if barcode == blank %} d-none{% endif %}">
-                                <p data-js-product-barcode><label class="label">{{ 'products.product.barcode' | t }}:</label> <span>{{ barcode }}</span></p>
-                              </div>
-                              {%endif%}
-                  
+                                </div>
+                              {% endif %}
                               {%- if block.settings.show_tags -%}
                                   {% if product.tags%}
                                   <div class="tags_product clearfix">
