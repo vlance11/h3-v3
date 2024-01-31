@@ -337,15 +337,18 @@ h3.payment_heading {
 .sku-barcode-container {
   display: flex;
 }
-
 .product-collection__sku,
 .product-collection__barcode {
    padding-right: 10px;
 }
-
 .product-collection__barcode {
   border-left: 1px solid #000; /* Add left border */
   padding-left: 10px; /* Adjust padding as needed */
+}
+.shopify-payment-terms {
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    padding: 10px;
 }
 
 @media screen and (max-width: 600px){
