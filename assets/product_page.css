@@ -423,7 +423,7 @@
 }
 .details-info .cms-product-meta .quantity .group-quantity-button {
   display: inline-flex;
-  height: 50px;
+  height: 40px;
   background: #fff;
   border: 1px solid #e5e8ec;
   border-radius: 5px;
@@ -435,7 +435,7 @@
   display: inline-flex;
   width: 40px;
   text-align: center;
-  height: 48px;
+  height: 38px;
   color: #4d5574;
   fill: #4d5574;
   align-items: center;
@@ -446,7 +446,7 @@
 }
 .details-info .cms-product-meta .quantity .group-quantity-button .input-text {
   border: none;
-  height: 48px;
+  height: 38px;
   width: 40px;
   text-align: center;
   font-size: 14px;
