@@ -62,7 +62,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  color: #2092E5;
+  color: #515d66;
   display: block;
 }
 .details-info .product-collection__barcode p span,
@@ -75,6 +75,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
+  color: #2092E5;
 }
 .details-info .name_category div.name_collection,
 .details-info .tags_product div.tags {
