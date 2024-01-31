@@ -105,7 +105,8 @@
                             {%- else -%}
                               <span id="js-product-price" class="price" data-js-product-price>{{ price | money }}</span>
                             {%- endif -%}
-                            {%- if product.compare_at_price > price -%}
+                  
+                            {%- if product.compare_at_price > price and block.settings.show_discount -%}
                               <p class="price-sale-details" data-js-product-price-sale-details>
                                 {%- assign price_save = product.compare_at_price | minus: price -%}
                                 {%- assign price_save_money = price_save | money  -%}
@@ -761,7 +762,15 @@
 		{
           "type": "show_price",
           "name": "Price",
-          "limit": 1
+          "limit": 1,
+          "settings":[
+            {
+              "type": "checkbox",
+              "id": "show_discount",
+              "label": "Show Discount",
+              "default": false
+            }
+          ]
         },
 		{
           "type": "show_description",
