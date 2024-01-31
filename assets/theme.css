@@ -344,7 +344,7 @@ h3.payment_heading {
 }
 
 .product-collection__barcode {
-  border-left: 2px solid #000; /* Add left border */
+  border-left: 1px solid #000; /* Add left border */
   padding-left: 10px; /* Adjust padding as needed */
 }
 
