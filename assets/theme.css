@@ -354,6 +354,7 @@ h3.payment_heading {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 .wishlist-with-share {
     display: flex;
