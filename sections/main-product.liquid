@@ -166,7 +166,7 @@
                                   <span style="color:{{block.settings.color_out_stock}}" class="unavailable {% if product.available %}d-none{% endif %}" id="js-pr-unavailable"  > {{'products.product.unavailable' | t}}</span>                
                                 </p>  
                               </div>
-                              {%endif%}  	
+                              {% endif %}  	
                 
                               {%- if block.settings.show_type -%}
                               <div class="product-collection__type{% if type == blank %} d-none{% endif %}">
