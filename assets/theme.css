@@ -347,8 +347,8 @@ h3.payment_heading {
 }
 .shopify-payment-terms {
     border: 1px solid #DDDDDD;
-    border-radius: 8px;
-    padding: 10px;
+    border-radius: 4px;
+    padding: 4px 8px;
 }
 
 @media screen and (max-width: 600px){
