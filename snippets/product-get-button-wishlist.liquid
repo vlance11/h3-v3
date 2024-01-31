@@ -12,7 +12,9 @@
 >
   <i class="icon-heart"></i>
   <i class="icon-check" data-button-content="added"></i>
+  {% unless icon-only %}
   <span class="text">{{'products.product.add_to_widhlist.title' | t  }}</span>
   	<span class="added" data-button-content=added>{{'products.product.add_to_widhlist.added' | t }}</span>
+  {% endunless %}
 </a>
 {%- assign present_in_wishlist = false -%}
