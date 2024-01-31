@@ -30,27 +30,6 @@
             "custom_liquid": "{{product.metafields.custom.short_description}}"
           }
         },
-        "888fb817-16f3-467a-8d84-48f25bfcf851": {
-          "type": "text_countdown_html",
-          "settings": {
-            "show_text_countdown": false,
-            "show_visitors_html": true,
-            "product_visitors_min": 10,
-            "product_visitors_max": 25
-          }
-        },
-        "579829e4-1aee-4727-9d91-41583b54bebd": {
-          "type": "countdown",
-          "settings": {
-            "text": "Hurry up! Sale ends in:",
-            "custom_liquid": "{{product.metafields.custom.time_countdown}}",
-            "bg": "#f9f2f2",
-            "bd": "#f3d5d5",
-            "cl_title": "#dd3327",
-            "bg_countdown": "#dd3327",
-            "cl_text": "#ffffff"
-          }
-        },
         "7dd79963-0728-4ccb-85ae-a4ef29c6e44c": {
           "type": "inventory_qty",
           "settings": {
@@ -66,12 +45,12 @@
             "icon_button_cart": "",
             "qt_show_quantity": true,
             "qt_show_cart": true,
-            "show_popup": true,
+            "show_popup": false,
             "product_terms_conditions_page_content": "terms-and-conditions",
             "qt_buy_it_now": true,
             "btn_affiliate": "",
-            "qt_show_compare": true,
-            "qt_show_wishlist": true,
+            "qt_show_compare": false,
+            "qt_show_wishlist": false,
             "show_social_sharing": true,
             "show_custom_color_btn": true,
             "color_text_cart": "#232020",
@@ -99,15 +78,15 @@
           "type": "product_infor",
           "settings": {
             "show_sku": true,
-            "show_barcode": false,
+            "show_barcode": true,
             "show_vendor": true,
-            "show_type": false,
+            "show_type": true,
             "show_availability": true,
             "color_in_stock": "#008a00",
             "color_out_stock": "#dd3842",
             "show_category": true,
             "limit_cate": 2,
-            "show_tags": true,
+            "show_tags": false,
             "limit_tags": 5
           }
         },
@@ -127,11 +106,6 @@
             "show_size_guide": true,
             "size_guide_page": "nevada-trailer-towing-laws"
           }
-        },
-        "judge_me_reviews_preview_badge_MkVPH7": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -139,15 +113,12 @@
         "8673dd22-d473-4cf2-a24f-a2c822dbbd0e",
         "f1e09af0-0154-41e2-996f-755cdde44ea4",
         "c78dd46d-d065-4e43-aaa7-13423da0532f",
-        "888fb817-16f3-467a-8d84-48f25bfcf851",
-        "579829e4-1aee-4727-9d91-41583b54bebd",
         "7dd79963-0728-4ccb-85ae-a4ef29c6e44c",
         "8681d35e-2735-4d23-98a5-4f3b5271e474",
         "26205a69-31b8-41d3-83bf-2e25db4c4dfa",
         "993a628c-32eb-456f-9eb4-88c3a61fa8e0",
         "f0b169ef-ed96-4dd1-9b76-7e2e8121cc42",
-        "303e9ab8-e392-40c7-9a5c-0e0198af5bed",
-        "judge_me_reviews_preview_badge_MkVPH7"
+        "303e9ab8-e392-40c7-9a5c-0e0198af5bed"
       ],
       "settings": {
         "cl_bg": "#ffffff",
