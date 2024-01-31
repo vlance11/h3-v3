@@ -64,8 +64,7 @@
                 <meta itemprop="price" content="{{ current_variant.price | divided_by: 100.00 }}">
                 <link itemprop="availability" href="http://schema.org/{% if current_variant.available %}InStock{% else %}OutOfStock{% endif %}">
             {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
-                <input type="hidden" name="id" value="{{ current_variant.id }}" data-js-product-variant-input>    
-                {{ form | payment_terms }}     
+                <input type="hidden" name="id" value="{{ current_variant.id }}" data-js-product-variant-input>                      
               {%- for block in section.blocks -%}
                 {%- case block.type -%}
                         {%- when '@app' -%}
