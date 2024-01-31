@@ -340,7 +340,6 @@ h3.payment_heading {
 
 .product-collection__sku,
 .product-collection__barcode {
-  flex: 1;
   padding: 10px; /* Adjust padding as needed */
 }
 
