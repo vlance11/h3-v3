@@ -288,7 +288,29 @@
                 					</div>
                 					{% endif %}
                                     {% assign inventory_left = product.variants.first.inventory_quantity %}
-                                    <div class="available-quantity">{% if inventory_left <= 10 %}Only <span class="inventory-counter">{{ inventory_left }}</span> items left{% else %} {% endif %}</div>
+                                    <div class="available-quantity">
+                                    {%- assign total_items = 50 -%}
+                    				{%- assign bg_1 = block.settings.bg_1 -%}
+                    				{%- assign bg_2 = block.settings.bg_2 -%}	
+                    				{%- assign h_stock = 1 -%}
+                    				{%- assign quantity = product.variants.first.inventory_quantity -%}
+                    				<div class="inventory_qty">
+                                      <div class="product_page_info_stock">
+                                        <div class="stock-countdown {% unless quantity > 0 and quantity <= total_items %} d-none-important{% endunless %}" data-js-product-info-stock data-min="{{total_items}}">
+                                          {% capture quantity_html %}<span class="qty">{{ quantity }}</span>{% endcapture %}
+                                            <p class="laber_title" data-js-product-info-stock-title>{{ 'products.product.stock_countdown_html' | t: quantity: quantity_html }}</p>
+                                                
+                                              <div class="laber_total_items" style="background-color:{{bg_2}};height:{{h_stock}}px;">
+                                                      
+                                                {%- assign countdown_range_quotient = total_items | times: 1.0 | divided_by: 100 -%}
+                                                {%- assign countdown_range_procent = quantity | divided_by: countdown_range_quotient -%}
+                                                      
+                                              <div style="background-color:{{bg_1}};width: {{ countdown_range_procent }}%;" class="laber_progress" data-js-product-info-stock-progress ></div>
+                                              </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
                                     
                                     </div>
                 					<div data-product-meta class="cms-product-meta clearfix"> 
