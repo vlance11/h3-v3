@@ -96,8 +96,9 @@
             			{%- when 'name_category' -%}
             				
             			{%- when 'show_price' -%}
-                          <div class="product-price">              
-                            {%comment%}<span id="js-product-price">{{ product.variants[0].price | money }}</span>{%endcomment%}
+                          <div class="product-price">
+                            <div class="product-price-inner">
+                            {% comment %}<span id="js-product-price">{{ product.variants[0].price | money }}</span>{% endcomment %}
                             
                             {%- if product.compare_at_price > price -%}
                             
@@ -114,6 +115,15 @@
                                 {{ 'products.product.price_sale_details_html' | t: price: price_save_money, procent: price_save_procent }}
                               </p>	
                             {%- endif -%}
+                            </div>
+                            <div class="wishlist-with-share">
+                              <div class="social">
+                                {% render 'social-sharing-popup', product:product %}
+                              </div>
+                              <div class="wish">
+                                {% include 'product-get-button-wishlist' %}
+                              </div>
+                            </div>
                           </div>
                         {% when 'payment-terms' %}
                           <div class="pay-terns">
