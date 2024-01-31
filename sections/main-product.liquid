@@ -161,29 +161,16 @@
                               </div>
                               {%endif%}  	
                 
-                              {%- if block.settings.show_sku  -%}
-                                {% if sku != blank %}
-                                  <div class="product-collection__sku">
-                                    <p data-js-product-sku><label class="label">{{ 'products.product.sku' | t }}:</label> <span>{{ sku }}</span></p>
-                                  </div>
-                                  {% endif %}
-                              {%endif%}
-                			  
-                              {%- if block.settings.show_barcode -%}
-                              <div class="product-collection__barcode{% if barcode == blank %} d-none{% endif %}">
-                                <p data-js-product-barcode><label class="label">{{ 'products.product.barcode' | t }}:</label> <span>{{ barcode }}</span></p>
-                              </div>
-                              {%endif%}
                               {%- if block.settings.show_type -%}
                               <div class="product-collection__type{% if type == blank %} d-none{% endif %}">
                                 <p data-js-product-type><label class="label">{{ 'products.product.type' | t }}:</label> <span>{{ type }}</span></p>
                               </div>
-                              {%endif%}
+                              {% endif %}
                               {%- if block.settings.show_vendor -%}
                               <div class="product-collection__vendor{% if vendor == blank %} d-none{% endif %}">
                                 <p data-js-product-vendor><label class="label">{{ 'products.product.vendor' | t }}:</label> <span>{{ vendor }}</span></p>
                               </div>
-                              {%endif%}
+                              {% endif %}
                               {%- if block.settings.show_category -%}
                                 <div class="name_category">
                                   <div class="name_collection" data-js-product-collection>
@@ -199,7 +186,20 @@
                                   </p> 
                                   </div>  
                 				</div>
-                              {%endif%}  
+                              {% endif %}  
+                              {%- if block.settings.show_sku  -%}
+                                {% if sku != blank %}
+                                  <div class="product-collection__sku">
+                                    <p data-js-product-sku><label class="label">{{ 'products.product.sku' | t }}:</label> <span>{{ sku }}</span></p>
+                                  </div>
+                                  {% endif %}
+                              {%endif%}
+                			  
+                              {%- if block.settings.show_barcode -%}
+                              <div class="product-collection__barcode{% if barcode == blank %} d-none{% endif %}">
+                                <p data-js-product-barcode><label class="label">{{ 'products.product.barcode' | t }}:</label> <span>{{ barcode }}</span></p>
+                              </div>
+                              {%endif%}
                   
                               {%- if block.settings.show_tags -%}
                                   {% if product.tags%}
