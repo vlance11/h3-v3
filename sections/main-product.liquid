@@ -298,7 +298,7 @@
                                       <div class="product_page_info_stock">
                                         <div class="stock-countdown {% unless quantity > 0 and quantity <= total_items %} d-none-important{% endunless %}" data-js-product-info-stock data-min="{{total_items}}">
                                           {% capture quantity_html %}<span class="qty">{{ quantity }}</span>{% endcapture %}
-                                            <p class="laber_title" data-js-product-info-stock-title>{{ 'products.product.stock_countdown_html' | t: quantity: quantity_html }}</p>
+                                            <p class="laber_title" data-js-product-info-stock-title>Only {{ quantity_html }} items left!</p>
                                                 
                                               <div class="laber_total_items" style="background-color:{{bg_2}};height:{{h_stock}}px;">
                                                       
