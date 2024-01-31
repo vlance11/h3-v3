@@ -38,6 +38,7 @@
         "f1e09af0-0154-41e2-996f-755cdde44ea4": {
           "type": "show_price",
           "settings": {
+            "show_discount": false
           }
         },
         "payment_terms_LmkiqF": {
@@ -73,7 +74,7 @@
             "btn_affiliate": "",
             "qt_show_compare": false,
             "qt_show_wishlist": false,
-            "show_social_sharing": true,
+            "show_social_sharing": false,
             "show_custom_color_btn": true,
             "color_text_cart": "#232020",
             "bg_add_to_cart": "#242121",
