@@ -359,6 +359,9 @@ h3.payment_heading {
     display: flex;
     align-items: center;
 }
+.available-quantity .inventory_qty {
+    margin-bottom: 0;
+}
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
     width: 100% !important;
