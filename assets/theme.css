@@ -333,6 +333,12 @@ h3.payment_heading {
     margin: 10px 0;
 }
 
+/* main-product-page */
+.sku-barcode-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
     width: 100% !important;
