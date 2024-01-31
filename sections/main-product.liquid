@@ -287,20 +287,19 @@
                 					  </div>
                 					</div>
                 					{% endif %}
-                                    {% assign inventory_left = product.variants.first.inventory_quantity %}
                                     <div class="available-quantity">
                                     {%- assign total_items = 50 -%}	
-                    				{%- assign h_stock = 1 -%}
-                    				{%- assign quantity = product.variants.first.inventory_quantity -%}
-                    				<div class="inventory_qty">
-                                      <div class="product_page_info_stock">
-                                        <div class="stock-countdown {% unless quantity > 0 and quantity <= total_items %} d-none-important{% endunless %}" data-js-product-info-stock data-min="{{total_items}}">
-                                          {% capture quantity_html %}<span class="qty">{{ quantity }}</span>{% endcapture %}
-                                            <p class="laber_title" data-js-product-info-stock-title>{{ 'products.product.stock_countdown_html' | t: quantity: quantity_html }}</p>
+                        			{%- assign h_stock = 1 -%}
+                        			{%- assign quantity = product.variants.first.inventory_quantity -%}
+                      				<div class="inventory_qty">
+                                        <div class="product_page_info_stock">
+                                          <div class="stock-countdown {% unless quantity > 0 and quantity <= total_items %} d-none-important{% endunless %}" data-js-product-info-stock data-min="{{total_items}}">
+                                            {% capture quantity_html %}<span class="qty">{{ quantity }}</span>{% endcapture %}
+                                              <p class="laber_title" data-js-product-info-stock-title>{{ 'products.product.stock_countdown_html' | t: quantity: quantity_html }}</p>
+                                          </div>
                                         </div>
                                       </div>
                                     </div>
-                                    
                                     </div>
                 					<div data-product-meta class="cms-product-meta clearfix"> 
                 					<div class="group-button">
