@@ -346,11 +346,15 @@ h3.payment_heading {
   padding-left: 10px; /* Adjust padding as needed */
 }
 .shopify-payment-terms {
-    border: 1px solid #CCCCCC;
-    border-radius: 4px;
-    padding: 4px 8px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  padding: 4px 8px;
 }
-
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
     width: 100% !important;
