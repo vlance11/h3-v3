@@ -256,8 +256,7 @@
                                 {% if url_affiliate %}        
                                   <a href="{{ url_affiliate }}" rel="nofollow" target="_blank" class="btn product-affiliate relative  w-full mb-20">{{ block.settings.btn_affiliate }}</a>        
                                 {% else %}  
-                					<div data-product-meta class="cms-product-meta clearfix">  
-                					{% if qt_show_quantity %}
+                                {% if qt_show_quantity %}
                 					<div data-product-quantity class="js-quantity quantity {% if product.selected_or_first_available_variant.available == false %}d-none-important{% endif %}" >
                                       <label class="d-none">{{'products.product.quantity' | t}}</label>
                 					  <div class="group-quantity-button">
@@ -277,6 +276,7 @@
                 					  </div>
                 					</div>
                 					{% endif %}
+                					<div data-product-meta class="cms-product-meta clearfix">                  					
                 					<div class="group-button">
                 					  <div class="inner">                    
                 						{% if qt_show_cart%}
