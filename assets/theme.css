@@ -335,8 +335,18 @@ h3.payment_heading {
 
 /* main-product-page */
 .sku-barcode-container {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+}
+
+.product-collection__sku,
+.product-collection__barcode {
+  flex: 1;
+  padding: 10px; /* Adjust padding as needed */
+}
+
+.product-collection__barcode {
+  border-left: 2px solid #000; /* Add left border */
+  padding-left: 10px; /* Adjust padding as needed */
 }
 
 @media screen and (max-width: 600px){
