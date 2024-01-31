@@ -114,8 +114,11 @@
                               </p>	
                             {%- endif -%}
                           </div>
-
+                        {% when 'payment-terms' %}
                           <div class="pay-terns">
+                            <div class="terms-title">
+                              <p>{{ block.settings.title | escape }}</p>
+                            </div>
                             <div class="shopify-payment-terms product__policies">{{ form | payment_terms }}</div>
                           </div>
             			
@@ -1103,6 +1106,18 @@
                 "default": 15
               }
 		 ]
+        },
+        {
+          "type": "payment-terms",
+          "name": "Show payment terms",
+          "settings": [
+            {
+              "type": "text",
+              "id": "title",
+              "label": "Title",
+              "default": "Promotion"
+            }
+          ]
         },
 		{
           "type": "free_shipping",
