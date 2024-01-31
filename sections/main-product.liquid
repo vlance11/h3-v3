@@ -298,12 +298,12 @@
                                           {% capture quantity_html %}<span class="qty">{{ quantity }}</span>{% endcapture %}
                                             <p class="laber_title" data-js-product-info-stock-title>{{ 'products.product.stock_countdown_html' | t: quantity: quantity_html }}</p>
                                                 
-                                              <div class="laber_total_items" style="background-color:#edf1f2;height:{{h_stock}}px;">
+                                              <div class="laber_total_items" style="background-color:#EDF1F2;height:{{h_stock}}px;">
                                                       
                                                 {%- assign countdown_range_quotient = total_items | times: 1.0 | divided_by: 100 -%}
                                                 {%- assign countdown_range_procent = quantity | divided_by: countdown_range_quotient -%}
                                                       
-                                              <div style="background-color:#EDF1F2;width: {{ countdown_range_procent }}%;" class="laber_progress" data-js-product-info-stock-progress ></div>
+                                              <div style="background-color:#edf1f2;width: {{ countdown_range_procent }}%;" class="laber_progress" data-js-product-info-stock-progress ></div>
                                               </div>
                                             </div>
                                         </div>
