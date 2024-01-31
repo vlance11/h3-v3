@@ -163,12 +163,12 @@
                 
                               {%- if block.settings.show_type -%}
                               <div class="product-collection__type{% if type == blank %} d-none{% endif %}">
-                                <p data-js-product-type><label class="label">{{ 'products.product.type' | t }}:</label> <span>{{ type }}</span></p>
+                                <p data-js-product-type><label class="label">{{ 'products.product.type' | t }}: </label> <span>{{ type }}</span></p>
                               </div>
                               {% endif %}
                               {%- if block.settings.show_vendor -%}
                               <div class="product-collection__vendor{% if vendor == blank %} d-none{% endif %}">
-                                <p data-js-product-vendor><label class="label">{{ 'products.product.vendor' | t }}:</label> <span>{{ vendor }}</span></p>
+                                <p data-js-product-vendor><label class="label">{{ 'products.product.vendor' | t }}: </label> <span>{{ vendor }}</span></p>
                               </div>
                               {% endif %}
                               {%- if block.settings.show_category -%}
