@@ -76,7 +76,10 @@
       <div class="service-main-content">
         <div class="service-content">
           <span class="icon {{ block.settings.service_icon }}"></span>
-          <span class="content">{{ block.settings.service_text }}</span>
+          <div class="content">
+            {{ block.settings.service_text }}
+            <span class="subtext">{{ block.settings.service_subtext }}</span>
+          </div>
         </div>
       </div>
     </div>
@@ -886,6 +889,11 @@
               "type": "text",
               "id": "service_text",
               "label": "Service text"
+            },
+            {
+              "type": "text",
+              "id": "service_subtext",
+              "label": "Service sub-text"
             }
           ]
         }
