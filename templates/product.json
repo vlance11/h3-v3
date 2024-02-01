@@ -69,7 +69,7 @@
             "show_custom_color_btn": true,
             "color_text_cart": "#212121",
             "bg_add_to_cart": "#ffffff",
-            "color_text_cart_hover": "#242020",
+            "color_text_cart_hover": "#ffffff",
             "bg_add_to_cart_hv": "#232321",
             "color_text_buy_now": "#242121",
             "bg_buy_it_now": "#ffffff",
