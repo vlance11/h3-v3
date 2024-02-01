@@ -2583,6 +2583,8 @@
               "deliver_text": "Estimated Delivery:",
               "deliver_days": "7",
               "date_format": "%b %d",
+              "pay_on_delivery": true,
+              "pay_on_del_text": "Pay on delivery available",
               "show_shipping_text": true,
               "shipping_text": "<p><strong>Free Shipping & Returns: <\/strong>On all orders over $75<\/p>"
             }
@@ -2651,13 +2653,21 @@
               "cl_bg": "#ffffff",
               "pd": ""
             }
+          },
+          "service_x8nRT6": {
+            "type": "service",
+            "settings": {
+              "service_icon": "fa fa-recycle",
+              "service_text": "7 Days Returns"
+            }
           }
         },
         "block_order": [
           "shipping_sidebar_RwVUGa",
           "d413021c-808d-4a95-a1b8-f4ab49e66693",
           "973e6bb4-6d62-4f16-9176-ca2be3497750",
-          "ca6fcdc1-822e-4739-84ff-f48bb4ab492e"
+          "ca6fcdc1-822e-4739-84ff-f48bb4ab492e",
+          "service_x8nRT6"
         ],
         "settings": {
           "cl_bg": "#e0f2ff",
