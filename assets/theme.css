@@ -395,6 +395,7 @@ label.qty-label {
 }
 .content-head .icon, .cash-on-delivery .icon {
     font-size: 18px;
+    margin-right: 10px;
 }
 .sidebar-content-box {
     border-bottom: 1px solid #CCCCCC;
