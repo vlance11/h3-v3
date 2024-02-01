@@ -427,6 +427,10 @@ label.qty-label {
     font-size: 18px;
     margin-right: 10px;
 }
+.cms-tab .nav li a {
+    display: flex;
+    align-items: center;
+}
 
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
