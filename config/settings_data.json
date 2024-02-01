@@ -2589,6 +2589,20 @@
               "shipping_text": "<p><strong>Free Shipping & Returns: <\/strong>On all orders over $75<\/p>"
             }
           },
+          "service_x8nRT6": {
+            "type": "service",
+            "settings": {
+              "service_icon": "fa fa-recycle",
+              "service_text": "7 Days Returns"
+            }
+          },
+          "service_n6kbHq": {
+            "type": "service",
+            "settings": {
+              "service_icon": "fa fa-shield",
+              "service_text": "1 Year Brand Warrenty"
+            }
+          },
           "d413021c-808d-4a95-a1b8-f4ab49e66693": {
             "type": "benefit",
             "disabled": true,
@@ -2653,21 +2667,15 @@
               "cl_bg": "#ffffff",
               "pd": ""
             }
-          },
-          "service_x8nRT6": {
-            "type": "service",
-            "settings": {
-              "service_icon": "fa fa-recycle",
-              "service_text": "7 Days Returns"
-            }
           }
         },
         "block_order": [
           "shipping_sidebar_RwVUGa",
+          "service_x8nRT6",
+          "service_n6kbHq",
           "d413021c-808d-4a95-a1b8-f4ab49e66693",
           "973e6bb4-6d62-4f16-9176-ca2be3497750",
-          "ca6fcdc1-822e-4739-84ff-f48bb4ab492e",
-          "service_x8nRT6"
+          "ca6fcdc1-822e-4739-84ff-f48bb4ab492e"
         ],
         "settings": {
           "cl_bg": "#e0f2ff",
