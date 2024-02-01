@@ -2575,6 +2575,17 @@
       "product_sidebar": {
         "type": "product_sidebar",
         "blocks": {
+          "shipping_sidebar_RwVUGa": {
+            "type": "shipping_sidebar",
+            "settings": {
+              "show_delivery_times": true,
+              "deliver_text": "Estimated Delivery:",
+              "deliver_days": "7",
+              "date_format": "%b %d",
+              "show_shipping_text": true,
+              "shipping_text": "<p><strong>Free Shipping & Returns: <\/strong>On all orders over $75<\/p>"
+            }
+          },
           "d413021c-808d-4a95-a1b8-f4ab49e66693": {
             "type": "benefit",
             "settings": {
@@ -2639,6 +2650,7 @@
           }
         },
         "block_order": [
+          "shipping_sidebar_RwVUGa",
           "d413021c-808d-4a95-a1b8-f4ab49e66693",
           "973e6bb4-6d62-4f16-9176-ca2be3497750",
           "ca6fcdc1-822e-4739-84ff-f48bb4ab492e"
