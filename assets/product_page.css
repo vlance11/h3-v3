@@ -1180,6 +1180,10 @@
   letter-spacing: -0.03em;
   text-transform: uppercase;
 }
+.cms-tab .nav > li.active > a{
+  border: 1px solid;
+  
+}
 .cms-tab .nav > li > a:before {
   content: "";
   background-color: var(--color-link-hover);
