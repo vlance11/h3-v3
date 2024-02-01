@@ -405,7 +405,10 @@ label.qty-label {
 .product-sidebar .prod_delivery-times .content p span {
     font-size: 12px;
 }
-
+.product-sidebar .service-content {
+    display: flex;
+    align-items: center;
+}
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
     width: 100% !important;
