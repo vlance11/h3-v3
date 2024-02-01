@@ -658,7 +658,7 @@
         "type": "products-recently-viewed",
         "settings": {
           "title": "Recently viewed products",
-          "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+          "content": "",
           "text_size": "medium",
           "text_transform": "capitalize",
           "limit": 10,
@@ -881,7 +881,7 @@
         "type": "related-product-carousel",
         "settings": {
           "title": "People who viewed this item also view",
-          "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+          "content": "",
           "text_size": "medium",
           "text_transform": "capitalize",
           "max_count": 15,
