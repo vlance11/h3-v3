@@ -137,27 +137,31 @@
         "f9332aee-ca1e-4993-ad5c-e3d5984789cc": {
           "type": "tab_description",
           "settings": {
-            "title_description": "Description"
+            "title_description": "Description",
+            "icon": "icon-info"
           }
         },
         "22f75249-e4ab-453e-84d5-0006118d5803": {
           "type": "tab_metafields",
           "settings": {
-            "title": "Additional Information",
+            "title": "Specifications",
+            "icon": "icon-sliders",
             "custom_liquid": "{{product.metafields.custom.additional_information_new}}"
           }
         },
         "d07132a9-cf30-4c47-a9f5-6b3bd410c124": {
           "type": "tab_custom_html",
           "settings": {
-            "title": "Shipping & Return",
+            "title": "Shipping Info",
+            "icon": "icon-truck",
             "page_content": "shipping-return"
           }
         },
         "0e2c2c01-948c-43f1-ae77-e8dbabaf8f55": {
           "type": "tab_reviews",
           "settings": {
-            "title_reviews": "Reviews"
+            "title_reviews": "Reviews",
+            "icon": "icon-star"
           }
         }
       },
