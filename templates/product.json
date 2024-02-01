@@ -41,6 +41,14 @@
             "show_discount": false
           }
         },
+        "303e9ab8-e392-40c7-9a5c-0e0198af5bed": {
+          "type": "product_variants",
+          "settings": {
+            "show_title": true,
+            "show_size_guide": true,
+            "size_guide_page": "nevada-trailer-towing-laws"
+          }
+        },
         "payment_terms_LmkiqF": {
           "type": "payment-terms",
           "settings": {
@@ -57,7 +65,6 @@
           "type": "quantity_button",
           "settings": {
             "icon_button_cart": "icon-shopping-cart",
-            "icon_button_buy_btn": "icon-lightning",
             "qt_show_quantity": true,
             "qt_show_cart": true,
             "show_popup": false,
@@ -99,14 +106,6 @@
             "svg_custom": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
             "svg_height": 35
           }
-        },
-        "303e9ab8-e392-40c7-9a5c-0e0198af5bed": {
-          "type": "product_variants",
-          "settings": {
-            "show_title": true,
-            "show_size_guide": true,
-            "size_guide_page": "nevada-trailer-towing-laws"
-          }
         }
       },
       "block_order": [
@@ -114,12 +113,12 @@
         "8673dd22-d473-4cf2-a24f-a2c822dbbd0e",
         "993a628c-32eb-456f-9eb4-88c3a61fa8e0",
         "f1e09af0-0154-41e2-996f-755cdde44ea4",
+        "303e9ab8-e392-40c7-9a5c-0e0198af5bed",
         "payment_terms_LmkiqF",
         "c78dd46d-d065-4e43-aaa7-13423da0532f",
         "8681d35e-2735-4d23-98a5-4f3b5271e474",
         "26205a69-31b8-41d3-83bf-2e25db4c4dfa",
-        "f0b169ef-ed96-4dd1-9b76-7e2e8121cc42",
-        "303e9ab8-e392-40c7-9a5c-0e0198af5bed"
+        "f0b169ef-ed96-4dd1-9b76-7e2e8121cc42"
       ],
       "settings": {
         "cl_bg": "#ffffff",
