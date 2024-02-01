@@ -54,10 +54,6 @@
         {% if block.settings.show_shipping_text and block.settings.shipping_text != blank %}
           <div class="prod_shipping-text">
             <div class="content">
-            {{ block.settings.shipping_text }}
-            </div>
-
-            <div class="content">
               <div class="content-head">
                 <label>
                 <span>
@@ -74,7 +70,7 @@
                 </label>
               </div>
               <div class="content">
-                <p><span>{{ block.settings.shipping_text }}</span></p>
+                {{ block.settings.shipping_text }}
               </div>
             </div>
           </div>
