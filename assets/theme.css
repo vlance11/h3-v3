@@ -376,6 +376,11 @@ label.qty-label {
     border-bottom: 1px solid #CCCCCC;
     padding-bottom: 20px;
 }
+.group-button-buyitnow .shopify-payment-button button:before {
+    content: "\f0e7";
+    font-family: "fontawesome";
+    margin-right: 16px;
+}
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
     width: 100% !important;
