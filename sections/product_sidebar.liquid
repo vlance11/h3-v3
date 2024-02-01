@@ -53,6 +53,9 @@
             {% endif %}
         {% if block.settings.show_shipping_text and block.settings.shipping_text != blank %}
           <div class="prod_shipping-text">
+            <div class="content-head">
+              
+            </div>
               <span class="block__icon">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M14.1328 5.1416C15.7995 6.29993 16.9495 8.1416 17.1828 10.2666" stroke="#515D66" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
@@ -63,9 +66,9 @@
                 <path d="M15.9768 16.6001C17.2563 16.6001 18.2935 15.5629 18.2935 14.2835C18.2935 13.004 17.2563 11.9668 15.9768 11.9668C14.6974 11.9668 13.6602 13.004 13.6602 14.2835C13.6602 15.5629 14.6974 16.6001 15.9768 16.6001Z" stroke="#515D66" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </span>
-            <div class="content">
-            {{ block.settings.shipping_text }}
-            </div>
+              <div class="content">
+                {{ block.settings.shipping_text }}
+              </div>
           </div>
       {% endif %}     
   </div>
