@@ -396,11 +396,12 @@ label.qty-label {
 .content-head .icon, .cash-on-delivery .icon {
     font-size: 18px;
 }
-.prod_delivery-times {
+.sidebar-content-box {
     border-bottom: 1px solid #CCCCCC;
     width: 100%;
     padding-bottom: 20px;
 }
+
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
     width: 100% !important;
