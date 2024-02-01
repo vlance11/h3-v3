@@ -423,6 +423,10 @@ label.qty-label {
     font-size: 10px;
 }
 /* product-tab */
+#tab_product .nav .icon {
+    font-size: 18px;
+    margin-right: 10px;
+}
 
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
