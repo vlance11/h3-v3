@@ -245,7 +245,7 @@
             					{% assign show_title_variant = block.settings.show_title %}
             					{% assign variants_type = block.settings.variants_type | plus: 0  %}
             					{% assign variantCount = product.variants | size %}
-                          {% if variantCount > 0 %}
+                          {% if variantCount > 1 %}
                             <div class="product-collection__options">
                                   	{% include 'product-get-options' show_title_variant:show_title_variant %}
                               	  </div> 
