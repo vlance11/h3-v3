@@ -372,6 +372,10 @@ h3.payment_heading {
 label.qty-label {
     margin-right: 5px;
 }
+.pay-terns {
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 20px;
+}
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
     width: 100% !important;
