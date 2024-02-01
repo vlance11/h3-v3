@@ -432,6 +432,7 @@ label.qty-label {
     align-items: center;
 }
 /* related-product */
+#laber_products-recently-viewed .product-item .product-collection,
 #laber_related-product-carousel .product-item .product-collection {
     border: 1px solid #cccccc;
     border-radius: 12px;
