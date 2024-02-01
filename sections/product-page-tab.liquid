@@ -8,7 +8,7 @@
             {%- case block.type -%}
                 {%- when 'tab_description' -%}
                     {%- assign title_description = block.settings.title_description -%}
-                    <li class="active"><a class="h3" data-animated="fadeIn" data-toggle="pill" href="#tab_des">{{ title_description }}</a></li>
+                    <li class="active"><a class="h3" data-animated="fadeIn" data-toggle="pill" href="#tab_des"><span class="icon {{ block.settings.icon }}"></span><span>{{ title_description }}</span></a></li>
                 {%- when 'tab_custom_html' -%}
                     {% assign index = index | plus: 1 %}
                     <li><a class="h3" data-animated="fadeIn" data-toggle="pill" href="#tab{{index}}">{{ block.settings.title }}</a></li>
@@ -218,9 +218,10 @@ document.addEventListener("DOMContentLoaded", () => {
             },
             {
               "type": "text",
-              "id": "description_icon",
+              "id": "icon",
               "label": "Icon",
-              "default": "fa fa-circle-info"
+              "default": "fa fa-circle-info",
+              "info": "Use fontawesome icons. i.e: fa fa-info"
             }
           ]
         },
