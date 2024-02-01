@@ -25,9 +25,6 @@
       {% endif %}
       {% if block.settings.show_delivery_times %}
           <div class="prod_delivery-times">
-            <span class="block__icon">
-              <span class="icon icon-calendar"></span>
-            </span>
             {% assign range =  2 | times: 24 | times: 60 | times: 60 %}
             {% assign deliver_in =  block.settings.deliver_days | times: 24 | times: 60 | times: 60 %}
             {% assign now = 'now' | date: "%s" %}
@@ -37,7 +34,12 @@
             {% assign to = now | plus: deliver_in | plus: range | date: date_format %}
             
             <div class="content">
-            <p><label>{{ block.settings.deliver_text | strip_html }}</label></p>
+            <p>
+              <span class="block__icon">
+              <span class="icon icon-calendar"></span>
+              </span>
+              <label>{{ block.settings.deliver_text | strip_html }}</label>
+            </p>
             </div>
             <div class="content">
               <p><span>{{ from }} - {{ to }}</span></p>
