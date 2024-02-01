@@ -1190,6 +1190,11 @@
   -o-transition: all 240ms linear 0ms;
   transition: all 240ms linear 0ms;
 }
+#tab_product {
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
 /* .cms-tab .nav > li > a:before {
   content: "";
   background-color: var(--color-link-hover);
