@@ -34,16 +34,17 @@
             {% assign to = now | plus: deliver_in | plus: range | date: date_format %}
             
             <div class="content">
-            <p>
-              <span class="block__icon">
-              <span class="icon icon-calendar"></span>
-              </span>
-              <label>{{ block.settings.deliver_text | strip_html }}</label>
-            </p>
+              <div class="content-head">
+                <span class="block__icon">
+                <span class="icon icon-calendar"></span>
+                </span>
+                <label>{{ block.settings.deliver_text | strip_html }}</label>
+              </div>
+              <div class="content">
+                <p><span>{{ from }} - {{ to }}</span></p>
+              </div>
             </div>
-            <div class="content">
-              <p><span>{{ from }} - {{ to }}</span></p>
-            </div>
+            
           </div>
         {% endif %}
 
