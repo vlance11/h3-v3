@@ -78,7 +78,10 @@
           <span class="icon {{ block.settings.service_icon }}"></span>
           <div class="content">
             {{ block.settings.service_text }}
+            {% if block.settings.service_subtext != blank %}
+            <br>
             <span class="subtext">{{ block.settings.service_subtext }}</span>
+            {% endif %}
           </div>
         </div>
       </div>
