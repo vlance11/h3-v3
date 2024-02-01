@@ -1777,7 +1777,6 @@
   text-transform: uppercase;
   font-weight: 700;
   font-size: 12px;
-  margin-bottom: 25px;
 }
 .group-button-buyitnow .shopify-payment-button button[disabled] {
   cursor: no-drop;
