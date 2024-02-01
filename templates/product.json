@@ -57,7 +57,7 @@
           "type": "quantity_button",
           "settings": {
             "icon_button_cart": "icon-shopping-cart",
-            "icon_button_buy_btn": "icon-lighting",
+            "icon_button_buy_btn": "icon-lightning",
             "qt_show_quantity": true,
             "qt_show_cart": true,
             "show_popup": false,
