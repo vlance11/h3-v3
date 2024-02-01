@@ -9,7 +9,7 @@
   {%- case block.type -%}
   {% when 'shipping_sidebar' %}
     <div class="product-iteam box-prod">
-      {% if customer_delivery_address %}
+      {% if block.settings.customer_delivery_address %}
         {% if customer %}
         <div id="customerAddress">
           <p>Delivery Address: {{ customer.default_address.address1 }}, {{ customer.default_address.city }}, {{ customer.default_address.province_code }}, {{ customer.default_address.zip }}</p>
