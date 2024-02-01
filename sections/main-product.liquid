@@ -645,6 +645,9 @@
   let terms_checkbox = document.querySelector('.prpage-term-conditions-checkbox input[type="checkbox"]');
   terms_checkbox.addEventListener('change', ()=>{
     console.log('terms: ', terms_checkbox.checked);
+    if(terms_checkbox.checked){
+        document.querySelector('.terms_checkbox.checked').disabled = !terms_checkbox.checked
+    }
   })
 </script>
 {% schema %}
