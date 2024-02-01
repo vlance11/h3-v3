@@ -2593,14 +2593,16 @@
             "type": "service",
             "settings": {
               "service_icon": "fa fa-recycle",
-              "service_text": "7 Days Returns"
+              "service_text": "7 Days Returns",
+              "service_subtext": "Change of mind is not applicable"
             }
           },
           "service_n6kbHq": {
             "type": "service",
             "settings": {
               "service_icon": "fa fa-shield",
-              "service_text": "1 Year Brand Warrenty"
+              "service_text": "1 Year Brand Warrenty",
+              "service_subtext": ""
             }
           },
           "d413021c-808d-4a95-a1b8-f4ab49e66693": {
