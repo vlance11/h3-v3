@@ -386,9 +386,7 @@ label.qty-label {
     justify-content: space-between;
     width: 100%;
 }
-.product-iteam.box-prod {
-    padding: 20px 5px;
-}
+
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
     width: 100% !important;
