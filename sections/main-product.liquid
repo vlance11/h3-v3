@@ -646,7 +646,7 @@
   terms_checkbox.addEventListener('change', ()=>{
     console.log('terms: ', terms_checkbox.checked);
     if(terms_checkbox.checked){
-        document.querySelector('.group-button-buyitnow button.terms_checkbox').disabled = !terms_checkbox.checked
+        document.querySelector('.group-button-buyitnow .shopify-payment-button button').disabled = !terms_checkbox.checked
     }
   })
 </script>
