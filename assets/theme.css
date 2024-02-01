@@ -390,6 +390,9 @@ label.qty-label {
 .product-sidebar .prod_delivery-times {
     display: block;
 }
+.prod_delivery-times .content-head {
+    margin-bottom: 10px;
+}
 
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
