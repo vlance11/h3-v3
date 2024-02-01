@@ -423,10 +423,7 @@ label.qty-label {
     font-size: 10px;
 }
 /* product-tab */
-#tab_product .nav .active a {
-    padding: 0 12px;
-    border: 1px solid;
-}
+
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
     width: 100% !important;
