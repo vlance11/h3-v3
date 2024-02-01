@@ -17,8 +17,10 @@
                     <li><a class="h3" data-animated="fadeIn" data-toggle="pill" href="#tab{{index}}"><span class="icon {{ block.settings.icon }}"></span><span>{{ block.settings.title }}</span></a></li>
                 {%- when 'tab_reviews' -%}
                     {% include 'reviews-count' %}
+                    {% assign badgeData = product.metafields.judgeme.badge | json %}
+                    {% assign numberOfReviews = badgeData | split: "data-number-of-reviews='" | last | split: "'" | first %}
                     {%- assign title_reviews = block.settings.title_reviews-%}
-                    <li><a class="h3" data-animated="rotateInDownLeft" data-toggle="pill" href="#tab_review"><span class="icon {{ block.settings.icon }}"></span><span>{{title_reviews}} (0)</span></a></li>
+                    <li><a class="h3" data-animated="rotateInDownLeft" data-toggle="pill" href="#tab_review"><span class="icon {{ block.settings.icon }}"></span><span>{{title_reviews}} ({{ numberOfReviews }})</span></a></li>
                 {%- when 'show_variants' -%}{% if product.has_only_default_variant %}{% continue %}{% endif -%}
                     <li><a class="h3" data-animated="rotateInDownLeft" data-toggle="pill" href="#tab_variants"><span class="icon {{ block.settings.icon }}"></span><span>{{ block.settings.title }}</span></a></li>
     			{%- when 'tab_metafields' -%}
@@ -81,7 +83,6 @@
 				  <div class="custom-review description">
 					<div class="row">
 					  <div id="shopify-product-reviews" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" data-id="{{product.id}}">
-                        <span data="{{ product.metafields.judgeme.badge | json }}">{{ product.metafields.judgeme.badge | json }}</span>
                         {{ product.metafields.judgeme.widget }}
 					  </div>          
 					</div>
