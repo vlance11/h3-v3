@@ -368,11 +368,14 @@
             
                                   {%- assign bg_buy_it_now_hv = block.settings.bg_buy_it_now_hv -%}
                                   {%- assign color_text_buy_now_hover = block.settings.color_text_buy_now_hover -%}
+                                
+                                  {% assign color_text_cart_border = block.settings.color_text_cart_border %}
+                                  {% assign color_text_buy_now_border = block.settings.color_text_buy_now_border %}
             
                                   {% style %}
                                       .details-info .group-button .add-to-cart{
                                           background-color: {{bg_add_to_cart}};
-                                          border-color: {{bg_add_to_cart}};
+                                          border-color: {{color_text_cart_border}};
                                           color:{{color_text_cart}}
                                       }
                                       .details-info .group-button .add-to-cart:hover {
@@ -382,6 +385,7 @@
                                       }
                                       .group-button-buyitnow .shopify-payment-button button{
                                           background-color: {{bg_buy_it_now}};
+                                          border: {{ color_text_buy_now_border }};
                                           color:{{color_text_buy_now}}
                                       }
                                       .group-button-buyitnow .shopify-payment-button__button--unbranded:hover:not([disabled]){
@@ -1073,7 +1077,13 @@
                 "id": "color_text_cart_hover",
                 "label": "Color text cart (hover)",
                 "default": "#fff"
-              },	
+              },
+              {
+                "type": "color",
+                "id": "color_text_cart_border",
+                "label": "Color text cart (hover)",
+                "default": "#cccccc"
+              },
 			  {
                 "type": "color",
                 "id": "bg_add_to_cart_hv",
@@ -1103,10 +1113,16 @@
                 "default": "#fff"
               },
               {
-              "type": "color",
-              "id": "bg_buy_it_now_hv",
-              "label": "background Buy it now (Hover)",
-              "default": "#1a73e8"
+                "type": "color",
+                "id": "bg_buy_it_now_hv",
+                "label": "background Buy it now (Hover)",
+                "default": "#1a73e8"
+              },
+              {
+                "type": "color",
+                "id": "color_text_buy_now_border",
+                "label": "Color text cart (hover)",
+                "default": "#cccccc"
               }
 			  		
 			]
