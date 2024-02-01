@@ -2589,6 +2589,7 @@
           },
           "d413021c-808d-4a95-a1b8-f4ab49e66693": {
             "type": "benefit",
+            "disabled": true,
             "settings": {
               "source": "3",
               "show_benefit_1": true,
