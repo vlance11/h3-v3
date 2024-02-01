@@ -365,7 +365,8 @@
   cursor: no-drop;
 }
 .details-info .group-button .add-to-cart span.text {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
 }
 .details-info .group-button .add-to-cart .icon {
   font-size: 14px;
