@@ -2578,6 +2578,7 @@
           "shipping_sidebar_RwVUGa": {
             "type": "shipping_sidebar",
             "settings": {
+              "customer_delivery_address": true,
               "show_delivery_times": true,
               "deliver_text": "Estimated Delivery:",
               "deliver_days": "7",
@@ -2588,6 +2589,7 @@
           },
           "d413021c-808d-4a95-a1b8-f4ab49e66693": {
             "type": "benefit",
+            "disabled": true,
             "settings": {
               "source": "3",
               "show_benefit_1": true,
@@ -2606,6 +2608,7 @@
           },
           "973e6bb4-6d62-4f16-9176-ca2be3497750": {
             "type": "promobox",
+            "disabled": true,
             "settings": {
               "title": "Hot deals",
               "sub_title": "Nuts & dried <span>weekend Promo<\/span>",
@@ -2615,6 +2618,7 @@
           },
           "ca6fcdc1-822e-4739-84ff-f48bb4ab492e": {
             "type": "products",
+            "disabled": true,
             "settings": {
               "title": "Recent Products",
               "collection": "accessories",
