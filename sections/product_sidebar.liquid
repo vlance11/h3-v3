@@ -37,7 +37,8 @@
             {% assign to = now | plus: deliver_in | plus: range | date: date_format %}
             
             <div class="content">
-            <p><label>{{ block.settings.deliver_text | strip_html }}</label> <span>{{ from }} - {{ to }}</span></p>
+            <p><label>{{ block.settings.deliver_text | strip_html }}</label></p>
+            <p><span>{{ from }} - {{ to }}</span></p>
             </div>
           </div>
         {% endif %}
