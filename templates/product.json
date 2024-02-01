@@ -59,7 +59,7 @@
             "icon_button_cart": "",
             "qt_show_quantity": true,
             "qt_show_cart": true,
-            "show_popup": false,
+            "show_popup": true,
             "product_terms_conditions_page_content": "terms-and-conditions",
             "qt_buy_it_now": true,
             "btn_affiliate": "",
