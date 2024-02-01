@@ -381,10 +381,14 @@ label.qty-label {
     font-family: "fontawesome";
     margin-right: 16px;
 }
+/* product-page-sidebar */
 .customer-delivery-title {
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+.product-sidebar .prod_delivery-times {
+    display: block;
 }
 
 @media screen and (max-width: 600px){
