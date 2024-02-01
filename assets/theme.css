@@ -401,6 +401,9 @@ label.qty-label {
     width: 100%;
     padding-bottom: 20px;
 }
+.product-sidebar .prod_delivery-times .content p span {
+    font-size: 12px;
+}
 
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
