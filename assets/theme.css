@@ -381,6 +381,11 @@ label.qty-label {
     font-family: "fontawesome";
     margin-right: 16px;
 }
+.customer-delivery-title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
     width: 100% !important;
@@ -441,6 +446,7 @@ label.qty-label {
       right: 0;
   }
 }
+
 @media screen and (max-width: 1024px){
   span.number_counter {
     font-size: 30px;
