@@ -393,6 +393,9 @@ label.qty-label {
 .prod_delivery-times .content-head {
     margin-bottom: 10px;
 }
+.content-head .icon, .cash-on-delivery .icon {
+    font-size: 18px;
+}
 
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
