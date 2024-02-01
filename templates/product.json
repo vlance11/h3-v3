@@ -146,7 +146,7 @@
           "settings": {
             "title": "Specifications",
             "icon": "icon-sliders",
-            "custom_liquid": "{{product.metafields.custom.additional_information}}"
+            "custom_liquid": "{{product.metafields.custom.custom.additional_information}}"
           }
         },
         "d07132a9-cf30-4c47-a9f5-6b3bd410c124": {
