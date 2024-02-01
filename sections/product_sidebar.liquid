@@ -9,6 +9,22 @@
   {%- case block.type -%}
   {% when 'shipping_sidebar' %}
     <div class="product-iteam box-prod">
+      {% if customer_delivery_address %}
+        {% if customer %}
+        <div id="customerAddress">
+          <p>Delivery Address: {{ customer.default_address.address1 }}, {{ customer.default_address.city }}, {{ customer.default_address.province_code }}, {{ customer.default_address.zip }}</p>
+          <button id="changeAddressBtn">Change Address</button>
+        </div>
+        {% endif %}
+        <div class="customer-delivery-title">
+          <p class="delivery">Delivery</p>
+          <a href="{{ customer.addresses }}" class="action">Change</a>
+        </div>
+        <div id="customerAddress">
+          <p><span class="icon icon-map-pin"></span> <span class="address">{{ customer.default_address.address1 }}, {{ customer.default_address.city }}, {{ customer.default_address.province_code }}, {{ customer.default_address.zip }}</span></p>
+        </div>
+
+      {% endif %}
       {% if block.settings.show_delivery_times %}
           <div class="prod_delivery-times">
             <span class="block__icon">
@@ -783,6 +799,13 @@
             "name": "Shipping information",
             "limit": 1,
             "settings": [
+                {
+                  "type": "checkbox",
+                  "id": "customer_delivery_address",
+                  "label": "Show customer delivery address",
+                  "default": true,
+                  "info": "Address will appear if customer logged in"
+                },
                 {
                     "type": "checkbox",
                     "id": "show_delivery_times",
