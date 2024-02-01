@@ -293,7 +293,7 @@
         "autoplay": true,
         "speed": "300",
         "autoplay-Speed": "3000",
-        "arrows": true,
+        "arrows": false,
         "fade": false,
         "center-Mode": false,
         "adaptive-Height": false,
