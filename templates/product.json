@@ -56,7 +56,8 @@
         "8681d35e-2735-4d23-98a5-4f3b5271e474": {
           "type": "quantity_button",
           "settings": {
-            "icon_button_cart": "shopping-cart",
+            "icon_button_cart": "icon-shopping-cart",
+            "icon_button_buy_btn": "icon-lighting",
             "qt_show_quantity": true,
             "qt_show_cart": true,
             "show_popup": false,
@@ -70,11 +71,13 @@
             "color_text_cart": "#212121",
             "bg_add_to_cart": "#ffffff",
             "color_text_cart_hover": "#ffffff",
+            "color_text_cart_border": "#cccccc",
             "bg_add_to_cart_hv": "#232321",
             "color_text_buy_now": "#242121",
             "bg_buy_it_now": "#ffffff",
             "color_text_buy_now_hover": "#232020",
-            "bg_buy_it_now_hv": "#caa923"
+            "bg_buy_it_now_hv": "#caa923",
+            "color_text_buy_now_border": "#cccccc"
           }
         },
         "26205a69-31b8-41d3-83bf-2e25db4c4dfa": {
