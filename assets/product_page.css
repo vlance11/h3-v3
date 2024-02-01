@@ -1151,8 +1151,8 @@
   margin-bottom: 35px;
   justify-content: center;
   -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  -ms-justify-content: center;
+  -webkit-justify-content: flex-start;
+  -ms-justify-content: flex-start;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -1165,7 +1165,6 @@
 .cms-tab .nav > li {
   display: inline-block;
   margin: 0;
-  padding: 0 25px;
   list-style: none;
   position: relative;
 }
