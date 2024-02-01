@@ -409,6 +409,9 @@ label.qty-label {
     display: flex;
     align-items: center;
 }
+.product-sidebar .service-content icon{
+  font-size: 16px;
+}
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
     width: 100% !important;
