@@ -40,6 +40,12 @@
             <p><label>{{ block.settings.deliver_text | strip_html }}</label></p>
             <p><span>{{ from }} - {{ to }}</span></p>
             </div>
+            {% if block.settings.pay_on_delivery %}
+            <div class="cash-on-delivery">
+              <span class="icon icon-wallet"></span>
+              <span>{{ block.settings.pay_on_del_text }}</span>
+            </div>
+            {% endif %}
           </div>
         {% endif %}
         {% if block.settings.show_shipping_text and block.settings.shipping_text != blank %}
@@ -826,6 +832,18 @@
                   "label": "Date format",
                   "default": "%b %d",
                   "info": "Example: %m/%d [Learn more about date format here.](http://strftime.net/)"
+                },
+                {
+                  "type": "checkbox",
+                  "id": "pay_on_delivery",
+                  "label": "Enable pay on delivery",
+                  "default": true
+                },
+                {
+                  "type": "text",
+                  "id": "pay_on_del_text",
+                  "label": "Delivery text",
+                  "default": "Pay on delivery available"
                 },
                 {
                     "type": "checkbox",
