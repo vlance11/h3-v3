@@ -35,10 +35,7 @@
             
             <div class="content">
               <div class="content-head">
-                <span class="block__icon">
-                <span class="icon icon-calendar"></span>
-                </span>
-                <label>{{ block.settings.deliver_text | strip_html }}</label>
+                <label><span class="icon icon-calendar"></span> {{ block.settings.deliver_text | strip_html }}</label>
               </div>
               <div class="content">
                 <p><span>{{ from }} - {{ to }}</span></p>
