@@ -645,8 +645,11 @@
   let terms_checkbox = document.querySelector('.prpage-term-conditions-checkbox input[type="checkbox"]');
   terms_checkbox.addEventListener('change', ()=>{
     console.log('terms: ', terms_checkbox.checked);
+    let button = document.querySelector('.group-button-buyitnow .shopify-payment-button button');
     if(terms_checkbox.checked){
-        document.querySelector('.group-button-buyitnow .shopify-payment-button button').disabled = !terms_checkbox.checked
+        button.disabled = !terms_checkbox.checked
+    }else{
+      button.disabled = !terms_checkbox.checked
     }
   })
 </script>
