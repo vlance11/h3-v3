@@ -89,6 +89,7 @@
         },
         "26205a69-31b8-41d3-83bf-2e25db4c4dfa": {
           "type": "shipping",
+          "disabled": true,
           "settings": {
             "show_delivery_times": true,
             "deliver_text": "Estimated Delivery:",
@@ -100,6 +101,7 @@
         },
         "f0b169ef-ed96-4dd1-9b76-7e2e8121cc42": {
           "type": "custom_html",
+          "disabled": true,
           "settings": {
             "html_custom": "Guarantee safe &amp; Secure checkout",
             "show_svg_custom": false,
