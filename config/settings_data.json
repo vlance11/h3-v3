@@ -2662,7 +2662,7 @@
         "settings": {
           "cl_bg": "#e0f2ff",
           "mg": "",
-          "pd": "10px,,5px",
+          "pd": "20px,,5px,,20px,,5px",
           "bd": "",
           "mg_mb": "",
           "pd_mb": ""
