@@ -373,7 +373,7 @@
   color: #fff;
 }
 .details-info .group-button .add-to-cart .text {
-  color: #fff;
+  /* color: #fff; */
 }
 .details-info .btn.product-affiliate:hover,
 .details-info .group-button .add-to-cart:hover {
