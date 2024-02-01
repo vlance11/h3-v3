@@ -1178,17 +1178,17 @@
   font-weight: 700;
   font-size: 14px;
   letter-spacing: -0.03em;
-  text-transform: uppercase;
+  text-transform: uppercase;  
+}
+.cms-tab .nav > li.active > a{
+  border: 1px solid;
+  border-radius: 8px;
   -webkit-transition: all 240ms linear 0ms;
   -khtml-transition: all 240ms linear 0ms;
   -moz-transition: all 240ms linear 0ms;
   -ms-transition: all 240ms linear 0ms;
   -o-transition: all 240ms linear 0ms;
   transition: all 240ms linear 0ms;
-}
-.cms-tab .nav > li.active > a{
-  border: 1px solid;
-  border-radius: 8px;
 }
 /* .cms-tab .nav > li > a:before {
   content: "";
