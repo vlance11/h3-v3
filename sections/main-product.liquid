@@ -641,6 +641,12 @@
 </div>
 {%- render 'section_style' -%}
 </section>
+<script>
+  let terms_checkbox = document.querySelector('.prpage-term-conditions-checkbox input[type="checkbox"]');
+  terms_checkbox.addEventListener('change', ()=>{
+    console.log('terms: ', terms_checkbox.checked);
+  })
+</script>
 {% schema %}
   {
     "name": "Product information",
