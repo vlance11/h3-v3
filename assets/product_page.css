@@ -1182,7 +1182,7 @@
 }
 .cms-tab .nav > li.active > a{
   border: 1px solid;
-  
+  border-radius: 8px;
 }
 .cms-tab .nav > li > a:before {
   content: "";
