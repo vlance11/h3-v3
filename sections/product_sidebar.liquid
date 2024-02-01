@@ -71,6 +71,15 @@
           </div>
       {% endif %}     
   </div>
+  {% when 'service' %}
+    <div class="services">
+      <div class="service-main-content">
+        <div class="service-content">
+          <span class="icon {{ block.settings.service_icon }}"></span>
+          <span class="content">{{ block.settings.service_text }}</span>
+        </div>
+      </div>
+    </div>
   {%- when 'benefit' -%}
     <div class="laber_benefit">
       {% if block.settings.show_benefit_1 %}
