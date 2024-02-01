@@ -261,6 +261,8 @@
                                 {%- assign qt_buy_it_now = block.settings.qt_buy_it_now -%}
                                 {%- assign qt_show_quantity = block.settings.qt_show_quantity -%}
                                 {%- assign icon_button_cart = block.settings.icon_button_cart -%}
+                                {%- assign icon_button_buy_btn = block.settings.icon_button_buy_btn -%}
+                                
                                 {%- assign show_custom_color_btn = block.settings.show_custom_color_btn -%}
                                 {%- assign inventory_quantity = product.variants.first.inventory_quantity -%}
                                 {% if url_affiliate %}        
@@ -343,7 +345,6 @@
                                             <div class="laber-loading">
                                               <div class="circle-loadding"><span></span></div>
                                             </div>
-                                            <span class="icon icon-shopping-cart"></span>
                                             <span class="text">{{'products.product.add_to_cart' | t }}</span>{% if icon_button_cart !="" %}<span class="icon"><i class="{{ icon_button_cart }}" aria-hidden="true"></i></span>{% endif %}
                                           </button>
                 						  <a class="add-to-cart js-btn-sold-out  {% if product.selected_or_first_available_variant.available %} d-none-important{% endif %}" data-js-product-button-sold-out  onclick="location.href='{{ product.url | within: collection }}'"><span class="text">{{'products.product.sold_out' | t }}</span> {% if icon_button_cart !="" %}<span class="icon"><i class="{{ icon_button_cart }}" aria-hidden="true"></i></span>{% endif %}</a>
@@ -352,6 +353,7 @@
                 					</div>    
                                   {% if qt_buy_it_now and product.available%}
                                         <div data-buyitnow-button class="col group-button-buyitnow {% if show_popup %}disabled{% endif %}">
+                                          {% if icon_button_buy_btn !="" %}<span class="icon"><i class="{{ icon_button_buy_btn }}" aria-hidden="true"></i></span>{% endif %}
                                           {{ form | payment_button }}                       
                                         </div>
                         			{% endif %}
@@ -988,11 +990,18 @@
           "limit": 1,
 		  "settings": [
 			 {
-              "type": "text",
-              "id": "icon_button_cart",
-              "default": "lnr lnr-arrow-right",
-              "label": "Icon Buttom cart",
-			  "info": "You can use font awesome and font Linearicons"
+                "type": "text",
+                "id": "icon_button_cart",
+                "default": "lnr lnr-arrow-right",
+                "label": "Icon Button cart",
+    			"info": "You can use font awesome and font Linearicons"
+              },
+              {
+                "type": "text",
+                "id": "icon_button_buy_btn",
+                "default": "lnr lnr-arrow-right",
+                "label": "Icon Buy Button",
+  			    "info": "You can use font awesome and font Linearicons"
               },
 			  {
                 "type": "checkbox",
