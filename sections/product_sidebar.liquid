@@ -734,8 +734,53 @@
                   "info":"Padding top, padding right, padding bottom, padding left. If you not use to blank"
                   }   
             ]
-        }
-        
+        },
+        {
+            "type": "shipping_sidebar",
+            "name": "Shipping information",
+            "limit": 1,
+            "settings": [
+                {
+                    "type": "checkbox",
+                    "id": "show_delivery_times",
+                    "label": "Show delivery estimation",
+                    "info": "How delivery times are generated?",
+                    "default": true
+                },
+                {
+                    "type": "text",
+                    "id": "deliver_text",
+                    "label": "Delivery text",
+                    "default": "Estimated Delivery:"
+                },
+                {
+                    "type": "text",
+                    "id": "deliver_days",
+                    "label": "Deliver in:",
+                    "info": "days (+/- 2 days)",
+                    "default": "7"
+                },
+                {
+                  "type": "text",
+                  "id": "date_format",
+                  "label": "Date format",
+                  "default": "%b %d",
+                  "info": "Example: %m/%d [Learn more about date format here.](http://strftime.net/)"
+                },
+                {
+                    "type": "checkbox",
+                    "id": "show_shipping_text",
+                    "label": "Show Shipping text",
+                    "default": true
+                },
+                {
+                    "type": "richtext",
+                    "id": "shipping_text",
+                    "label": "Shipping text",
+                    "default": "<p><strong>Free Shipping & Returns: </strong>On all orders over $75</p>"
+                }
+            ]
+        }        
       ],
       "default": {
         "blocks": [
