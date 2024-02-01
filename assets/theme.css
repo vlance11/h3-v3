@@ -413,6 +413,9 @@ label.qty-label {
   font-size: 16px;
   margin-right: 6px;
 }
+.product-sidebar .service-content .content {
+    font-weight: 600;
+}
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
     width: 100% !important;
