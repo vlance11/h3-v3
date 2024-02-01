@@ -261,7 +261,6 @@
                                 {%- assign qt_buy_it_now = block.settings.qt_buy_it_now -%}
                                 {%- assign qt_show_quantity = block.settings.qt_show_quantity -%}
                                 {%- assign icon_button_cart = block.settings.icon_button_cart -%}
-                                {%- assign icon_button_buy_btn = block.settings.icon_button_buy_btn -%}
                                 
                                 {%- assign show_custom_color_btn = block.settings.show_custom_color_btn -%}
                                 {%- assign inventory_quantity = product.variants.first.inventory_quantity -%}
@@ -353,7 +352,6 @@
                 					</div>    
                                   {% if qt_buy_it_now and product.available%}
                                         <div data-buyitnow-button class="col group-button-buyitnow {% if show_popup %}disabled{% endif %}">
-                                          {% if icon_button_buy_btn !="" %}<span class="icon"><i class="{{ icon_button_buy_btn }}" aria-hidden="true"></i></span>{% endif %}
                                           {{ form | payment_button }}                       
                                         </div>
                         			{% endif %}
@@ -995,13 +993,6 @@
                 "default": "lnr lnr-arrow-right",
                 "label": "Icon Button cart",
     			"info": "You can use font awesome and font Linearicons"
-              },
-              {
-                "type": "text",
-                "id": "icon_button_buy_btn",
-                "default": "lnr lnr-arrow-right",
-                "label": "Icon Buy Button",
-  			    "info": "You can use font awesome and font Linearicons"
               },
 			  {
                 "type": "checkbox",
