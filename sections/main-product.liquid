@@ -301,31 +301,6 @@
                                       </div>
                                     </div>
                                   </div>
-                                  {% if qt_buy_it_now and product.available%} 
-                                    {% assign variantCount = product.variants | size %}		
-                                      {%- capture terms_conditions -%}
-                                          {% if show_popup %}
-                                              <a data-page-open-popup data-effect="mfp-move-horizontal" href="#terms-conditions">{{ 'products.product.terms_conditions' | t}}</a>
-                                          {% else %}
-                                              <a href="#">{{ 'products.product.terms_conditions' | t}}</a>
-                                          {% endif %}	
-                                      {%- endcapture-%}
-                                      {% if show_popup %}
-                                        <div id="terms-conditions" class="mfp-hide mfp-with-anim size-chart-open-popup">
-                                          {{ product_terms_conditions_page_content }}
-                                        </div> 
-                                      {% endif %}
-                                      {% if show_popup %}
-                                        <div class="checkbox-group prpage-term-conditions-checkbox term-conditions-checkbox-js">
-                                          <input type="checkbox" id="prpage-cart-term-conditions-checkbox" value="1">
-                                          <label for="prpage-cart-term-conditions-checkbox">
-                                            <span class="check"></span>
-                                            <span class="box"></span>
-                                            {{ 'products.product.checkbox_buyitnow' | t  }} {{terms_conditions}}
-                                          </label>
-                                        </div>
-                                        {% endif %}
-                                   {% endif %}   
                 				<div data-product-meta class="cms-product-meta clearfix"> 
                 					<div class="group-button">
                 					  <div class="inner">                    
@@ -348,8 +323,31 @@
                 						{% endif %}
                 					  </div>
                 					</div>    
-                                  {% if qt_buy_it_now and product.available%}                                      		
-                                        <div data-buyitnow-button class="group-button-buyitnow {% if show_popup %}disabled{% endif %}">
+                                  {% if qt_buy_it_now and product.available%}
+                                      {% assign variantCount = product.variants | size %}		
+                                      {%- capture terms_conditions -%}
+                                          {% if show_popup %}
+                                              <a data-page-open-popup data-effect="mfp-move-horizontal" href="#terms-conditions">{{ 'products.product.terms_conditions' | t}}</a>
+                                          {% else %}
+                                              <a href="#">{{ 'products.product.terms_conditions' | t}}</a>
+                                          {% endif %}	
+                                      {%- endcapture-%}
+                                      {% if show_popup %}
+                                        <div id="terms-conditions" class="mfp-hide mfp-with-anim size-chart-open-popup">
+                                          {{ product_terms_conditions_page_content }}
+                                        </div> 
+                                      {% endif %}		
+                                        <div data-buyitnow-button class="group-button-buyitnow {% if show_popup %}disabled{% endif %}">  
+                                          {% if show_popup %}
+                                          <div class="checkbox-group prpage-term-conditions-checkbox term-conditions-checkbox-js">
+                                            <input type="checkbox" id="prpage-cart-term-conditions-checkbox" value="1">
+                                            <label for="prpage-cart-term-conditions-checkbox">
+                                              <span class="check"></span>
+                                              <span class="box"></span>
+                                              {{ 'products.product.checkbox_buyitnow' | t  }} {{terms_conditions}}
+                                            </label>
+                                          </div>
+                                          {% endif %}
                                           {{ form | payment_button }}                       
                                         </div>
                         			{% endif %}
