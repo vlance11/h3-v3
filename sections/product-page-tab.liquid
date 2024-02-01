@@ -18,13 +18,7 @@
                 {%- when 'tab_reviews' -%}
                     {% include 'reviews-count' %}
                     {%- assign title_reviews = block.settings.title_reviews-%}
-                    {% assign reviewWidget = product.metafields.judgeme.widget | split: '<span class="judgeme_summary_reviews">' %}
-                    {% if reviewWidget.size > 1 %}
-                      {% assign totalReviews = reviewWidget[1] | split: '</span>' | first | strip %}
-                    {% else %}
-                      0
-                    {% endif %}
-                    <li><a class="h3" data-animated="rotateInDownLeft" data-toggle="pill" href="#tab_review"><span class="icon {{ block.settings.icon }}"></span><span>{{title_reviews}} ({{ totalReviews }})</span></a></li>
+                    <li><a class="h3" data-animated="rotateInDownLeft" data-toggle="pill" href="#tab_review"><span class="icon {{ block.settings.icon }}"></span><span>{{title_reviews}} (0)</span></a></li>
                 {%- when 'show_variants' -%}{% if product.has_only_default_variant %}{% continue %}{% endif -%}
                     <li><a class="h3" data-animated="rotateInDownLeft" data-toggle="pill" href="#tab_variants"><span class="icon {{ block.settings.icon }}"></span><span>{{ block.settings.title }}</span></a></li>
     			{%- when 'tab_metafields' -%}
