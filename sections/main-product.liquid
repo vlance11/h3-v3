@@ -327,8 +327,8 @@
                                         </div>
                                     {% endif %}
                                   {% endif %}    
-                				<div data-product-meta class="cms-product-meta clearfix"> 
-                					<div class="group-button{% if qt_buy_it_now %} button-half{% endif %}">
+                				<div data-product-meta class="cms-product-meta clearfix{% if qt_buy_it_now %} row{% endif %}"> 
+                					<div class="group-button{% if qt_buy_it_now %} col{% endif %}">
                 					  <div class="inner">                    
                 						{% if qt_show_cart %}
                 						  <button 
@@ -350,7 +350,7 @@
                 					  </div>
                 					</div>    
                                   {% if qt_buy_it_now and product.available%}
-                                        <div data-buyitnow-button class="group-button-buyitnow {% if show_popup %}disabled{% endif %}">
+                                        <div data-buyitnow-button class="col group-button-buyitnow {% if show_popup %}disabled{% endif %}">
                                           {{ form | payment_button }}                       
                                         </div>
                         			{% endif %}
