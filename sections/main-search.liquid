@@ -305,12 +305,12 @@
                       {% for type in shop.types limit: 20 %}
                       <li class="list-menu__item facets__item">
                         <label for="Filter-Brand-{{ forloop.index }}" class="facet-checkbox">
-                          <input type="checkbox" name="filter.p.collection" value="{{ type.handle }}" id="Filter-Brand-{{ forloop.index }}">
+                          <input type="checkbox" name="filter.p.collection" value="{{ type }}" id="Filter-Brand-{{ forloop.index }}">
 
                           <span class="square"></span>
                           <i class="icon-check icon-checkmark"></i>
-                          <span aria-hidden="true">{{ type.title | escape }} ({{ type.products.count }})</span>
-                          <span class="visually-hidden">{{ type.title | escape }} ({{ collection.products.count }})</span>                          
+                          <span aria-hidden="true">{{ type | escape }}</span>
+                          <span class="visually-hidden">{{ type | escape }}</span>                          
                         </label>
                       </li>
                       {% endfor %}
