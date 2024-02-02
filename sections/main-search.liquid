@@ -287,7 +287,7 @@
         <div class="container" style="margin-bottom:100px;">
           <div class="row">
             <div class="col-3">
-              {{ search.results | json }}
+              {{ search.filters | json }}
               {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
                 <aside aria-labelledby="verticalTitle" class="facets-wrapper{% unless section.settings.enable_filtering %} facets-wrapper--no-filters{% endunless %}{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}" id="main-search-filters" data-id="{{ section.id }}">
                   {% render 'facets', results: search, enable_filtering: section.settings.enable_filtering, enable_sorting: section.settings.enable_sorting, filter_type: section.settings.filter_type %}
