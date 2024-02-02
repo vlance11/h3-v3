@@ -296,7 +296,7 @@
                   data-id="{{ section.id }}"
                 >
                   {% render 'facets',
-                    results: collections.last,
+                    results: collections.first,
                     enable_filtering: true,
                     enable_sorting: false,
                     filter_type: section.settings.filter_type
