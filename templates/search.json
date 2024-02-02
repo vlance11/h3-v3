@@ -24,6 +24,7 @@
           "type": "category",
           "settings": {
             "title": "Category name",
+            "image": "shopify:\/\/shop_images\/Component_1_1.png",
             "url": "",
             "bg_color": "#CED9FF"
           }
@@ -32,6 +33,7 @@
           "type": "category",
           "settings": {
             "title": "Category name",
+            "image": "shopify:\/\/shop_images\/Component_1_2.png",
             "url": "",
             "bg_color": "#CED9FF"
           }
@@ -40,6 +42,7 @@
           "type": "category",
           "settings": {
             "title": "Category name",
+            "image": "shopify:\/\/shop_images\/Component_1_3.png",
             "url": "",
             "bg_color": "#CED9FF"
           }
@@ -48,6 +51,7 @@
           "type": "category",
           "settings": {
             "title": "Category name",
+            "image": "shopify:\/\/shop_images\/Component_1_4.png",
             "url": "",
             "bg_color": "#CED9FF"
           }
