@@ -382,7 +382,9 @@
                       $(this).find('.label-show-more').addClass('hidden')
                       $(this).find('.label-show-less').removeClass('hidden')
                     }else{
-                      $(this).parent().find('li.show-more-item').addClass('hidden');
+                      $(this).parent().find('li.show-more-item').forEach(function(elm){
+                        elm.addClass('hidden');
+                      });
                       $(this).find('.label-show-less').addClass('hidden')
                       $(this).find('.label-show-more').removeClass('hidden')
                     }                   
