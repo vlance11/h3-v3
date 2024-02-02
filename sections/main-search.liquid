@@ -295,7 +295,7 @@
               <details id="Details-1-template--21734502990117__product-grid" class=" facets__disclosure-vertical js-filter" data-index="1" open="">
                 <summary class="facets__summary caption-large focus-offset" aria-label="Brand (0 selected)" role="button" aria-expanded="true" aria-controls="Facet-1-template--21734502990117__product-grid">
                   <div>
-                    <span>Brands<span class="facets__selected no-js-hidden hidden">(0)</span></span>
+                    <span>Accessories Type<span class="facets__selected no-js-hidden hidden">(0)</span></span>
                     <i class="icon-plus icon-caret"></i>
                   </div>
                 </summary>
@@ -304,8 +304,8 @@
                     <ul class=" list-unstyled no-js-hidden" role="list">
                       {% for type in shop.types limit: 20 %}
                       <li class="list-menu__item facets__item">
-                        <label for="Filter-Brand-{{ forloop.index }}" class="facet-checkbox">
-                          <input type="checkbox" name="filter.p.collection" value="{{ type }}" id="Filter-Brand-{{ forloop.index }}">
+                        <label for="Filter-type-{{ forloop.index }}" class="facet-checkbox">
+                          <input type="checkbox" name="filter.p.type" value="{{ type }}" id="Filter-type-{{ forloop.index }}">
 
                           <span class="square"></span>
                           <i class="icon-check icon-checkmark"></i>
@@ -318,20 +318,21 @@
                   </fieldset>
                 </div>
               </details>
-              <details id="Details-1-template--21734502990117__product-grid" class=" facets__disclosure-vertical js-filter" data-index="1" open="">
+              <details id="Details-2-{{ section.id }}__product-grid" class=" facets__disclosure-vertical js-filter" data-index="2" open="">
                 <summary class="facets__summary caption-large focus-offset" aria-label="Brand (0 selected)" role="button" aria-expanded="true" aria-controls="Facet-1-template--21734502990117__product-grid">
                   <div>
                     <span>Brands<span class="facets__selected no-js-hidden hidden">(0)</span></span>
                     <i class="icon-plus icon-caret"></i>
                   </div>
                 </summary>
-                <div id="Facet-1-template--21734502990117__product-grid" class="parent-display facets__display-vertical"><fieldset class="facets-wrap parent-wrap  facets-wrap-vertical">
-                    <legend class="visually-hidden">Categories</legend>
+                <div id="Facet-2-{{ section.id }}__product-grid" class="parent-display facets__display-vertical">
+                  <fieldset class="facets-wrap parent-wrap  facets-wrap-vertical">
+                    <legend class="visually-hidden">Brand</legend>
                     <ul class=" list-unstyled no-js-hidden" role="list">
                       {% for vendor in shop.vendors limit: 20 %}
                       <li class="list-menu__item facets__item">
-                        <label for="Filter-Brand-{{ forloop.index }}" class="facet-checkbox">
-                          <input type="checkbox" name="filter.p.collection" value="{{ vendor }}" id="Filter-Brand-{{ forloop.index }}">
+                        <label for="Filter-Vendor-{{ forloop.index }}" class="facet-checkbox">
+                          <input type="checkbox" name="filter.p.vendor" value="{{ vendor }}" id="Filter-Vendor-{{ forloop.index }}">
 
                           <span class="square"></span>
                           <i class="icon-check icon-checkmark"></i>
