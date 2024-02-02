@@ -288,7 +288,8 @@
           <div class="row">
             <div class="col-3">
               <div class="facets-container">
-            <facet-filters-form>
+                <div class="facets-vertical">
+                  <facet-filters-form>
               <form
                 id="FacetFiltersForm"
                 class="{% if filter_type == 'horizontal' %}facets__form{% else %}facets__form-vertical{% endif %}"
@@ -371,6 +372,7 @@
               </details>
               </form>
               </facet-filters-form>
+                </div>
               </div>
               <script>
                 $(document).ready(function() {
