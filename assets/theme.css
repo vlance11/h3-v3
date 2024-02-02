@@ -258,6 +258,10 @@ button.btn.add-to-cart {
 price-range input[type="number"] {
     text-align: right;
 }
+.card-image img {
+    border-radius: 100%;
+    padding: 10px;
+}
 /* images-with-text-section */
 .images-area .first-image {
     position: absolute;
@@ -437,6 +441,7 @@ label.qty-label {
     border: 1px solid #cccccc;
     border-radius: 12px;
 }
+
 
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
