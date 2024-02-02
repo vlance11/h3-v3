@@ -300,7 +300,7 @@
                       {% for collection in collections %}
                       <li class="list-menu__item facets__item">
                         <label for="Filter-Brand-{{ forloop.index }}" class="facet-checkbox">
-                          <input type="checkbox" name="filter.p.collection" value="Draw-Tite" id="Filter-Brand-{{ forloop.index }}">
+                          <input type="checkbox" name="filter.p.collection" value="{{ collection.handle }}" id="Filter-Brand-{{ forloop.index }}">
 
                           <span class="square"></span>
                           <i class="icon-check icon-checkmark"></i>
