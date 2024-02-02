@@ -320,11 +320,7 @@
                   </fieldset>
                   {% if shop.types.size > 10 %}
                   <show-more-button>
-                    <button
-                      class="button-show-more link underlined-link no-js-hidden"
-                      id="Show-More-{{ forloop.index }}-{{ section.id }}"
-                      type="button"
-                    >
+                    <button class="button-show-more link underlined-link no-js-hidden" id="Show-More-{{ forloop.index }}-{{ section.id }}" type="button">
                       <span class="label-show-more label-text"
                         ><span aria-hidden="true">+ </span>{{ 'products.facets.show_more' | t -}}
                       </span>
