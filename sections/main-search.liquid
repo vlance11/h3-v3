@@ -379,10 +379,12 @@
                     let showMoreBtn = $(this).find('label-show-more:first-child').hasClass('hidden');
                     if(!showMoreBtn){
                       $(this).parent().find('li.facets__item').removeClass('hidden');
-                      $(this).find('label-show-more').addClass('hidden')
-                      $(this).find('label-show-less').removeClass('hidden')
+                      $(this).find('.label-show-more').addClass('hidden')
+                      $(this).find('.label-show-less').removeClass('hidden')
                     }else{
-                      
+                      $(this).parent().find('li.show-more-item').addClass('hidden');
+                      $(this).find('.label-show-less').addClass('hidden')
+                      $(this).find('.label-show-more').removeClass('hidden')
                     }                   
                     
                   });
