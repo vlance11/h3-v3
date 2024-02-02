@@ -19,6 +19,46 @@
     },
     "main": {
       "type": "main-search",
+      "blocks": {
+        "category_MfwapT": {
+          "type": "category",
+          "settings": {
+            "title": "Category name",
+            "url": "",
+            "bg_color": "#CED9FF"
+          }
+        },
+        "category_awHVHK": {
+          "type": "category",
+          "settings": {
+            "title": "Category name",
+            "url": "",
+            "bg_color": "#CED9FF"
+          }
+        },
+        "category_G3wEyV": {
+          "type": "category",
+          "settings": {
+            "title": "Category name",
+            "url": "",
+            "bg_color": "#CED9FF"
+          }
+        },
+        "category_kPk7WB": {
+          "type": "category",
+          "settings": {
+            "title": "Category name",
+            "url": "",
+            "bg_color": "#CED9FF"
+          }
+        }
+      },
+      "block_order": [
+        "category_MfwapT",
+        "category_awHVHK",
+        "category_G3wEyV",
+        "category_kPk7WB"
+      ],
       "settings": {
         "pagination_limit": 15,
         "grid_list": "3",
