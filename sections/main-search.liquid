@@ -287,23 +287,79 @@
         <div class="container" style="margin-bottom:100px;">
           <div class="row">
             <div class="col-3">
-              {% if section.settings.filter_type == 'vertical' %}
-              {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
-                <aside
-                  aria-labelledby="verticalTitle"
-                  class="facets-wrapper{% unless section.settings.enable_filtering %} facets-wrapper--no-filters{% endunless %}"
-                  id="main-collection-filters"
-                  data-id="{{ section.id }}"
-                >
-                  {% render 'facets',
-                    results: collections.first,
-                    enable_filtering: true,
-                    enable_sorting: false,
-                    filter_type: section.settings.filter_type
-                  %}
-                </aside>
-              {%- endif -%}
-            {%- endif -%}
+              <details id="Details-1-template--21734502990117__product-grid" class=" facets__disclosure-vertical js-filter" data-index="1" open="">
+                <summary class="facets__summary caption-large focus-offset" aria-label="Brand (0 selected)" role="button" aria-expanded="true" aria-controls="Facet-1-template--21734502990117__product-grid">
+                  <div>
+                    <span>Brand<span class="facets__selected no-js-hidden hidden">(0)</span></span>
+                    <i class="icon-plus icon-caret"></i>
+                  </div>
+                </summary>
+                <div id="Facet-1-template--21734502990117__product-grid" class="parent-display facets__display-vertical"><fieldset class="facets-wrap parent-wrap  facets-wrap-vertical">
+                    <legend class="visually-hidden">Brand</legend>
+                    <ul class=" list-unstyled no-js-hidden" role="list"><li class="list-menu__item facets__item">
+                          <label for="Filter-Brand-1" class="facet-checkbox">
+                            <input type="checkbox" name="filter.p.vendor" value="Draw-Tite" id="Filter-Brand-1">
+
+                            <span class="square"></span>
+                            <i class="icon-check icon-checkmark"></i>
+                            <span aria-hidden="true">Draw-Tite (2)</span>
+                            <span class="visually-hidden">Draw-Tite (2 products)</span>
+                            
+                          </label>
+                        </li><li class="list-menu__item facets__item">
+                          <label for="Filter-Brand-2" class="facet-checkbox">
+                            <input type="checkbox" name="filter.p.vendor" value="Pro Series" id="Filter-Brand-2">
+
+                            <span class="square"></span>
+                            <i class="icon-check icon-checkmark"></i>
+                            <span aria-hidden="true">Pro Series (1)</span>
+                            <span class="visually-hidden">Pro Series (1 product)</span>
+                            
+                          </label>
+                        </li><li class="list-menu__item facets__item">
+                          <label for="Filter-Brand-3" class="facet-checkbox">
+                            <input type="checkbox" name="filter.p.vendor" value="Reese" id="Filter-Brand-3">
+
+                            <span class="square"></span>
+                            <i class="icon-check icon-checkmark"></i>
+                            <span aria-hidden="true">Reese (2)</span>
+                            <span class="visually-hidden">Reese (2 products)</span>
+                            
+                          </label>
+                        </li><li class="list-menu__item facets__item">
+                          <label for="Filter-Brand-4" class="facet-checkbox">
+                            <input type="checkbox" name="filter.p.vendor" value="Reese Explore" id="Filter-Brand-4">
+
+                            <span class="square"></span>
+                            <i class="icon-check icon-checkmark"></i>
+                            <span aria-hidden="true">Reese Explore (23)</span>
+                            <span class="visually-hidden">Reese Explore (23 products)</span>
+                            
+                          </label>
+                        </li><li class="list-menu__item facets__item">
+                          <label for="Filter-Brand-5" class="facet-checkbox">
+                            <input type="checkbox" name="filter.p.vendor" value="Reese Towpower" id="Filter-Brand-5">
+
+                            <span class="square"></span>
+                            <i class="icon-check icon-checkmark"></i>
+                            <span aria-hidden="true">Reese Towpower (1)</span>
+                            <span class="visually-hidden">Reese Towpower (1 product)</span>
+                            
+                          </label>
+                        </li><li class="list-menu__item facets__item">
+                          <label for="Filter-Brand-6" class="facet-checkbox">
+                            <input type="checkbox" name="filter.p.vendor" value="Rola" id="Filter-Brand-6">
+
+                            <span class="square"></span>
+                            <i class="icon-check icon-checkmark"></i>
+                            <span aria-hidden="true">Rola (3)</span>
+                            <span class="visually-hidden">Rola (3 products)</span>
+                            
+                          </label>
+                        </li></ul>
+                  </fieldset>
+                </div>
+              </details>
             </div>
             <div class="col-md-9">
               <div class="search-no-result center">
