@@ -374,7 +374,7 @@
               </div>
               <script>
                 $(document).ready(function() {
-                  $('show-more-button button').on('click', '.facets__item', function() {
+                  $(document).on('click', 'show-more-button button', function() {
                     // Remove the 'selected' class from all child elements
                     $(this).parent().find('.facets__item').removeClass('show-more-item hidden');
                     console($(this).parent());
