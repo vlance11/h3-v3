@@ -53,7 +53,7 @@
 
               <div class="content_section slick-carousel">
                 <div data-js-collection-tab class="js_container_cat"> 
-                  {%capture grid %}padding-0-{{padding}}{%endcapture%}
+                  {% capture grid %}padding-0-{{padding}}{% endcapture %}
                   {% include 'grid-slider', settings:section.settings %}
                   {%- for block in arr_col limit: 1 -%}
                   <div class="grid-slider js_carousel laber-slick-carousel sorting-collections__products pr_center" data-sorting-collections-items="true" 
