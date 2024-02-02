@@ -285,7 +285,18 @@
         {% endif %}
   {% else %}
         <div class="container" style="margin-bottom:100px;">
-          <h1 class="section-title h2">{{ 'general.search.no_results_html' | t: terms: search_terms }}</h1>
+          <div class="row">
+            <div class="col-3">
+              {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
+                <aside aria-labelledby="verticalTitle" class="facets-wrapper{% unless section.settings.enable_filtering %} facets-wrapper--no-filters{% endunless %}{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}" id="main-search-filters" data-id="{{ section.id }}">
+                  {% render 'facets', results: search, enable_filtering: section.settings.enable_filtering, enable_sorting: section.settings.enable_sorting, filter_type: section.settings.filter_type %}
+                </aside>
+              {%- endif -%}
+            </div>
+            <div class="col-md-9">
+              <h1 class="section-title h2">{{ 'general.search.no_results_html' | t: terms: search_terms }}</h1>
+            </div>
+          </div>          
         </div>
 {% endif %}
 </div>
