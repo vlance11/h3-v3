@@ -306,7 +306,9 @@
             {%- endif -%}
             </div>
             <div class="col-md-9">
-              <h1 class="section-title h2">{{ 'general.search.no_results_html' | t: terms: search_terms }}</h1>
+              <div class="search-no-result">
+                <h1 class="section-title h2">{{ 'general.search.no_results_html' | t: terms: search_terms }}</h1>
+              </div>
               {% if section.blocks.size > 0 %}
               <div class="categories-content-main">
                 <div class="row">
