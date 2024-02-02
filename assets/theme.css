@@ -265,9 +265,12 @@ price-range input[type="number"] {
 .category-card {
     margin-bottom: 30px;
 }
-.category-footer a {
+.category-card .category-footer a {
     font-weight: 600;
     font-size: 13px;
+}
+.search-no-result {
+    margin-bottom: 50px;
 }
 /* images-with-text-section */
 .images-area .first-image {
