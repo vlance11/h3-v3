@@ -25,7 +25,7 @@
           "settings": {
             "title": "Trailer Hitches",
             "image": "shopify:\/\/shop_images\/Component_1_1.png",
-            "url": "",
+            "url": "#",
             "bg_color": "#CED9FF"
           }
         },
@@ -34,7 +34,7 @@
           "settings": {
             "title": "Trailer Wiring",
             "image": "shopify:\/\/shop_images\/Component_1_2.png",
-            "url": "",
+            "url": "#",
             "bg_color": "#CED9FF"
           }
         },
@@ -43,7 +43,7 @@
           "settings": {
             "title": "Wiring Vehicle End",
             "image": "shopify:\/\/shop_images\/Component_1_3.png",
-            "url": "",
+            "url": "#",
             "bg_color": "#CED9FF"
           }
         },
