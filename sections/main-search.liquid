@@ -318,6 +318,32 @@
                   </fieldset>
                 </div>
               </details>
+              <details id="Details-1-template--21734502990117__product-grid" class=" facets__disclosure-vertical js-filter" data-index="1" open="">
+                <summary class="facets__summary caption-large focus-offset" aria-label="Brand (0 selected)" role="button" aria-expanded="true" aria-controls="Facet-1-template--21734502990117__product-grid">
+                  <div>
+                    <span>Brands<span class="facets__selected no-js-hidden hidden">(0)</span></span>
+                    <i class="icon-plus icon-caret"></i>
+                  </div>
+                </summary>
+                <div id="Facet-1-template--21734502990117__product-grid" class="parent-display facets__display-vertical"><fieldset class="facets-wrap parent-wrap  facets-wrap-vertical">
+                    <legend class="visually-hidden">Categories</legend>
+                    <ul class=" list-unstyled no-js-hidden" role="list">
+                      {% for vendor in shop.vendors limit: 20 %}
+                      <li class="list-menu__item facets__item">
+                        <label for="Filter-Brand-{{ forloop.index }}" class="facet-checkbox">
+                          <input type="checkbox" name="filter.p.collection" value="{{ vendor }}" id="Filter-Brand-{{ forloop.index }}">
+
+                          <span class="square"></span>
+                          <i class="icon-check icon-checkmark"></i>
+                          <span aria-hidden="true">{{ vendor | link_to_vendor }}</span>
+                          <span class="visually-hidden">{{ vendor | escape }}</span>                          
+                        </label>
+                      </li>
+                      {% endfor %}
+                      </ul>
+                  </fieldset>
+                </div>
+              </details>
               </form>
               </facet-filters-form>
             </div>
