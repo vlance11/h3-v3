@@ -55,13 +55,53 @@
             "url": "#",
             "bg_color": "#CED9FF"
           }
+        },
+        "category_6drzcz": {
+          "type": "category",
+          "settings": {
+            "title": "Trailer Jacks",
+            "image": "shopify:\/\/shop_images\/Component_1_4.png",
+            "url": "#",
+            "bg_color": "#CED9FF"
+          }
+        },
+        "category_8gxMFA": {
+          "type": "category",
+          "settings": {
+            "title": "Fifth Wheel",
+            "image": "shopify:\/\/shop_images\/Component_1_5_e4ad50a3-7334-4f13-b692-512f73c0a83f.png",
+            "url": "#",
+            "bg_color": "#CED9FF"
+          }
+        },
+        "category_b9zXim": {
+          "type": "category",
+          "settings": {
+            "title": "Trailer Parts",
+            "image": "shopify:\/\/shop_images\/Component_1_6.png",
+            "url": "",
+            "bg_color": "#CED9FF"
+          }
+        },
+        "category_weR8Lj": {
+          "type": "category",
+          "settings": {
+            "title": "Accessories",
+            "image": "shopify:\/\/shop_images\/Component_1_3.png",
+            "url": "#",
+            "bg_color": "#CED9FF"
+          }
         }
       },
       "block_order": [
         "category_MfwapT",
         "category_awHVHK",
         "category_G3wEyV",
-        "category_kPk7WB"
+        "category_kPk7WB",
+        "category_6drzcz",
+        "category_8gxMFA",
+        "category_b9zXim",
+        "category_weR8Lj"
       ],
       "settings": {
         "pagination_limit": 15,
