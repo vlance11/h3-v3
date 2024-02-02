@@ -299,8 +299,8 @@
                     <ul class=" list-unstyled no-js-hidden" role="list">
                       {% for collection in collections %}
                       <li class="list-menu__item facets__item">
-                        <label for="Filter-Brand-1" class="facet-checkbox">
-                          <input type="checkbox" name="filter.p.vendor" value="Draw-Tite" id="Filter-Brand-1">
+                        <label for="Filter-Brand-{{ forloop.index }}" class="facet-checkbox">
+                          <input type="checkbox" name="filter.p.collection" value="Draw-Tite" id="Filter-Brand-{{ forloop.index }}">
 
                           <span class="square"></span>
                           <i class="icon-check icon-checkmark"></i>
