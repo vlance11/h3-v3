@@ -297,7 +297,7 @@
                 <div id="Facet-1-template--21734502990117__product-grid" class="parent-display facets__display-vertical"><fieldset class="facets-wrap parent-wrap  facets-wrap-vertical">
                     <legend class="visually-hidden">Categories</legend>
                     <ul class=" list-unstyled no-js-hidden" role="list">
-                      {% for collection in collections %}
+                      {% for collection in collections limit: 20 %}
                       <li class="list-menu__item facets__item">
                         <label for="Filter-Brand-{{ forloop.index }}" class="facet-checkbox">
                           <input type="checkbox" name="filter.p.collection" value="{{ collection.handle }}" id="Filter-Brand-{{ forloop.index }}">
