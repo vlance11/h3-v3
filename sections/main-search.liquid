@@ -331,6 +331,25 @@
                 </div>
               </div>
               {% endif %}
+  
+              {% if section.settings.enable_related_search %}
+              <div class="related-search">
+                <div class="section-title related-s-terms">
+                  <h2>Related search</h2>
+                </div>
+                <div class="related-terms">
+                  <div id="shuffled-collections-container">
+                    {% for collection in collections %}
+                      <a href="{{ collection.url }}" class="related-search-btn" style="display: none;">
+                        <span class="icon icon-search"></span>
+                        <span class="terms-title">{{ collection.title }}</span>
+                      </a>
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+              {% endif %}
+  
             </div>
           </div>          
         </div>
