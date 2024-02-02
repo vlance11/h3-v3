@@ -375,15 +375,12 @@
               <script>
                 $(document).ready(function() {
                   $(document).on('click', 'show-more-button', function() {
-                    // Remove the 'selected' class from all child elements
                     let showMoreBtn = $(this).find('.label-show-more').hasClass('hidden');
-                    console.log(showMoreBtn);
                     if(!showMoreBtn){
                       $(this).parent().find('li.facets__item').removeClass('hidden');
                       $(this).find('.label-show-more').addClass('hidden')
                       $(this).find('.label-show-less').removeClass('hidden')
                     }else{
-                      console.log(showMoreBtn);
                       $(this).parent().find('li.show-more-item').addClass('hidden');
                       $(this).find('.label-show-less').addClass('hidden')
                       $(this).find('.label-show-more').removeClass('hidden')
