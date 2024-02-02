@@ -313,11 +313,13 @@
                   {% for block in section.blocks %}
                   <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                     <div class="category-card center">
+                      {% if block.settings.image != blank %}
                       <div class="card-image">
                         <a href="{{ block.settings.url }}">
                           <img src="{{ block.settings.image | image_url: width: 100 }}" alt="{{ block.settings.title }}" style="background-color: {{ block.settings.bg_color }}">
                         </a>
                       </div>
+                      {% endif %}
                       <div class="category-footer">
                         <a href="{{ block.settings.url }}" class="title">{{ block.settings.title }}</a>
                       </div>
