@@ -307,6 +307,24 @@
             </div>
             <div class="col-md-9">
               <h1 class="section-title h2">{{ 'general.search.no_results_html' | t: terms: search_terms }}</h1>
+              {% if section.blocks.size > 0 %}
+              <div class="categories-content-main">
+                <div class="row">
+                  {% for block in section.blocks %}
+                  <div class="col-lg-5 col-md-4 col-sm-2 col-xs-12">
+                    <div class="category-card">
+                      <div class="card-image">
+                        {{ block.settings.image | image_url: width: 50 | image_tag }}
+                      </div>
+                      <div class="category-footer">
+                        <p class="title">{{ block.settings.title }}</p>
+                      </div>
+                    </div>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+              {% endif %}
             </div>
           </div>          
         </div>
@@ -621,7 +639,7 @@
             "type": "color",
             "id": "bg_color",
             "label": "Background color",
-            "default": "#CCCCCC"
+            "default": "#CED9FF"
           }
         ]
       }
