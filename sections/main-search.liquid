@@ -311,7 +311,7 @@
 
                           <span class="square"></span>
                           <i class="icon-check icon-checkmark"></i>
-                          <span aria-hidden="true">{{ type | truncate:30 | link_to_type }}</span>
+                          <span aria-hidden="true"><a href="/search?q={{ type | handlize }}"></a>{{ type | truncate:30 }}</span>
                           <span class="visually-hidden">{{ type | escape }}</span>                          
                         </label>
                       </li>
