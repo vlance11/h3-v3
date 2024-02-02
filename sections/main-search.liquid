@@ -295,22 +295,22 @@
               <details id="Details-1-template--21734502990117__product-grid" class=" facets__disclosure-vertical js-filter" data-index="1" open="">
                 <summary class="facets__summary caption-large focus-offset" aria-label="Brand (0 selected)" role="button" aria-expanded="true" aria-controls="Facet-1-template--21734502990117__product-grid">
                   <div>
-                    <span>Categories<span class="facets__selected no-js-hidden hidden">(0)</span></span>
+                    <span>Brands<span class="facets__selected no-js-hidden hidden">(0)</span></span>
                     <i class="icon-plus icon-caret"></i>
                   </div>
                 </summary>
                 <div id="Facet-1-template--21734502990117__product-grid" class="parent-display facets__display-vertical"><fieldset class="facets-wrap parent-wrap  facets-wrap-vertical">
                     <legend class="visually-hidden">Categories</legend>
                     <ul class=" list-unstyled no-js-hidden" role="list">
-                      {% for collection in collections limit: 20 %}
+                      {% for type in collections.all_types limit: 20 %}
                       <li class="list-menu__item facets__item">
                         <label for="Filter-Brand-{{ forloop.index }}" class="facet-checkbox">
-                          <input type="checkbox" name="filter.p.collection" value="{{ collection.handle }}" id="Filter-Brand-{{ forloop.index }}">
+                          <input type="checkbox" name="filter.p.collection" value="{{ type.handle }}" id="Filter-Brand-{{ forloop.index }}">
 
                           <span class="square"></span>
                           <i class="icon-check icon-checkmark"></i>
-                          <span aria-hidden="true">{{ collection.title | escape }} ({{ collection.products.count }})</span>
-                          <span class="visually-hidden">{{ collection.title | escape }} ({{ collection.products.count }})</span>                          
+                          <span aria-hidden="true">{{ type.title | escape }} ({{ type.products.count }})</span>
+                          <span class="visually-hidden">{{ type.title | escape }} ({{ collection.products.count }})</span>                          
                         </label>
                       </li>
                       {% endfor %}
