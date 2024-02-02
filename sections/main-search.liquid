@@ -314,10 +314,12 @@
                   <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                     <div class="category-card center">
                       <div class="card-image">
-                        <img src="{{ block.settings.image | image_url: width: 100 }}" alt="{{ block.settings.title }}" style="background-color: {{ block.settings.bg_color }}">
+                        <a href="{{ block.settings.url }}">
+                          <img src="{{ block.settings.image | image_url: width: 100 }}" alt="{{ block.settings.title }}" style="background-color: {{ block.settings.bg_color }}">
+                        </a>
                       </div>
                       <div class="category-footer">
-                        <p class="title">{{ block.settings.title }}</p>
+                        <a href="{{ block.settings.url }}" class="title">{{ block.settings.title }}</a>
                       </div>
                     </div>
                   </div>
