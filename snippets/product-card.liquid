@@ -40,8 +40,6 @@
               <a href="{{ product.url }}">{{ product.title }}</a>
             </h2>
           </div>
-            {% render 'review-average', product: product %}
-            
           <div class="frm-price-color">
             <div class="product-collection__price ">
               {%- if product.price_varies -%}
@@ -52,6 +50,7 @@
                 {% render 'product-get-price' with price: product.price compare_at_price: product.compare_at_price %}
               {%- endif -%}
             </div>
+            {% render 'review-average', product: product %}
           </div>
         </div>
           <div class="button-cart-bottom center">
