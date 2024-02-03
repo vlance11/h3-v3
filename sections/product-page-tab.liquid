@@ -129,7 +129,7 @@
               <div class="description">
               {% assign index = 0 %}
               {% for content in faqContents %}
-                <div id="id_b_{{ content.id }}" class="item-faq {{ forloop.index }}">
+                <div id="id_b_{{ content.id }}" class="item-faq {{ index }}">
                   <div class="js-item-faq item {% if index == 0 %}active{% endif %}">	
                     {% if content.settings.question != blank %}
                       <h3 class="heading-title">
