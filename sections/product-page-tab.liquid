@@ -129,7 +129,7 @@
             <div id="faq" class="tab-panel">
               <h3 class="heading-title d-none sm:d-block"><span>{{ block.settings.title }}</span> <i class="icon-plus"></i></h3>
               {% endif %}
-              <div class="description">
+              <div class="description {{ forloop.index }}">
                 <div id="id_b_{{ block.id }}" class="item-faq {{ forloop.index }}">
                   <div class="js-item-faq item {% if active_tab %}active{% endif %}">	
                     {% if block.settings.question != blank %}
