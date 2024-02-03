@@ -222,6 +222,9 @@ button.btn.add-to-cart {
     align-items: center;
     width: 100%;
 }
+.featured-collection.products-arrivals.style1 .frm-price-color{
+  justify-content: center;
+}
 .product-item.card-style2 .product-image__overlay-bottom {
     visibility: visible;
     opacity: 1;
