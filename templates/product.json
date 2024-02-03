@@ -300,52 +300,6 @@
         "pd_mb": ""
       }
     },
-    "41693b03-89c2-4721-a0d0-03a59b3d98f1": {
-      "type": "featured_blog",
-      "settings": {
-        "hidden": false,
-        "title": "Question and Answer",
-        "text_size": "large",
-        "blog": "towing-with-trust-a-hitchexpo-guide",
-        "show-cate-blog": true,
-        "show-post-info": true,
-        "show-name-blog": true,
-        "show-description": true,
-        "show-read_more": true,
-        "use-slider": true,
-        "slides-To-Scroll": 1,
-        "visible": 5,
-        "widescreen": 4,
-        "desktop": 4,
-        "laptop": 4,
-        "notebook": 3,
-        "tablet": 3,
-        "landscape": 2,
-        "portrait": 2,
-        "mobile": 1,
-        "rows": 1,
-        "autoplay": true,
-        "speed": "300",
-        "autoplay-Speed": "3000",
-        "arrows": false,
-        "fade": false,
-        "center-Mode": false,
-        "adaptive-Height": false,
-        "dots": false,
-        "infinite": false,
-        "padding": 10,
-        "vertical": true,
-        "show_view_all": false,
-        "layout": "container",
-        "use_eq_height": false,
-        "image_ratio": "ratio3_2",
-        "cl_bg": "#ffffff",
-        "mg": "",
-        "pd": "30px,0,30px,0",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
-    },
     "170659979689fff3f0": {
       "type": "apps",
       "settings": {
@@ -357,7 +311,6 @@
     "product-page-tab",
     "170401789281e0ae28",
     "2a5d30e1-b228-482c-b9c1-a26c5a513369",
-    "41693b03-89c2-4721-a0d0-03a59b3d98f1",
     "170659979689fff3f0"
   ]
 }
