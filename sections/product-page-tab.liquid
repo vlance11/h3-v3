@@ -123,8 +123,8 @@
             </div>
 
       {% when 'faq','faq-content' %}
+            {% if block.type == 'faq' %}
             <div id="faq" class="tab-panel">
-              {% if block.type == 'faq' %}
               <h3 class="heading-title d-none sm:d-block"><span>{{ block.settings.title }}</span> <i class="icon-plus"></i></h3>
               {% endif %}
               <div class="description">
@@ -145,8 +145,9 @@
                   </div>	
                 </div>
               </div>
+          {% if block.type == 'faq' %}
             </div>
-    		
+    	{% endif %}
 		{%- endcase -%}
 		
   {%- endfor -%}
