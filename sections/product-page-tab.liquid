@@ -133,7 +133,7 @@
                   <div class="js-item-faq item {% if index == 0 %}active{% endif %}">	
                     {% if content.settings.question != blank %}
                       <h3 class="heading-title">
-                          <a href="#" title="{{ content.settings.question | escape }}">{{ content.settings.question | escape }}</a>
+                          <a href="#" target="_self" title="{{ content.settings.question | escape }}">{{ content.settings.question | escape }}</a>
                           <span class="faqs-icon">
                               <i class="icon-plus"></i>
                           </span>
