@@ -124,11 +124,11 @@
               {% render 'product-get-price' with price: price compare_at_price: product.compare_at_price %}
             {%- endif -%}
           </div>
-        {%- endif -%}
-        {%- if show_reviews -%}
-          {% render 'review-average', product: product %}                   
-        {%- endif -%}
+        {%- endif -%}        
       </div>
+      {%- if show_reviews -%}
+        {% render 'review-average', product: product %}                   
+      {%- endif -%}
     </div>
 
     <div class="product-collection__content product-list-style2">
