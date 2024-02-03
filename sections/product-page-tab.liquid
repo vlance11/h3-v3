@@ -129,7 +129,7 @@
               {% for content in faqContents %}
               <div class="description {{ forloop.index }}">
                 <div id="id_b_{{ content.id }}" class="item-faq {{ forloop.index }}">
-                  <div class="js-item-faq item {% if active_tab %}active{% endif %}">	
+                  <div class="js-item-faq item {% if forloop.first %}active{% endif %}">	
                     {% if content.settings.question != blank %}
                       <h3 class="heading-title">
                           <a href="javascript:void();" title="{{ content.settings.question | escape }}">{{ content.settings.question | escape }}</a>
