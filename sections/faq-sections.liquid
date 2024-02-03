@@ -32,7 +32,7 @@
                 <div class="js-item-faq item {% if forloop.first %}active{% endif %}">	
                   {% if block.settings.title != blank %}
                     <h3 class="heading-title">
-                        <a href="javascript:void();" target="{{block.settings.open_link}}" title="{{ block.settings.title | escape }}">{{ block.settings.title | escape }}</a>
+                        <a href="{{ block.settings.link }}" target="{{block.settings.open_link}}" title="{{ block.settings.title | escape }}">{{ block.settings.title | escape }}</a>
                         <span class="faqs-icon">
                             <i class="icon-plus"></i>
                         </span>
