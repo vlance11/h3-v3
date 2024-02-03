@@ -126,14 +126,7 @@
           </div>
         {%- endif -%}
         {%- if show_reviews -%}
-           {% assign averageRatingIndex = product.metafields.judgeme | split: "data-average-rating='" | size %}
-           {% assign average_rating = product.metafields.judgeme | split: "data-average-rating='" | last | split: "'" | first %}
-           {% if averageRatingIndex > 1 %}
-            <div class="product-ratings">
-              <span class="icon icon-star"></span>
-             <span class="avarage-ratings">{{ average_rating }}</span>
-            </div>
-           {% endif %}        
+          {% render 'review-average', product: product %}                   
         {%- endif -%}
       </div>
     </div>
