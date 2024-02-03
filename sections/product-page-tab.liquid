@@ -124,7 +124,7 @@
 
       {% when 'faq' %}
           {% assign faqContents = section.blocks | where: "type", "faq-content" %}
-            <div id="faq" class="tab-panel">
+            <div id="faq" class="tab-panel faq-section">
               <h3 class="heading-title d-none sm:d-block"><span>{{ block.settings.title }}</span> <i class="icon-plus"></i></h3>
               <div class="description">
               {% assign index = 0 %}
