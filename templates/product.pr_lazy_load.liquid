@@ -185,12 +185,7 @@
             </h2>
           </div>
         {%- endif -%}
-        {%- if show_reviews -%}
-          {% include 'reviews-count' %}
-          <div class="product-collection__reviews">
-            {% render 'product-get-review' with id: product.id hide_counter: hide_reviews_counter %}
-          </div>
-        {%- endif -%}
+        
         <div class="frm-price-color">
           {%- if show_price -%}
             <div class="product-collection__price ">
@@ -203,6 +198,9 @@
               {%- endif -%}
             </div>
           {%- endif -%}
+        {%- if show_reviews -%}
+          {% render 'review-average', product:product %}
+        {%- endif -%}
         </div>
         {%- if show_availability -%}
           <div class="product-collection__availability">
