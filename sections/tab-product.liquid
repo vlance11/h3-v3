@@ -71,7 +71,7 @@
                           
                       </div>
                       {%- endfor -%}
-                    {%else%}
+                    {% else %}
                       {%- for i in (1..section.settings.max_count) -%}
                       <div class="pr_grid_item {{grid}}">
                         {% include 'product_demo' %} 
