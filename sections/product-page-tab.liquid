@@ -132,7 +132,7 @@
                 <div id="id_b_{{ content.id }}" class="item-faq {{ index }}" {{ content.shopify_attributes }}>
                   <div class="js-item-faq item {% if index == 0 %}active{% endif %}">	
                     {% if content.settings.question != blank %}
-                      <h3 class="heading-title">
+                      <h3 class="faq-heading-title">
                           <span target="_self" title="{{ content.settings.question | escape }}">{{ content.settings.question | escape }}</span>
                           <span class="faqs-icon">
                               <i class="icon-plus"></i>
