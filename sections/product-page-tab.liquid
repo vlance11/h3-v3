@@ -126,8 +126,8 @@
           {% assign faqContents = section.blocks | where: "type", "faq-content" %}
             <div id="faq" class="tab-panel">
               <h3 class="heading-title d-none sm:d-block"><span>{{ block.settings.title }}</span> <i class="icon-plus"></i></h3>
+              <div class="description">
               {% for content in faqContents %}
-              <div class="description {{ forloop.index }}">
                 <div id="id_b_{{ content.id }}" class="item-faq {{ forloop.index }}">
                   <div class="js-item-faq item {% if forloop.first %}active{% endif %}">	
                     {% if content.settings.question != blank %}
@@ -144,8 +144,8 @@
                     {% endif %}
                   </div>	
                 </div>
-              </div>
               {% endfor %}
+              </div>
             </div>
 		{%- endcase -%}
 		
