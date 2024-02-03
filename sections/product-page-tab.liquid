@@ -122,6 +122,30 @@
               </div>
             </div>
 
+      {% when 'faq','faq-content' %}
+            <div id="tab_metafields" class="tab-panel">
+              {% if block.type == 'faq' %}
+              <h3 class="heading-title d-none sm:d-block"><span>{{ block.settings.title }}</span> <i class="icon-plus"></i></h3>
+              {% endif %}
+              <div class="description">
+                <div id="id_b_{{ block.id }}" class="item-faq {{ forloop.index }}">
+                  <div class="js-item-faq item {% if forloop.first %}active{% endif %}">	
+                    {% if block.settings.question != blank %}
+                      <h3 class="heading-title">
+                          <a href="javascript:void();" title="{{ block.settings.question | escape }}">{{ block.settings.question | escape }}</a>
+                          <span class="faqs-icon">
+                              <i class="icon-plus"></i>
+                          </span>
+                      </h3>
+                    {% endif %}
+       
+                    {% if block.settings.answer != blank %}
+                      <div class="content-faq">{{ block.settings.answer }}</div>
+                    {% endif %}
+                  </div>	
+                </div>
+              </div>
+            </div>
     		
 		{%- endcase -%}
 		
