@@ -25,6 +25,8 @@
                     <li><a class="h3" data-animated="rotateInDownLeft" data-toggle="pill" href="#tab_variants"><span class="icon {{ block.settings.icon }}"></span><span>{{ block.settings.title }}</span></a></li>
     			{%- when 'tab_metafields' -%}
     		      <li><a class="h3" data-animated="rotateInDownLeft" data-toggle="pill" href="#tab_metafields"><span class="icon {{ block.settings.icon }}"></span><span>{{ block.settings.title }}</span></a></li>
+                {% when 'faq' %}
+                <li><a class="h3" data-animated="rotateInDownLeft" data-toggle="pill" href="#faq"><span class="icon {{ block.settings.icon }}"></span><span>{{ block.settings.title }}</span></a></li>
             {%- endcase -%}
       {%- endfor -%}
 
@@ -346,6 +348,43 @@ document.addEventListener("DOMContentLoaded", () => {
               "label": "t:sections.main-product.blocks.custom_liquid.settings.custom_liquid.label",
               "info": "t:sections.main-product.blocks.custom_liquid.settings.custom_liquid.info",
               "default":"{{product.metafields.custom.additional_information}}"
+            }
+          ]
+        },
+        {
+          "type": "faq",
+          "name": "FAQ Tab",
+          "settings":[
+            {
+              "type": "text",
+              "id": "title",
+              "label": "Title",
+              "default": "FAQs"
+            },
+            {
+              "type": "text",
+              "id": "icon",
+              "label": "Icon",
+              "default": "icon-message",
+              "info": "Use fontawesome icons. i.e: fa fa-info"
+            }
+          ]
+        },
+        {
+          "type": "faq-content",
+          "name": "FAQ Content",
+          "settings": [
+            {
+              "type": "text",
+              "id": "question",
+              "label": "Question",
+              "default": "How can we help you?"
+            },
+            {
+              "type": "richtext",
+              "id": "answer",
+              "label": "Answer",
+              "default": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum.</p>"
             }
           ]
         }
