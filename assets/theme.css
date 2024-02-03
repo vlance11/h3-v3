@@ -451,7 +451,9 @@ label.qty-label {
     border: 1px solid #cccccc;
     border-radius: 12px;
 }
-
+.faq-section .item.active .faq-heading-title .faqs-icon i:before {
+    content: '\e9c0';
+}
 
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
