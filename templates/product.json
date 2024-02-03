@@ -163,13 +163,53 @@
             "title_reviews": "Reviews",
             "icon": "icon-star"
           }
+        },
+        "faq_RVC9jt": {
+          "type": "faq",
+          "settings": {
+            "title": "FAQs",
+            "icon": "icon-message"
+          }
+        },
+        "faq_content_HYzpNi": {
+          "type": "faq-content",
+          "settings": {
+            "question": "How can we help you?",
+            "answer": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum.<\/p>"
+          }
+        },
+        "faq_content_yWpNTH": {
+          "type": "faq-content",
+          "settings": {
+            "question": "How can we help you?",
+            "answer": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum.<\/p>"
+          }
+        },
+        "faq_content_cMQm8F": {
+          "type": "faq-content",
+          "settings": {
+            "question": "How can we help you?",
+            "answer": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum.<\/p>"
+          }
+        },
+        "faq_content_kAwdzb": {
+          "type": "faq-content",
+          "settings": {
+            "question": "How can we help you?",
+            "answer": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum.<\/p>"
+          }
         }
       },
       "block_order": [
         "f9332aee-ca1e-4993-ad5c-e3d5984789cc",
         "22f75249-e4ab-453e-84d5-0006118d5803",
         "d07132a9-cf30-4c47-a9f5-6b3bd410c124",
-        "0e2c2c01-948c-43f1-ae77-e8dbabaf8f55"
+        "0e2c2c01-948c-43f1-ae77-e8dbabaf8f55",
+        "faq_RVC9jt",
+        "faq_content_HYzpNi",
+        "faq_content_yWpNTH",
+        "faq_content_cMQm8F",
+        "faq_content_kAwdzb"
       ],
       "settings": {
         "hide_tabs": false,
