@@ -492,6 +492,10 @@ label.qty-label {
   .float-image-container{
     display: none;
   }
+  .details-info .cms-product-meta{
+    display: block;
+    margin-bottom: 10px;
+  }
 }
 @media screen and (max-width: 767px){
   .images-area img {
