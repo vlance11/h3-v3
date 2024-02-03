@@ -164,7 +164,16 @@ document.addEventListener("DOMContentLoaded", () => {
     $('html, body').animate({
         scrollTop: tab.offset().top - 50
     }, 1000);
-  });   
+  });  
+  $(document).on('click', '.faq-heading-title', function(){
+    $(this).next("div.description").slideToggle("fast");
+    $('.description.faq-section').find('.js-item-faq.item').removeClass('active');
+    var tabFaq = $(this).closest('.js-item-faq');
+    tabFaq.toggleClass('active');
+    $('html, body').animate({
+        scrollTop: tabFaq.offset().top - 50
+    }, 500);   
+  })
 }); 
 </script>
 {%- render 'section_style' -%}
