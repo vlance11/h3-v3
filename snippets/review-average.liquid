@@ -1,0 +1,11 @@
+{% assign badgeData = product.metafields.judgeme.badge | json %}
+
+{% assign averageRating = badgeData | split: "data-average-rating='" | last | split: "'" | first %}
+
+
+{% if averageRating > 1 %}
+<div class="product-ratings">
+  <span class="icon icon-star"></span>
+ <span class="avarage-ratings">{{ averageRating }}</span>
+</div>
+{% endif %}
