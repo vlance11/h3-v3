@@ -3,7 +3,7 @@
 {% assign averageRating = badgeData | split: "data-average-rating='" | last | split: "'" | first %}
 
 
-{% if averageRating > 1 %}
+{% if averageRating > 0.00 %}
 <div class="product-ratings">
   <span class="icon icon-star"></span>
  <span class="avarage-ratings">{{ averageRating }}</span>
