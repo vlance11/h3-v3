@@ -123,13 +123,15 @@
             </div>
 
       {% when 'faq','faq-content' %}
+          {% assign active_tab = false %}
             {% if block.type == 'faq' %}
+              {% assign active_tab = true %}
             <div id="faq" class="tab-panel">
               <h3 class="heading-title d-none sm:d-block"><span>{{ block.settings.title }}</span> <i class="icon-plus"></i></h3>
               {% endif %}
               <div class="description">
                 <div id="id_b_{{ block.id }}" class="item-faq {{ forloop.index }}">
-                  <div class="js-item-faq item {% if forloop.first %}active{% endif %}">	
+                  <div class="js-item-faq item {% if active_tab %}active{% endif %}">	
                     {% if block.settings.question != blank %}
                       <h3 class="heading-title">
                           <a href="javascript:void();" title="{{ block.settings.question | escape }}">{{ block.settings.question | escape }}</a>
