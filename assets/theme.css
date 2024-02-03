@@ -494,6 +494,8 @@ label.qty-label {
   }
   .details-info .cms-product-meta{
     display: block;
+  }
+  .details-info .group-button .add-to-cart{
     margin-bottom: 10px;
   }
 }
