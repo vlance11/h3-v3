@@ -457,6 +457,7 @@ label.qty-label {
 h3.faq-heading-title {
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 600px){
