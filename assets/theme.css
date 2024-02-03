@@ -460,6 +460,7 @@ h3.faq-heading-title {
     cursor: pointer;
 }
 
+
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
     width: 100% !important;
@@ -528,6 +529,9 @@ h3.faq-heading-title {
 }
 
 @media screen and (max-width: 1024px){
+  a.site-header__logo-image img {
+    width: 100%;
+  }
   span.number_counter {
     font-size: 30px;
   }
