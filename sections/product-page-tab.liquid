@@ -122,34 +122,31 @@
               </div>
             </div>
 
-      {% when 'faq','faq-content' %}
-          {% assign active_tab = false %}
-            {% if block.type == 'faq' %}
-              {% assign active_tab = true %}
+      {% when 'faq' %}
+          {% assign faqContents = section.blocks | where: "type", "faq-content" %}
             <div id="faq" class="tab-panel">
               <h3 class="heading-title d-none sm:d-block"><span>{{ block.settings.title }}</span> <i class="icon-plus"></i></h3>
-              {% endif %}
+              {% for content in faqContents %}
               <div class="description {{ forloop.index }}">
-                <div id="id_b_{{ block.id }}" class="item-faq {{ forloop.index }}">
+                <div id="id_b_{{ content.id }}" class="item-faq {{ forloop.index }}">
                   <div class="js-item-faq item {% if active_tab %}active{% endif %}">	
-                    {% if block.settings.question != blank %}
+                    {% if content.settings.question != blank %}
                       <h3 class="heading-title">
-                          <a href="javascript:void();" title="{{ block.settings.question | escape }}">{{ block.settings.question | escape }}</a>
+                          <a href="javascript:void();" title="{{ content.settings.question | escape }}">{{ content.settings.question | escape }}</a>
                           <span class="faqs-icon">
                               <i class="icon-plus"></i>
                           </span>
                       </h3>
                     {% endif %}
        
-                    {% if block.settings.answer != blank %}
-                      <div class="content-faq">{{ block.settings.answer }}</div>
+                    {% if content.settings.answer != blank %}
+                      <div class="content-faq">{{ content.settings.answer }}</div>
                     {% endif %}
                   </div>	
                 </div>
               </div>
-          {% if block.type == 'faq' %}
+              {% endfor %}
             </div>
-    	{% endif %}
 		{%- endcase -%}
 		
   {%- endfor -%}
