@@ -303,15 +303,16 @@
             "category_title": "Trailer Jacks",
             "category_url": "",
             "category_img": "shopify:\/\/shop_images\/Component_1_4.png",
-            "category_clr": "#CCCCCC"
+            "category_clr": "#eeedef"
           }
         },
         "category_t9KPr9": {
           "type": "category",
           "settings": {
-            "category_title": "",
+            "category_title": "Fifth Wheel",
             "category_url": "",
-            "category_clr": "#CCCCCC"
+            "category_img": "shopify:\/\/shop_images\/Component_1_5_e4ad50a3-7334-4f13-b692-512f73c0a83f.png",
+            "category_clr": "#ffe99d"
           }
         }
       },
