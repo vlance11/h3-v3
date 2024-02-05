@@ -267,6 +267,67 @@
         "pd_mb": ""
       }
     },
+    "category_list_Q34gbK": {
+      "type": "category-list",
+      "blocks": {
+        "category_tghRym": {
+          "type": "category",
+          "settings": {
+            "category_title": "",
+            "category_url": "",
+            "category_clr": "#CCCCCC"
+          }
+        },
+        "category_gGgiBF": {
+          "type": "category",
+          "settings": {
+            "category_title": "",
+            "category_url": "",
+            "category_clr": "#CCCCCC"
+          }
+        },
+        "category_U3gNNe": {
+          "type": "category",
+          "settings": {
+            "category_title": "",
+            "category_url": "",
+            "category_clr": "#CCCCCC"
+          }
+        },
+        "category_eMnhEF": {
+          "type": "category",
+          "settings": {
+            "category_title": "",
+            "category_url": "",
+            "category_clr": "#CCCCCC"
+          }
+        },
+        "category_t9KPr9": {
+          "type": "category",
+          "settings": {
+            "category_title": "",
+            "category_url": "",
+            "category_clr": "#CCCCCC"
+          }
+        }
+      },
+      "block_order": [
+        "category_tghRym",
+        "category_gGgiBF",
+        "category_U3gNNe",
+        "category_eMnhEF",
+        "category_t9KPr9"
+      ],
+      "settings": {
+        "title": "Shop by categories",
+        "content": "",
+        "enable_see_all": true,
+        "see_all_text": "",
+        "see_all_url": "",
+        "padding-top": 50,
+        "padding-bottom": 50
+      }
+    },
     "featured_collection_PkxFB3": {
       "type": "featured-collection",
       "settings": {
@@ -957,72 +1018,12 @@
         "mg_mb": "",
         "pd_mb": "30px,,30px"
       }
-    },
-    "category_list_Q34gbK": {
-      "type": "category-list",
-      "blocks": {
-        "category_tghRym": {
-          "type": "category",
-          "settings": {
-            "category_title": "",
-            "category_url": "",
-            "category_clr": "#CCCCCC"
-          }
-        },
-        "category_gGgiBF": {
-          "type": "category",
-          "settings": {
-            "category_title": "",
-            "category_url": "",
-            "category_clr": "#CCCCCC"
-          }
-        },
-        "category_U3gNNe": {
-          "type": "category",
-          "settings": {
-            "category_title": "",
-            "category_url": "",
-            "category_clr": "#CCCCCC"
-          }
-        },
-        "category_eMnhEF": {
-          "type": "category",
-          "settings": {
-            "category_title": "",
-            "category_url": "",
-            "category_clr": "#CCCCCC"
-          }
-        },
-        "category_t9KPr9": {
-          "type": "category",
-          "settings": {
-            "category_title": "",
-            "category_url": "",
-            "category_clr": "#CCCCCC"
-          }
-        }
-      },
-      "block_order": [
-        "category_tghRym",
-        "category_gGgiBF",
-        "category_U3gNNe",
-        "category_eMnhEF",
-        "category_t9KPr9"
-      ],
-      "settings": {
-        "title": "Shop by categories",
-        "content": "",
-        "enable_see_all": true,
-        "see_all_text": "",
-        "see_all_url": "",
-        "padding-top": 50,
-        "padding-bottom": 50
-      }
     }
   },
   "order": [
     "91e0f90e-ad97-458f-8ab1-a5b274e18a11",
     "adb31611-bb52-4257-9fc8-a7003a7eb87a",
+    "category_list_Q34gbK",
     "featured_collection_PkxFB3",
     "collection_carousel_product_JafAVa",
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8",
@@ -1031,7 +1032,6 @@
     "images_with_text_CLXYcP",
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34",
     "text_column_with_image_YqYpVW",
-    "69805983-b566-42af-ba6f-ca890638160a",
-    "category_list_Q34gbK"
+    "69805983-b566-42af-ba6f-ca890638160a"
   ]
 }
