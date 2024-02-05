@@ -7,12 +7,14 @@
 <section id="laber_{{section.id}}">
   <div class="laber_product_section_{{section.id}}">
     <div class="container">
-      <div class="section-title alo-text-transform">
-        {{section.settings.title}}
-        {% if section.settings.enable_see_all %}
-        <a href="{{ section.settings.see_all_url }}" class="title-link">{{ section.settings.see_all_text | default: 'See all' }} {% render 'icons', icon: 'chevron-right', size: '12' %}</a>
-        {% endif %}
-      </div>  
+      <div class="wrap_title">
+        <div class="section-title alo-text-transform">
+          {{section.settings.title}}
+          {% if section.settings.enable_see_all %}
+          <a href="{{ section.settings.see_all_url }}" class="title-link">{{ section.settings.see_all_text | default: 'See all' }} {% render 'icons', icon: 'chevron-right', size: '12' %}</a>
+          {% endif %}
+        </div> 
+      </div>
       {% if section.settings.content!= blank %}
         <div class="content">{{section.settings.content}}</div>
       {% endif %}
