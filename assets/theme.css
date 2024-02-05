@@ -489,7 +489,12 @@ h3.faq-heading-title {
 .category-content {
     position: relative;
 }
-
+.category-title {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: 6px;
+}
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
     width: 100% !important;
