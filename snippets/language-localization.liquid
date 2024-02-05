@@ -21,7 +21,7 @@
         src="{{shop.locale | prepend: 'flag_' | append: '.png' | asset_url }}"
       >
     {%- endif %}
-    <span>{{ localization.language.endonym_name | capitalize }}</span>
+    <span>{{ localization.language.iso_code | capitalize }}</span>
     <i class="icon-chevron-down"></i>
   </button>
   <div class="disclosure__list-wrapper" hidden>
