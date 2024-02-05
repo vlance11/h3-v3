@@ -317,7 +317,7 @@
         "text_size": "medium",
         "text_transform": "none",
         "enable_search": true,
-        "collection": "jacks-winches",
+        "collection": "4-way-flat-trailer-end",
         "max_count": 8,
         "use-slider": false,
         "slides-To-Scroll": 1,
