@@ -1257,7 +1257,7 @@
             "type": "dropdown",
             "settings": {
               "title": "Manufacturers",
-              "url": "\/",
+              "url": "#",
               "open_link": "_self",
               "menu": "",
               "icon": "",
