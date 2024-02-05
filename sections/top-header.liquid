@@ -57,7 +57,7 @@
                       {% if block.settings.header_use_language or block.settings.header_use_currency %}
                      {% assign showFlag = block.settings.show_flag %}
                       <ul class="menu-language parent-list">
-                        {%if block.settings.header_use_language%}
+                        {%if block.settings.header_use_language %}
                           {% render 'language', showFlag:showFlag %} 
                         {% endif %}
                         {%if block.settings.header_use_currency %}
