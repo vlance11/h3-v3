@@ -1289,38 +1289,30 @@
               "col": "3"
             }
           },
-          "9ea37089-1ecc-414b-a84c-1aff6ea43af5": {
-            "type": "mega",
+          "simple_HihL7p": {
+            "type": "simple",
             "settings": {
               "title": "Trailer Hitches",
               "url": "shopify:\/\/collections\/trailer-hitches",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
-              "cl": "#212529",
+              "cl": "#ec0101",
               "lb": "",
-              "lb_cl": "",
-              "pos_rel": false,
-              "wid": "cus",
-              "cus_wid": 1200,
-              "bg": "#ffffff"
+              "lb_cl": ""
             }
           },
-          "2edb69f1-946f-44fb-9516-b508ad1dbadc": {
-            "type": "mega",
+          "simple_JbLgUQ": {
+            "type": "simple",
             "settings": {
               "title": "Trailer Parts",
               "url": "shopify:\/\/collections\/trailer-parts",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
-              "cl": "#212529",
+              "cl": "#ec0101",
               "lb": "",
-              "lb_cl": "",
-              "pos_rel": false,
-              "wid": "cus",
-              "cus_wid": 1000,
-              "bg": "#ffffff"
+              "lb_cl": ""
             }
           },
           "3681d0ce-afc6-4344-b966-cfda71fb5b43": {
@@ -1337,12 +1329,6 @@
               "lb_cl": "#4ad295"
             }
           },
-          "91d39423-2228-4261-a575-2a91514f5de6": {
-            "type": "logo",
-            "settings": {
-              "logo_max_width": 200
-            }
-          },
           "bab6430c-5d2b-4e8e-8e42-224c6d149882": {
             "type": "dropdown",
             "settings": {
@@ -1356,17 +1342,23 @@
               "lb": "",
               "lb_cl": ""
             }
+          },
+          "91d39423-2228-4261-a575-2a91514f5de6": {
+            "type": "logo",
+            "settings": {
+              "logo_max_width": 200
+            }
           }
         },
         "block_order": [
           "d68538b5-22d3-4082-9b4b-6cf2ab00a70b",
           "eb4b8b78-e314-4cbd-bfd9-fa78f1dbb8d9",
           "e3ad527e-3670-40a3-b827-3adcc2c529d4",
-          "9ea37089-1ecc-414b-a84c-1aff6ea43af5",
-          "2edb69f1-946f-44fb-9516-b508ad1dbadc",
+          "simple_HihL7p",
+          "simple_JbLgUQ",
           "3681d0ce-afc6-4344-b966-cfda71fb5b43",
-          "91d39423-2228-4261-a575-2a91514f5de6",
-          "bab6430c-5d2b-4e8e-8e42-224c6d149882"
+          "bab6430c-5d2b-4e8e-8e42-224c6d149882",
+          "91d39423-2228-4261-a575-2a91514f5de6"
         ],
         "settings": {
           "header_design": "logo-left_2l",
