@@ -54,6 +54,7 @@
   cursor: pointer;
   width: 270px;
   gap: 10px;
+  justify-content: center;
 }
 .vertical_menu .title{
   color: var(--color-link-menu);
