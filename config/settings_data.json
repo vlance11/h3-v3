@@ -1256,10 +1256,10 @@
           "d68538b5-22d3-4082-9b4b-6cf2ab00a70b": {
             "type": "dropdown",
             "settings": {
-              "title": "manufacturers",
+              "title": "Manufacturers",
               "url": "\/",
               "open_link": "_self",
-              "menu": "footer",
+              "menu": "",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
