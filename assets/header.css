@@ -2902,7 +2902,7 @@ input.search_header__input:focus {
   margin-top: -2px;
   margin-right: -2px;
   margin-bottom: -2px;
-  border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 12px 12px 0px;
 }
 .header-search .search_header .search_header__submit:hover {
   background: var(--color-btn-hover);
