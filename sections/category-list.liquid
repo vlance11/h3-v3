@@ -1,0 +1,152 @@
+{% style %}
+#laber_{{section.id}}{
+  padding-top: {{ section.settings.padding-top}}px;
+  padding-bottom: {{ section.settings.padding-bottom}}px;
+}
+{% endstyle %}
+<section id="laber_{{section.id}}">
+  <div class="laber_product_section_{{section.id}}">
+    <div class="container">
+      <div class="section-title alo-text-transform">
+        {{section.settings.title}}
+        {% if section.settings.enable_see_all %}
+        <a href="{{ section.settings.see_all_url }}" class="title-link">{{ section.settings.see_all_text | default: 'See all' }} {% render 'icons', icon: 'chevron-right', size: '12' %}</a>
+        {% endif %}
+      </div>  
+      {% if section.settings.content!= blank %}
+        <div class="content">{{section.settings.content}}</div>
+      {% endif %}
+      <div class="products-arrivals ">
+        <div class="section-content">
+          <div class="content_section">
+            <div class="row">
+              {% for block in section.blocks %}
+              <div class="col">
+                <div class="collection-content">
+                  <div class="collection-inner">
+                    {% if block.settings.collection_img != blank %}
+                      {{ block.settings.collection_img | image_url: width: 200 | image_tag }}
+                    {% elsif block.settings.collection.image != blank %}
+                      {{  block.settings.collection.image | image_url: width: 200 | image_tag }}
+                    {% else %}
+                      {{ 'collection-1' | placeholder_svg_tag }}
+                    {% endif %}
+                  </div>
+                  <div class="collection-title center">
+                    <p>{{ block.settings.collection.title | default: 'Collection-' | append: forloop.index }}</p>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Category list",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Shop by categories"
+      },
+      {
+        "type": "richtext",
+        "id": "content",
+        "label": "Description"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_see_all",
+        "label": "Enable see all link",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "see_all_text",
+        "label": "Customize text"
+      },
+      {
+        "type": "url",
+        "id": "see_all_url",
+        "label": "Select link"
+      },
+      {
+        "type": "header",
+        "content": "Section style"
+      },
+      {
+        "type": "range",
+        "id": "padding-top",
+        "label": "Padding top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "default": 50
+      },
+      {
+        "type": "range",
+        "id": "padding-bottom",
+        "label": "Padding bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "default": 50
+      }
+    ],
+    "blocks": [
+      {
+        "type": "category",
+        "name": "Add Category",
+        "settings": [
+          {
+            "type": "text",
+            "id": "collection_title",
+            "label": "Customize title"
+          },
+          {
+            "type": "url",
+            "id": "category_url",
+            "label": "Category url"
+          },          
+          {
+            "type": "image_picker",
+            "id": "collection_img",
+            "label": "image"
+          }
+        ]
+      }
+    ],
+    "presets":[
+      {
+        "name": "Category list",
+        "category": "Collections",
+        "blocks": [
+          {
+            "type": "category"
+          },
+          {
+            "type": "category"
+          },
+          {
+            "type": "category"
+          },
+          {
+            "type": "category"
+          },
+          {
+            "type": "category"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
