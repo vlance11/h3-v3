@@ -323,6 +323,15 @@
             "category_img": "shopify:\/\/shop_images\/Component_1_6.png",
             "category_clr": "#f9c6ca"
           }
+        },
+        "category_PaBiD3": {
+          "type": "category",
+          "settings": {
+            "category_title": "Accessories",
+            "category_url": "",
+            "category_img": "shopify:\/\/shop_images\/Component_1_3.png",
+            "category_clr": "#d1e4fd"
+          }
         }
       },
       "block_order": [
@@ -331,7 +340,8 @@
         "category_U3gNNe",
         "category_eMnhEF",
         "category_t9KPr9",
-        "category_LXzcwd"
+        "category_LXzcwd",
+        "category_PaBiD3"
       ],
       "settings": {
         "title": "Shop by categories",
