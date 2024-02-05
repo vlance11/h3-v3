@@ -267,6 +267,68 @@
         "pd_mb": ""
       }
     },
+    "category_list_Mr4tG9": {
+      "type": "category-list",
+      "blocks": {
+        "collection_iGwAdf": {
+          "type": "collection",
+          "settings": {
+            "collection": "4-way-flat-trailer-end",
+            "collection_title": ""
+          }
+        },
+        "collection_LfMWzq": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "collection_title": ""
+          }
+        },
+        "collection_4E9zPx": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "collection_title": ""
+          }
+        },
+        "collection_MaKLC8": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "collection_title": ""
+          }
+        },
+        "collection_RMqcTN": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "collection_title": ""
+          }
+        },
+        "collection_g49rmQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "collection_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_iGwAdf",
+        "collection_LfMWzq",
+        "collection_4E9zPx",
+        "collection_MaKLC8",
+        "collection_RMqcTN",
+        "collection_g49rmQ"
+      ],
+      "settings": {
+        "title": "Shop by categories",
+        "content": "",
+        "enable_see_all": true,
+        "see_all_text": "",
+        "see_all_url": ""
+      }
+    },
     "featured_collection_PkxFB3": {
       "type": "featured-collection",
       "settings": {
@@ -962,6 +1024,7 @@
   "order": [
     "91e0f90e-ad97-458f-8ab1-a5b274e18a11",
     "adb31611-bb52-4257-9fc8-a7003a7eb87a",
+    "category_list_Mr4tG9",
     "featured_collection_PkxFB3",
     "collection_carousel_product_JafAVa",
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8",
