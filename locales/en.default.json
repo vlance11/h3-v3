@@ -73,7 +73,7 @@
         "other": "{{ count }} results for \"{{ terms }}\""
       },
       "title": "WHAT ARE YOU LOOKING FOR?",
-      "placeholder": "Search for products ...",
+      "placeholder": "Search in HitchExpo",
       "all_cat": "All Categories",
       "placeholder2": "I’m shopping for....",
       "btn": "Search",
