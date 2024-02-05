@@ -501,6 +501,9 @@ h3.faq-heading-title {
     text-align: center;
     padding-top: 30px;
 }
+.category-title p {
+    font-weight: 600;
+}
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
     width: 100% !important;
