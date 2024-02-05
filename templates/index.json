@@ -276,7 +276,7 @@
             "category_title": "Trailer Hitches",
             "category_url": "",
             "category_img": "shopify:\/\/shop_images\/Component_1_7.png",
-            "category_clr": "#CCCCCC"
+            "category_clr": "#d2e0ff"
           }
         },
         "category_gGgiBF": {
@@ -285,15 +285,16 @@
             "category_title": "Trailer Wiring",
             "category_url": "",
             "category_img": "shopify:\/\/shop_images\/Component_1_2.png",
-            "category_clr": "#CCCCCC"
+            "category_clr": "#fbeafe"
           }
         },
         "category_U3gNNe": {
           "type": "category",
           "settings": {
-            "category_title": "",
+            "category_title": "Wiring Vehicle End",
             "category_url": "",
-            "category_clr": "#CCCCCC"
+            "category_img": "shopify:\/\/shop_images\/Component_1_3.png",
+            "category_clr": "#c1d6a7"
           }
         },
         "category_eMnhEF": {
