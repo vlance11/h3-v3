@@ -28,7 +28,7 @@
                   <a href="{{ block.settings.category_url | default: '#' }}">
                     <div class="category-inner">
                       {% if block.settings.category_img != blank %}
-                        {{ block.settings.category_img | image_url: width: 200 | image_tag }}
+                        {{ block.settings.category_img | image_url: width: 100 | image_tag }}
                       {% else %}
                         {{ 'collection-1' | placeholder_svg_tag }}
                       {% endif %}
