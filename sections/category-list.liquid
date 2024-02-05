@@ -27,7 +27,7 @@
                     {% endif %}
                   </div>
                   <div class="collection-title">
-                    <p>{{ block.settings.collection.title }}</p>
+                    <p>{{ block.settings.collection.title | default: 'Collection-' | append: forloop.index }}</p>
                   </div>
                 </div>
               </div>
