@@ -1,14 +1,38 @@
 <section id="laber_{{section.id}}">
   <div class="laber_product_section_{{section.id}}">
-    <div class="section-title alo-text-transform">
-      {{section.settings.title}}
-      {% if section.settings.enable_see_all %}
-      <a href="{{ section.settings.see_all_url }}" class="title-link">{{ section.settings.see_all_text | default: 'See all' }} {% render 'icons', icon: 'chevron-right', size: '12' %}</a>
+    <div class="container">
+      <div class="section-title alo-text-transform">
+        {{section.settings.title}}
+        {% if section.settings.enable_see_all %}
+        <a href="{{ section.settings.see_all_url }}" class="title-link">{{ section.settings.see_all_text | default: 'See all' }} {% render 'icons', icon: 'chevron-right', size: '12' %}</a>
+        {% endif %}
+      </div>  
+      {% if section.settings.content!= blank %}
+        <div class="content">{{section.settings.content}}</div>
       {% endif %}
-    </div>  
-    {% if section.settings.content!= blank %}
-      <div class="content">{{section.settings.content}}</div>
-    {% endif %}
+      <div class="products-arrivals ">
+        <div class="section-content">
+          <div class="content_section">
+            <div class="row">
+              {% for block in section.blocks %}
+              <div class="col">
+                <div class="collection-content">
+                  <div class="collection-inner">
+                    {% if block.settings.collection_img != blank %}
+                      {{ block.settings.collection_img | image_url: width: 200 | image_tag }}
+                    {% endif %}
+                  </div>
+                  <div class="collection-title">
+                    <p>{{ block.settings.collection.title }}</p>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
