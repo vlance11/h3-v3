@@ -273,8 +273,9 @@
         "category_tghRym": {
           "type": "category",
           "settings": {
-            "category_title": "",
+            "category_title": "Trailer Hitches",
             "category_url": "",
+            "category_img": "shopify:\/\/shop_images\/Component_1_7.png",
             "category_clr": "#CCCCCC"
           }
         },
