@@ -488,6 +488,7 @@ h3.faq-heading-title {
 /* category-list section */
 .category-content {
     position: relative;
+  border-radius: 8px;
 }
 .category-title {
     display: flex;
