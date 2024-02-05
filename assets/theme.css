@@ -503,6 +503,7 @@ h3.faq-heading-title {
 }
 .category-title p {
     font-weight: 600;
+    padding: 0 10px;
 }
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
