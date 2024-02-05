@@ -495,7 +495,7 @@ h3.faq-heading-title {
     display: flex;
     position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: 5px;
 }
 .category-inner {
     text-align: center;
