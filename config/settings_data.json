@@ -996,7 +996,7 @@
               "menu_topbar": "",
               "header_use_currency": true,
               "header_use_language": true,
-              "show_flag": true,
+              "show_flag": false,
               "header_use_social": false,
               "type_social": "1",
               "text_align": "topbar-right",
