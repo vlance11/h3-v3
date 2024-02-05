@@ -2854,7 +2854,7 @@ input.search_header__input:focus {
 }
 .header-search .search_header {
   background-color: #fff;
-  border-radius: 5px;
+  border-radius: 12px;
   padding: 0;
   width: 330px;
   border: 2px solid #e5e8ec;
