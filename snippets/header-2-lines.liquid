@@ -102,6 +102,12 @@
               </li>
             {% endif %}
 
+            {% if section.settings.header_use_language %}
+              <li class="laber-wishlist hide-mobile">
+                {% render 'language', showFlag:false %} 
+              </li>
+            {% endif %}
+
             {% if section.settings.header_use_wishlist_home %}
               <li class="laber-wishlist hide-mobile">
                 <a
