@@ -33,7 +33,11 @@
                         {{ 'collection-1' | placeholder_svg_tag }}
                       {% endif %}
                       <div class="category-title center">
-                        <p>{{ block.settings.category_title | default: 'Collection-' | append: forloop.index }}</p>
+                        {% if block.settings.category_title != blank %}
+                          <p>{{ block.settings.category_title }}</p>
+                        {% else %}
+                        <p>{{ 'Category-' | append: forloop.index }}</p>
+                        {% endif %}
                       </div>
                     </div>
                   </a>
