@@ -496,6 +496,9 @@ h3.faq-heading-title {
     width: 100%;
     bottom: 0;
 }
+.category-inner {
+    text-align: center;
+}
 @media screen and (max-width: 600px){
   .header-logo.hide-desktop img {
     width: 100% !important;
