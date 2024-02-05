@@ -23,18 +23,18 @@
               {% for block in section.blocks %}
               <div class="col">
                 <div class="collection-content">
-                  <div class="collection-inner">
-                    {% if block.settings.collection_img != blank %}
-                      {{ block.settings.collection_img | image_url: width: 200 | image_tag }}
-                    {% elsif block.settings.collection.image != blank %}
-                      {{  block.settings.collection.image | image_url: width: 200 | image_tag }}
-                    {% else %}
-                      {{ 'collection-1' | placeholder_svg_tag }}
-                    {% endif %}
-                  </div>
-                  <div class="collection-title center">
-                    <p>{{ block.settings.collection.title | default: 'Collection-' | append: forloop.index }}</p>
-                  </div>
+                  <a href="{{ block.settings.category_url | default: '#' }}">
+                    <div class="collection-inner">
+                      {% if block.settings.collection_img != blank %}
+                        {{ block.settings.collection_img | image_url: width: 200 | image_tag }}
+                      {% else %}
+                        {{ 'collection-1' | placeholder_svg_tag }}
+                      {% endif %}
+                    </div>
+                    <div class="collection-title center">
+                      <p>{{ block.settings.collection.title | default: 'Collection-' | append: forloop.index }}</p>
+                    </div>
+                  </a>
                 </div>
               </div>
               {% endfor %}
