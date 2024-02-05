@@ -143,130 +143,6 @@
         "pd_mb": ""
       }
     },
-    "adb31611-bb52-4257-9fc8-a7003a7eb87a": {
-      "type": "collection-list-slider",
-      "blocks": {
-        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "trailer-wiring",
-            "image": "shopify:\/\/shop_images\/50-97-407-removebg-preview.png",
-            "title": "Trailer Wiring",
-            "bg_color": "#dddddd"
-          }
-        },
-        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "trailer-hitches",
-            "image": "shopify:\/\/shop_images\/63071-removebg-preview.png",
-            "title": "Trailer Hitches",
-            "bg_color": "#dddddd"
-          }
-        },
-        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "wiring-vehicle-end",
-            "title": "Wiring Vehicle End",
-            "bg_color": "#dddddd"
-          }
-        },
-        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "trailer-jacks",
-            "image": "shopify:\/\/shop_images\/183902-removebg-preview.png",
-            "title": "Trailer Jacks",
-            "bg_color": "#dddddd"
-          }
-        },
-        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-4": {
-          "type": "collection",
-          "settings": {
-            "collection": "fifth-wheel-sliders",
-            "title": "Fifth Wheel Sliders",
-            "bg_color": "#dddddd"
-          }
-        },
-        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-5": {
-          "type": "collection",
-          "settings": {
-            "collection": "cameras-photos",
-            "title": "Camera\/Photo",
-            "bg_color": "#dddddd"
-          }
-        },
-        "ca39440e-a4cb-439b-bec1-9dd9a54948c7": {
-          "type": "collection",
-          "settings": {
-            "collection": "desktop-pc",
-            "title": "Heatsink PC",
-            "bg_color": "#dddddd"
-          }
-        },
-        "a6b8dbc7-19c6-43c3-a6bb-f90c47881481": {
-          "type": "collection",
-          "settings": {
-            "collection": "home-kitchen",
-            "title": "Home\/Electronics",
-            "bg_color": "#dddddd"
-          }
-        }
-      },
-      "block_order": [
-        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-0",
-        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-1",
-        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-2",
-        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-3",
-        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-4",
-        "adb31611-bb52-4257-9fc8-a7003a7eb87a-1671528554a9bd7de6-5",
-        "ca39440e-a4cb-439b-bec1-9dd9a54948c7",
-        "a6b8dbc7-19c6-43c3-a6bb-f90c47881481"
-      ],
-      "settings": {
-        "title": "Shop by Category",
-        "heading_alignment": "left",
-        "content": "",
-        "text_size": "small",
-        "text_transform": "capitalize",
-        "border": 10,
-        "num_p_qty": false,
-        "button_label": "See All",
-        "button_url": "shopify:\/\/collections",
-        "use-slider": true,
-        "slides-To-Scroll": 5,
-        "visible": 5,
-        "widescreen": 5,
-        "desktop": 5,
-        "laptop": 5,
-        "notebook": 4,
-        "tablet": 4,
-        "landscape": 3,
-        "portrait": 2,
-        "mobile": 1,
-        "rows": 1,
-        "autoplay": true,
-        "speed": "300",
-        "autoplay-Speed": "6000",
-        "arrows": false,
-        "fade": false,
-        "center-Mode": false,
-        "adaptive-Height": false,
-        "dots": true,
-        "infinite": true,
-        "padding": 10,
-        "vertical": false,
-        "layout": "container",
-        "cl_bg": "#ffffff",
-        "show_border": true,
-        "cl_border": "#e5e8ec",
-        "mg": "",
-        "pd": "40px,,40px",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
-    },
     "category_list_Q34gbK": {
       "type": "category-list",
       "blocks": {
@@ -1047,7 +923,6 @@
   },
   "order": [
     "91e0f90e-ad97-458f-8ab1-a5b274e18a11",
-    "adb31611-bb52-4257-9fc8-a7003a7eb87a",
     "category_list_Q34gbK",
     "featured_collection_PkxFB3",
     "collection_carousel_product_JafAVa",
