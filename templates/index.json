@@ -314,6 +314,15 @@
             "category_img": "shopify:\/\/shop_images\/Component_1_5_e4ad50a3-7334-4f13-b692-512f73c0a83f.png",
             "category_clr": "#ffe99d"
           }
+        },
+        "category_LXzcwd": {
+          "type": "category",
+          "settings": {
+            "category_title": "Trailer Parts",
+            "category_url": "",
+            "category_img": "shopify:\/\/shop_images\/Component_1_6.png",
+            "category_clr": "#f9c6ca"
+          }
         }
       },
       "block_order": [
@@ -321,7 +330,8 @@
         "category_gGgiBF",
         "category_U3gNNe",
         "category_eMnhEF",
-        "category_t9KPr9"
+        "category_t9KPr9",
+        "category_LXzcwd"
       ],
       "settings": {
         "title": "Shop by categories",
