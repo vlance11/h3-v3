@@ -7,7 +7,7 @@
           <select class="localization-selector link" name="locale_code" aria-labelledby="HeaderLanguageMobileLabelNoScript">
             {%- for language in localization.available_languages -%}
               <option value="{{ language.iso_code }}" lang="{{ language.iso_code }}" {%- if language.iso_code == localization.language.iso_code %} selected{% endif %}>
-                {{ language.iso_code | capitalize }}
+                {{ language.endonym_name | capitalize }}
               </option>
             {%- endfor -%}
           </select>
