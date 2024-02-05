@@ -13,6 +13,9 @@
 .header-language .parent-list button{
   font-size: 16px;
 }
+.box-header-nav .container-wapper {
+    text-align: center;
+}
 /* ------ */
 .section-title.h1 {
     font-size: 38px;
