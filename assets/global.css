@@ -494,7 +494,7 @@ line-height: 16px;
   -o-transition: all 240ms linear 0s;
   transition: all 240ms linear 0s;
 }
-.slick-dots li.slick-active button:before{ width: 30px;border-radius: 8px;}
+.slick-dots li.slick-active button:before{ width: 30px;border-radius: 6px;}
 
 .cms-wrap-brand2 .slick-dots{padding-top:30px;}
   
