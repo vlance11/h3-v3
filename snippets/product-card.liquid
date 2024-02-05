@@ -50,8 +50,8 @@
                 {% render 'product-get-price' with price: product.price compare_at_price: product.compare_at_price %}
               {%- endif -%}
             </div>
-            {% render 'review-badge', product: product %}
           </div>
+          {% render 'review-badge', product: product %}
         </div>
           <div class="button-cart-bottom center">
             {% if product.variants.size == 1 %}
