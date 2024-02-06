@@ -190,6 +190,9 @@ span.text-summ {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+.quotes_wrapper.style3 .slick-carousel .laber_append_arrows{
+  opacity: 1;
+}
 /* Faq newsletter */
 button.subcribe_btn {
   padding: 0 20px;
