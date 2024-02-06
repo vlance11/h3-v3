@@ -563,7 +563,7 @@
       "cross-sell-popup": {
         "type": "cross-sell-popup",
         "settings": {
-          "use_cross_sell_popup": true,
+          "use_cross_sell_popup": false,
           "collection_id": "accessories",
           "limit": 10,
           "index": true,
@@ -723,7 +723,7 @@
       "promotion-product-popup": {
         "type": "promotion-product-popup",
         "settings": {
-          "use_promotion": true,
+          "use_promotion": false,
           "title": "Top picks for you",
           "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
           "text_size": "medium",
@@ -2082,7 +2082,7 @@
       "promotion-newsletter-popup": {
         "type": "promotion-newsletter-popup",
         "settings": {
-          "use_newsletter_popup": true,
+          "use_newsletter_popup": false,
           "bg_color": "rgba(0,0,0,0)",
           "title_newslette": "Our Newsletter",
           "description": "Subscribe to the Uminex Store get notified about  exclusive offers every week!",
