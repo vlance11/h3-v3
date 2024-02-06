@@ -511,6 +511,9 @@ h3.faq-heading-title {
 .featured-collection.style1 .slick-slide.slick-current.slick-active.slick-center {
     margin-top: 40px;
 }
+.product_section .featured-collection.style1 .slick-list:hover{
+  margin: 0;
+}
 /* category-list section */
 .category-content {
     position: relative;
