@@ -659,16 +659,6 @@
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34": {
       "type": "testimonials",
       "blocks": {
-        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-0": {
-          "type": "quote",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/download_2.jpg",
-            "content": "<p>Shopping with Hitchexpo.com is one of the best experience one can have because they offer smooth shopping experience with free shipping.<\/p>",
-            "title": "John Smith",
-            "address": "3rd October 2023",
-            "rating": 5
-          }
-        },
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-3": {
           "type": "quote",
           "settings": {
@@ -698,13 +688,23 @@
             "address": "23rd march 2022",
             "rating": 5
           }
+        },
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-0": {
+          "type": "quote",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_2.jpg",
+            "content": "<p>Shopping with Hitchexpo.com is one of the best experience one can have because they offer smooth shopping experience with free shipping.<\/p>",
+            "title": "John Smith",
+            "address": "3rd October 2023",
+            "rating": 5
+          }
         }
       },
       "block_order": [
-        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-0",
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-3",
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-2",
-        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-1"
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-1",
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-0"
       ],
       "settings": {
         "title": "5000+ Happy Customers With Their Best Buying Experience",
