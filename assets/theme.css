@@ -508,9 +508,7 @@ h3.faq-heading-title {
     justify-content: space-between;
     cursor: pointer;
 }
-.featured-collection.style1 .slick-slide.slick-current.slick-active.slick-center {
-    margin-top: 40px;
-}
+
 .product_section .featured-collection.style1 .slick-list:hover{
   margin: 0;
 }
@@ -617,6 +615,9 @@ h3.faq-heading-title {
 @media screen and (min-width: 768px){
   .search-box-area .header-search .search_header {
     width: 330px;
+  }
+  .featured-collection.style1 .slick-slide.slick-current.slick-active.slick-center {
+    margin-top: 40px;
   }
 }
 @media screen and (min-width:1024px){
