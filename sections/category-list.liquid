@@ -23,7 +23,7 @@
           <div class="content_section">
             <div class="row">
               {% for block in section.blocks %}
-              <div class="col">
+              <div class="col col-sm-3">
                 <div class="category-content" style="background-color: {{ block.settings.category_clr }}">
                   <a href="{{ block.settings.category_url | default: '#' }}">
                     <div class="category-inner">
