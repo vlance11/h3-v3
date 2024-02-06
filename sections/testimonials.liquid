@@ -35,7 +35,7 @@
   {%- if section.settings.hidden %}{% break %}{% endif -%}
   <section id="laber_{{sid}}">
     {% if section.settings.title != blank %}
-      <div class="wrap_title {{ section.settings.text_size }} center">
+      <div class="wrap_title {{ section.settings.text_size }} center minimize-width">
         <h3 class="section-title alo-text-transform" style="--alo-text-transform:{{ section.settings.text_transform }}">
           {{ section.settings.title }}
         </h3>
