@@ -243,6 +243,7 @@ button.btn.add-to-cart {
   padding: 14px;
   font-size: 15px;
   font-weight: 500;
+  border: none;
 }
 .featured-collection .product-collection__content.style_left {
   line-height: 44px;
