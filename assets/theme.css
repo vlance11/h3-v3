@@ -26,6 +26,7 @@
   border: 1px solid #124B7A;
   text-decoration: none;
   border-radius: 8px;
+  font-size: 18px;
 }
 .text-highlight_1{
   color: var(--color-btn);
