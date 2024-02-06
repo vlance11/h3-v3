@@ -616,4 +616,7 @@ h3.faq-heading-title {
   .featured-collection.products-arrivals.style1 {
     margin-left: 100px;
   }
+  .minimize-width > * {
+      width: 50%;
+  }
 }
