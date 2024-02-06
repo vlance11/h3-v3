@@ -22,7 +22,7 @@
 {%- for i in (1..1) -%}  
 <section id="laber_{{sid}}" class="{% if section.settings.use_border_for_product %}alo-border-product{% endif%}">
   <div class="laber_product_section_{{sid}}">
-    <div class="{%if layout_des%}full-width{% else %}container{%endif%}">
+    <div class="{% if layout_des %}full-width{% else %}container{%endif%}">
     {% if section.settings.title != blank %}
       <div class="wrap_title {{ section.settings.text_size }}">
         <div class="section-title alo-text-transform" style="--alo-text-transform:{{ section.settings.text_transform }}">
@@ -94,7 +94,7 @@
   </div>
     
   </div>
-  <div class="sm:d-none pt-60 {%if layout_des%}full-width{% else %}container{%endif%}"><div class="line alo-background-color" style="--alo-background-color:{{ cl_line }};"></div></div>
+  <div class="sm:d-none pt-60 {% if layout_des %}full-width{% else %}container{% endif %}"><div class="line alo-background-color" style="--alo-background-color:{{ cl_line }};"></div></div>
 </section>
 {% if rows > 1 %}
 {% style %}#laber_{{sid}} .grid-init .alo-item{padding-bottom:{{padding | plus: padding}}px; }{% endstyle %}
