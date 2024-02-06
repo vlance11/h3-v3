@@ -348,8 +348,8 @@
 }
 .header .header-icon .header__counter {
   color: #fff;
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   background: var(--color-count-header);
   border-radius: 100%;
   display: inline-flex;
