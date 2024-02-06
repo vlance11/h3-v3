@@ -509,7 +509,7 @@ h3.faq-heading-title {
     cursor: pointer;
 }
 .featured-collection.style1 .slick-slide.slick-current.slick-active.slick-center {
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 /* category-list section */
 .category-content {
