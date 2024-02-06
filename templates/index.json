@@ -626,7 +626,7 @@
         "icon_text_aKqiej": {
           "type": "icon-text",
           "settings": {
-            "icon": "headphones",
+            "icon": "fa fa-handshake",
             "title": "Customer-centric approach",
             "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
           }
