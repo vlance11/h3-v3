@@ -4923,7 +4923,7 @@ line-height: 15px;
   cursor: pointer;
 }
 .faq-section .item.active .heading-title .faqs-icon i:before{
-  content:'\e9c0';
+  content:'\e9c1';
 }
 .faq-section .item-faq .content-faq{
   padding:15px 0 0;
