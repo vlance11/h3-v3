@@ -432,7 +432,7 @@
   },
   "customer": {
     "account": {
-      "title": "Account",
+      "title": "Orders & Account",
       "name": "Name:",
       "country": "Country:",
       "email": "E-mail:",
