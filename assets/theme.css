@@ -619,4 +619,8 @@ h3.faq-heading-title {
   .minimize-width > * {
       width: 50%;
   }
+  .wrap_title.large.minimize-width .section-title {
+      font-size: 32px;
+      line-height: initial;
+  }
 }
