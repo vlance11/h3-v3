@@ -51,7 +51,7 @@
           {% include 'grid-slider', settings: settings %}
           <div class="content_section slick-carousel">
             <div
-              class="grid-slider js_carousel collection-slider laber-slick-carousel {% if sett_equal %}{{image_ratio}} {% endif %}"
+              class="grid-slider js_carousel collection-slider laber-slick-carousel{% if sett_equal %} {{image_ratio}} {% endif %}"
               {{ gridSlider }}
               data-mobile="{{ mobile }}"
               data-portrait="{{ portrait }}"
@@ -304,7 +304,7 @@
 {% style %}
   @media (min-width: 1200px){
   	#laber_{{sid}} .content_section{
-  		width: {{section.settings.width_c}}%;
+  		width: 90%;
       	margin: 0 auto;
   	}
   }
