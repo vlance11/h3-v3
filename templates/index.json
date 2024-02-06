@@ -735,7 +735,7 @@
         "text_bottom": "",
         "hidden": false,
         "layout": "container",
-        "width_c": 80,
+        "width_c": 90,
         "style": "style3",
         "use-slider": true,
         "slides-To-Scroll": 1,
