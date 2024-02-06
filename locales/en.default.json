@@ -488,7 +488,7 @@
       "welcome": "Welcome",
       "guest_title": "Continue as a guest",
       "guest_continue": "Continue",
-      "account": "Account",
+      "account": "Orders & Account",
       "text_html": "New user discount applies only to full price items. <br>By providing your email address, you agree to our<br> <a href=\"{{value1}}\">Privacy Policy<\/a> and <a href=\"{{value2}}\">Terms of Service<\/a>."
     },
     "logout": {
