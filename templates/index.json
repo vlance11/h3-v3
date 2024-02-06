@@ -306,8 +306,8 @@
         "vertical": false,
         "layout_des": false,
         "cl_bg": "#eceafe",
-        "mg": "50px",
-        "pd": "50px",
+        "mg": "",
+        "pd": "50px,50px",
         "mg_mb": "30px",
         "pd_mb": "30px,,30px"
       }
