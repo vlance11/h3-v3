@@ -742,7 +742,7 @@
         "vertical": false,
         "cl_bg": "#f5f7fe",
         "mg": "",
-        "pd": "60px,60px",
+        "pd": "60px,,60px",
         "mg_mb": "",
         "pd_mb": "30px,30px"
       }
