@@ -380,7 +380,7 @@
       ],
       "settings": {
         "title": "",
-        "sub_title": "<h2 class=\"sub-heading-h1\">Why you should <br> <span class=\"text-highlight_1\">Purchace<\/span> From us!<\/h2><br>",
+        "sub_title": "<h2 class=\"sub-heading-h1\">Why you should <br> <span class=\"text-highlight_1\">Purchace<\/span> From us!<\/h2><br><br>",
         "col_pr": "4",
         "col_pr_tb": "4",
         "col_pr_mb": "2",
