@@ -177,7 +177,7 @@ span.text-summ {
   text-align: -webkit-center;
 }
 .post-item.quote_slide.slick-slide.slick-active:not(.slick-center) {
-    transform: translate(10%, 0) scale(.8);
+    transform: translate(0%, 0) scale(.8);
 }
 /* Faq newsletter */
 button.subcribe_btn {
