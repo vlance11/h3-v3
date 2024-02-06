@@ -315,14 +315,14 @@
   display: flex;
   color: var(--color-icon-header);
   justify-content: center;
-  padding-left: 36px;
+  padding-left: 30px;
   flex-direction: column;
   height: 32px;
 }
 .header .header-icon i,
 .header .header-icon svg {
-  font-size: 26px;
-  width: 26px;
+  font-size: 24px;
+  width: 24px;
   position: absolute;
   top: 5px;
   left: 0;
