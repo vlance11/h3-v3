@@ -179,6 +179,12 @@ span.text-summ {
 .post-item.quote_slide.slick-slide.slick-active:not(.slick-center) {
     transform: translate(0%, 0) scale(.8);
 }
+.post-item.quote_slide.slick-slide.slick-active:not(.slick-center) .cms_content_quote p {
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 /* Faq newsletter */
 button.subcribe_btn {
   padding: 0 20px;
