@@ -159,11 +159,12 @@
                         {{- cart.item_count -}}
                       </span>
                     </a>
-
+{% comment %}
                     <span data-total-price class="total-price">
                       <span class="text">{{ 'cart.general.title' | t }} </span>
                       <span class="js-total-price"> {{ cart.total_price | money }}</span>
                     </span>
+              {% endcomment %}
                   </div>
                 </div>
               </li>
