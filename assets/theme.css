@@ -173,6 +173,11 @@ span.text-summ {
     padding: 24px 32px;
     background-color: #FFFFFF;
 }
+.quotes_wrapper.style3 .slick-track {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
 .testimonial_avatar.style3{
   text-align: -webkit-center;
 }
