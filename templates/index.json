@@ -258,7 +258,7 @@
         "arrows": false,
         "fade": false,
         "center-Mode": true,
-        "adaptive-Height": false,
+        "adaptive-Height": true,
         "dots": true,
         "infinite": true,
         "padding": 15,
@@ -266,7 +266,7 @@
         "layout_des": false,
         "cl_bg": "#ffffff",
         "mg": "",
-        "pd": "50px,,50px",
+        "pd": "50px,50px",
         "mg_mb": "",
         "pd_mb": ""
       }
