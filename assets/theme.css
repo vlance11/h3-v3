@@ -176,6 +176,9 @@ span.text-summ {
 .testimonial_avatar.style3{
   text-align: -webkit-center;
 }
+.post-item.quote_slide.slick-slide.slick-active:not(.slick-center) {
+    transform: translate(10%, 0) scale(.6);
+}
 /* Faq newsletter */
 button.subcribe_btn {
   padding: 0 20px;
