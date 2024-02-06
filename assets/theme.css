@@ -163,6 +163,9 @@ span.text-summ {
 .summary-text:not(.summary-text:last-child) {
     border-right: 1px solid #DDDDDD;
 }
+.summary-text.cat_space_item.brand_list:first-child {
+    padding-left: 0;
+}
 .button-area{
   margin-top: 30px;
 }
