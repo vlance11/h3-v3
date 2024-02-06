@@ -4903,7 +4903,7 @@ line-height: 15px;
 .faq-section {}
 .faq-section .item-faq .js-item-faq{
   background: #FFFFFF;
-  border-radius: 20px;
+  border-radius: 8px;
   padding: 20px 30px;
   margin-bottom:20px;
 }
