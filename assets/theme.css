@@ -513,6 +513,7 @@ h3.faq-heading-title {
     position: relative;
     border-radius: 8px;
     min-height: 172px;
+    margin-bottom: 12px;
 }
 .category-title {
     display: flex;
