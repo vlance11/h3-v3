@@ -193,6 +193,12 @@ span.text-summ {
 .quotes_wrapper.style3 .slick-carousel .laber_append_arrows{
   opacity: 1;
 }
+.quotes_wrapper.style3 .laber_append_arrows .slick-arrow {
+    border: 1px solid #999999;
+    background: #ffffff;
+    width: 40px;
+    height: 40px;
+}
 /* Faq newsletter */
 button.subcribe_btn {
   padding: 0 20px;
