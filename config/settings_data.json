@@ -2764,7 +2764,7 @@
           "show_svg_custom": false,
           "svg_custom": "paypal,shopify_pay,visa,amazon_payments,apple_pay,bitcoin,google_pay,maestro,master",
           "svg_height": 30,
-          "pd": "50px,0,50px,0",
+          "pd": "40px,0,40px,0",
           "pd_mb": "40px,0,40px,0"
         }
       },
