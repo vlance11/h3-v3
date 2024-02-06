@@ -741,10 +741,10 @@
         "padding": 10,
         "vertical": false,
         "cl_bg": "#f5f7fe",
-        "mg": "60px",
-        "pd": "60px",
-        "mg_mb": "30px",
-        "pd_mb": "30px"
+        "mg": "",
+        "pd": "60px,60px",
+        "mg_mb": "",
+        "pd_mb": "30px,30px"
       }
     },
     "text_column_with_image_YqYpVW": {
