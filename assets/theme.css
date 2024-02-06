@@ -618,7 +618,7 @@ h3.faq-heading-title {
 }
 @media screen and (min-width:1024px){
   .featured-collection.products-arrivals.style1 {
-    margin-left: 100px;
+    /* margin-left: 100px; */
   }
   .minimize-width > * {
       width: 45%;
