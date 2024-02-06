@@ -44,3 +44,29 @@
   data-masonry="{{'jquery.masonry.js' | asset_url  }}"
   data-custom="{{'jquery.custom.js' | asset_url  }}"
 ></script>
+<script>
+   $('.category-slider').slick({
+  responsive: [
+    {
+      breakpoint: 99999,
+      settings: "unslick"
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        dots: false,
+        arrows: false,
+        slidesToShow: 4,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
+</script>
