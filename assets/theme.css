@@ -508,6 +508,9 @@ h3.faq-heading-title {
     justify-content: space-between;
     cursor: pointer;
 }
+.featured-collection.style1 .slick-slide.slick-current.slick-active.slick-center {
+    margin-top: 30px;
+}
 /* category-list section */
 .category-content {
     position: relative;
