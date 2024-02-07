@@ -258,7 +258,7 @@
         "arrows": false,
         "fade": false,
         "center-Mode": true,
-        "adaptive-Height": true,
+        "adaptive-Height": false,
         "dots": true,
         "infinite": true,
         "padding": 15,
@@ -266,9 +266,9 @@
         "layout_des": false,
         "cl_bg": "#ffffff",
         "mg": "",
-        "pd": "50px,,50px",
+        "pd": "50px,0,50px,0",
         "mg_mb": "",
-        "pd_mb": ""
+        "pd_mb": "30px,0,30px,0"
       }
     },
     "collection_carousel_product_JafAVa": {
@@ -307,9 +307,9 @@
         "layout_des": false,
         "cl_bg": "#eceafe",
         "mg": "",
-        "pd": "50px,,50px",
-        "mg_mb": "30px",
-        "pd_mb": "30px,,30px"
+        "pd": "50px,0,50px,0",
+        "mg_mb": "",
+        "pd_mb": "30px,0,30px,0"
       }
     },
     "c142a47a-ff09-4ac9-88aa-8509dc40eeb8": {
