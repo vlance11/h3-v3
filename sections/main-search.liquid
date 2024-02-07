@@ -84,7 +84,7 @@
         <div class="js_categories_content">
           <div class="container wrap-main-collection">
             <div class="row">
-              <div class="mobile-content col">
+              <div class="mobile-content col {{ search.filters }}">
               <div{% if section.settings.filter_type == 'vertical' %} class="facets-vertical page-width"{% endif %}>
                 {%- if search.filters != empty -%}
                   {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
