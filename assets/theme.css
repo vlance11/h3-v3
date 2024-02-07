@@ -599,6 +599,7 @@ a.change-vehicle-link {
   .image-banner-apps-block #ymm_searchbox {
     padding: 10px 10px;
     margin: 25px auto;
+    box-shadow: none !important;
   }
   .image-banner-apps-block #ymm_searchbox .btn{
     min-height: 35px;
