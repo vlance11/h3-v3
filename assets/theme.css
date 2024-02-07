@@ -90,6 +90,10 @@
 /* collection-carousel-product */
 .product-ratings .icon{
   color: #E5C33A;
+  font-size: 16px;
+}
+.product-ratings .avarage-ratings {
+    font-size: 16px;
 }
 .product-collection__price > .price.price-regular {
     font-size: 20px;
