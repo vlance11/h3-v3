@@ -2801,7 +2801,7 @@ select.product-options__section {
   border: transparent;
 }
 .product-image__overlay-top-left .label--sale {
-  color: var(--color-label-sale);
+  color: #212121;
   border: transparent;
 }
 
