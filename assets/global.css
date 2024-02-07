@@ -1954,7 +1954,7 @@ line-height: 16px;
 	 color: var(--color-title-breadcrumb);
 }
  .breadcrumbs .outline-breadcrum .wrap-breadcrum ul li:not(:first-child)::before {
-   content: '/';
+   content: '\e951';
    padding-left: 5px;
    padding-right: 5px;
 }
