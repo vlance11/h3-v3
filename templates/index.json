@@ -250,7 +250,7 @@
         "tablet": 1,
         "landscape": 1,
         "portrait": 1,
-        "mobile": 1,
+        "mobile": 3,
         "rows": 1,
         "autoplay": false,
         "speed": "300",
