@@ -68,7 +68,9 @@
           {% else %}
               <div class="container section-header text-center">
               <div class="c-search-container">
-                <p>{{ 'general.search.results_with_count' | t: terms: search_terms, count: search.results_count }} <span class="icon icon-search"></span></p>
+                <div class="c-search-inner">
+                  {{ 'general.search.results_with_count' | t: terms: search_terms, count: search.results_count }} <span class="icon icon-search"></span>
+                </div>
               </div>
           {% endif %}
           {% if search.performed and search.results_count == 0 %}
