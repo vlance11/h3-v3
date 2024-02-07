@@ -2789,7 +2789,7 @@ select.product-options__section {
   text-transform: uppercase;
   background-color: #EBF6FF;
   color: var(--color-main);
-  border: none;
+  border: transparent;
 }
 
 .product-image__overlay-top-left .label--new {
@@ -2798,11 +2798,11 @@ select.product-options__section {
 }
 .product-image__overlay-top-left .label--hot {
   color: var(--color-label-hot);
-  border: 1px solid var(--color-label-hot);
+  border: transparent;
 }
 .product-image__overlay-top-left .label--sale {
   color: var(--color-label-sale);
-  border: 1px solid var(--color-label-sale);
+  border: transparent;
 }
 
 .product__text {
