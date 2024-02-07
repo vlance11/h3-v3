@@ -7,9 +7,9 @@
           "type": "name_product",
           "settings": {
             "np_text_transform": "none",
-            "np_size": 24,
+            "np_size": 16,
             "np_weight": 500,
-            "np_size_mobile": 24,
+            "np_size_mobile": 15,
             "np_mg_top": 0,
             "np_mg_bottom": 10
           }
