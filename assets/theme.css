@@ -570,6 +570,9 @@ h3.faq-heading-title {
   div[data-wrapper-slidershow] .content-item .container, div[data-wrapper-slidershow] .content-item {
       min-height: 550px !important;
   }
+  .wrapper_caption .slide_item_p{
+    margin: 10px 0;
+  }
   .image-banner-apps-block #ymm_searchbox {
     padding: 10px 10px;
     margin: 25px auto;
