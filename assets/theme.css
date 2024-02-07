@@ -551,6 +551,10 @@ h3.faq-heading-title {
     padding: 0 10px;
 }
 @media screen and (max-width: 600px){
+  .wrap_title.medium .section-title {
+    font-size: 20px;
+    line-height: 20px;
+  }
   .header-logo.hide-desktop img {
     width: 100% !important;
   }
