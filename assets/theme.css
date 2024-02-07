@@ -552,6 +552,10 @@ h3.faq-heading-title {
     padding: 0 10px;
 }
 @media screen and (max-width: 600px){
+  .btn:not(.wishlist-button) {
+    padding: 5px 15px;
+    font-size: 14px;
+  }
   .wrap_title.medium .section-title {
     font-size: 20px;
     line-height: 20px;
