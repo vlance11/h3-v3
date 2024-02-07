@@ -401,6 +401,7 @@ div[data-wrapper-slidershow] .content-item .wrap_text .wrapper_caption .caption 
     display: flex;
     align-items: center;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 .footer-logo-with-text img {
     margin-right: 10px;
