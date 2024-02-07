@@ -100,6 +100,9 @@
     border: 1px solid #DDDDDD;
     border-radius: 22px;
 }
+form.search_header.mini_search_frm.pr.js_frm_search {
+    background: transparent;
+}
 .search-box-area{
   padding-bottom: 15px;
 }
