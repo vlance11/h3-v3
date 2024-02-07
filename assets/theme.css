@@ -677,6 +677,7 @@ a.change-vehicle-link {
   }
   .type_banner .laber_banner .banner_text{
     position: relative;
+    padding-left: 0;
   }
   .images-with-text-area .container .row > div {
     order: 2;
