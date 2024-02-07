@@ -554,6 +554,15 @@ h3.faq-heading-title {
     font-weight: 600;
     padding: 0 10px;
 }
+.c-search-container {
+    display: flex;
+    justify-content: center;
+  }
+  .c-search-container p {
+    border: 1px solid #cccccc;
+    padding: 8px 16px;
+    border-radius: 25px;
+  }
 @media screen and (max-width: 600px){
   .btn:not(.wishlist-button) {
     padding: 5px 15px;
@@ -595,15 +604,6 @@ h3.faq-heading-title {
   .image-banner-apps-block #ymm_searchbox select {
     font-size: 12px;    
     min-height: 38px;    
-  }
-  .c-search-container {
-    display: flex;
-    justify-content: center;
-  }
-  .c-search-container p {
-    border: 1px solid #cccccc;
-    padding: 8px 16px;
-    border-radius: 25px;
   }
   .quote_content.style3 {
     padding: 15px 10px;
