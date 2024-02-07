@@ -576,7 +576,9 @@ h3.faq-heading-title {
     font-size: 12px;    
     min-height: 38px;    
   }
-  
+  .slick-current.slick-active.slick-center {
+    width: 250px !important;
+  }
 }
 @media screen and (max-width: 768px){
   .main-content.box.alo-item {
