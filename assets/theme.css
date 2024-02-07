@@ -596,6 +596,15 @@ h3.faq-heading-title {
     font-size: 12px;    
     min-height: 38px;    
   }
+  .c-search-container p {
+    border: 1px solid #cccccc;
+    padding: 8px 16px;
+    border-radius: 25px;
+  }
+  .c-search-container {
+    display: flex;
+    justify-content: center;
+  }
   .quote_content.style3 {
     padding: 15px 10px;
   }
