@@ -1,8 +1,10 @@
 {% assign badgeData = product.metafields.judgeme.badge | json %}
 
 {% assign averageRating = badgeData | split: "data-average-rating='" | last | split: "'" | first %}
+{% assign totalRating = badgeData | split: "data-number-of-reviews='" | last | split: "'" | first %}
 
 {% assign averageRating = averageRating | plus: 0.00 %}
+{% assign totalRating = totalRating | times: 1 %}
 
 {% if averageRating > 0.00 %}
 <div class="product-ratings">
