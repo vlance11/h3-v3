@@ -613,6 +613,12 @@ h3.faq-heading-title {
   .section-title.h1 {
     font-size: 28px;
   }
+  .featured-collection.style1 .slick-list.draggable {
+    padding: 0 10px !important;
+  }
+  .featured-collection.style1 .product-card.slick-slide.slick-current.slick-active.slick-center {
+    width: 310px !important;
+  }
 }
 @media screen and (max-width: 768px){
   .main-content.box.alo-item {
