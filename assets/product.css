@@ -366,8 +366,8 @@
 .product-item .product-image__overlay-bottom {
   padding: 0;
   position: absolute;
-  right: 15px;
-  top: 15px;
+  right: 0px;
+  top: 0px;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 400ms linear 0ms;
