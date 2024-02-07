@@ -598,6 +598,10 @@ h3.faq-heading-title {
   .brand-list .laber_append_arrows{
     display: none;
   }
+  .wrap_title.style2 .section-title {
+    font-size: 28px;
+    line-height: 28px;
+  }
 }
 @media screen and (max-width: 768px){
   .main-content.box.alo-item {
