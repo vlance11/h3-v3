@@ -558,12 +558,12 @@ h3.faq-heading-title {
     display: flex;
     justify-content: center;
   }
-  .c-search-container p {
+  .c-search-container .c-search-inner {
     border: 1px solid #cccccc;
     padding: 8px 16px;
     border-radius: 25px;
   }
-.c-search-container p .icon {
+.c-search-container .c-search-inner .icon {
     background: yellow;
     padding: 10px;
     border-radius: 32px;
