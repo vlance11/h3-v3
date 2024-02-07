@@ -119,7 +119,7 @@
         "card_style": "style_2",
         "padding_lr": 5,
         "enable_filtering": true,
-        "filter_type": "drawer",
+        "filter_type": "vertical",
         "enable_sorting": true,
         "enable_related_search": true,
         "cl_bg": "#fafafa",
