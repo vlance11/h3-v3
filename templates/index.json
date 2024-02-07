@@ -742,9 +742,9 @@
         "vertical": false,
         "cl_bg": "#f5f7fe",
         "mg": "",
-        "pd": "60px,,60px",
+        "pd": "60px,0,60px,0",
         "mg_mb": "",
-        "pd_mb": "30px,30px"
+        "pd_mb": "30px,0,30px,0"
       }
     },
     "text_column_with_image_YqYpVW": {
