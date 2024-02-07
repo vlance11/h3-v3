@@ -94,6 +94,7 @@
 }
 .product-ratings .avarage-ratings {
     font-size: 16px;
+    color: #666666;
 }
 .product-collection__price > .price.price-regular {
     font-size: 20px;
