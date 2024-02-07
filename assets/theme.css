@@ -555,7 +555,7 @@ h3.faq-heading-title {
     width: 100% !important;
   }
   div[data-wrapper-slidershow] .content-item .container, div[data-wrapper-slidershow] .content-item {
-      min-height: 480px !important;
+      min-height: 550px !important;
   }
   .image-banner-apps-block #ymm_searchbox {
     padding: 10px 10px;
