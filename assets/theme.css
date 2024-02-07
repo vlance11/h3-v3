@@ -569,6 +569,10 @@ h3.faq-heading-title {
     padding: 10px;
     border-radius: 32px;
 }
+a.change-vehicle-link {
+    margin: 0 10px;
+    text-decoration: underline;
+}
 @media screen and (max-width: 600px){
   .btn:not(.wishlist-button) {
     padding: 5px 15px;
