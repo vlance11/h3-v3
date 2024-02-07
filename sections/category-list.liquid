@@ -9,7 +9,7 @@
     <div class="container">
       <div class="wrap_title medium">
         <div class="section-title alo-text-transform">
-          <h3>{{section.settings.title}}</h3>
+          {{section.settings.title}}
           {% if section.settings.enable_see_all %}
           <a href="{{ section.settings.see_all_url }}" class="title-link">{{ section.settings.see_all_text | default: 'See all' }} {% render 'icons', icon: 'chevron-right', size: '12' %}</a>
           {% endif %}
