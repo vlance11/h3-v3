@@ -18,3 +18,7 @@
 .template-product .breadcrumbs .breadcrum.text_left a {
     color: #177FCA;
 }
+
+.navigationMenu .col-auto.vertical_menu.init {
+    position: absolute;
+}
