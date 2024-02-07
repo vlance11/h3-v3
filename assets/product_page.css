@@ -28,8 +28,8 @@
   display: inline-block;
   margin: 0;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 35px;
+  font-size: 16px;
+  line-height: 24px;
 }
 .details-info .product-name a {
   color: var(--color-name-product);
