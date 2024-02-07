@@ -2793,8 +2793,8 @@ select.product-options__section {
 }
 
 .product-image__overlay-top-left .label--new {
-  color: var(--color-label-new);
-  border: 1px solid var(--color-label-new);
+  color: #212121;
+  border: transparent;
 }
 .product-image__overlay-top-left .label--hot {
   color: var(--color-label-hot);
