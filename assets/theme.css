@@ -602,6 +602,10 @@ h3.faq-heading-title {
     font-size: 28px;
     line-height: 28px;
   }
+  .wrap_title.large .section-title {
+    font-size: 20px;
+    line-height: 26px;
+  }
 }
 @media screen and (max-width: 768px){
   .main-content.box.alo-item {
