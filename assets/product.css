@@ -2937,7 +2937,7 @@ select.product-options__section {
   .product-item .product-image__overlay-bottom {
     opacity: 1;
     visibility: visible;
-    top: 15px;
+    top: 0px;
   }
   .product-item .group-button a {
     -webkit-animation-name: slideInRight;
