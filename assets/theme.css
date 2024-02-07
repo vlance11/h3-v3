@@ -199,9 +199,7 @@ span.text-summ {
 .testimonial_avatar.style3{
   text-align: -webkit-center;
 }
-.post-item.quote_slide.slick-slide.slick-active:not(.slick-center) {
-    transform: translate(0%, 0) scale(.9);
-}
+
 .post-item.quote_slide.slick-slide.slick-active:not(.slick-center) .cms_content_quote p {
     -webkit-line-clamp: 4;
     display: -webkit-box;
@@ -645,6 +643,9 @@ h3.faq-heading-title {
   }
   .featured-collection.style1 .slick-slide.slick-current.slick-active.slick-center {
     margin-top: 40px;
+  }
+  .post-item.quote_slide.slick-slide.slick-active:not(.slick-center) {
+    transform: translate(0%, 0) scale(.9);
   }
 }
 @media screen and (min-width:1024px){
