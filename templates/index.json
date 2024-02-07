@@ -107,7 +107,7 @@
         "h_tb": "500px",
         "h_mb": "350px",
         "border": 10,
-        "use-slider": true,
+        "use-slider": false,
         "slides-To-Scroll": 1,
         "visible": 1,
         "widescreen": 1,
