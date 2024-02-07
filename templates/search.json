@@ -119,7 +119,7 @@
         "padding_lr": 5,
         "enable_filtering": true,
         "filter_type": "vertical",
-        "enable_sorting": false,
+        "enable_sorting": true,
         "enable_related_search": true,
         "cl_bg": "#fafafa",
         "mg": "",
