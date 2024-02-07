@@ -536,10 +536,6 @@ div[data-wrapper-slidershow] .content-item video{
   div[data-wrapper-slidershow] .content-item {
     min-height: var(--alo-height-mb);
   }
-  div[data-wrapper-slidershow] .content-item .wrap_text {
-    right: 10px !important;
-    left: 10px !important;
-  }
 
   div[data-wrapper-slidershow]
     .content-item
