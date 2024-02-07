@@ -619,6 +619,10 @@ h3.faq-heading-title {
   .featured-collection.style1 .product-card.slick-slide.slick-current.slick-active.slick-center {
     width: 310px !important;
   }
+  .suggest-button .btn {
+    padding: 5px 5px;
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 768px){
   .main-content.box.alo-item {
