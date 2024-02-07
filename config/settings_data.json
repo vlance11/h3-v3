@@ -108,7 +108,7 @@
     "product_collection_show_title": true,
     "product_collection_show_label_in_stock": false,
     "product_collection_show_reviews": true,
-    "product_collection_hide_reviews_counter": true,
+    "product_collection_hide_reviews_counter": false,
     "product_collection_show_secondary_image": true,
     "product_collection_show_options": true,
     "product_collection_show_button_add_to_cart": true,
