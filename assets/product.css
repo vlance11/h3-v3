@@ -384,8 +384,8 @@
 .product-item:hover .product-image__overlay-bottom {
   opacity: 1;
   visibility: visible;
-  right: 15px;
-  top: 15px;
+  right: 0px;
+  top: 0px;
 }
 .product-item .product-image__overlay-bottom .group-button {
   display: flex;
