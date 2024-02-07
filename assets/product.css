@@ -3033,8 +3033,8 @@ select.product-options__section {
     margin-bottom: 30px;
   }
   .product-image__overlay-top-left {
-    top: 10px;
-    left: 10px;
+    top: 0px;
+    left: 0px;
   }
   .product-item
     .product-collection__content
