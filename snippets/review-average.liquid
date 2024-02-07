@@ -8,5 +8,5 @@
 
 <div class="product-ratings">
   <span class="icon icon-star"></span>
- <span class="avarage-ratings">{{ averageRating }}{% if hide_reviews_counter %}({{ totalRating }}){% endif %}</span>
+ <span class="avarage-ratings"><strong>{{ averageRating }}</strong>{% if hide_reviews_counter %}<span class="total-rating">({{ totalRating }})<span>{% endif %}</span>
 </div>
