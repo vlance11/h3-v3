@@ -586,6 +586,9 @@ h3.faq-heading-title {
   .post-item.quote_slide.alo-item.slick-slide.slick-current.slick-active.slick-center {
     width: 310px !important;
   }
+  .brand-list .laber_append_arrows{
+    display: none;
+  }
 }
 @media screen and (max-width: 768px){
   .main-content.box.alo-item {
