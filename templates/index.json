@@ -53,7 +53,7 @@
             "hide": false,
             "hide_mobile": false,
             "mobile_fw_text": 400,
-            "mobile_lh_text": 18,
+            "mobile_lh_text": 0,
             "mobile_font_text": 14
           }
         },
