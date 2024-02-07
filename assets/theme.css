@@ -576,10 +576,12 @@ h3.faq-heading-title {
     font-size: 12px;    
     min-height: 38px;    
   }
-  /* .slick-current.slick-active.slick-center {
-    width: 260px !important;
-    margin: 0 -15px;
-  } */
+  .quote_content.style3 {
+    border: 1px solid #DDDDDD;
+    border-radius: 12px;
+    padding: 24px 10px;
+    background-color: #fff;
+  }
 }
 @media screen and (max-width: 768px){
   .main-content.box.alo-item {
