@@ -2789,6 +2789,7 @@ select.product-options__section {
   text-transform: uppercase;
   background-color: #EBF6FF;
   color: var(--color-main);
+  border: none;
 }
 
 .product-image__overlay-top-left .label--new {
