@@ -34,7 +34,7 @@
   opacity:1;
 }
 .vertical_menu:after {
-  content: "";
+  /* content: ""; */
   background-color: var(--color-border-menu);
   height: 20px;
   width: 1px;
