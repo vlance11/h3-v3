@@ -4,3 +4,9 @@
     margin-top: 10px;
     border-radius: 5px;
 } 
+
+
+.wrap-main-slider {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
