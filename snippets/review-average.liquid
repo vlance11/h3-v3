@@ -6,9 +6,7 @@
 {% assign averageRating = averageRating | plus: 0.00 %}
 {% assign totalRating = totalRating | times: 1 %}
 
-{% if averageRating > 0.00 %}
 <div class="product-ratings">
   <span class="icon icon-star"></span>
- <span class="avarage-ratings">{{ averageRating }}</span>
+ <span class="avarage-ratings">{{ averageRating }}({{ totalRating }})</span>
 </div>
-{% endif %}
