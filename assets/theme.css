@@ -555,6 +555,10 @@ h3.faq-heading-title {
     font-size: 20px;
     line-height: 20px;
   }
+  .sub-heading-h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
   .header-logo.hide-desktop img {
     width: 100% !important;
   }
