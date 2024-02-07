@@ -579,6 +579,9 @@ h3.faq-heading-title {
   .quote_content.style3 {
     padding: 15px 10px;
   }
+  .quotes_wrapper.style3 .slick-list.draggable {
+    padding: 0 10px !important;
+  }
 }
 @media screen and (max-width: 768px){
   .main-content.box.alo-item {
