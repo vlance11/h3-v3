@@ -2797,7 +2797,7 @@ select.product-options__section {
   border: transparent;
 }
 .product-image__overlay-top-left .label--hot {
-  color: var(--color-label-hot);
+  color: #212121;
   border: transparent;
 }
 .product-image__overlay-top-left .label--sale {
