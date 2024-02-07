@@ -577,7 +577,7 @@ h3.faq-heading-title {
     min-height: 38px;    
   }
   .slick-current.slick-active.slick-center {
-    width: 250px !important;
+    width: 260px !important;
   }
 }
 @media screen and (max-width: 768px){
