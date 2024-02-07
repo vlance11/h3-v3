@@ -1957,6 +1957,7 @@ line-height: 16px;
    content: '\e951';
    padding-left: 5px;
    padding-right: 5px;
+   font-family: icon-dukamarket!important;
 }
  .cms-popup-quickview {
 	 position: relative;
