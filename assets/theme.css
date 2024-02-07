@@ -563,6 +563,11 @@ h3.faq-heading-title {
     padding: 8px 16px;
     border-radius: 25px;
   }
+.c-search-container p .icon {
+    background: yellow;
+    padding: 10px;
+    border-radius: 32px;
+}
 @media screen and (max-width: 600px){
   .btn:not(.wishlist-button) {
     padding: 5px 15px;
