@@ -2,6 +2,7 @@
   "sections": {
     "breadcrumb": {
       "type": "breadcrumb",
+      "disabled": true,
       "settings": {
         "show_title_page": false,
         "h_position": "left",
