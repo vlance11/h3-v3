@@ -5174,7 +5174,7 @@ line-height: 15px;
 /* mobile  */
 @media only screen and (max-width : 767px){
   .slick-prev, .slick-next{opacity:1;}
-  .wrap_title{padding:10px;}
+  .wrap_title{padding:10px 0;}
   .sm\:d-none{display:none;}
   .sm\:d-block{display:block;}
   .images-card .image-card__img,
