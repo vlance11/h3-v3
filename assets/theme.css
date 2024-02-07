@@ -88,6 +88,9 @@
     color: #212121;
 }
 /* collection-carousel-product */
+.product-ratings .icon{
+  color: #E5C33A;
+}
 .product-collection__price > .price.price-regular {
     font-size: 20px;
     font-weight: 600;
