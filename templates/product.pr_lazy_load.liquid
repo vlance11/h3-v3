@@ -199,7 +199,7 @@
             </div>
           {%- endif -%}
         {%- if show_reviews -%}
-          {% render 'review-average', product:product %}
+          {% render 'review-average', product:product, hide_reviews_counter: hide_reviews_counter %}
         {%- endif -%}
         </div>
         {%- if show_availability -%}
