@@ -34,7 +34,6 @@ span.change-delivery {
 .delivery-info-item-icon {
     display: flex;
     margin-top: 4px;
-    /* width: 20px; */
 }
 
 .delivery-info-item-text h4, .service-item-text h4 {
@@ -61,6 +60,7 @@ span.change-delivery {
 .delivery-info-item-icon svg, .service-item-icon svg {
     width: 24px;
     object-fit: contain;
+    height: 24px;
 }
 
 .delivery-info-item-text p, .service-item-text {
@@ -85,11 +85,8 @@ span.change-delivery {
     margin-bottom: 15px;
 }
 
-.service-item-text h4 {}
-
-.service-item-text {}
 
 .service-item-icon {
     display: flex;
-    margin-top: 5px;
+    margin-top: 2px;
 }
