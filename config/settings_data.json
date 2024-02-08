@@ -1871,6 +1871,15 @@
               "col": "3"
             }
           },
+          "cat_w9bLxK": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "winch-accessories",
+              "title": "",
+              "col": "3"
+            }
+          },
           "mega_x4whzJ": {
             "type": "mega",
             "settings": {
@@ -1885,6 +1894,33 @@
               "wid": "cus",
               "cus_wid": 1200,
               "cl_bg": "#ffffff"
+            }
+          },
+          "cat_PwEQQe": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "hitch-mounted-cargo-carrier",
+              "title": "",
+              "col": "4"
+            }
+          },
+          "cat_F6BCGk": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "rooftop-cargo-carrier",
+              "title": "",
+              "col": "4"
+            }
+          },
+          "cat_Hr8A6R": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "bike-carriers",
+              "title": "",
+              "col": "4"
             }
           },
           "mega_VwPmaq": {
@@ -1946,7 +1982,11 @@
           "cat_c4GDNT",
           "cat_Yy8PFt",
           "cat_mwURix",
+          "cat_w9bLxK",
           "mega_x4whzJ",
+          "cat_PwEQQe",
+          "cat_F6BCGk",
+          "cat_Hr8A6R",
           "mega_VwPmaq"
         ],
         "settings": {
