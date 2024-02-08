@@ -155,13 +155,17 @@
 				{%- assign llists = linklists[block.settings.menu].links -%}
 	         	{%- if llists.size == 0 -%}{% continue %}{%- endif -%}
                  <div id="bk_{{block.id}}" class="type_link2 menu-item">
+                   <div class="row">
                     {%- for link in llists -%}
+                      <div class="col-lg-{{block.settings.col}} col-md-4 col-sm-12">
                        <div class="menu-item{% if link.active %} current{% endif %}">
                          <a href="{{ link.url }}">
                               {{ link.title }}
                          </a>
                        </div>
+                      </div>
                    {%- endfor -%}
+                   </div>
                  </div>
 	      {%- when 'html' -%}
 				<div id="bk_{{block.id}}" class="type_mn_html menu-item sub-column-item col-lg-{{block.settings.col}} col-md-12 col-sm-12">
