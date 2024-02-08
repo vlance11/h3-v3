@@ -1498,6 +1498,15 @@
               "col": "4"
             }
           },
+          "cat_893WtV": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "trailer-hitch-balls",
+              "title": "",
+              "col": "4"
+            }
+          },
           "8e8e1b81-52d1-4d34-a0be-6ce244523ab4": {
             "type": "dropdown",
             "settings": {
@@ -1687,6 +1696,7 @@
           "cat_ngTWQ9",
           "cat_KPwnYp",
           "cat_UHU9KD",
+          "cat_893WtV",
           "8e8e1b81-52d1-4d34-a0be-6ce244523ab4",
           "1fc80983-49c9-45c0-a4e4-59c3e7682610",
           "ac800396-e8da-4fac-b7c8-55e4a0f469b6",
