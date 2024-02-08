@@ -1529,7 +1529,7 @@
               "hoverz": true,
               "collection": "plug-play-brake-controllers",
               "title": "",
-              "col": "4"
+              "col": "3"
             }
           },
           "cat_btPHAA": {
@@ -1538,7 +1538,7 @@
               "hoverz": true,
               "collection": "brake-controller-wiring-adapters",
               "title": "",
-              "col": "4"
+              "col": "3"
             }
           },
           "cat_V9iqfa": {
@@ -1547,7 +1547,7 @@
               "hoverz": true,
               "collection": "brake-controllers-hardwire",
               "title": "",
-              "col": "4"
+              "col": "3"
             }
           },
           "cat_YVtqg6": {
@@ -1556,7 +1556,71 @@
               "hoverz": true,
               "collection": "trailer-brakes",
               "title": "",
-              "col": "4"
+              "col": "3"
+            }
+          },
+          "mega_qTPL6t": {
+            "type": "mega",
+            "settings": {
+              "title": "Wiring & Electrical",
+              "url": "#",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "wid": "cus",
+              "cus_wid": 1200,
+              "cl_bg": "#fff"
+            }
+          },
+          "mega_Giiq43": {
+            "type": "mega",
+            "settings": {
+              "title": "Trailer Accessories",
+              "url": "#",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "wid": "cus",
+              "cus_wid": 1200,
+              "cl_bg": "#fff"
+            }
+          },
+          "mega_rh9faq": {
+            "type": "mega",
+            "settings": {
+              "title": "Lighting & Signals",
+              "url": "#",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "wid": "cus",
+              "cus_wid": 1200,
+              "cl_bg": "#fff"
+            }
+          },
+          "mega_E7KKFC": {
+            "type": "mega",
+            "settings": {
+              "title": "Jacks & Winches",
+              "url": "#",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "wid": "cus",
+              "cus_wid": 1200,
+              "cl_bg": "#fff"
             }
           }
         },
@@ -1571,7 +1635,11 @@
           "cat_XAtQKc",
           "cat_btPHAA",
           "cat_V9iqfa",
-          "cat_YVtqg6"
+          "cat_YVtqg6",
+          "mega_qTPL6t",
+          "mega_Giiq43",
+          "mega_rh9faq",
+          "mega_E7KKFC"
         ],
         "settings": {
           "show_title": true,
