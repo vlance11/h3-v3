@@ -1507,186 +1507,29 @@
               "col": "4"
             }
           },
-          "8e8e1b81-52d1-4d34-a0be-6ce244523ab4": {
-            "type": "dropdown",
-            "settings": {
-              "title": "Laptop & Ipad",
-              "url": "shopify:\/\/collections\/laptop-ipad",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "1fc80983-49c9-45c0-a4e4-59c3e7682610": {
+          "mega_HtdRHU": {
             "type": "mega",
             "settings": {
-              "title": "Cameras & Photos",
-              "url": "shopify:\/\/collections\/cameras-photos",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "wid": "cus",
-              "cus_wid": 500,
-              "cl_bg": "#ffffff"
-            }
-          },
-          "ac800396-e8da-4fac-b7c8-55e4a0f469b6": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "Laptop & Computers",
-              "url": "shopify:\/\/collections\/laptop-ipad",
-              "open_link": "_self",
-              "menu": "",
-              "tt_hd2": "",
-              "url2": "",
-              "open_link2": "_self",
-              "menu2": "",
-              "col": "6"
-            }
-          },
-          "ef200aee-279a-4964-abac-bebe2f727adb": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "Prime Videos",
-              "url": "shopify:\/\/collections\/desktop-pc",
-              "open_link": "_self",
-              "menu": "",
-              "tt_hd2": "",
-              "url2": "",
-              "open_link2": "_self",
-              "menu2": "",
-              "col": "6"
-            }
-          },
-          "c53c46bc-f18a-455b-80a2-c2548098d859": {
-            "type": "mega",
-            "settings": {
-              "title": "Smart Phones & Tablets",
-              "url": "shopify:\/\/collections\/smart-phones-tablets",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "wid": "cus",
-              "cus_wid": 800,
-              "cl_bg": "#ffffff"
-            }
-          },
-          "7ca25df5-209e-4b5a-8ded-37a05ebb68d2": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "Laptop & Computers",
-              "url": "shopify:\/\/collections\/laptop-ipad",
-              "open_link": "_self",
-              "menu": "",
-              "tt_hd2": "Digital Cameras",
-              "url2": "shopify:\/\/collections\/cameras-photos",
-              "open_link2": "_self",
-              "menu2": "",
-              "col": "4"
-            }
-          },
-          "d8969115-58f7-44af-98b2-eabf1b5706ec": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "Prime Videos",
-              "url": "shopify:\/\/collections\/audios-theaters",
-              "open_link": "_self",
-              "menu": "",
-              "tt_hd2": "Laptop & Ipad",
-              "url2": "shopify:\/\/collections\/laptop-ipad",
-              "open_link2": "_self",
-              "menu2": "",
-              "col": "4"
-            }
-          },
-          "fed6ad98-1261-40d8-b4a3-dd7618b1bc53": {
-            "type": "banner",
-            "settings": {
-              "url": "",
-              "open_link": "_self",
-              "enable_content_banner": false,
-              "coll_name": "collections",
-              "col": "4"
-            }
-          },
-          "22570370-6b60-4181-9fb0-db1bf8580747": {
-            "type": "mega",
-            "settings": {
-              "title": "Home & Kitchen",
-              "url": "shopify:\/\/collections\/home-kitchen",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "wid": "cus",
-              "cus_wid": 500,
-              "cl_bg": "#ffffff"
-            }
-          },
-          "7b5afc56-afe1-4ae7-af42-a197582997e8": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "Laptop & Computers",
-              "url": "shopify:\/\/collections\/laptop-ipad",
-              "open_link": "_self",
-              "menu": "",
-              "tt_hd2": "Desktop PC",
-              "url2": "shopify:\/\/collections\/desktop-pc",
-              "open_link2": "_self",
-              "menu2": "",
-              "col": "6"
-            }
-          },
-          "0365e340-12f6-4618-b8d9-f8a211fa901a": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "Cameras & Photos",
-              "url": "shopify:\/\/collections\/cameras-photos",
-              "open_link": "_self",
-              "menu": "",
-              "tt_hd2": "",
-              "url2": "",
-              "open_link2": "_self",
-              "menu2": "",
-              "col": "6"
-            }
-          },
-          "b144f080-e7e6-4ee5-a7a4-2d192937d731": {
-            "type": "simple",
-            "settings": {
-              "title": "TV & Audios",
-              "url": "shopify:\/\/collections\/tv-audios",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "458e0169-9da4-432a-a257-d375f3e8b8b1": {
-            "type": "simple",
-            "settings": {
-              "title": "Top Selling Products",
+              "title": "Brake Systems",
               "url": "#",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
               "lb": "",
-              "lb_cl": ""
+              "lb_cl": "",
+              "wid": "cus",
+              "cus_wid": 1200,
+              "cl_bg": "#fff"
+            }
+          },
+          "cat_XAtQKc": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "plug-play-brake-controllers",
+              "title": "",
+              "col": "4"
             }
           }
         },
@@ -1697,19 +1540,8 @@
           "cat_KPwnYp",
           "cat_UHU9KD",
           "cat_893WtV",
-          "8e8e1b81-52d1-4d34-a0be-6ce244523ab4",
-          "1fc80983-49c9-45c0-a4e4-59c3e7682610",
-          "ac800396-e8da-4fac-b7c8-55e4a0f469b6",
-          "ef200aee-279a-4964-abac-bebe2f727adb",
-          "c53c46bc-f18a-455b-80a2-c2548098d859",
-          "7ca25df5-209e-4b5a-8ded-37a05ebb68d2",
-          "d8969115-58f7-44af-98b2-eabf1b5706ec",
-          "fed6ad98-1261-40d8-b4a3-dd7618b1bc53",
-          "22570370-6b60-4181-9fb0-db1bf8580747",
-          "7b5afc56-afe1-4ae7-af42-a197582997e8",
-          "0365e340-12f6-4618-b8d9-f8a211fa901a",
-          "b144f080-e7e6-4ee5-a7a4-2d192937d731",
-          "458e0169-9da4-432a-a257-d375f3e8b8b1"
+          "mega_HtdRHU",
+          "cat_XAtQKc"
         ],
         "settings": {
           "show_title": true,
