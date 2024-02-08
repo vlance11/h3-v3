@@ -1536,6 +1536,7 @@
           "cat_btPHAA": {
             "type": "cat",
             "settings": {
+              "image": "shopify:\/\/shop_images\/44652_23cd9e4c-d21e-40cd-b25b-dbbe2d5de5a0.png",
               "hoverz": true,
               "collection": "brake-controller-wiring-adapters",
               "title": "",
@@ -1545,6 +1546,7 @@
           "cat_V9iqfa": {
             "type": "cat",
             "settings": {
+              "image": "shopify:\/\/shop_images\/41504_ab17abc1-d69b-445c-8ed5-caf1e809647d.png",
               "hoverz": true,
               "collection": "brake-controllers-hardwire",
               "title": "",
@@ -1554,6 +1556,7 @@
           "cat_YVtqg6": {
             "type": "cat",
             "settings": {
+              "image": "shopify:\/\/shop_images\/36025_81eb95d3-e8f9-4715-8c76-1f7382f6c507.png",
               "hoverz": true,
               "collection": "trailer-brakes",
               "title": "",
