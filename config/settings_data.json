@@ -1462,17 +1462,12 @@
               "cl_bg": "#ffffff"
             }
           },
-          "84e1932e-471f-4b26-9ef7-3dfec524a40e": {
-            "type": "link",
+          "cat_WC4zX7": {
+            "type": "cat",
             "settings": {
-              "tt_hd": "Rear Trailer Hitches",
-              "url": "shopify:\/\/collections\/rear-trailer-hitches",
-              "open_link": "_self",
-              "menu": "footer",
-              "tt_hd2": "Digital Cameras",
-              "url2": "shopify:\/\/collections\/cameras-photos",
-              "open_link2": "_self",
-              "menu2": "",
+              "hoverz": true,
+              "collection": "rear-trailer-hitches",
+              "title": "",
               "col": "4"
             }
           },
@@ -1737,7 +1732,7 @@
         },
         "block_order": [
           "e8ebc923-7702-4173-a59c-e0d7d44e57d2",
-          "84e1932e-471f-4b26-9ef7-3dfec524a40e",
+          "cat_WC4zX7",
           "13dd185e-f97c-4d0f-8fab-1814cfe7a47a",
           "4877c37a-1866-4ff0-8521-88b4cd8393bd",
           "8e8e1b81-52d1-4d34-a0be-6ce244523ab4",
