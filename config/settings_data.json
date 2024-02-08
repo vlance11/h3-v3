@@ -1792,6 +1792,33 @@
               "cl_bg": "#ffffff"
             }
           },
+          "cat_3ChkKa": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "straight-couplers",
+              "title": "",
+              "col": "3"
+            }
+          },
+          "cat_frx8Pp": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "gooseneck-couplers",
+              "title": "",
+              "col": "3"
+            }
+          },
+          "cat_RrzzwD": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "a-frame-couplers",
+              "title": "",
+              "col": "3"
+            }
+          },
           "mega_teqgEi": {
             "type": "mega",
             "settings": {
@@ -1875,6 +1902,9 @@
           "cat_7AmeyD",
           "cat_33jEYW",
           "mega_wrAV47",
+          "cat_3ChkKa",
+          "cat_frx8Pp",
+          "cat_RrzzwD",
           "mega_teqgEi",
           "mega_x4whzJ",
           "mega_VwPmaq"
