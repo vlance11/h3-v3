@@ -154,4 +154,7 @@
         display: block;
         letter-spacing: normal;
     }
+    .breadcrumbs .outline-breadcrum {
+        margin-bottom: 10px;
+    }
 }
