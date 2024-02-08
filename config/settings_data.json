@@ -1480,6 +1480,15 @@
               "col": "4"
             }
           },
+          "cat_KPwnYp": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "gooseneck-hitches",
+              "title": "",
+              "col": "4"
+            }
+          },
           "8e8e1b81-52d1-4d34-a0be-6ce244523ab4": {
             "type": "dropdown",
             "settings": {
@@ -1667,6 +1676,7 @@
           "e8ebc923-7702-4173-a59c-e0d7d44e57d2",
           "cat_WC4zX7",
           "cat_ngTWQ9",
+          "cat_KPwnYp",
           "8e8e1b81-52d1-4d34-a0be-6ce244523ab4",
           "1fc80983-49c9-45c0-a4e4-59c3e7682610",
           "ac800396-e8da-4fac-b7c8-55e4a0f469b6",
