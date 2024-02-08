@@ -1540,6 +1540,15 @@
               "title": "",
               "col": "4"
             }
+          },
+          "cat_V9iqfa": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "brake-controllers-hardwire",
+              "title": "",
+              "col": "4"
+            }
           }
         },
         "block_order": [
@@ -1551,7 +1560,8 @@
           "cat_893WtV",
           "mega_HtdRHU",
           "cat_XAtQKc",
-          "cat_btPHAA"
+          "cat_btPHAA",
+          "cat_V9iqfa"
         ],
         "settings": {
           "show_title": true,
