@@ -134,4 +134,24 @@
         border-radius: 5px;
         padding: 10px !important;
     }
+
+    .wrap-breadcrum.h_left.v_middle {
+        height: fit-content;
+    }
+    
+    
+    .breadcrumbs .outline-breadcrum .wrap-breadcrum ul {
+        display: flex;
+        flex-wrap: nowrap;
+        column-gap: 12px;
+        align-items: start;
+    }
+    
+    
+    .breadcrumbs .outline-breadcrum .wrap-breadcrum ul li:last-child span {
+        font-size: 10px;
+        line-height: 1.5;
+        display: block;
+        letter-spacing: normal;
+    }
 }
