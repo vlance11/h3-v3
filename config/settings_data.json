@@ -1471,27 +1471,12 @@
               "col": "4"
             }
           },
-          "13dd185e-f97c-4d0f-8fab-1814cfe7a47a": {
-            "type": "link",
+          "cat_ngTWQ9": {
+            "type": "cat",
             "settings": {
-              "tt_hd": "Prime Videos",
-              "url": "#",
-              "open_link": "_self",
-              "menu": "",
-              "tt_hd2": "Cameras",
-              "url2": "shopify:\/\/collections\/cameras-photos",
-              "open_link2": "_self",
-              "menu2": "",
-              "col": "4"
-            }
-          },
-          "4877c37a-1866-4ff0-8521-88b4cd8393bd": {
-            "type": "banner",
-            "settings": {
-              "url": "shopify:\/\/collections\/laptop-ipad",
-              "open_link": "_blank",
-              "enable_content_banner": false,
-              "coll_name": "Laptop & Ipad",
+              "hoverz": true,
+              "collection": "fifth-wheel-hitches",
+              "title": "",
               "col": "4"
             }
           },
@@ -1664,62 +1649,10 @@
               "lb_cl": ""
             }
           },
-          "95b15b59-cb6a-446a-bec3-97965f900d4b": {
-            "type": "simple",
-            "settings": {
-              "title": "Health & Beauty",
-              "url": "shopify:\/\/collections\/health-beauty",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "a5479b73-452c-428b-807c-9fc23e6b7499": {
-            "type": "simple",
-            "settings": {
-              "title": "Watches & Eyewear",
-              "url": "shopify:\/\/collections\/watches-eyewear",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "32d188e5-f17e-4047-91a9-0ddd61b80940": {
-            "type": "simple",
-            "settings": {
-              "title": "Top Deals",
-              "url": "#",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
           "458e0169-9da4-432a-a257-d375f3e8b8b1": {
             "type": "simple",
             "settings": {
               "title": "Top Selling Products",
-              "url": "#",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "cdf00ca1-1c7e-4be1-b44f-59f861f0d1ed": {
-            "type": "simple",
-            "settings": {
-              "title": "Top Featured Products",
               "url": "#",
               "open_link": "_self",
               "icon": "",
@@ -1733,8 +1666,7 @@
         "block_order": [
           "e8ebc923-7702-4173-a59c-e0d7d44e57d2",
           "cat_WC4zX7",
-          "13dd185e-f97c-4d0f-8fab-1814cfe7a47a",
-          "4877c37a-1866-4ff0-8521-88b4cd8393bd",
+          "cat_ngTWQ9",
           "8e8e1b81-52d1-4d34-a0be-6ce244523ab4",
           "1fc80983-49c9-45c0-a4e4-59c3e7682610",
           "ac800396-e8da-4fac-b7c8-55e4a0f469b6",
@@ -1747,11 +1679,7 @@
           "7b5afc56-afe1-4ae7-af42-a197582997e8",
           "0365e340-12f6-4618-b8d9-f8a211fa901a",
           "b144f080-e7e6-4ee5-a7a4-2d192937d731",
-          "95b15b59-cb6a-446a-bec3-97965f900d4b",
-          "a5479b73-452c-428b-807c-9fc23e6b7499",
-          "32d188e5-f17e-4047-91a9-0ddd61b80940",
-          "458e0169-9da4-432a-a257-d375f3e8b8b1",
-          "cdf00ca1-1c7e-4be1-b44f-59f861f0d1ed"
+          "458e0169-9da4-432a-a257-d375f3e8b8b1"
         ],
         "settings": {
           "show_title": true,
