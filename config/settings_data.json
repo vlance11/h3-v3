@@ -1839,9 +1839,36 @@
             "type": "cat",
             "settings": {
               "hoverz": true,
-              "collection": "",
+              "collection": "fender-wheel",
               "title": "",
-              "col": "4"
+              "col": "3"
+            }
+          },
+          "cat_c4GDNT": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "ramps",
+              "title": "",
+              "col": "3"
+            }
+          },
+          "cat_Yy8PFt": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "coupler-locks",
+              "title": "",
+              "col": "3"
+            }
+          },
+          "cat_mwURix": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "sidewinders",
+              "title": "",
+              "col": "3"
             }
           },
           "mega_x4whzJ": {
@@ -1916,6 +1943,9 @@
           "cat_RrzzwD",
           "mega_teqgEi",
           "cat_Cpet6D",
+          "cat_c4GDNT",
+          "cat_Yy8PFt",
+          "cat_mwURix",
           "mega_x4whzJ",
           "mega_VwPmaq"
         ],
