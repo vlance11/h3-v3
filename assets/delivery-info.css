@@ -91,3 +91,27 @@
     display: flex;
     margin-top: 2px;
 }
+
+.standard-delivery {
+    position: relative;
+}
+
+.standard-price {
+    position: absolute;
+    right: 0;
+    top: 3px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+    font-weight: 600;
+}
+
+.standard-arrow {
+    display: flex;
+    align-items: center;
+}
+
+.delivery-info-item-text h4 {
+    display: flex;
+    justify-content: space-between;
+}
