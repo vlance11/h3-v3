@@ -61,12 +61,12 @@
 		{% endcase%}
 		
 		
-		{%comment%}<li id="item_{{block.id}}" class="cat_menu-0">
+		{% comment %}<li id="item_{{block.id}}" class="cat_menu-0">
           	<a class="flex" href="{{block.settings.url}}"{% if block.settings.cus_cl %} style="color: {{block.settings.cl}} !important"{% endif %}>
               	{%- render 'vertical_menu_html',block:block -%}
           	</a>
 		</li>
-		{%endcomment%}
+		{% endcomment %}
 		
 	{%- endfor -%}
 
