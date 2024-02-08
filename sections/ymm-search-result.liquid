@@ -7,15 +7,7 @@
   <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
-{% style %}
-.search-result-ctm .grid-view-item__title a {
-    color: #000000;
-    -webkit-line-clamp: 2;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
-{% endstyle %}
+
 <script src="{{ 'search-form.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'main-search.js' | asset_url }}" defer="defer"></script>
 {%- liquid
@@ -42,6 +34,18 @@
     	assign class_style = "list-style" 
     endif    
 %} 
+{% style %}
+#laber_{{sid}}{
+  background-color: {{ section.settings.cl_bg }};
+}
+.search-result-ctm .grid-view-item__title a {
+    color: #000000;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+{% endstyle %}
 <section id="laber_{{sid}}">
 {% assign type="" %}
 
