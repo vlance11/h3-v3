@@ -6,7 +6,7 @@
     width: 326px;
     background: #E0F2FF;
     padding: 25px;
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
     min-width: 326px;
     margin-bottom: 30px;
 }
