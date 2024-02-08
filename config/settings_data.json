@@ -1622,6 +1622,70 @@
               "cus_wid": 1200,
               "cl_bg": "#fff"
             }
+          },
+          "mega_wrAV47": {
+            "type": "mega",
+            "settings": {
+              "title": "Couplers & Hooks",
+              "url": "#",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "wid": "cus",
+              "cus_wid": 1200,
+              "cl_bg": "#fff"
+            }
+          },
+          "mega_teqgEi": {
+            "type": "mega",
+            "settings": {
+              "title": "Miscellaneous",
+              "url": "#",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "wid": "cus",
+              "cus_wid": 1200,
+              "cl_bg": "#fff"
+            }
+          },
+          "mega_x4whzJ": {
+            "type": "mega",
+            "settings": {
+              "title": "Cargo & Carriers",
+              "url": "#",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "wid": "cus",
+              "cus_wid": 1200,
+              "cl_bg": "#fff"
+            }
+          },
+          "mega_VwPmaq": {
+            "type": "mega",
+            "settings": {
+              "title": "Trailer & Towing Laws by State",
+              "url": "#",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "wid": "cus",
+              "cus_wid": 1200,
+              "cl_bg": "#fff"
+            }
           }
         },
         "block_order": [
@@ -1639,7 +1703,11 @@
           "mega_qTPL6t",
           "mega_Giiq43",
           "mega_rh9faq",
-          "mega_E7KKFC"
+          "mega_E7KKFC",
+          "mega_wrAV47",
+          "mega_teqgEi",
+          "mega_x4whzJ",
+          "mega_VwPmaq"
         ],
         "settings": {
           "show_title": true,
