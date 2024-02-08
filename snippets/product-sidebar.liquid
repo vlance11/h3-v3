@@ -1,6 +1,6 @@
 <div class="delivery-info-wrap">
     <h3 class="delivery-info-heading delivery-info-heading">Delivery</h3>
-    <span class="change-delivery">Change</span>
+    <a href="{{ customer.addresses }}" class="change-delivery">Change</a>
     <div class="delivery-info-item delivery-address">
         <div class="delivery-info-item-icon">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -8,7 +8,7 @@
             </svg>            
         </div>
         <div class="delivery-info-item-text">
-            <h4>4 Honey Creek Street Brooklyn, NY 11213</h4>
+            <h4>{{ customer.default_address.address1 }}, {{ customer.default_address.city }}, {{ customer.default_address.province_code }}, {{ customer.default_address.zip }}</h4>
         </div>
     </div>
     <div class="delivery-info-item standard-delivery">
