@@ -1520,7 +1520,7 @@
               "lb_cl": "",
               "wid": "cus",
               "cus_wid": 1200,
-              "cl_bg": "#fff"
+              "cl_bg": "#ffffff"
             }
           },
           "cat_XAtQKc": {
@@ -1572,7 +1572,7 @@
               "lb_cl": "",
               "wid": "cus",
               "cus_wid": 1200,
-              "cl_bg": "#fff"
+              "cl_bg": "#ffffff"
             }
           },
           "cat_eFWMNj": {
@@ -1624,7 +1624,61 @@
               "lb_cl": "",
               "wid": "cus",
               "cus_wid": 1200,
-              "cl_bg": "#fff"
+              "cl_bg": "#ffffff"
+            }
+          },
+          "cat_qdWpxc": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "base-rails-for-fifth-wheels-goosenecks",
+              "title": "",
+              "col": "3"
+            }
+          },
+          "cat_eNn8XV": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "accessories-parts",
+              "title": "",
+              "col": "3"
+            }
+          },
+          "cat_e73q8G": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "ball-mounts",
+              "title": "",
+              "col": "3"
+            }
+          },
+          "cat_AzDGAJ": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "trailer-hitch-accessories",
+              "title": "",
+              "col": "3"
+            }
+          },
+          "cat_z3DWNL": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "replacement-parts-accessories",
+              "title": "",
+              "col": "3"
+            }
+          },
+          "cat_NxgkFt": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "trailer-parts",
+              "title": "",
+              "col": "4"
             }
           },
           "mega_rh9faq": {
@@ -1640,7 +1694,34 @@
               "lb_cl": "",
               "wid": "cus",
               "cus_wid": 1200,
-              "cl_bg": "#fff"
+              "cl_bg": "#ffffff"
+            }
+          },
+          "cat_hkkWb8": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "trailer-lights",
+              "title": "",
+              "col": "3"
+            }
+          },
+          "cat_iKfPqV": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "trailer-wiring-adapters",
+              "title": "",
+              "col": "3"
+            }
+          },
+          "cat_kRPRtq": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "trailer-wiring-mounting-brackets",
+              "title": "",
+              "col": "3"
             }
           },
           "mega_E7KKFC": {
@@ -1656,7 +1737,43 @@
               "lb_cl": "",
               "wid": "cus",
               "cus_wid": 1200,
-              "cl_bg": "#fff"
+              "cl_bg": "#ffffff"
+            }
+          },
+          "cat_HPxhV8": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "round-jacks",
+              "title": "",
+              "col": "3"
+            }
+          },
+          "cat_FkbnAf": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "jack-accessories",
+              "title": "",
+              "col": "3"
+            }
+          },
+          "cat_7AmeyD": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "jack-replacement-parts",
+              "title": "",
+              "col": "3"
+            }
+          },
+          "cat_33jEYW": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "trailer-winches",
+              "title": "",
+              "col": "3"
             }
           },
           "mega_wrAV47": {
@@ -1672,7 +1789,7 @@
               "lb_cl": "",
               "wid": "cus",
               "cus_wid": 1200,
-              "cl_bg": "#fff"
+              "cl_bg": "#ffffff"
             }
           },
           "mega_teqgEi": {
@@ -1688,7 +1805,7 @@
               "lb_cl": "",
               "wid": "cus",
               "cus_wid": 1200,
-              "cl_bg": "#fff"
+              "cl_bg": "#ffffff"
             }
           },
           "mega_x4whzJ": {
@@ -1704,7 +1821,7 @@
               "lb_cl": "",
               "wid": "cus",
               "cus_wid": 1200,
-              "cl_bg": "#fff"
+              "cl_bg": "#ffffff"
             }
           },
           "mega_VwPmaq": {
@@ -1720,7 +1837,7 @@
               "lb_cl": "",
               "wid": "cus",
               "cus_wid": 1200,
-              "cl_bg": "#fff"
+              "cl_bg": "#ffffff"
             }
           }
         },
@@ -1742,8 +1859,21 @@
           "cat_np7J8W",
           "cat_bQBcc8",
           "mega_Giiq43",
+          "cat_qdWpxc",
+          "cat_eNn8XV",
+          "cat_e73q8G",
+          "cat_AzDGAJ",
+          "cat_z3DWNL",
+          "cat_NxgkFt",
           "mega_rh9faq",
+          "cat_hkkWb8",
+          "cat_iKfPqV",
+          "cat_kRPRtq",
           "mega_E7KKFC",
+          "cat_HPxhV8",
+          "cat_FkbnAf",
+          "cat_7AmeyD",
+          "cat_33jEYW",
           "mega_wrAV47",
           "mega_teqgEi",
           "mega_x4whzJ",
