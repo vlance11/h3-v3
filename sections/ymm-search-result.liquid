@@ -151,7 +151,7 @@
                                         {% for vendor in shop.vendors limit: 20 %}
                                         <li class="list-menu__item facets__item{% if forloop.index > 10 %} show-more-item hidden{% endif %}">
                                           <label for="Filter-Vendor-{{ forloop.index }}" class="facet-checkbox">
-                                            <input type="checkbox" name="filter.p.vendor" value="{{ vendor }}" id="Filter-Vendor-{{ forloop.index }}">
+                                            <input type="checkbox" name="filter.p.vendor" value="{{ vendor }}" id="Filter-Vendor-{{ forloop.index }}" onchange="window.location.href='/collections/vendor?q={{ vendor }}'">
                   
                                             <span class="square"></span>
                                             <i class="icon-check icon-checkmark"></i>
