@@ -35,8 +35,8 @@
     endif    
 %} 
 {% style %}
-#laber_{{sid}}{
-  background-color: {{ section.settings.cl_bg }};
+#laber_{{sid}} .template-search{
+  background: {{ section.settings.cl_bg }};
 }
 .search-result-ctm .grid-view-item__title a {
     color: #000000;
@@ -47,33 +47,7 @@
 }
 {% endstyle %}
 <section id="laber_{{sid}}">
-{% assign type="" %}
-
-{% for item in search.results %}
-    {% if item.object_type == 'article' %}
-        {% assign type="article" %}
-        {% break %}
-    {% elsif item.object_type == 'page' %}
-        <!--
-        'item' is a page.
-        All page object properties can be accessed.
-        -->
-        {% assign type="page" %}
-        {% break %}
-    {% elsif item.object_type == 'product' %}
-        <!--
-        'item' is a product.
-        All product object properties can be accessed.
-        -->
-        {% assign type="product" %}
-        {% break %}
-  {% else %}
-    {% assign type="" %}
-    {% break %}
-    {% endif %}
-{% endfor %}
-<div class="template-search{% unless search.performed and search.results_count > 0 %} template-search--empty{% endunless %} section-{{ section.id }}-padding">
-
+<div class="template-search section-{{ section.id }}-padding">
   <div class="main-container shop-page">
     <div class=" main-content-grid js_container_cat "> 
     <div class="js_categories_content">
