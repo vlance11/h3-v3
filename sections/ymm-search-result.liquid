@@ -62,7 +62,7 @@
 <div class="template-search{% unless search.performed and search.results_count > 0 %} template-search--empty{% endunless %} section-{{ section.id }}-padding">
 
   <div class="main-container shop-page">
-    <div class=" main-content-grid js_container_cat ">
+    <div class=" main-content-grid js_container_cat "> 
     <div class="js_categories_content">
       <div class="container wrap-main-collection">
         <div class="row">
@@ -79,7 +79,7 @@
                 {% endunless %}	
               <!-- Ended YMM short code --> 
               
-              {%- assign is_sidebar = false -%}
+              {%- assign is_sidebar = true -%}
               
               <div class="page-width container{% if is_sidebar == true %} ymm-result-page{% endif %}">
               {% if is_sidebar == true %}
