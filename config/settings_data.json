@@ -1526,6 +1526,7 @@
           "cat_XAtQKc": {
             "type": "cat",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Component_1_4.png",
               "hoverz": false,
               "collection": "plug-play-brake-controllers",
               "title": "",
