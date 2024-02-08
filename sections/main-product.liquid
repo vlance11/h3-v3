@@ -26,7 +26,7 @@
   <meta itemprop="url" content="{{ shop.url }}{{ product.url }}">
   <meta itemprop="image" content="{{ product.featured_image.src | img_url: 'grande' }}">
 <div class="main-content shop-page main-content-detail single-product-wrap">
-    <div id="laber_{{sid}}" class="alo-border-radius" style="--alo-border-radius:{{ section.settings.bd }};">
+    <div id="laber_{{sid}}" class="alo-border-radius single-product-info" style="--alo-border-radius:{{ section.settings.bd }};">
       <div class="content-offset {{ product_page_design }}">
         <div class="js_product_single" id="product-single" data-js-product >
           <script class="data-json-product" type="application/json">{% render 'product-get-attributes', product:product, build_variant: 'json' %}</script>
