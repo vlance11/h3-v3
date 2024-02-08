@@ -15,7 +15,7 @@
     {% endif %}
     <div class="delivery-info-item standard-delivery">
         {% assign range =  2 | times: 24 | times: 60 | times: 60 %}
-        {% assign deliver_in =  7 | times: 24 | times: 60 | times: 60 %}
+        {% assign deliver_in =  3 | times: 24 | times: 60 | times: 60 %}
         {% assign now = 'now' | date: "%s" %}
         {% assign date_format = '%b %d' | default: "%b %d" %}
         
