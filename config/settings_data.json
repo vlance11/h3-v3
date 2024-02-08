@@ -1549,6 +1549,15 @@
               "title": "",
               "col": "4"
             }
+          },
+          "cat_YVtqg6": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "trailer-brakes",
+              "title": "",
+              "col": "4"
+            }
           }
         },
         "block_order": [
@@ -1561,7 +1570,8 @@
           "mega_HtdRHU",
           "cat_XAtQKc",
           "cat_btPHAA",
-          "cat_V9iqfa"
+          "cat_V9iqfa",
+          "cat_YVtqg6"
         ],
         "settings": {
           "show_title": true,
