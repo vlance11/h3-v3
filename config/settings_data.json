@@ -1938,6 +1938,13 @@
               "cus_wid": 1200,
               "cl_bg": "#ffffff"
             }
+          },
+          "link2_6qb7cp": {
+            "type": "link2",
+            "settings": {
+              "col": "3",
+              "menu": "trailer-towing-laws-by-state"
+            }
           }
         },
         "block_order": [
@@ -1987,7 +1994,8 @@
           "cat_PwEQQe",
           "cat_F6BCGk",
           "cat_Hr8A6R",
-          "mega_VwPmaq"
+          "mega_VwPmaq",
+          "link2_6qb7cp"
         ],
         "settings": {
           "show_title": true,
