@@ -1,4 +1,5 @@
 <div class="delivery-info-wrap">
+    {% if customer %}
     <h3 class="delivery-info-heading delivery-info-heading">Delivery</h3>
     <a href="{{ customer.addresses }}" class="change-delivery">Change</a>
     <div class="delivery-info-item delivery-address">
@@ -11,6 +12,7 @@
             <h4>{{ customer.default_address.address1 }}, {{ customer.default_address.city }}, {{ customer.default_address.province_code }}, {{ customer.default_address.zip }}</h4>
         </div>
     </div>
+    {% endif %}
     <div class="delivery-info-item standard-delivery">
         <div class="delivery-info-item-icon">
             <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
