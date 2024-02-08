@@ -1835,6 +1835,15 @@
               "cl_bg": "#ffffff"
             }
           },
+          "cat_Cpet6D": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "",
+              "title": "",
+              "col": "4"
+            }
+          },
           "mega_x4whzJ": {
             "type": "mega",
             "settings": {
@@ -1906,6 +1915,7 @@
           "cat_frx8Pp",
           "cat_RrzzwD",
           "mega_teqgEi",
+          "cat_Cpet6D",
           "mega_x4whzJ",
           "mega_VwPmaq"
         ],
