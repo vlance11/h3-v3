@@ -115,3 +115,23 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media only screen and (max-width:767px) {
+    .wrapper_caption #b_hd_APyB9p.slide_item_h3 {
+        margin-bottom: 20px;
+    }
+    .single-product-wrap {
+        display: block;
+    }
+    
+    .product-sidebar {
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    .single-product-info {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px !important;
+    }
+}
