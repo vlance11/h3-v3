@@ -20,7 +20,7 @@
         {% assign date_format = '%b %d' | default: "%b %d" %}
         
         {% assign from = now | plus: deliver_in | minus: range | date: date_format %}
-        {% assign to = now | plus: deliver_in | plus: range | date: date_format %}
+        {% assign to = now | plus: deliver_in | date: date_format %}
 
         <div class="delivery-info-item-icon">
             <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
