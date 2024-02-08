@@ -1259,7 +1259,7 @@
               "title": "Manufacturers",
               "url": "#",
               "open_link": "_self",
-              "menu": "footer",
+              "menu": "manufacturer",
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
