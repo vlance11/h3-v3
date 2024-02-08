@@ -15,7 +15,7 @@
     position: relative;
 }
 
-span.change-delivery {
+.change-delivery {
     position: absolute;
     right: 0;
     top: 0;
