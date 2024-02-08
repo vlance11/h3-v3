@@ -112,7 +112,7 @@
                                         {% for type in shop.types limit: 20 %}
                                         <li class="list-menu__item facets__item{% if forloop.index > 10 %} show-more-item hidden{% endif %}">
                                           <label for="Filter-type-{{ forloop.index }}" class="facet-checkbox">
-                                            <input type="checkbox" name="filter.p.type" value="{{ type }}" id="Filter-type-{{ forloop.index }}">
+                                            <input type="checkbox" name="filter.p.type" value="{{ type }}" id="Filter-type-{{ forloop.index }}" onchange="window.location.href='/search?type=product&q={{ vendor | handlize }}'">
                   
                                             <span class="square"></span>
                                             <i class="icon-check icon-checkmark"></i>
