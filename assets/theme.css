@@ -23,13 +23,7 @@
     text-align: center;
 }
 /* ------ */
-.search-result-ctm .grid-view-item__title a {
-    color: #000000;
-    -webkit-line-clamp: 2;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-}
+
 .section-title.h1 {
     font-size: 38px;
     margin-bottom: 15px;
