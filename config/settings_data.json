@@ -1494,8 +1494,8 @@
               "cl": "#ec0101",
               "lb": "",
               "lb_cl": "",
-              "wid": "full",
-              "cus_wid": 1200,
+              "wid": "full container",
+              "cus_wid": 900,
               "cl_bg": "#ffffff"
             }
           },
