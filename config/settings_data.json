@@ -1563,15 +1563,6 @@
               "col": "3"
             }
           },
-          "cat_JeA6eJ": {
-            "type": "cat",
-            "settings": {
-              "hoverz": true,
-              "collection": "",
-              "title": "",
-              "col": "4"
-            }
-          },
           "mega_qTPL6t": {
             "type": "mega",
             "settings": {
@@ -1972,7 +1963,6 @@
           "cat_btPHAA",
           "cat_V9iqfa",
           "cat_YVtqg6",
-          "cat_JeA6eJ",
           "mega_qTPL6t",
           "cat_eFWMNj",
           "cat_rB8gkT",
