@@ -84,9 +84,12 @@
               <div class="page-width container{% if is_sidebar == true %} ymm-result-page{% endif %}">
               
               <div class="ymm-grid">
-                  <div class="page-ymm-custom">                    
+                  <div class="page-ymm-custom">
+                    <div class="section-header text-center">
+                      <h1 id="title" class="ymm_pg_title"></h1>
+                      <h4><span id="total_products"></span></h4>
+                    </div>
                     <div class="ymm_content">
-                      	{{ page.content }}
                       <div class="row">
                         <div class="col-lg-3 col-md-3">
                           {% if is_sidebar == true %}
@@ -94,10 +97,6 @@
                           {% endif %}
                         </div>
                         <div class="col-lg-9 col-md-9 col-sm-12">
-                          <div class="section-header text-center">
-                            <h1 id="title" class="ymm_pg_title"></h1>
-                            <h4><span id="total_products"></span></h4>
-                          </div>
                         	{%- comment -%} DO NOT EDIT BELOW LINES [ PRODUCTS ARE WRITTEN IN THIS PART DYNAMICALLY ] {%- endcomment -%}
                         	<div id="product_container" class="clearfix">
                               <div class="ymm-prd-loader" style="display: none;"></div>
