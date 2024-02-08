@@ -2,6 +2,9 @@
 .link2-menu.menu-item {
     padding: 10px 0;
 }
+.type_mn_pr.menu-item {
+    margin-bottom: 10px;
+}
 .laber-language button {
   background: transparent;
   border: none;
