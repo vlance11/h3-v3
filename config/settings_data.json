@@ -1267,28 +1267,6 @@
               "lb_cl": ""
             }
           },
-          "eb4b8b78-e314-4cbd-bfd9-fa78f1dbb8d9": {
-            "type": "link",
-            "disabled": true,
-            "settings": {
-              "tt_hd": "Product Layout",
-              "url": "#",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
-          "e3ad527e-3670-40a3-b827-3adcc2c529d4": {
-            "type": "link",
-            "disabled": true,
-            "settings": {
-              "tt_hd": "Product Type",
-              "url": "#",
-              "open_link": "_self",
-              "menu": "",
-              "col": "3"
-            }
-          },
           "simple_HihL7p": {
             "type": "simple",
             "settings": {
@@ -1352,8 +1330,6 @@
         },
         "block_order": [
           "d68538b5-22d3-4082-9b4b-6cf2ab00a70b",
-          "eb4b8b78-e314-4cbd-bfd9-fa78f1dbb8d9",
-          "e3ad527e-3670-40a3-b827-3adcc2c529d4",
           "simple_HihL7p",
           "simple_JbLgUQ",
           "3681d0ce-afc6-4344-b966-cfda71fb5b43",
