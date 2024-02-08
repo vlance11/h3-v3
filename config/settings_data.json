@@ -1531,6 +1531,15 @@
               "title": "",
               "col": "4"
             }
+          },
+          "cat_btPHAA": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "brake-controller-wiring-adapters",
+              "title": "",
+              "col": "4"
+            }
           }
         },
         "block_order": [
@@ -1541,7 +1550,8 @@
           "cat_UHU9KD",
           "cat_893WtV",
           "mega_HtdRHU",
-          "cat_XAtQKc"
+          "cat_XAtQKc",
+          "cat_btPHAA"
         ],
         "settings": {
           "show_title": true,
