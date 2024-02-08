@@ -356,13 +356,13 @@ visibility: visible;
 .list-vertical_menu .subverticalmenu .menu-item .cat_grid_item__title a{
     background: rgb(255, 255, 255,.2);
     line-height: 14px;
-    padding: 0 25px;
+    padding: 10px 25px;
     display: inline-flex;
     border-radius: 2px;
     font-weight: 400;
     font-size: 14px;
     color: #212121;
-    border: 2px solid #212121;
+    border: 1px solid #cccccc;
 }
 .list-vertical_menu .subverticalmenu .menu-item .laber_content_html a:hover,
 .list-vertical_menu .subverticalmenu .menu-item .cat_grid_item__title a:hover{
