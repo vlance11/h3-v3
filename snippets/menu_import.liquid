@@ -158,11 +158,11 @@
                    <div class="row">
                     {%- for link in llists -%}
                       <div class="col-lg-{{block.settings.col}} col-md-4 col-sm-12">
-                       <div class="menu-item{% if link.active %} current{% endif %}">
-                         <a href="{{ link.url }}">
-                              {{ link.title }}
-                         </a>
-                       </div>
+                         <div class="link2-menu menu-item{% if link.active %} current{% endif %}">
+                           <a href="{{ link.url }}">
+                                {{ link.title }}
+                           </a>
+                         </div>
                       </div>
                    {%- endfor -%}
                    </div>
