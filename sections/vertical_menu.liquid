@@ -24,10 +24,10 @@
                   <div class="subverticalmenu vertical-menu vertical-menu1" 
                        style="{% if  block.settings.wid == 'cus' %} width:{{block.settings.cus_wid}}px;{% endif %}
                               {%if cl_bg!=blank %}background-color:{{cl_bg}};{%endif%}
-                              {%if img_bg!=blank %}
+                              {% if img_bg!=blank %}
                               	{%- assign img_url = img_bg | img_url: '500x' -%}
                               	background-image:url({{ img_url }});
-                              {%endif%} "
+                              {% endif %} "
                        >
                     <div class="{{block.settings.wid}}">
                       <div id="bk_{{block.id}}" class="row lazy_menu_mega lazyload" data-include="{{routes.search_url}}?q={{block.id}}&view=item_vegamenu" >
