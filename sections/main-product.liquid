@@ -18,6 +18,8 @@
 {%- assign height_zoom = settings.height_zoom -%}
 {% assign build_variant = "all" %}
 {% assign mediaDawn = false %}
+
+{{'delivery-info.css' |  asset_url | stylesheet_tag:preload:true}}
 <section>
 <div itemscope itemtype="http://schema.org/Product">
   <meta itemprop="name" content="{{ product.title }}">
