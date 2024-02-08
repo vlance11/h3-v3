@@ -82,9 +82,7 @@
               {%- assign is_sidebar = true -%}
               
               <div class="page-width container{% if is_sidebar == true %} ymm-result-page{% endif %}">
-              {% if is_sidebar == true %}
-              <div class="sidebar">SIDE BAR FILE INCLUDE</div>
-              {% endif %}
+              
               <div class="ymm-grid">
                   <div class="page-ymm-custom">
                     <div class="section-header text-center">
@@ -93,14 +91,22 @@
                     </div>
                     <div class="ymm_content">
                       	{{ page.content }}
-                      
-                      	{%- comment -%} DO NOT EDIT BELOW LINES [ PRODUCTS ARE WRITTEN IN THIS PART DYNAMICALLY ] {%- endcomment -%}
-                      	<div id="product_container" class="clearfix">
-                            <div class="ymm-prd-loader" style="display: none;"></div>
-                            <div id="products" class="grid search-result-ctm"></div>
-                            <div class="clearfix paging-outr"><ul class="pagination" id="paginate"></ul></div>
-                      	</div>
-                      	{%- comment -%} ENDS HERE {%- endcomment -%}
+                      <div class="row">
+                        <div class="col-lg-3 col-md-3">
+                          {% if is_sidebar == true %}
+                          <div class="sidebar">SIDE BAR FILE INCLUDE</div>
+                          {% endif %}
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-12">
+                        	{%- comment -%} DO NOT EDIT BELOW LINES [ PRODUCTS ARE WRITTEN IN THIS PART DYNAMICALLY ] {%- endcomment -%}
+                        	<div id="product_container" class="clearfix">
+                              <div class="ymm-prd-loader" style="display: none;"></div>
+                              <div id="products" class="grid search-result-ctm"></div>
+                              <div class="clearfix paging-outr"><ul class="pagination" id="paginate"></ul></div>
+                        	</div>
+                        	{%- comment -%} ENDS HERE {%- endcomment -%}
+                        </div>
+                      </div>
                     </div>
                   </div>
               </div>
