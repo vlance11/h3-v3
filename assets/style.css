@@ -1,6 +1,6 @@
 .single-product-info {
     border: 1px solid #E3D6FF;
-    padding: 20px;
+    padding: 20px !important;
     margin-top: 0;
     border-radius: 5px;
 } 
