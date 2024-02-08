@@ -1526,7 +1526,7 @@
           "cat_XAtQKc": {
             "type": "cat",
             "settings": {
-              "hoverz": true,
+              "hoverz": false,
               "collection": "plug-play-brake-controllers",
               "title": "",
               "col": "3"
