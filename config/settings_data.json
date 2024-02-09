@@ -2100,6 +2100,12 @@
               "show_icon": true,
               "icon": "<i class=\"icon-heart\"><\/i>"
             }
+          },
+          "language_currency_QxjpaJ": {
+            "type": "language_currency",
+            "settings": {
+              "show_flag": false
+            }
           }
         },
         "block_order": [
@@ -2112,7 +2118,8 @@
           "menu_mb_EtUf4f",
           "menu_mb_M3C6Ek",
           "mobile_menu-7",
-          "mobile_menu-4"
+          "mobile_menu-4",
+          "language_currency_QxjpaJ"
         ],
         "settings": {
           "show_close": true,
