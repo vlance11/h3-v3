@@ -72,24 +72,10 @@
 				  {%- assign home_t = 'homepage.onboarding.collection_title' | t  | append:' #' | append:for_i -%} 
             	<div id="bk_{{block.id}}" class="type_mn_pr menu-item sub-column-item col-lg-{{block.settings.col}} col-md-12 col-sm-12 {% if block.settings.hoverz %}zoom_img{%endif%} cat_design_{{block.settings.cat_design}}">
 					<div class="cat_grid_item cat_space_item">
-					  <div class="cat_grid_item__content images-card">
-					    <a href="{{ collection.url | default:'/' }}" class="db cat_grid_item__link">
-					      {%- if image != blank -%}
-					         {% render 'responsive-image', image: image, image_class: 'w-full h-full' %}
-					      {%- else -%}
-					        <div class="alo-image">
-                            {% capture current %}{% cycle 1, 2, 3, 4, 5 %}{% endcapture %}
-                              {{ 'collection-' | append: current | placeholder_svg_tag: 'placeholder-svg w-full h-full' }}
-                            </div>
-					      {%- endif -%}
-					    </a>
-					    <div class="cat_grid_item__wrapper">
-					      <div class="cat_grid_item__title">
-                            <a href="{{ collection.url | default:'/' }}" title=" {{ block.settings.title | default:collection.title | default:home_t }}">	
-                              {{ block.settings.title | default:collection.title | default:home_t }}
-                            </a>
-                          </div>
-					    </div>
+					  <div class="cat_grid_item__content">
+					    <a href="{{ collection.url | default:'/' }}" title=" {{ block.settings.title | default:collection.title | default:home_t }}">	
+							{{ block.settings.title | default:collection.title | default:home_t }}
+						</a>
 					  </div>
 					</div>
 				</div>
