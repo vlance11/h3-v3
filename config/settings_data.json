@@ -1307,6 +1307,19 @@
               "lb_cl": "#4ad295"
             }
           },
+          "simple_6BhBKe": {
+            "type": "simple",
+            "settings": {
+              "title": "Windshield wiper Blades",
+              "url": "shopify:\/\/collections\/windshield-wiper-blades-hitchexpo-com",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "bab6430c-5d2b-4e8e-8e42-224c6d149882": {
             "type": "dropdown",
             "settings": {
@@ -1333,6 +1346,7 @@
           "simple_HihL7p",
           "simple_JbLgUQ",
           "3681d0ce-afc6-4344-b966-cfda71fb5b43",
+          "simple_6BhBKe",
           "bab6430c-5d2b-4e8e-8e42-224c6d149882",
           "91d39423-2228-4261-a575-2a91514f5de6"
         ],
