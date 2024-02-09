@@ -2125,6 +2125,7 @@
           "show_close": true,
           "close": "close",
           "show_logo": false,
+          "logo": "shopify:\/\/shop_images\/hitch-expo-logo.png",
           "logo_max_width": 120,
           "bg_menu": "#ffffff",
           "color_text": "#212529",
