@@ -1993,6 +1993,45 @@
               "icon": "<i class=\"icon-search\"><\/i>"
             }
           },
+          "menu_mb_pCwmAn": {
+            "type": "menu_mb",
+            "settings": {
+              "title": "Categories",
+              "url": "#",
+              "open_link": "_self",
+              "menu": "all-products",
+              "show_icon": true,
+              "icon": "<i class=\"las la-campground\"><\/i>",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "menu_mb_HmVieE": {
+            "type": "menu_mb",
+            "settings": {
+              "title": "Manufacturers",
+              "url": "#",
+              "open_link": "_self",
+              "menu": "manufacturer",
+              "show_icon": true,
+              "icon": "<i class=\"las la-campground\"><\/i>",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "menu_mb_WJjTaX": {
+            "type": "menu_mb",
+            "settings": {
+              "title": "Trailer Hitches",
+              "url": "shopify:\/\/collections\/trailer-hitches",
+              "open_link": "_self",
+              "menu": "",
+              "show_icon": true,
+              "icon": "<i class=\"las la-campground\"><\/i>",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "mobile_menu-7": {
             "type": "account",
             "settings": {
@@ -2002,58 +2041,6 @@
               "icon2": "<i class=\"icon-user-x\"><\/i>"
             }
           },
-          "mobile_menu-0": {
-            "type": "menu_mb",
-            "settings": {
-              "title": "Home",
-              "url": "\/",
-              "open_link": "_self",
-              "menu": "",
-              "show_icon": false,
-              "icon": "<i class=\"las la-campground\"><\/i>",
-              "lb": "",
-              "lb_cl": "#fafafa"
-            }
-          },
-          "mobile_menu-1": {
-            "type": "menu_mb",
-            "settings": {
-              "title": "Shop",
-              "url": "shopify:\/\/collections\/all",
-              "open_link": "_self",
-              "menu": "",
-              "show_icon": false,
-              "icon": "<i class=\"lnr lnr-store\"><\/i>",
-              "lb": "New",
-              "lb_cl": "#d93939"
-            }
-          },
-          "mobile_menu-2": {
-            "type": "menu_mb",
-            "settings": {
-              "title": "page",
-              "url": "shopify:\/\/collections",
-              "open_link": "_self",
-              "menu": "",
-              "show_icon": false,
-              "icon": "<i class=\"lab la-skyatlas\"><\/i>",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "mobile_menu-3": {
-            "type": "menu_mb",
-            "settings": {
-              "title": "Blog",
-              "url": "shopify:\/\/blogs\/technology",
-              "open_link": "_self",
-              "menu": "",
-              "show_icon": false,
-              "icon": "<i class=\"lar la-sticky-note\"><\/i>",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
           "mobile_menu-4": {
             "type": "wishlist",
             "settings": {
@@ -2061,56 +2048,15 @@
               "show_icon": true,
               "icon": "<i class=\"icon-heart\"><\/i>"
             }
-          },
-          "mobile_menu-5": {
-            "type": "compare",
-            "disabled": true,
-            "settings": {
-              "title": "Compare",
-              "show_icon": true,
-              "icon": "<i class=\"icon-layers\"><\/i>"
-            }
-          },
-          "961fa2fa-0c91-4435-8f22-2faa48b985c5": {
-            "type": "menu_mb",
-            "settings": {
-              "title": "Contact Us",
-              "url": "shopify:\/\/pages\/contact",
-              "open_link": "_self",
-              "menu": "",
-              "show_icon": false,
-              "icon": "<i class=\"las la-campground\"><\/i>",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "17e1467a-6fca-4000-9c7d-e57ea87f018a": {
-            "type": "language_currency",
-            "settings": {
-              "show_flag": true
-            }
-          },
-          "ffb580ec-91f5-45c2-8286-0b383115565e": {
-            "type": "contact",
-            "settings": {
-              "title": "Contact Us?",
-              "show_phone": true,
-              "show_email": true
-            }
           }
         },
         "block_order": [
           "mobile_menu-6",
+          "menu_mb_pCwmAn",
+          "menu_mb_HmVieE",
+          "menu_mb_WJjTaX",
           "mobile_menu-7",
-          "mobile_menu-0",
-          "mobile_menu-1",
-          "mobile_menu-2",
-          "mobile_menu-3",
-          "mobile_menu-4",
-          "mobile_menu-5",
-          "961fa2fa-0c91-4435-8f22-2faa48b985c5",
-          "17e1467a-6fca-4000-9c7d-e57ea87f018a",
-          "ffb580ec-91f5-45c2-8286-0b383115565e"
+          "mobile_menu-4"
         ],
         "settings": {
           "show_close": true,
