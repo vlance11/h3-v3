@@ -8,6 +8,8 @@
         "v_position": "middle",
         "txt_align": "left",
         "bg": "#ffffff",
+        "cl_title": "#212529",
+        "cl_breadcrum": "#8D979E",
         "b_height": 60,
         "mg_bottom": 0,
         "mobile_bg": "#ffffff",
@@ -59,7 +61,10 @@
       "disabled": true,
       "settings": {
         "title": "New arrivals",
+        "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
         "text_size": "medium",
+        "text_transform": "none",
+        "enable_search": false,
         "collection": "backpacks",
         "max_count": 8,
         "use-slider": true,
@@ -85,7 +90,6 @@
         "infinite": false,
         "padding": 10,
         "vertical": false,
-        "show_view_all": false,
         "layout_des": false,
         "cl_bg": "#ffffff",
         "mg": "",
@@ -93,11 +97,71 @@
         "mg_mb": "",
         "pd_mb": "50px,,30px,"
       }
+    },
+    "faq_sections_NnQDP4": {
+      "type": "faq-sections",
+      "blocks": {
+        "faq_gWXDNy": {
+          "type": "faq",
+          "settings": {
+            "title": "Problems sending or receiving messages?",
+            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "link": "",
+            "open_link": "_blank"
+          }
+        },
+        "faq_wJRpzR": {
+          "type": "faq",
+          "settings": {
+            "title": "Problems sending or receiving messages?",
+            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "link": "",
+            "open_link": "_blank"
+          }
+        },
+        "faq_mEhwUa": {
+          "type": "faq",
+          "settings": {
+            "title": "Problems sending or receiving messages?",
+            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "link": "",
+            "open_link": "_blank"
+          }
+        },
+        "faq_8dQLGY": {
+          "type": "faq",
+          "settings": {
+            "title": "Problems sending or receiving messages?",
+            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "link": "",
+            "open_link": "_blank"
+          }
+        }
+      },
+      "block_order": [
+        "faq_gWXDNy",
+        "faq_wJRpzR",
+        "faq_mEhwUa",
+        "faq_8dQLGY"
+      ],
+      "settings": {
+        "hidden": false,
+        "title": "Got a question for Hitch Expo?",
+        "sub_title": "",
+        "content": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium<br> lectus qua. Nunc id cursus metus ididunt ut labore metus episcing.",
+        "layout": "container",
+        "cl_bg": "#fff",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
     "breadcrumb",
     "main",
-    "9c8d5148-af29-47c5-b1e5-df8cdd31ae08"
+    "9c8d5148-af29-47c5-b1e5-df8cdd31ae08",
+    "faq_sections_NnQDP4"
   ]
 }
