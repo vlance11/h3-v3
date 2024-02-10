@@ -150,7 +150,7 @@
           "type": "category",
           "settings": {
             "category_title": "Trailer Hitches",
-            "category_url": "",
+            "category_url": "shopify:\/\/collections\/trailer-hitches",
             "category_img": "shopify:\/\/shop_images\/Component_1_7.png",
             "category_clr": "#d2e0ff"
           }
@@ -159,7 +159,7 @@
           "type": "category",
           "settings": {
             "category_title": "Trailer Wiring",
-            "category_url": "",
+            "category_url": "shopify:\/\/collections\/trailer-wiring",
             "category_img": "shopify:\/\/shop_images\/Component_1_2.png",
             "category_clr": "#fbeafe"
           }
@@ -168,7 +168,7 @@
           "type": "category",
           "settings": {
             "category_title": "Wiring Vehicle End",
-            "category_url": "",
+            "category_url": "shopify:\/\/collections\/wiring-vehicle-end",
             "category_img": "shopify:\/\/shop_images\/Component_1_3.png",
             "category_clr": "#c1d6a7"
           }
@@ -177,7 +177,7 @@
           "type": "category",
           "settings": {
             "category_title": "Trailer Jacks",
-            "category_url": "",
+            "category_url": "shopify:\/\/collections\/trailer-jacks",
             "category_img": "shopify:\/\/shop_images\/Component_1_4.png",
             "category_clr": "#eeedef"
           }
@@ -186,7 +186,7 @@
           "type": "category",
           "settings": {
             "category_title": "Fifth Wheel",
-            "category_url": "",
+            "category_url": "shopify:\/\/collections\/fifth-wheel-accessories",
             "category_img": "shopify:\/\/shop_images\/Component_1_5_e4ad50a3-7334-4f13-b692-512f73c0a83f.png",
             "category_clr": "#ffe99d"
           }
@@ -195,7 +195,7 @@
           "type": "category",
           "settings": {
             "category_title": "Trailer Parts",
-            "category_url": "",
+            "category_url": "shopify:\/\/collections\/trailer-parts",
             "category_img": "shopify:\/\/shop_images\/Component_1_6.png",
             "category_clr": "#f9c6ca"
           }
@@ -204,7 +204,7 @@
           "type": "category",
           "settings": {
             "category_title": "Accessories",
-            "category_url": "",
+            "category_url": "shopify:\/\/collections\/accessories-parts",
             "category_img": "shopify:\/\/shop_images\/Component_1_3.png",
             "category_clr": "#d1e4fd"
           }
