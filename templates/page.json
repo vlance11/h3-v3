@@ -83,7 +83,7 @@
         "layout": "container",
         "cl_bg": "#fff",
         "mg": "",
-        "pd": "",
+        "pd": "50px,0,50px,0",
         "mg_mb": "",
         "pd_mb": ""
       }
