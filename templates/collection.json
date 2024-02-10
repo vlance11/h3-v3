@@ -27,21 +27,10 @@
             "title_categories": "Bundle Categories",
             "menu": "all-products"
           }
-        },
-        "d1f87686-4bdb-47c4-a938-983ce2683a19": {
-          "type": "banner_img",
-          "settings": {
-            "image_promobox": "shopify:\/\/shop_images\/500349-500286-1000x1000w.jpg",
-            "url": "shopify:\/\/products\/bargman-clearance-light-module-led-37-red",
-            "title": "top bundles",
-            "content": "<h3>Acura<\/h3>\n<h4>RSX<\/h4>\n<p>Priced from: <span class=\"price\">$120.99<\/span><\/p>",
-            "btn": "Shop Now"
-          }
         }
       },
       "block_order": [
-        "932fc3a4-132b-4a34-b5d0-91df6362734c",
-        "d1f87686-4bdb-47c4-a938-983ce2683a19"
+        "932fc3a4-132b-4a34-b5d0-91df6362734c"
       ],
       "settings": {
         "full-width": false,
