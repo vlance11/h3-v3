@@ -8,6 +8,8 @@
         "v_position": "middle",
         "txt_align": "center",
         "bg": "#ffffff",
+        "cl_title": "#212529",
+        "cl_breadcrum": "#8D979E",
         "b_height": 70,
         "mg_bottom": 0,
         "mobile_bg": "#ffffff",
@@ -85,10 +87,70 @@
         "mg_mb": "",
         "pd_mb": ""
       }
+    },
+    "faq_sections_Rp7UwW": {
+      "type": "faq-sections",
+      "blocks": {
+        "faq_ywDAxk": {
+          "type": "faq",
+          "settings": {
+            "title": "Problems sending or receiving messages?",
+            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "link": "",
+            "open_link": "_blank"
+          }
+        },
+        "faq_rG8nzq": {
+          "type": "faq",
+          "settings": {
+            "title": "Problems sending or receiving messages?",
+            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "link": "",
+            "open_link": "_blank"
+          }
+        },
+        "faq_x8MYJT": {
+          "type": "faq",
+          "settings": {
+            "title": "Problems sending or receiving messages?",
+            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "link": "",
+            "open_link": "_blank"
+          }
+        },
+        "faq_fCz3AX": {
+          "type": "faq",
+          "settings": {
+            "title": "Problems sending or receiving messages?",
+            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "link": "",
+            "open_link": "_blank"
+          }
+        }
+      },
+      "block_order": [
+        "faq_ywDAxk",
+        "faq_rG8nzq",
+        "faq_x8MYJT",
+        "faq_fCz3AX"
+      ],
+      "settings": {
+        "hidden": false,
+        "title": "Got a question for Hitch Expo?",
+        "sub_title": "",
+        "content": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium<br> lectus qua. Nunc id cursus metus ididunt ut labore metus episcing.",
+        "layout": "container",
+        "cl_bg": "#fff",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
     "breadcrumb",
-    "main-article"
+    "main-article",
+    "faq_sections_Rp7UwW"
   ]
 }
