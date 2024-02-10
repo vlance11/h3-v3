@@ -1324,7 +1324,7 @@
             "type": "dropdown",
             "settings": {
               "title": "All Product",
-              "url": "shopify:\/\/collections",
+              "url": "shopify:\/\/collections\/all",
               "open_link": "_self",
               "menu": "",
               "icon": "",
