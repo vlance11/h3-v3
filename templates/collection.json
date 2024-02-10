@@ -24,7 +24,7 @@
           "type": "menu",
           "settings": {
             "enable_menu_categories": true,
-            "title_categories": "Manufacturer",
+            "title_categories": "Manufacturers",
             "menu": "manufacturer"
           }
         }
