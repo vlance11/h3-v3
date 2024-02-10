@@ -19,19 +19,6 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "blocks": {
-        "932fc3a4-132b-4a34-b5d0-91df6362734c": {
-          "type": "menu",
-          "settings": {
-            "enable_menu_categories": true,
-            "title_categories": "Bundle Categories",
-            "menu": "all-products"
-          }
-        }
-      },
-      "block_order": [
-        "932fc3a4-132b-4a34-b5d0-91df6362734c"
-      ],
       "settings": {
         "full-width": false,
         "show_collection_description": true,
