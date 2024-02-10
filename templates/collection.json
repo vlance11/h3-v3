@@ -24,8 +24,8 @@
           "type": "menu",
           "settings": {
             "enable_menu_categories": true,
-            "title_categories": "Product Categories",
-            "menu": "main-menu"
+            "title_categories": "Manufacturer",
+            "menu": "manufacturer"
           }
         }
       },
