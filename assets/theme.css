@@ -468,6 +468,11 @@ h3.payment_heading {
     -moz-box-shadow: -1px -1px 10px 1px rgba(204,204,204,1);
     box-shadow: -1px -1px 10px 1px rgba(204,204,204,1);
 }
+span.vehicle-vendor .cancel svg {
+    background: #E1E8FD;
+    border-radius: 100%;
+    padding: 2px;
+}
 .product-visibility-terms-container {
   width: 100%;
   display: flex;
