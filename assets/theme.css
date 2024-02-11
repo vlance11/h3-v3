@@ -459,10 +459,16 @@ h3.payment_heading {
 }
 
 /* main-product-page */
-/* .vehicle-selecton{
-  display: flex;
-  justify-content: center;
-} */
+.vehicle-selecton {
+    border: 1px solid #cccccc;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.product-visibility-terms-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .sku-barcode-container {
   display: flex;
 }
