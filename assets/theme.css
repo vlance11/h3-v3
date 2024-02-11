@@ -461,6 +461,7 @@ h3.payment_heading {
 /* main-product-page */
 .vehicle-selecton{
   display: flex;
+  justify-content: center;
 }
 .sku-barcode-container {
   display: flex;
