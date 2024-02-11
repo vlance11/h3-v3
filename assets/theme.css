@@ -473,6 +473,11 @@ h3.payment_heading {
 .vehicle-selection .vehicle-vendor {
   margin: 0 15px;
 }
+.vehicle-selection .icon {
+    padding: 15px;
+    background: yellow;
+    border-radius: 25px;
+}
 .sku-barcode-container {
   display: flex;
 }
