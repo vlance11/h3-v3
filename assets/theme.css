@@ -461,9 +461,12 @@ h3.payment_heading {
 /* main-product-page */
 .vehicle-selection {
     border: 1px solid #cccccc;
-    padding: 10px 0 10px 20px;
-    border-radius: 25px;
+    padding: 15px 5px 15px 30px;
+    border-radius: 35px;
     position: relative;
+    -webkit-box-shadow: -1px -1px 10px 1px rgba(204,204,204,1);
+    -moz-box-shadow: -1px -1px 10px 1px rgba(204,204,204,1);
+    box-shadow: -1px -1px 10px 1px rgba(204,204,204,1);
 }
 .product-visibility-terms-container {
   width: 100%;
