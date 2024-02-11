@@ -30,6 +30,9 @@
 .template-product .ymm_comptbl_list{
     max-width: 80%;
 }
+.template-product .product-visibility-terms-container {
+    margin-top: 12px;
+}
 @media only screen and (max-width:767px) {
 
     
