@@ -36,6 +36,12 @@
 .template-product .content_section {
     max-width: 80%;
 }
+.faq-heading {
+    text-align: left;
+    display: block;
+    margin-bottom: 20px;
+    color: #2092E5;
+}
 @media only screen and (max-width:767px) {
 
     
