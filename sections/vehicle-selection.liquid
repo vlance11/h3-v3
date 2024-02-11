@@ -2,7 +2,7 @@
     <div class="product-visibility-terms-container">
         <div class="vehicle-selection">
             <strong>{{ section.settings.title }}</strong>
-            <span class="vehicle-vendor">{{ section.settings.vehicle_type }}</span>
+            <span class="vehicle-vendor">{{ section.settings.vehicle_type }} <span class="icon icon-cross"></span></span>
             <a href="{{ section.settings.url | default: "#" }}" class="link">{{ section.settings.url_label }}</a>
             <span class="icon icon-search"></span>
         </div>
