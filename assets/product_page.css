@@ -1191,7 +1191,7 @@
   transition: all 240ms linear 0ms;
 }
 #tab_product {
-    padding: 20px;
+    padding: 0 20px;
     border: 1px solid #cccccc;
     border-radius: 8px;
 }
