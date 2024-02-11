@@ -1298,7 +1298,7 @@ input.mobile-facets__checkbox {
 }
 .collection-hero.collection-hero--with-image {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   border-radius: 5px;
   overflow: hidden;
 }
