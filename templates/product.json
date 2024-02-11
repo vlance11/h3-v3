@@ -1,5 +1,10 @@
 {
   "sections": {
+    "170659979689fff3f0": {
+      "type": "apps",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -299,18 +304,13 @@
         "mg_mb": "",
         "pd_mb": ""
       }
-    },
-    "170659979689fff3f0": {
-      "type": "apps",
-      "settings": {
-      }
     }
   },
   "order": [
+    "170659979689fff3f0",
     "main",
     "product-page-tab",
     "170401789281e0ae28",
-    "2a5d30e1-b228-482c-b9c1-a26c5a513369",
-    "170659979689fff3f0"
+    "2a5d30e1-b228-482c-b9c1-a26c5a513369"
   ]
 }
