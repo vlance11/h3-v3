@@ -1,10 +1,11 @@
+{% unless section.settings.hide_section %}
 <div id="ymm-{{ section.id }}">
     <div class="product-visibility-terms-container">
         <div class="vehicle-selection">
             <strong>{{ section.settings.title }}</strong>
             <span class="vehicle-vendor">
               {{ section.settings.vehicle_type }} 
-              <span class="cancel" onclick="window.location.href='{{ section.settings.url }}'">
+              <span class="cancel" onclick="window.location.href='{{ section.settings.url | default:"#" }}'">
                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.4688 1.53125L1.53125 10.4688M1.53125 1.53125L10.4688 10.4688" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
@@ -15,11 +16,18 @@
         </div>
     </div>
 </div>
+{% endunless %}
 {% schema %}
 {
     "name": "Vehicle selection",
     "class": "ymm-vehicle-selection",
     "settings":[
+        {
+          "type": "checkbox",
+          "id": "hide_section",
+          "label": "Hide section",
+          "default": false
+        },
         {
             "type": "text",
             "id": "title",
