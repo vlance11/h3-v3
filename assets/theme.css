@@ -474,7 +474,8 @@ h3.payment_heading {
   justify-content: center;
 }
 .vehicle-selection .vehicle-vendor {
-  margin: 0 15px;
+    margin: 0 15px;
+    font-size: 16px;
 }
 .vehicle-selection .icon {
     padding: 15px;
