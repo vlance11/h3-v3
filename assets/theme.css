@@ -460,21 +460,21 @@ h3.payment_heading {
 
 /* main-product-page */
 .vehicle-selection {
-    border: 1px solid #cccccc;
-    padding: 15px 5px 15px 30px;
-    border-radius: 35px;
-    position: relative;
-    -webkit-box-shadow: -1px -1px 10px 1px rgba(204,204,204,1);
-    -moz-box-shadow: -1px -1px 10px 1px rgba(204,204,204,1);
-    box-shadow: -1px -1px 10px 1px rgba(204,204,204,1);
+  border: 1px solid #cccccc;
+  padding: 15px 5px 15px 30px;
+  border-radius: 35px;
+  position: relative;
+  -webkit-box-shadow: -1px -1px 10px 1px rgba(204, 204, 204, 1);
+  -moz-box-shadow: -1px -1px 10px 1px rgba(204, 204, 204, 1);
+  box-shadow: -1px -1px 10px 1px rgba(204, 204, 204, 1);
 }
-span.vehicle-vendor .cancel{
+span.vehicle-vendor .cancel {
   cursor: pointer;
 }
 span.vehicle-vendor .cancel svg {
-    background: #E1E8FD;
-    border-radius: 100%;
-    padding: 2px;
+  background: #e1e8fd;
+  border-radius: 100%;
+  padding: 2px;
 }
 .product-visibility-terms-container {
   width: 100%;
@@ -482,13 +482,13 @@ span.vehicle-vendor .cancel svg {
   justify-content: center;
 }
 .vehicle-selection .vehicle-vendor {
-    margin: 0 15px;
-    font-size: 16px;
+  margin: 0 15px;
+  font-size: 16px;
 }
 .vehicle-selection .icon {
-    padding: 15px;
-    background: #E5C33A;
-    border-radius: 25px;
+  padding: 15px;
+  background: #e5c33a;
+  border-radius: 25px;
 }
 .vehicle-selection a.link {
   margin-right: 10px;
@@ -586,16 +586,16 @@ label.qty-label {
 }
 /* product-tab */
 #tab_product {
-    overflow-y: scroll;
-    position: relative;
-    max-height: 600px;
+  overflow-y: scroll;
+  position: relative;
+  max-height: 600px;
 }
 #tab_product .nav.list-nav {
-    position: sticky;
-    top: 0;
-    padding-top: 20px;
-    background-color: #ffffff;
-    z-index: 2;
+  position: sticky;
+  top: 0;
+  padding-top: 20px;
+  background-color: #ffffff;
+  z-index: 2;
 }
 #tab_product .nav .icon {
   font-size: 18px;
@@ -666,6 +666,11 @@ a.change-vehicle-link {
   margin: 0 10px;
   text-decoration: underline;
   color: #177fca;
+}
+.collection-hero__image-container .pr_lazy_img.main-img.laber_bg_lz {
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 @media screen and (max-width: 600px) {
   .btn:not(.wishlist-button) {
