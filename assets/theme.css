@@ -593,6 +593,7 @@ label.qty-label {
 #tab_product .nav.list-nav {
     position: sticky;
     top: 0;
+    padding-top: 20px;
     background-color: #ffffff;
     z-index: 2;
 }
