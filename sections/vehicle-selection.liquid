@@ -1,6 +1,46 @@
+<div id="ymm-{{ section.id }}">
+    <div class="product-visibility-terms-container">
+        <div class="vehicle-selection">
+            <strong>{{ section.settings.title }}</strong>
+            <span class="vehicle-vendor">{{ section.settings.vehicle_type }}</span>
+            <a href="{{ section.settings.url | default: "#" }}" class="link">{{ section.settings.url_label }}</a>
+        </div>
+    </div>
+</div>
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+    "name": "Vehicle selection",
+    "class": "vehicle-selection",
+    "settings":[
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Choose Vehicle"
+        },
+        {
+            "type": "text",
+            "id": "vehicle_type",
+            "label": "Vehicle type",
+            "default": "{{ product.vendor }}"
+        },
+        {
+            "type": "text",
+            "id": "url_label",
+            "label": "Url label",
+            "default": "Change vehicle"
+        },
+        {
+            "type": "url",
+            "id": "url",
+            "label": "Url"
+        }
+    ],
+    "presets":[
+        {
+            "name": "Vehicle selection",
+            "category": "Products"
+        }
+    ]
+}
 {% endschema %}
