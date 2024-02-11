@@ -459,18 +459,19 @@ h3.payment_heading {
 }
 
 /* main-product-page */
-.vehicle-selecton {
-    border: 1px solid #cccccc;
-    padding: 10px 20px;
-    border-radius: 25px;
+.vehicle-selection {
+  border: 1px solid #cccccc;
+  padding: 10px 20px;
+  border-radius: 25px;
+  position: relative;
 }
 .product-visibility-terms-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-.vehicle-selecton .vehicle-vendor {
-    margin: 0 15px;
+.vehicle-selection .vehicle-vendor {
+  margin: 0 15px;
 }
 .sku-barcode-container {
   display: flex;
