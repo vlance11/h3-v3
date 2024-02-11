@@ -294,6 +294,7 @@
       ],
       "settings": {
         "hidden": false,
+        "hidden_newletter": true,
         "title": "Frequently Asked Questions",
         "sub_title": "",
         "content": "",
