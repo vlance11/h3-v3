@@ -1,4 +1,4 @@
-
+{% assign tc_enabled = false %}
 {% include 'product-res-variables' %}
 {% assign sid = section.id  %}
 {% assign layout = section.settings.layout %}
@@ -320,6 +320,7 @@
                                       {% endif %}
                                     
                                     {% if show_popup %}
+                                      {% assign tc_enabled = true %}
                                         <div class="checkbox-group prpage-term-conditions-checkbox term-conditions-checkbox-js">
                                           <input type="checkbox" id="prpage-cart-term-conditions-checkbox" value="1">
                                           <label for="prpage-cart-term-conditions-checkbox">
@@ -654,6 +655,7 @@
 </div>
 {%- render 'section_style' -%}
 </section>
+{% if tc_enabled %}
 <script>
   let terms_checkbox = document.querySelector('.prpage-term-conditions-checkbox input[type="checkbox"]');
   terms_checkbox.addEventListener('change', ()=>{
@@ -665,27 +667,8 @@
       button.disabled = !terms_checkbox.checked
     }
   })
-
-  $(document).ready(function(){
-    // Get the offset position of the navbar
-    var stickyOffset = $('#tab_product .nav').offset().top;
-
-    function stickyNav() {
-        var scrollTop = $(window).scrollTop();
-        
-        if (scrollTop > stickyOffset) {
-            $('#tab_product .nav').addClass('sticky');
-        } else {
-            $('#tab_product .nav').removeClass('sticky');
-        }
-    }
-
-    stickyNav();
-    $(window).scroll(function() {
-        stickyNav();
-    });
-});
 </script>
+{% endif %}
 {% schema %}
   {
     "name": "Product information",
