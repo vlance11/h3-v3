@@ -1305,7 +1305,7 @@ input.mobile-facets__checkbox {
 .collection-hero.collection-hero--with-image .collection-hero__description {
   position: absolute;
   top: 0;
-  left: 10%;
+  left: 3px;
   right: 10%;
   bottom: 0;
   background: no-repeat;
