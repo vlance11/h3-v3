@@ -7,11 +7,19 @@
             <span class="icon icon-search"></span>
         </div>
     </div>
+    <div class="hidden-apps">
+      {% for block in section.blocks %}
+        {% if block.type == "@app" %}
+          {% render block %}
+        {% endif %}
+      {% endfor %}
+    </div>
 </div>
 {% schema %}
 {
     "name": "Vehicle selection",
     "class": "ymm-vehicle-selection",
+    "max_blocks": 1,
     "settings":[
         {
             "type": "text",
