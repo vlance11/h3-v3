@@ -585,6 +585,17 @@ label.qty-label {
   font-size: 10px;
 }
 /* product-tab */
+#tab_product {
+    overflow-y: scroll;
+    position: relative;
+    max-height: 325px;
+}
+#tab_product .nav.list-nav {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 2;
+}
 #tab_product .nav .icon {
   font-size: 18px;
   margin-right: 10px;
