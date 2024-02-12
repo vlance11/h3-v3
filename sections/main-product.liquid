@@ -668,20 +668,23 @@
     }
   })
 {% endif %}
-  window.addEventListener('scroll', function() {
-    var section = document.querySelector('.tabs-product');
-    var nav = section.querySelector('#tab_product .nav');
-    
-    var sectionTop = section.offsetTop;
-    var sectionBottom = sectionTop + section.offsetHeight;
-    var navHeight = nav.offsetHeight;
+window.addEventListener('scroll', function() {
+  var section = document.querySelector('.tabs-product');
+  var nav = section.querySelector('#tab_product .nav');
   
-    if (window.pageYOffset >= sectionTop && window.pageYOffset <= sectionBottom - navHeight) {
-      nav.classList.add('fixed-nav-tab');
-    } else {
-      nav.classList.remove('fixed-nav-tab');
-    }
-  });
+  var sectionTop = section.getBoundingClientRect().top + window.pageYOffset;
+  var sectionBottom = sectionTop + section.offsetHeight;
+  var navHeight = nav.offsetHeight;
+
+  var stickyTop = sectionTop;
+  var stickyBottom = sectionBottom - navHeight;
+
+  if (window.pageYOffset >= stickyTop && window.pageYOffset <= stickyBottom) {
+    nav.classList.add('fixed-nav-tab');
+  } else {
+    nav.classList.remove('fixed-nav-tab');
+  }
+});
 </script>
 {% schema %}
   {
