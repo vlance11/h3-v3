@@ -669,19 +669,19 @@
   })
 {% endif %}
   window.addEventListener('scroll', function() {
-  var section = document.querySelector('.tabs-product');
-  var nav = section.querySelector('#tab_product .nav');
+    var section = document.querySelector('.tabs-product');
+    var nav = section.querySelector('#tab_product .nav');
+    
+    var sectionTop = section.offsetTop;
+    var sectionBottom = sectionTop + section.offsetHeight;
+    var navHeight = nav.offsetHeight;
   
-  var sectionTop = section.offsetTop;
-  var sectionBottom = sectionTop + section.offsetHeight;
-  var navHeight = nav.offsetHeight;
-
-  if (window.pageYOffset >= sectionTop && window.pageYOffset <= sectionBottom - navHeight) {
-    nav.classList.add('fixed-nav-tab');
-  } else {
-    nav.classList.remove('fixed-nav-tab');
-  }
-});
+    if (window.pageYOffset >= sectionTop && window.pageYOffset <= sectionBottom - navHeight) {
+      nav.classList.add('fixed-nav-tab');
+    } else {
+      nav.classList.remove('fixed-nav-tab');
+    }
+  });
 </script>
 {% schema %}
   {
