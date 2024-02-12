@@ -601,7 +601,6 @@ label.qty-label {
   position: fixed !important;
   top: 50px;
   z-index: 9;
-  width: 100%;
   background: #FFFFFF;
 }
 #tab_product .nav .icon {

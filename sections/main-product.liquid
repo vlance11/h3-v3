@@ -671,6 +671,7 @@
 window.addEventListener('scroll', function() {
   var section = document.querySelector('.tabs-product');
   var nav = section.querySelector('#tab_product .nav');
+  var navWidth = section.offsetWidth; // Get the width of the section
   
   var sectionTop = section.getBoundingClientRect().top + window.pageYOffset;
   var sectionBottom = sectionTop + section.offsetHeight;
@@ -681,8 +682,10 @@ window.addEventListener('scroll', function() {
 
   if (window.pageYOffset >= stickyTop && window.pageYOffset <= stickyBottom) {
     nav.classList.add('fixed-nav-tab');
+    nav.style.width = navWidth + 'px'; // Set the width of the navigation to match the section
   } else {
     nav.classList.remove('fixed-nav-tab');
+    nav.style.width = 'auto'; // Reset the width to auto when not fixed
   }
 });
 </script>
