@@ -484,7 +484,7 @@
           "type": "brand",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_10.png",
-            "url": "",
+            "url": "shopify:\/\/collections\/bulldog",
             "open_link": "_blank"
           }
         },
@@ -492,7 +492,7 @@
           "type": "brand",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_9.png",
-            "url": "",
+            "url": "shopify:\/\/collections\/bargman",
             "open_link": "_blank"
           }
         },
@@ -500,7 +500,7 @@
           "type": "brand",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_11.png",
-            "url": "",
+            "url": "shopify:\/\/collections\/draw-tite",
             "open_link": "_blank"
           }
         },
@@ -508,7 +508,7 @@
           "type": "brand",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_12.png",
-            "url": "",
+            "url": "shopify:\/\/collections\/fulton",
             "open_link": "_blank"
           }
         },
@@ -516,7 +516,7 @@
           "type": "brand",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_10_ecb6195d-0a8b-48d9-ae31-515c511ee880.png",
-            "url": "",
+            "url": "shopify:\/\/collections\/bulldog",
             "open_link": "_blank"
           }
         },
@@ -524,7 +524,7 @@
           "type": "brand",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_9_00b30f3a-450b-4513-a843-0b95fdafa9b2.png",
-            "url": "",
+            "url": "shopify:\/\/collections\/bargman",
             "open_link": "_blank"
           }
         },
@@ -532,7 +532,7 @@
           "type": "brand",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_12_376f5aa4-3f98-4d3c-9dcd-dd7e53155b80.png",
-            "url": "",
+            "url": "shopify:\/\/collections\/fulton",
             "open_link": "_blank"
           }
         }
@@ -889,6 +889,7 @@
       ],
       "settings": {
         "hidden": false,
+        "hidden_newletter": false,
         "title": "Got a question for Hitch Expo?",
         "sub_title": "",
         "content": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium",
