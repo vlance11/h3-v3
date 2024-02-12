@@ -726,7 +726,7 @@ a.change-vehicle-link {
     min-height: 38px;
   }
   /* on collection page */
-  #ymm_searchbox #ymm_label:first-child {
+  #ymm_searchbox #ymm_label {
     display: none !important;
   }
   .quote_content.style3 {
