@@ -675,7 +675,7 @@ window.addEventListener('scroll', function() {
   // Get the width of the section minus padding
   var navWidth = section.offsetWidth - 40; // Assuming 20px padding on both sides
   
-  var sectionTop = section.getBoundingClientRect().top + window.pageYOffset;
+  var sectionTop = section.getBoundingClientRect().top;
   var sectionBottom = sectionTop + section.offsetHeight;
   var navHeight = nav.offsetHeight;
 
