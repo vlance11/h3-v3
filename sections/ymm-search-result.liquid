@@ -213,7 +213,11 @@
       </div>
 {% render 'grid-style', settings:section.settings %}
 {%- render 'section_style' -%}
-
+{% style %}
+#ymm_searchbox ul {
+    justify-content: space-between;
+}
+{% endstyle %}
 {% if section.settings.enable_related_search %}
 <script>
   document.addEventListener('DOMContentLoaded', function() {
