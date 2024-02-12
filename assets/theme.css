@@ -599,8 +599,8 @@ label.qty-label {
 } */
 .fixed-nav-tab {
   position: fixed !important;
-  top: 100;
-  z-index: 1000;
+  top: 50px;
+  z-index: 9;
   width: 100%;
   background: #FFFFFF;
 }
