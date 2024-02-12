@@ -597,6 +597,12 @@ label.qty-label {
   background-color: #ffffff;
   z-index: 2;
 } */
+.fixed-nav-tab {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
 #tab_product .nav .icon {
   font-size: 18px;
   margin-right: 10px;
