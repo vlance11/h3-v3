@@ -214,9 +214,12 @@
 {% render 'grid-style', settings:section.settings %}
 {%- render 'section_style' -%}
 {% style %}
-#ymm_searchbox ul {
-    justify-content: space-between;
+#ymm_searchbox {
+    border-radius: 90px;
 }
+  #ymm_searchbox ul {
+    justify-content: space-between;
+  }
 {% endstyle %}
 {% if section.settings.enable_related_search %}
 <script>
