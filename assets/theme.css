@@ -597,6 +597,9 @@ label.qty-label {
   background-color: #ffffff;
   z-index: 2;
 } */
+#tab_product .nav.list-nav {
+  justify-content: space-between !important;
+} 
 .fixed-nav-tab {
   position: fixed !important;
   top: 50px;
