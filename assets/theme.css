@@ -725,6 +725,10 @@ a.change-vehicle-link {
     font-size: 12px;
     min-height: 38px;
   }
+  /* on collection page */
+  #ymm_searchbox #ymm_label:first-child {
+    display: none !important;
+  }
   .quote_content.style3 {
     padding: 15px 10px;
   }
