@@ -655,8 +655,8 @@
 </div>
 {%- render 'section_style' -%}
 </section>
-{% if tc_enabled %}
 <script>
+{% if tc_enabled %}
   let terms_checkbox = document.querySelector('.prpage-term-conditions-checkbox input[type="checkbox"]');
   terms_checkbox.addEventListener('change', ()=>{
     console.log('terms: ', terms_checkbox.checked);
@@ -667,8 +667,22 @@
       button.disabled = !terms_checkbox.checked
     }
   })
-</script>
 {% endif %}
+  window.addEventListener('scroll', function() {
+  var section = document.querySelector('.tabs-product');
+  var nav = section.querySelector('#tab_product .nav');
+  
+  var sectionTop = section.offsetTop;
+  var sectionBottom = sectionTop + section.offsetHeight;
+  var navHeight = nav.offsetHeight;
+
+  if (window.pageYOffset >= sectionTop && window.pageYOffset <= sectionBottom - navHeight) {
+    nav.classList.add('fixed-nav-tab');
+  } else {
+    nav.classList.remove('fixed-nav-tab');
+  }
+});
+</script>
 {% schema %}
   {
     "name": "Product information",
