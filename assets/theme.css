@@ -598,10 +598,11 @@ label.qty-label {
   z-index: 2;
 } */
 .fixed-nav-tab {
-  position: fixed;
-  top: 0;
+  position: fixed !important;
+  top: 100;
   z-index: 1000;
   width: 100%;
+  background: #FFFFFF;
 }
 #tab_product .nav .icon {
   font-size: 18px;
