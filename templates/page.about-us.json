@@ -8,6 +8,8 @@
         "v_position": "middle",
         "txt_align": "center",
         "bg": "#ffffff",
+        "cl_title": "#212529",
+        "cl_breadcrum": "#8D979E",
         "b_height": 70,
         "mg_bottom": 0,
         "mobile_bg": "#ffffff",
@@ -37,7 +39,6 @@
         "d205ec2d-202a-4f1a-b3de-9d19d37a0891": {
           "type": "banner_img",
           "settings": {
-            "image_sl": "shopify:\/\/shop_images\/img_about.jpg",
             "link": "shopify:\/\/products\/proenza-schouler-white-label-5",
             "width": "12",
             "mg": ",,80px,",
@@ -140,7 +141,6 @@
             "h_position": "left",
             "v_position": "top",
             "txt_align": "left",
-            "image": "shopify:\/\/shop_images\/img_about_1.jpg",
             "link": "shopify:\/\/products\/proenza-schouler-white-label-3",
             "title": "1. Perfect space",
             "subtitle": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium lectus qua. Nunc id cursus metus ididunt ut labore metus episcing.",
@@ -158,7 +158,6 @@
             "h_position": "left",
             "v_position": "top",
             "txt_align": "left",
-            "image": "shopify:\/\/shop_images\/img_about_2.jpg",
             "link": "shopify:\/\/products\/proenza-schouler-white-label-12",
             "title": "2. special person",
             "subtitle": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium lectus qua. Nunc id cursus metus ididunt ut labore metus episcing.",
@@ -176,7 +175,6 @@
             "h_position": "left",
             "v_position": "top",
             "txt_align": "left",
-            "image": "shopify:\/\/shop_images\/img_about_3.jpg",
             "link": "shopify:\/\/products\/proenza-schouler-white-label-18",
             "title": "3. modern office",
             "subtitle": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium lectus qua. Nunc id cursus metus ididunt ut labore metus episcing.",
@@ -218,93 +216,44 @@
         "template--17185129595165__8172325f-9ac4-4a6f-8801-ce5fc366ddff-1677666217414dfd20-0": {
           "type": "faq",
           "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "title": "What is Hitch Expo?",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
             "link": "",
-            "open_link": "_blank"
+            "open_link": "_self"
           }
         },
         "template--17185129595165__8172325f-9ac4-4a6f-8801-ce5fc366ddff-1677666217414dfd20-1": {
           "type": "faq",
           "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "title": "What is the payment process for buying a product?",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
             "link": "",
-            "open_link": "_blank"
+            "open_link": "_self"
           }
         },
         "template--17185129595165__8172325f-9ac4-4a6f-8801-ce5fc366ddff-1677666217414dfd20-2": {
           "type": "faq",
           "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "title": "What is your cancellation and refund policy?",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
             "link": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--17185129595165__8172325f-9ac4-4a6f-8801-ce5fc366ddff-1677666217414dfd20-3": {
-          "type": "faq",
-          "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
-            "link": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--17185129595165__8172325f-9ac4-4a6f-8801-ce5fc366ddff-1677666217414dfd20-4": {
-          "type": "faq",
-          "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
-            "link": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--17185129595165__8172325f-9ac4-4a6f-8801-ce5fc366ddff-1677666217414dfd20-5": {
-          "type": "faq",
-          "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
-            "link": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--17185129595165__8172325f-9ac4-4a6f-8801-ce5fc366ddff-1677666217414dfd20-6": {
-          "type": "faq",
-          "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
-            "link": "",
-            "open_link": "_blank"
-          }
-        },
-        "template--17185129595165__8172325f-9ac4-4a6f-8801-ce5fc366ddff-1677666217414dfd20-7": {
-          "type": "faq",
-          "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
-            "link": "",
-            "open_link": "_blank"
+            "open_link": "_self"
           }
         }
       },
       "block_order": [
         "template--17185129595165__8172325f-9ac4-4a6f-8801-ce5fc366ddff-1677666217414dfd20-0",
         "template--17185129595165__8172325f-9ac4-4a6f-8801-ce5fc366ddff-1677666217414dfd20-1",
-        "template--17185129595165__8172325f-9ac4-4a6f-8801-ce5fc366ddff-1677666217414dfd20-2",
-        "template--17185129595165__8172325f-9ac4-4a6f-8801-ce5fc366ddff-1677666217414dfd20-3",
-        "template--17185129595165__8172325f-9ac4-4a6f-8801-ce5fc366ddff-1677666217414dfd20-4",
-        "template--17185129595165__8172325f-9ac4-4a6f-8801-ce5fc366ddff-1677666217414dfd20-5",
-        "template--17185129595165__8172325f-9ac4-4a6f-8801-ce5fc366ddff-1677666217414dfd20-6",
-        "template--17185129595165__8172325f-9ac4-4a6f-8801-ce5fc366ddff-1677666217414dfd20-7"
+        "template--17185129595165__8172325f-9ac4-4a6f-8801-ce5fc366ddff-1677666217414dfd20-2"
       ],
       "settings": {
         "hidden": false,
+        "hidden_newletter": false,
         "title": "Text column with image",
         "sub_title": "Why Choose Us",
         "content": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium<br> lectus qua. Nunc id cursus metus ididunt ut labore metus episcing.",
         "layout": "container",
-        "cl_bg": "#f1f5f6",
+        "cl_bg": "#fffcf5",
         "mg": "",
         "pd": "80px,,80px,",
         "mg_mb": "",
@@ -318,7 +267,8 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/img_our_team.png",
+            "enable_icon": false,
+            "icon": "shield",
             "title": "Michael Anthony",
             "sub_title": "Founder\/CEO",
             "text": "<p>Ced ut perspiciatis unde omnis iste<br\/>natus error sitaccusantium doloremque laudan totam rem aperiam.<\/p>",
@@ -331,7 +281,8 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/img_our_team_3.png",
+            "enable_icon": false,
+            "icon": "shield",
             "title": "Alexandra Miller",
             "sub_title": "Founder\/CEO",
             "text": "<p>Ced ut perspiciatis unde omnis iste<br\/>natus error sitaccusantium doloremque laudan totam rem aperiam.<\/p>",
@@ -344,7 +295,8 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/img_our_team_2.png",
+            "enable_icon": false,
+            "icon": "shield",
             "title": "Frank ge Bruyne",
             "sub_title": "Founder\/CEO",
             "text": "<p>Ced ut perspiciatis unde omnis iste<br\/>natus error sitaccusantium doloremque laudan totam rem aperiam.<\/p>",
@@ -357,7 +309,8 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/img_our_team_3.png",
+            "enable_icon": false,
+            "icon": "shield",
             "title": "Helen Aleema",
             "sub_title": "Founder\/CEO",
             "text": "<p>Ced ut perspiciatis unde omnis iste<br\/>natus error sitaccusantium doloremque laudan totam rem aperiam.<\/p>",
@@ -375,6 +328,7 @@
       ],
       "settings": {
         "hidden": false,
+        "style": "box",
         "title": "Amazing People",
         "sub_title": "Our perfect team",
         "content": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per <br>inceptos vel pretium lectus qua nunc id cursus.",
@@ -403,6 +357,7 @@
         "vertical": false,
         "layout": "container",
         "cl_bg": "#ffffff",
+        "cl_text": "#000000",
         "mg": "",
         "pd": "80px,,80px,",
         "mg_mb": "",
@@ -415,7 +370,6 @@
         "template--17185129595165__9c155839-5d6c-48fa-8ff1-e781fe61f099-167765856369e0dc1b-0": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_our_team.png",
             "content": "<p>“The experience with Uminex has been nothing short of amazing. <\/p><p>So much better than other themes I’ve used – wish I had seen this one <\/p><p>first and saved my wasted time and money on other themes! I’d <\/p><p>recommend this theme in a heartbeat!”<\/p>",
             "title": "Alexander Ball",
             "address": "Founder\/CEO at Uminex Store",
@@ -425,7 +379,6 @@
         "template--17185129595165__9c155839-5d6c-48fa-8ff1-e781fe61f099-167765856369e0dc1b-1": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_our_team_2.png",
             "content": "<p>“The experience with Uminex has been nothing short of amazing. <\/p><p>So much better than other themes I’ve used – wish I had seen this one <\/p><p>first and saved my wasted time and money on other themes! I’d <\/p><p>recommend this theme in a heartbeat!”<\/p>",
             "title": "Alexander Ball",
             "address": "Founder\/CEO at Uminex Store",
@@ -435,7 +388,6 @@
         "template--17185129595165__9c155839-5d6c-48fa-8ff1-e781fe61f099-167765856369e0dc1b-2": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_our_team_3.png",
             "content": "<p>“The experience with Uminex has been nothing short of amazing. <\/p><p>So much better than other themes I’ve used – wish I had seen this one <\/p><p>first and saved my wasted time and money on other themes! I’d <\/p><p>recommend this theme in a heartbeat!”<\/p>",
             "title": "Alexander Ball",
             "address": "Founder\/CEO at Uminex Store",
@@ -445,7 +397,6 @@
         "template--17185129595165__9c155839-5d6c-48fa-8ff1-e781fe61f099-167765856369e0dc1b-3": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_our_team.png",
             "content": "<p>“The experience with Uminex has been nothing short of amazing. <\/p><p>So much better than other themes I’ve used – wish I had seen this one <\/p><p>first and saved my wasted time and money on other themes! I’d <\/p><p>recommend this theme in a heartbeat!”<\/p>",
             "title": "Alexander Ball",
             "address": "Founder\/CEO at Uminex Store",
@@ -455,7 +406,6 @@
         "template--17185129595165__9c155839-5d6c-48fa-8ff1-e781fe61f099-167765856369e0dc1b-4": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_our_team_2.png",
             "content": "<p>“The experience with Uminex has been nothing short of amazing. <\/p><p>So much better than other themes I’ve used – wish I had seen this one <\/p><p>first and saved my wasted time and money on other themes! I’d <\/p><p>recommend this theme in a heartbeat!”<\/p>",
             "title": "Alexander Ball",
             "address": "Founder\/CEO at Uminex Store",
@@ -465,7 +415,6 @@
         "template--17185129595165__9c155839-5d6c-48fa-8ff1-e781fe61f099-167765856369e0dc1b-5": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_our_team_3.png",
             "content": "<p>“The experience with Uminex has been nothing short of amazing. <\/p><p>So much better than other themes I’ve used – wish I had seen this one <\/p><p>first and saved my wasted time and money on other themes! I’d <\/p><p>recommend this theme in a heartbeat!”<\/p>",
             "title": "Alexander Ball",
             "address": "Founder\/CEO at Uminex Store",
@@ -475,7 +424,6 @@
         "template--17185129595165__9c155839-5d6c-48fa-8ff1-e781fe61f099-167765856369e0dc1b-6": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_our_team.png",
             "content": "<p>“The experience with Uminex has been nothing short of amazing. <\/p><p>So much better than other themes I’ve used – wish I had seen this one <\/p><p>first and saved my wasted time and money on other themes! I’d <\/p><p>recommend this theme in a heartbeat!”<\/p>",
             "title": "Alexander Ball",
             "address": "Founder\/CEO at Uminex Store",
@@ -485,7 +433,6 @@
         "template--17185129595165__9c155839-5d6c-48fa-8ff1-e781fe61f099-167765856369e0dc1b-7": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/img_our_team_2.png",
             "content": "<p>“The experience with Uminex has been nothing short of amazing. <\/p><p>So much better than other themes I’ve used – wish I had seen this one <\/p><p>first and saved my wasted time and money on other themes! I’d <\/p><p>recommend this theme in a heartbeat!”<\/p>",
             "title": "Alexander Ball",
             "address": "Founder\/CEO at Uminex Store",
@@ -508,6 +455,8 @@
         "content": "",
         "text_size": "medium",
         "text_transform": "none",
+        "show_text_bottom": false,
+        "text_bottom": "<p>Trusted customers are our happiness. Contact us.<p>",
         "hidden": false,
         "layout": "container",
         "width_c": 70,
@@ -548,7 +497,6 @@
         "template--17185129595165__cf828331-4986-4b25-89f7-fbae81bf461f-167760426395948423-0": {
           "type": "brand",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand1.png",
             "url": "#",
             "open_link": "_blank"
           }
@@ -556,7 +504,6 @@
         "template--17185129595165__cf828331-4986-4b25-89f7-fbae81bf461f-167760426395948423-1": {
           "type": "brand",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand2.jpg",
             "url": "#",
             "open_link": "_blank"
           }
@@ -564,7 +511,6 @@
         "template--17185129595165__cf828331-4986-4b25-89f7-fbae81bf461f-167760426395948423-2": {
           "type": "brand",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand3.jpg",
             "url": "#",
             "open_link": "_blank"
           }
@@ -572,7 +518,6 @@
         "template--17185129595165__cf828331-4986-4b25-89f7-fbae81bf461f-167760426395948423-3": {
           "type": "brand",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand4.jpg",
             "url": "#",
             "open_link": "_blank"
           }
@@ -580,7 +525,6 @@
         "template--17185129595165__cf828331-4986-4b25-89f7-fbae81bf461f-167760426395948423-4": {
           "type": "brand",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand5.jpg",
             "url": "#",
             "open_link": "_blank"
           }
@@ -588,7 +532,6 @@
         "template--17185129595165__cf828331-4986-4b25-89f7-fbae81bf461f-167760426395948423-5": {
           "type": "brand",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand6.jpg",
             "url": "#",
             "open_link": "_blank"
           }
@@ -603,6 +546,8 @@
         "template--17185129595165__cf828331-4986-4b25-89f7-fbae81bf461f-167760426395948423-5"
       ],
       "settings": {
+        "title": "",
+        "sub_title": "",
         "hidden": false,
         "show_border_top": false,
         "use-slider": true,
