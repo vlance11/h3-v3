@@ -146,8 +146,8 @@
           "settings": {
             "title": "What is the payment process for buying a product?",
             "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
-            "link": "",
-            "open_link": "_blank"
+            "link": "#",
+            "open_link": "_self"
           }
         },
         "faq_4BGJGn": {
