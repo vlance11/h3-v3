@@ -137,7 +137,7 @@
           "settings": {
             "title": "What is Hitch Expo?",
             "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
-            "link": "#",
+            "link": "",
             "open_link": "_self"
           }
         },
@@ -146,7 +146,7 @@
           "settings": {
             "title": "What is the payment process for buying a product?",
             "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
-            "link": "#",
+            "link": "",
             "open_link": "_self"
           }
         },
@@ -155,7 +155,7 @@
           "settings": {
             "title": "What is your cancellation and refund policy?",
             "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
-            "link": "#",
+            "link": "",
             "open_link": "_self"
           }
         }
