@@ -198,6 +198,49 @@
                         	<div id="product_container" class="clearfix">
                               <div class="ymm-prd-loader" style="display: none;"></div>
                               <div id="products" class="grid search-result-ctm"></div>
+                            {% comment %} Custom coded start {% endcomment %}
+                              <div class="on-empty-search" style="display:none;">
+                                {% if section.blocks.size > 0 %}
+                                  <div class="categories-content-main">
+                                    <div class="row">
+                                      {% for block in section.blocks %}
+                                      <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                                        <div class="category-card center">
+                                          {% if block.settings.image != blank %}
+                                          <div class="card-image">
+                                            <a href="{{ block.settings.url }}">
+                                              <img src="{{ block.settings.image | image_url: width: 100 }}" alt="{{ block.settings.title }}" style="background-color: {{ block.settings.bg_color }}">
+                                            </a>
+                                          </div>
+                                          {% endif %}
+                                          <div class="category-footer">
+                                            <a href="{{ block.settings.url }}" class="title">{{ block.settings.title }}</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      {% endfor %}
+                                    </div>
+                                  </div>
+                                  {% endif %}
+                              </div>
+                              {% if section.settings.enable_related_search %}
+                              <div class="related-search">
+                                <div class="section-title related-s-terms">
+                                  <h2>Related search</h2>
+                                </div>
+                                <div class="related-terms">
+                                  <div id="shuffled-collections-container">
+                                    {% for collection in collections %}
+                                      <a href="{{ collection.url }}" class="related-search-btn" style="display: none;">
+                                        <span class="icon icon-search"></span>
+                                        <span class="terms-title">{{ collection.title }}</span>
+                                      </a>
+                                    {% endfor %}
+                                  </div>
+                                </div>
+                              </div>
+                              {% endif %}
+                              {% comment %} Custom coded end {% endcomment %}
                               <div class="clearfix paging-outr"><ul class="pagination" id="paginate"></ul></div>
                         	</div>
                         	{%- comment -%} ENDS HERE {%- endcomment -%}
@@ -214,9 +257,23 @@
 {% render 'grid-style', settings:section.settings %}
 {%- render 'section_style' -%}
 {{ 'ymm-custom-style.css' | asset_url | stylesheet_tag }}
+<script>
+  document.addEventListener("onload", function(){
+    let categories = document.querySelector(".on-empty-search");
+    let productCon = document.querySelector(".product_container");
+    
+    setTimeout(()=>{
+      if (productCon.innerHTML.trim() !== '') {
+        console.log('The div contains content.');
+      } else {
+        categories.style.display = 'none'
+      }
+    },200)
+  })
+</script>
 {% if section.settings.enable_related_search %}
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('onload', function() {
     var container = document.querySelector('#shuffled-collections-container');
     var collectionLinks = container.querySelectorAll('.related-search-btn');
 
@@ -233,7 +290,7 @@
 
     // Display only the first 5 elements
     for (var i = 0; i < 5; i++) {
-      shuffledCollectionLinks[i].style.display = 'inline-block'; // or 'block' depending on your styling
+      shuffledCollectionLinks[i].remove(); // or 'block' depending on your styling
       container.appendChild(shuffledCollectionLinks[i]);
     }
   });
@@ -487,6 +544,40 @@
     "type": "text",
     "id": "pd_mb",
     "label": "Padding"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "category",
+      "name": "Category",
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "This item will appear when search result is empty!"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Category name"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Link"
+        },
+        {
+          "type": "color",
+          "id": "bg_color",
+          "label": "Background color",
+          "default": "#CED9FF"
+        }
+      ]
     }
   ]
   }

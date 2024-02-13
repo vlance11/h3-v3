@@ -1,3 +1,7 @@
+#ymm_searchbox label,
+#ymm_searchbox select {
+  font-size: 13px !important;
+}
 /* header */
 .link2-menu.menu-item {
   padding: 10px 0;
@@ -333,14 +337,17 @@ button.btn.add-to-cart {
   opacity: 1;
 }
 /* search pgae */
+.on-empty-search {
+  margin-top: 30px;
+}
 .related-search {
   margin-top: 50px;
 }
 .related-search-btn {
-  border: 1px solid #999999;
-  border-radius: 8px;
-  padding: 2px 20px;
-  margin: 12px 12px 12px 0;
+  border: 1px solid #999999 !important;
+  border-radius: 8px !important;
+  padding: 2px 20px !important;
+  margin: 12px 12px 12px 0 !important;
 }
 .related-search-btn .icon {
   margin-right: 20px;
