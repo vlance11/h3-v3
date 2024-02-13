@@ -829,6 +829,9 @@ a.change-vehicle-link {
     font-size: 12px;
     line-height: 20px;
   }
+  .template-product .tabs-product, .template-product .ymm_comptbl_list{
+    max-width: 100%;
+  }
 }
 @media screen and (min-width: 768px) {
   .search-box-area .header-search .search_header {
