@@ -148,48 +148,39 @@
         "faq_9MDwaL": {
           "type": "faq",
           "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "title": "What is Hitch Expo?",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
             "link": "",
-            "open_link": "_blank"
+            "open_link": "_self"
           }
         },
         "faq_jdxCeC": {
           "type": "faq",
           "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "title": "What is the payment process for buying a product?",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
             "link": "",
-            "open_link": "_blank"
+            "open_link": "_self"
           }
         },
         "faq_wT3LQ8": {
           "type": "faq",
           "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "title": "What is your cancellation and refund policy?",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
             "link": "",
-            "open_link": "_blank"
-          }
-        },
-        "faq_nK6fqw": {
-          "type": "faq",
-          "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
-            "link": "",
-            "open_link": "_blank"
+            "open_link": "_self"
           }
         }
       },
       "block_order": [
         "faq_9MDwaL",
         "faq_jdxCeC",
-        "faq_wT3LQ8",
-        "faq_nK6fqw"
+        "faq_wT3LQ8"
       ],
       "settings": {
         "hidden": false,
+        "hidden_newletter": false,
         "title": "Got a question for Hitch Expo?",
         "sub_title": "",
         "content": "Lorem ipsum dolor sit amet consectetur. Id vel vitae id mi quis adipiscing suspendisse dignissim.",
