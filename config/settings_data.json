@@ -21,7 +21,7 @@
     "logo": "shopify:\/\/shop_images\/hitch-expo-logo.png",
     "logo_page": "shopify:\/\/shop_images\/Logo5.png",
     "logo_page_mobile": "shopify:\/\/shop_images\/hitch-expo-logo.png",
-    "logo_max_width": 245,
+    "logo_max_width": 225,
     "ajaxcart_enabled": true,
     "ajaxcart_after": "sidebar_cart",
     "product_gift": "gift-wrap",
