@@ -53,27 +53,17 @@
         "faq_LckdaT": {
           "type": "faq",
           "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "title": "What is your cancellation and refund policy?",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
             "link": "",
-            "open_link": "_blank"
-          }
-        },
-        "faq_6GdkkD": {
-          "type": "faq",
-          "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
-            "link": "",
-            "open_link": "_blank"
+            "open_link": "_self"
           }
         }
       },
       "block_order": [
         "faq_3a4kek",
         "faq_qAd34U",
-        "faq_LckdaT",
-        "faq_6GdkkD"
+        "faq_LckdaT"
       ],
       "settings": {
         "hidden": false,
