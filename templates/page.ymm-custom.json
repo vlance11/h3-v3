@@ -121,7 +121,7 @@
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
-        "enable_related_search": false,
+        "enable_related_search": true,
         "cl_bg": "#fafafa",
         "mg": "",
         "pd": "30px,0,30px,0",
