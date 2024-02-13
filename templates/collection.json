@@ -56,7 +56,7 @@
         "mobile": 1,
         "padding_lr": 5,
         "mg": "",
-        "pd": "15px,,15px",
+        "pd": "15px,0,15px",
         "mg_mb": "",
         "pd_mb": ""
       }
@@ -75,57 +75,48 @@
         "faq_xnnPAf": {
           "type": "faq",
           "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "title": "What is Hitch Expo?",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
             "link": "",
-            "open_link": "_blank"
+            "open_link": "_self"
           }
         },
         "faq_pyrFQ8": {
           "type": "faq",
           "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "title": "What is the payment process for buying a product?",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
             "link": "",
-            "open_link": "_blank"
+            "open_link": "_self"
           }
         },
         "faq_YQ7KJL": {
           "type": "faq",
           "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "title": "What is your cancellation and refund policy?",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
             "link": "",
-            "open_link": "_blank"
-          }
-        },
-        "faq_tzEQUn": {
-          "type": "faq",
-          "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
-            "link": "",
-            "open_link": "_blank"
+            "open_link": "_self"
           }
         }
       },
       "block_order": [
         "faq_xnnPAf",
         "faq_pyrFQ8",
-        "faq_YQ7KJL",
-        "faq_tzEQUn"
+        "faq_YQ7KJL"
       ],
       "settings": {
         "hidden": false,
+        "hidden_newletter": false,
         "title": "Got a question for Hitch Expo?",
         "sub_title": "",
         "content": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium<br> lectus qua. Nunc id cursus metus ididunt ut labore metus episcing.",
         "layout": "container",
-        "cl_bg": "#ffffff",
+        "cl_bg": "#fffcf5",
         "mg": "",
         "pd": "",
         "mg_mb": "",
-        "pd_mb": ""
+        "pd_mb": "50px,0,50px,0"
       }
     }
   },
