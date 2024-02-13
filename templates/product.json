@@ -277,56 +277,6 @@
       ],
       "settings": {
       }
-    },
-    "2a5d30e1-b228-482c-b9c1-a26c5a513369": {
-      "type": "faq-sections",
-      "blocks": {
-        "bda9d53a-09a5-4246-91a6-7d51b110ee6b": {
-          "type": "faq",
-          "settings": {
-            "title": "How can I buy this product with EMI",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. <\/p>",
-            "link": "shopify:\/\/pages\/tennessee-trailer-and-towing-laws",
-            "open_link": "_self"
-          }
-        },
-        "7664f35b-beab-4ac7-b5c5-643621883faa": {
-          "type": "faq",
-          "settings": {
-            "title": "How can I buy this product with EMI",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
-            "link": "",
-            "open_link": "_self"
-          }
-        },
-        "c6d6f686-5a7b-4389-88ea-b36fb9ee4050": {
-          "type": "faq",
-          "settings": {
-            "title": "How can I buy this product with EMI",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
-            "link": "",
-            "open_link": "_blank"
-          }
-        }
-      },
-      "block_order": [
-        "bda9d53a-09a5-4246-91a6-7d51b110ee6b",
-        "7664f35b-beab-4ac7-b5c5-643621883faa",
-        "c6d6f686-5a7b-4389-88ea-b36fb9ee4050"
-      ],
-      "settings": {
-        "hidden": false,
-        "hidden_newletter": true,
-        "title": "Frequently Asked Questions",
-        "sub_title": "",
-        "content": "",
-        "layout": "container",
-        "cl_bg": "#ffffff",
-        "mg": "",
-        "pd": "",
-        "mg_mb": "",
-        "pd_mb": ""
-      }
     }
   },
   "order": [
@@ -334,7 +284,6 @@
     "170659979689fff3f0",
     "main",
     "product-page-tab",
-    "170401789281e0ae28",
-    "2a5d30e1-b228-482c-b9c1-a26c5a513369"
+    "170401789281e0ae28"
   ]
 }
