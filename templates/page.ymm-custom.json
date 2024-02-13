@@ -107,7 +107,7 @@
       "settings": {
         "pagination_limit": 18,
         "grid_list": "4",
-        "visible": 5,
+        "visible": 3,
         "widescreen": 3,
         "desktop": 3,
         "laptop": 3,
