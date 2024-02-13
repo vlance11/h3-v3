@@ -830,7 +830,7 @@ a.change-vehicle-link {
     line-height: 20px;
   }
   .template-product .tabs-product, .template-product .ymm_comptbl_list{
-    max-width: 100%;
+    max-width: 100% !important;
   }
 }
 @media screen and (min-width: 768px) {
