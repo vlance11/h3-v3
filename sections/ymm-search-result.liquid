@@ -258,7 +258,7 @@
 {%- render 'section_style' -%}
 {{ 'ymm-custom-style.css' | asset_url | stylesheet_tag }}
 <script>
-  document.addEventListener("onload", function(){
+  document.addEventListener("load", function(){
     let categories = document.querySelector(".on-empty-search");
     let productCon = document.querySelector(".product_container");
     
@@ -273,7 +273,7 @@
 </script>
 {% if section.settings.enable_related_search %}
 <script>
-  document.addEventListener('onload', function() {
+  document.addEventListener('load', function() {
     var container = document.querySelector('#shuffled-collections-container');
     var collectionLinks = container.querySelectorAll('.related-search-btn');
 
