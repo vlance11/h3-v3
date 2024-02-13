@@ -135,17 +135,17 @@
         "faq_MxLtaV": {
           "type": "faq",
           "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
-            "link": "",
-            "open_link": "_blank"
+            "title": "What is Hitch Expo?",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
+            "link": "#",
+            "open_link": "_self"
           }
         },
         "faq_9UKkMb": {
           "type": "faq",
           "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "title": "What is the payment process for buying a product?",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
             "link": "",
             "open_link": "_blank"
           }
@@ -153,10 +153,10 @@
         "faq_4BGJGn": {
           "type": "faq",
           "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
-            "link": "",
-            "open_link": "_blank"
+            "title": "What is your cancellation and refund policy?",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
+            "link": "#",
+            "open_link": "_self"
           }
         },
         "faq_B3Km6E": {
