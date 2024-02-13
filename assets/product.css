@@ -1157,7 +1157,7 @@
 .grid-4-style .product-item .product-list-style,
 .grid-5-style .product-item .product-list-style,
 .grid-style .product-item .product-list-style {
-  display: none !important;
+  /* display: none !important; */
 }
 #collection-product .product-item {
   -webkit-transition: all 400ms linear 0ms;
