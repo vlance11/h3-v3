@@ -1196,7 +1196,9 @@
     background: #fff;
     align-items: center;
   }
-
+.list-style .product-item .product-collection .product-collection__content{
+  display: block;
+}
   .list-style .product-item .product-image__overlay-bottom {
     display: none;
   }
