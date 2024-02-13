@@ -269,13 +269,13 @@
   }
   
   // Check when the window has finished loading
-  window.onload = function() {
+  window.addEventListener('load', function() {
     console.log('Window loaded');
     setTimeout(function() {
       console.log('Its called!');
       checkDivContent();
     }, 2000);
-  };
+  });
 
 </script>
 {% if section.settings.enable_related_search %}
