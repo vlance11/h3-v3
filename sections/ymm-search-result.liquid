@@ -258,9 +258,9 @@
 {%- render 'section_style' -%}
 {{ 'ymm-custom-style.css' | asset_url | stylesheet_tag }}
 <script>
-  document.addEventListener("load", function(){
-    
+  document.addEventListener("load", function(){    
     setTimeout(()=>{
+      console.log("Im inside!");
       let categories = document.querySelector(".on-empty-search");
       let productCon = document.querySelector(".product_container");
       if (productCon.innerHTML.trim() !== '') {
