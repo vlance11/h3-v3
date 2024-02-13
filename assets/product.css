@@ -1194,6 +1194,7 @@
   .list-style .product-item .product-collection {
     flex-direction: row;
     background: #fff;
+    align-items: center;
   }
 
   .list-style .product-item .product-image__overlay-bottom {
