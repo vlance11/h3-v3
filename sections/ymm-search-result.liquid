@@ -280,7 +280,7 @@
 </script>
 {% if section.settings.enable_related_search %}
 <script>
-  window.onload = function() {
+   window.addEventListener('load', function() {
     var container = document.querySelector('#shuffled-collections-container');
     var collectionLinks = container.querySelectorAll('.related-search-btn');
 
@@ -300,7 +300,7 @@
       shuffledCollectionLinks[i].style.display = 'none'; // or 'block' depending on your styling
       container.appendChild(shuffledCollectionLinks[i]);
     }
-  };
+  });
 </script>
 {% endif %}
 {% schema %}
