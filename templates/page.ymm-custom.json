@@ -158,22 +158,12 @@
             "link": "#",
             "open_link": "_self"
           }
-        },
-        "faq_B3Km6E": {
-          "type": "faq",
-          "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
-            "link": "",
-            "open_link": "_blank"
-          }
         }
       },
       "block_order": [
         "faq_MxLtaV",
         "faq_9UKkMb",
-        "faq_4BGJGn",
-        "faq_B3Km6E"
+        "faq_4BGJGn"
       ],
       "settings": {
         "hidden": false,
