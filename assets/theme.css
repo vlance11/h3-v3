@@ -349,6 +349,10 @@ button.btn.add-to-cart {
   padding: 2px 20px !important;
   margin: 12px 12px 12px 0 !important;
 }
+#shuffled-collections-container {
+    flex-wrap: wrap;
+    display: flex;
+}
 .related-search-btn .icon {
   margin-right: 20px;
   font-size: 12px;
