@@ -832,6 +832,9 @@ a.change-vehicle-link {
   .template-product .tabs-product, .template-product .ymm_comptbl_list{
     max-width: 100% !important;
   }
+  .fixed-nav-tab {
+    top: 0px;
+  }
 }
 @media screen and (min-width: 768px) {
   .search-box-area .header-search .search_header {
