@@ -20,6 +20,90 @@
     },
     "main": {
       "type": "ymm-search-result",
+      "blocks": {
+        "category_bjHqp9": {
+          "type": "category",
+          "settings": {
+            "title": "Trailer Hitches",
+            "image": "shopify:\/\/shop_images\/Component_1_1.png",
+            "url": "shopify:\/\/collections\/rear-trailer-hitches",
+            "bg_color": "#CED9FF"
+          }
+        },
+        "category_9M4KRV": {
+          "type": "category",
+          "settings": {
+            "title": "Trailer Wiring",
+            "image": "shopify:\/\/shop_images\/Component_1_2.png",
+            "url": "shopify:\/\/collections\/trailer-wiring",
+            "bg_color": "#CED9FF"
+          }
+        },
+        "category_GeTVck": {
+          "type": "category",
+          "settings": {
+            "title": "Wiring Vehicle End",
+            "image": "shopify:\/\/shop_images\/Component_1_3.png",
+            "url": "shopify:\/\/collections\/wiring-vehicle-end",
+            "bg_color": "#CED9FF"
+          }
+        },
+        "category_CW99rh": {
+          "type": "category",
+          "settings": {
+            "title": "Trailer Jacks",
+            "image": "shopify:\/\/shop_images\/Component_1_4.png",
+            "url": "shopify:\/\/collections\/trailer-jacks",
+            "bg_color": "#CED9FF"
+          }
+        },
+        "category_r9drDD": {
+          "type": "category",
+          "settings": {
+            "title": "Trailer Jacks",
+            "image": "shopify:\/\/shop_images\/Component_1_4.png",
+            "url": "shopify:\/\/collections\/trailer-jacks",
+            "bg_color": "#CED9FF"
+          }
+        },
+        "category_CHKFDL": {
+          "type": "category",
+          "settings": {
+            "title": "Fifth Wheel",
+            "image": "shopify:\/\/shop_images\/Component_1_5_e4ad50a3-7334-4f13-b692-512f73c0a83f.png",
+            "url": "shopify:\/\/collections\/fifth-wheel-accessories",
+            "bg_color": "#CED9FF"
+          }
+        },
+        "category_fJBfPk": {
+          "type": "category",
+          "settings": {
+            "title": "Trailer Parts",
+            "image": "shopify:\/\/shop_images\/Component_1_6.png",
+            "url": "shopify:\/\/collections\/trailer-parts",
+            "bg_color": "#CED9FF"
+          }
+        },
+        "category_fFe48H": {
+          "type": "category",
+          "settings": {
+            "title": "Accessories",
+            "image": "shopify:\/\/shop_images\/Component_1_3.png",
+            "url": "shopify:\/\/collections\/accessories-parts",
+            "bg_color": "#CED9FF"
+          }
+        }
+      },
+      "block_order": [
+        "category_bjHqp9",
+        "category_9M4KRV",
+        "category_GeTVck",
+        "category_CW99rh",
+        "category_r9drDD",
+        "category_CHKFDL",
+        "category_fJBfPk",
+        "category_fFe48H"
+      ],
       "settings": {
         "pagination_limit": 18,
         "grid_list": "4",
@@ -93,11 +177,12 @@
       ],
       "settings": {
         "hidden": false,
+        "hidden_newletter": false,
         "title": "Got a question for Hitch Expo?",
         "sub_title": "",
         "content": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium<br> lectus qua. Nunc id cursus metus ididunt ut labore metus episcing.",
         "layout": "container",
-        "cl_bg": "#fff",
+        "cl_bg": "#ffffff",
         "mg": "",
         "pd": "",
         "mg_mb": "",
