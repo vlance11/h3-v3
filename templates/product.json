@@ -1,5 +1,27 @@
 {
   "sections": {
+    "vehicle_selection_rzxQPy": {
+      "type": "vehicle-selection",
+      "blocks": {
+        "c_year_make_model_search_ymm_searchbox_pro_HCUUPJ": {
+          "type": "shopify:\/\/apps\/c-year-make-model-search\/blocks\/ymm-searchbox-pro\/ce35ea35-ef50-4f43-8cb6-7c34cae4c285",
+          "settings": {
+            "searchbox_title": "",
+            "searchbox_style": "horizontal"
+          }
+        }
+      },
+      "block_order": [
+        "c_year_make_model_search_ymm_searchbox_pro_HCUUPJ"
+      ],
+      "settings": {
+        "hide_section": false,
+        "title": "Choose Vehicle",
+        "vehicle_type": "{{ product.vendor }}",
+        "url_label": "Change vehicle",
+        "url": ""
+      }
+    },
     "170659979689fff3f0": {
       "type": "apps",
       "settings": {
@@ -308,6 +330,7 @@
     }
   },
   "order": [
+    "vehicle_selection_rzxQPy",
     "170659979689fff3f0",
     "main",
     "product-page-tab",
