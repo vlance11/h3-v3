@@ -273,7 +273,7 @@
 </script>
 {% if section.settings.enable_related_search %}
 <script>
-  document.addEventListener('load', function() {
+  window.onload = function() {
     var container = document.querySelector('#shuffled-collections-container');
     var collectionLinks = container.querySelectorAll('.related-search-btn');
 
@@ -293,7 +293,7 @@
       shuffledCollectionLinks[i].remove(); // or 'block' depending on your styling
       container.appendChild(shuffledCollectionLinks[i]);
     }
-  });
+  };
 </script>
 {% endif %}
 {% schema %}
