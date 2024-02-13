@@ -123,30 +123,46 @@
             </div>
 
       {% when 'faq' %}
-          {% assign faqContents = section.blocks | where: "type", "faq-content" %}
             <div id="faq" class="tab-panel">
               <h3 class="heading-title d-none sm:d-block"><span>{{ block.settings.title }}</span> <i class="icon-plus"></i></h3>
               <div class="description faq-section">
               {% assign index = 0 %}
-              {% for content in faqContents %}
-                <div id="id_b_{{ content.id }}" class="item-faq {{ index }}" {{ content.shopify_attributes }}>
-                  <div class="js-item-faq item {% if index == 0 %}active{% endif %}">	
-                    {% if content.settings.question != blank %}
-                      <h3 class="faq-heading-title">
-                          <span target="_self" title="{{ content.settings.question | escape }}">{{ content.settings.question | escape }}</span>
-                          <span class="faqs-icon">
-                            <i class="icon-plus"></i>
-                          </span>
-                      </h3>
+
+              {% assign metafield_value = product.metafields.custom.product_faq %}
+              
+              {% if metafield_value == blank or metafield_value == nil %}
+                <p>Please check back for the FAQ.</p>
+              {% else %}
+                {% assign first_char = metafield_value | slice: 0 %}
+                
+                {% if first_char == "{" or first_char == "[" %}
+                  {% assign parsed_metafield = metafield_value | json_parse %}
+                  
+                  {% for item in parsed_metafield %}
+                    {% if item.question and item.answer %}
+                      <div id="id_b_{{ index }}" class="item-faq {{ index }}">
+                        <div class="js-item-faq item {% if index == 0 %}active{% endif %}">
+                            <h3 class="faq-heading-title">
+                                <span target="_self" title="{{ item.question | escape }}">{{ item.question | escape }}</span>
+                                <span class="faqs-icon">
+                                  <i class="icon-plus"></i>
+                                </span>
+                            </h3>
+                            <div class="content-faq">{{ item.answer }}</div>
+                        </div>	
+                      </div>
+                      {% assign index = index | plus: 1 %}
                     {% endif %}
-       
-                    {% if content.settings.answer != blank %}
-                      <div class="content-faq">{{ content.settings.answer }}</div>
-                    {% endif %}
-                  </div>	
-                </div>
-                {% assign index = index | plus: 1 %}
-              {% endfor %}
+                  {% endfor %}
+                {% else %}
+                  {% assign lines = metafield_value | newline_to_br | split: "<br />" %}
+                  <div class="meta-lines">
+                  {% for line in lines %}
+                    <p>{{ line }}</p>
+                  {% endfor %}
+                  </div>
+                {% endif %}
+                {% endif %}
               </div>
             </div>
 		{%- endcase -%}
