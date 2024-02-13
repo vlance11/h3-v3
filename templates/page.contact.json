@@ -9,7 +9,7 @@
         "txt_align": "left",
         "bg": "#ffffff",
         "cl_title": "#212529",
-        "cl_breadcrum": "#8D979E",
+        "cl_breadcrum": "#8d979e",
         "b_height": 60,
         "mg_bottom": 0,
         "mobile_bg": "#ffffff",
@@ -104,55 +104,46 @@
         "faq_gWXDNy": {
           "type": "faq",
           "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "title": "What is Hitch Expo?",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
             "link": "",
-            "open_link": "_blank"
+            "open_link": "_self"
           }
         },
         "faq_wJRpzR": {
           "type": "faq",
           "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "title": "What is the payment process for buying a product?",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
             "link": "",
-            "open_link": "_blank"
+            "open_link": "_self"
           }
         },
-        "faq_mEhwUa": {
+        "faq_Xgpzj6": {
           "type": "faq",
           "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "title": "What is your cancellation and refund policy?",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
             "link": "",
-            "open_link": "_blank"
-          }
-        },
-        "faq_8dQLGY": {
-          "type": "faq",
-          "settings": {
-            "title": "Problems sending or receiving messages?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
-            "link": "",
-            "open_link": "_blank"
+            "open_link": "_self"
           }
         }
       },
       "block_order": [
         "faq_gWXDNy",
         "faq_wJRpzR",
-        "faq_mEhwUa",
-        "faq_8dQLGY"
+        "faq_Xgpzj6"
       ],
       "settings": {
         "hidden": false,
+        "hidden_newletter": false,
         "title": "Got a question for Hitch Expo?",
         "sub_title": "",
         "content": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium<br> lectus qua. Nunc id cursus metus ididunt ut labore metus episcing.",
         "layout": "container",
-        "cl_bg": "#fff",
+        "cl_bg": "#fffcf5",
         "mg": "",
-        "pd": "",
+        "pd": "50px,0,50px,0",
         "mg_mb": "",
         "pd_mb": ""
       }
