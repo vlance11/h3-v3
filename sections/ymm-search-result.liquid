@@ -282,7 +282,7 @@
 <script>
   function relatedSearch (){
     var container = document.getElementById('#shuffled-collections-container');
-    var collectionLinks = container.querySelectorAll('.related-search-btn');
+    var collectionLinks = container.querySelectorAll('#shuffled-collections-container .related-search-btn');
 
     // Convert the NodeList to an array for easier manipulation
     var shuffledCollectionLinks = Array.from(collectionLinks);
@@ -304,7 +304,9 @@
   }
    window.addEventListener('load', function() {
      console.log('Related search');
-    relatedSearch();
+    setTimeout(function() {
+      relatedSearch();
+    },1000)
   });
 </script>
 {% endif %}
