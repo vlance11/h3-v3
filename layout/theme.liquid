@@ -87,8 +87,7 @@
               {% endif %}
         {% endcase %}
     </header>
-    {% if template contains 'product' %} 
-        {% section 'vehicle-selection' %}
+    {% if template contains 'product' %}
     	{% section 'breadcrumb' %}
         <div class="page-container clearfix {%if settings.show_product_sidebar%}sidebar-product{%endif%}" id="PageContainer">
           <div class="container {%if settings.product_page_layout == 'full-width' %}{{settings.product_page_layout}}{%endif%}">

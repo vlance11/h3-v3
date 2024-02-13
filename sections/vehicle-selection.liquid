@@ -3,24 +3,61 @@
     <div class="product-visibility-terms-container hide-mobile">
         <div class="vehicle-selection">
             <strong>{{ section.settings.title }}</strong>
-            <span class="vehicle-vendor">
-              {{ section.settings.vehicle_type }} 
-              <span class="cancel" onclick="window.location.href='{{ section.settings.url | default:"#" }}'">
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M10.4688 1.53125L1.53125 10.4688M1.53125 1.53125L10.4688 10.4688" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
+            <span class="vehicle-vendor">              
+              <span id="contentResult">{{ section.settings.vehicle_type }}</span>
+                <span class="cancel" onclick="showSearchBar(this)">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.4688 1.53125L1.53125 10.4688M1.53125 1.53125L10.4688 10.4688" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </span>
             </span>
-            <a href="{{ section.settings.url | default: "#" }}" class="link">{{ section.settings.url_label }}</a>
+            <span onclick="showSearchBar(this)" class="link">{{ section.settings.url_label }}</span>
             <span class="icon icon-search"></span>
         </div>
     </div>
 </div>
+<div id="ymm-search-area" class="d-none">
+    {% for block in section.blocks %}
+        {% if block.type == '@app' %}
+            {% render block %}
+        {% endif %}
+    {% endfor %}
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Get the query parameters from the URL
+      var queryString = window.location.search.substring(1);
+      var queryParams = {};
+      queryString.split("&").forEach(function(part) {
+          var item = part.split("=");
+          queryParams[item[0]] = decodeURIComponent(item[1]);
+      });
+      var rqValue = queryParams['rq'] || '';
+      var queryResult = generateResult(rqValue);
+      var contentElement = document.getElementById('contentResult');
+      contentElement.textContent = queryResult;
+    });
+  
+    function generateResult(rqValue) {
+        if (!rqValue) {
+            return "{{ section.settings.vehicle_type }} ";
+        } else {
+            var result = rqValue.replace('rq=', '').replace('yr_', '').replace('mk_', '').replace('md_', '').replace(/~/g, ' ');
+            return result;
+        }
+    }
+    </script>
 {% endunless %}
+{% style %}
+.product-visibility-terms-container {
+    margin-bottom: 15px;
+}
+{% endstyle %}
 {% schema %}
 {
     "name": "Vehicle selection",
-    "class": "ymm-vehicle-selection",
+    "class": "ymm-vehicle-selection-area",
+    "max_blocks": 1,
     "settings":[
         {
           "type": "checkbox",
@@ -50,6 +87,11 @@
             "type": "url",
             "id": "url",
             "label": "Url"
+        }
+    ],
+    "blocks":[
+        {
+            "type": "@app"
         }
     ],
     "presets":[

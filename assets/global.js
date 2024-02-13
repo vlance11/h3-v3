@@ -899,3 +899,10 @@ class VariantRadios extends VariantSelects {
 }
 
 customElements.define('variant-radios', VariantRadios);
+
+  const showSearchBar = (element)=>{
+    var closestParent = element.closest('.vehicle-selection');
+    closestParent.classList.add("d-none");
+    var ymmSearchArea = document.getElementById('ymm-search-area');
+    ymmSearchArea.classList.remove("d-none");
+  }

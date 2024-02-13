@@ -490,10 +490,11 @@ span.vehicle-vendor .cancel svg {
   background: #e5c33a;
   border-radius: 25px;
 }
-.vehicle-selection a.link {
+.vehicle-selection span.link {
   margin-right: 10px;
   color: #2092e5;
   text-decoration: underline;
+  cursor: pointer;
 }
 .sku-barcode-container {
   display: flex;
@@ -599,12 +600,12 @@ label.qty-label {
 } */
 #tab_product .nav.list-nav {
   justify-content: space-between !important;
-} 
+}
 .fixed-nav-tab {
   position: fixed !important;
   top: 50px;
   z-index: 9;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 #tab_product .nav .icon {
   font-size: 18px;
