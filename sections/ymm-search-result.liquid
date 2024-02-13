@@ -258,18 +258,23 @@
 {%- render 'section_style' -%}
 {{ 'ymm-custom-style.css' | asset_url | stylesheet_tag }}
 <script>
-  window.onload = function() {  
-    setTimeout(()=>{
-      console.log("Im inside!");
-      let categories = document.querySelector(".on-empty-search");
-      let productCon = document.querySelector(".product_container");
-      if (productCon.innerHTML.trim() !== '') {
-        console.log('The div contains content.');
-      } else {
-        categories.style.display = 'block'
-      }
-    },1000)
+  function checkDivContent() {
+    let categories = document.querySelector(".on-empty-search");
+    let productCon = document.querySelector(".product_container");
+    if (productCon.innerHTML.trim() !== '') {
+      console.log('The div contains content.');
+    } else {
+      categories.style.display = 'block'
+    }
   }
+  
+  // Check when the window has finished loading
+  window.onload = function() {
+    setTimeout(function() {
+      checkDivContent();
+    }, 2000);
+  };
+
 </script>
 {% if section.settings.enable_related_search %}
 <script>
