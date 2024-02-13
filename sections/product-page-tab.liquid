@@ -123,6 +123,7 @@
             </div>
 
       {% when 'faq' %}
+          {% assign faqContents = section.blocks | where: "type", "faq-content" %}
             <div id="faq" class="tab-panel">
               <h3 class="heading-title d-none sm:d-block"><span>{{ block.settings.title }}</span> <i class="icon-plus"></i></h3>
               <div class="description faq-section">
@@ -421,26 +422,7 @@ document.addEventListener("DOMContentLoaded", () => {
               "info": "Use fontawesome icons. i.e: fa fa-info"
             }
           ]
-        },
-        {
-          "type": "faq-content",
-          "name": "FAQ Content",
-          "settings": [
-            {
-              "type": "text",
-              "id": "question",
-              "label": "Question",
-              "default": "How can we help you?"
-            },
-            {
-              "type": "richtext",
-              "id": "answer",
-              "label": "Answer",
-              "default": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum.</p>"
-            }
-          ]
-        }
-		
+        }		
       ],
 	  "default": {
         "blocks": [
