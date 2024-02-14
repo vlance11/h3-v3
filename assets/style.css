@@ -45,6 +45,10 @@
 .template-product table.ymm_table {
     border: 1px solid #ccc;
 }
+
+.ymm-filter {
+    min-height: 20px !important;
+}
 @media only screen and (max-width:767px) {
     .template-product .tabs-product, 
     .template-product .ymm_comptbl_list,
