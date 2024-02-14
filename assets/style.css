@@ -79,7 +79,9 @@
 .sidebar-product #ymm_searchbox ul li {
     padding-top: 0 !important;
 }
-
+.product_infor label {
+    margin-right: 7px;
+}
 @media only screen and (max-width:767px) {
     .template-product .tabs-product, 
     .template-product .ymm_comptbl_list,
