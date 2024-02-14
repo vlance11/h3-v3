@@ -26,7 +26,7 @@
   padding: 0;
 }
 #ymm_searchbox select {
-  min-height: auto;
+  min-height: 20px;
 }
 #ymm-search-area {
   transform: translate(0%); /* Centering the element */
