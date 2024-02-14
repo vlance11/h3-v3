@@ -49,6 +49,32 @@
 .ymm-filter {
     min-height: 20px !important;
 }
+
+div#ymm_searchbox {
+    padding: 15px 0;
+    padding-right: 15px;
+    padding-left: 3px;
+}
+
+
+.dropdowns li:last-child {
+    margin-right: 0;
+    padding-right: 0 !important;
+}
+
+.image-banner-apps-block #ymm_searchbox ul {
+    justify-content: space-between;
+    margin-right: 0;
+}
+
+#ymm_searchbox label {
+    margin-left: 4px;
+}
+
+#ymm_searchbox.horizontal ul li {
+    border-right: 2px solid #ccc;
+}
+
 @media only screen and (max-width:767px) {
     .template-product .tabs-product, 
     .template-product .ymm_comptbl_list,
