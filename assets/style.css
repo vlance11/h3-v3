@@ -46,18 +46,18 @@
     border: 1px solid #ccc;
 }
 
-.ymm-filter {
+.image-banner-apps-block .ymm-filter {
     min-height: 20px !important;
 }
 
-div#ymm_searchbox {
+.image-banner-apps-block div#ymm_searchbox {
     padding: 15px 0;
     padding-right: 15px;
     padding-left: 3px;
 }
 
 
-.dropdowns li:last-child {
+.image-banner-apps-block .dropdowns li:last-child {
     margin-right: 0;
     padding-right: 0 !important;
 }
@@ -67,12 +67,12 @@ div#ymm_searchbox {
     margin-right: 0;
 }
 
-#ymm_searchbox label {
+.image-banner-apps-block #ymm_searchbox label {
     margin-left: 4px !important;
     margin-bottom: 0 !important;
 }
 
-#ymm_searchbox.horizontal ul li:not(.ymm_bttns){
+.image-banner-apps-block #ymm_searchbox.horizontal ul li:not(.ymm_bttns){
     border-right: 2px solid #ccc;
 }
 
