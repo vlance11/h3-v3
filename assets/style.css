@@ -71,7 +71,7 @@ div#ymm_searchbox {
     margin-left: 4px;
 }
 
-#ymm_searchbox.horizontal ul li {
+#ymm_searchbox.horizontal ul li:not(.ymm_bttns){
     border-right: 2px solid #ccc;
 }
 
