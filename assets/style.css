@@ -68,7 +68,8 @@ div#ymm_searchbox {
 }
 
 #ymm_searchbox label {
-    margin-left: 4px;
+    margin-left: 4px !important;
+    margin-bottom: 0 !important;
 }
 
 #ymm_searchbox.horizontal ul li:not(.ymm_bttns){
