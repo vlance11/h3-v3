@@ -77,7 +77,7 @@ div[data-wrapper-slidershow]
   .wrap_text
   .wrapper_caption
   .caption {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 div[data-wrapper-slidershow]
   .content-item
