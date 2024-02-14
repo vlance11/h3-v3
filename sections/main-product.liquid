@@ -183,7 +183,7 @@
                 
                               {%- if block.settings.show_type -%}
                               <div class="product-collection__type{% if type == blank %} d-none{% endif %}">
-                                <p data-js-product-type><label class="label">{{ 'products.product.type' | t }}: </label> <span>{{ type | truncate: 20, '' }}</span></p>
+                                <p data-js-product-type><label class="label">{{ 'products.product.type' | t }}: </label> <span>{{ type | truncatewords: 2, '' }}</span></p>
                               </div>
                               {% endif %}
                               {%- if block.settings.show_vendor -%}
