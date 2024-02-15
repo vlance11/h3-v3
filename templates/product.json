@@ -194,9 +194,17 @@
         "custom_liquid_dA6p83": {
           "type": "custom-liquid",
           "settings": {
-            "title": "FAQ",
-            "icon": "icon-message",
+            "title": "Tags",
+            "icon": "icon-tag",
             "custom_liquid_tab": "{% assign faq_content = product.metafields.custom.product_faq | url_decode %}\n\n<div class=\"product-faq\">\n  {{ faq_content | newline_to_br }}\n<\/div>\n{% comment %}\nProduct tags\n{% endcomment %}\n<div class=\"tag-cloud\">\n  {% for tag in product.tags %}\n    <a href=\"\/collections\/all\/{{ tag | handleize }}\" class=\"tag-item level-{{ forloop.index | modulo: 4 }}\">{{ tag }}<\/a>\n  {% endfor %}\n<\/div>"
+          }
+        },
+        "custom_liquid_XWfBxC": {
+          "type": "custom-liquid",
+          "settings": {
+            "title": "Faq",
+            "icon": "icon-message",
+            "custom_liquid_tab": "{% assign faq_content = product.metafields.custom.product_faq | url_decode %}\n\n<div class=\"product-faq\">\n  {{ faq_content | newline_to_br }}\n<\/div>"
           }
         }
       },
@@ -205,7 +213,8 @@
         "22f75249-e4ab-453e-84d5-0006118d5803",
         "tab_custom_text_QA6rLG",
         "0e2c2c01-948c-43f1-ae77-e8dbabaf8f55",
-        "custom_liquid_dA6p83"
+        "custom_liquid_dA6p83",
+        "custom_liquid_XWfBxC"
       ],
       "settings": {
         "hide_tabs": false,
