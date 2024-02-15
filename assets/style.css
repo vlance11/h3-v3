@@ -10,7 +10,9 @@
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-
+.slider-nav .slick-prev {
+    left: -15px;
+}
 .template-product .breadcrumbs {
     background: transparent;
 }
