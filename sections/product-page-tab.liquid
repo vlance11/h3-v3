@@ -26,10 +26,10 @@
     			{%- when 'tab_metafields' -%}
     		      <li><a class="h3" data-animated="rotateInDownLeft" data-toggle="pill" href="#tab_metafields"><span class="icon {{ block.settings.icon }}"></span><span>{{ block.settings.title }}</span></a></li>
                 {% when 'faq' %}
-                <li><a class="h3" data-animated="rotateInDownLeft" data-toggle="pill" href="#faq"><span class="icon {{ block.settings.icon }}"></span><span>{{ block.settings.title }}</span></a></li>
+                  <li><a class="h3" data-animated="rotateInDownLeft" data-toggle="pill" href="#faq"><span class="icon {{ block.settings.icon }}"></span><span>{{ block.settings.title }}</span></a></li>
                 {% when 'custom-liquid' %}
                 {% assign index = index | plus: 1 %}
-                <li><a class="h3" data-animated="rotateInDownLeft" data-toggle="pill" href="#tab{{ index }}"><span class="icon {{ block.settings.icon }}"></span><span>{{ block.settings.title }}</span></a></li>
+                  <li><a class="h3" data-animated="rotateInDownLeft" data-toggle="pill" href="#tab{{ index }}"><span class="icon {{ block.settings.icon }}"></span><span>{{ block.settings.title }}</span></a></li>
             {%- endcase -%}
       {%- endfor -%}
 
