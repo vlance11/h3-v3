@@ -694,11 +694,15 @@ a.change-vehicle-link {
   background-size: contain;
   background-repeat: no-repeat;
 }
+.tag-cloud {
+    display: inline-flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
 .tag-cloud .tag-item {
     padding: 8px;
     border: 1px solid #cccccc;
     border-radius: 8px;
-    line-height: 42px;
 }
 @media screen and (max-width: 600px) {
   .btn:not(.wishlist-button) {
