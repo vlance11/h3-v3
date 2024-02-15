@@ -199,13 +199,6 @@
             "icon": "icon-star"
           }
         },
-        "faq_RVC9jt": {
-          "type": "faq",
-          "settings": {
-            "title": "FAQs",
-            "icon": "icon-message"
-          }
-        },
         "custom_liquid_dA6p83": {
           "type": "custom-liquid",
           "settings": {
@@ -221,7 +214,6 @@
         "custom_liquid_Ke9YEh",
         "tab_custom_text_QA6rLG",
         "0e2c2c01-948c-43f1-ae77-e8dbabaf8f55",
-        "faq_RVC9jt",
         "custom_liquid_dA6p83"
       ],
       "settings": {
