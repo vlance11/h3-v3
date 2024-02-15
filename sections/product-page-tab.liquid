@@ -167,13 +167,6 @@
                   </div>
                 {% endif %}
                 {% endif %}
-                <div class="product-tags-container">
-                  <div class="tag-cloud">
-                    {% for tag in product.tags %}
-                      <a href="/collections/all/{{ tag | handleize }}" class="tag-item level-{{ forloop.index | modulo: 4 }}">{{ tag }}</a>
-                    {% endfor %}
-                  </div>
-                </div>
               </div>
             </div>
         {% when 'custom-liquid' %}
