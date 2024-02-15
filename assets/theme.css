@@ -705,6 +705,10 @@ a.change-vehicle-link {
     border-radius: 8px;
     margin: 5px;
 }
+.tag-cloud .level-1, .tag-cloud .level-5, .tag-cloud .level-9 {
+    background: #bdbdbd;
+    color: #fff;
+}
 @media screen and (max-width: 600px) {
   .btn:not(.wishlist-button) {
     padding: 5px 15px;
