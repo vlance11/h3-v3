@@ -6,7 +6,9 @@
     border-right: none;
   overflow: hidden;
 } 
-
+.details-thumb .slider-nav {
+    max-height: 55px;
+}
 
 .wrap-main-slider {
     border: 1px solid #ccc;
