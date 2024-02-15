@@ -862,8 +862,8 @@ a.change-vehicle-link {
     line-height: initial;
   }
 }
+#ymm_searchbox {
+    max-width: 90% !important;
+}  
 @media screen and(min-width:1200px){
-  #ymm_searchbox {
-      max-width: 90% !important;
-  }  
 }
