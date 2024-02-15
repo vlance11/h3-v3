@@ -32,9 +32,17 @@
   transform: translate(0%); /* Centering the element */
   animation: ease-in-out forwards; /* Animation */
 }
-
+#ymm_searchbox {
+    max-width: 65% !important;
+}  
 @media (max-width: 749px) {
   #ymm_searchbox {
     border-radius: 12px;
   }
+}
+
+@media screen and(max-width:1200px){
+  #ymm_searchbox {
+    max-width: 100% !important;
+  } 
 }
