@@ -10,6 +10,9 @@
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+.slider-nav .slick-prev, .slider-nav .slick-next{
+  opacity: 0;
+}
 .slider-nav .slick-prev {
     left: -15px;
 }
