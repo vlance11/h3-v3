@@ -610,6 +610,9 @@ label.qty-label {
   background-color: #ffffff;
   z-index: 2;
 } */
+.tab-content{
+  overflow: hidden;
+}
 #tab_product .nav.list-nav {
   justify-content: space-between !important;
 }
