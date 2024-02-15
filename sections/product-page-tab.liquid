@@ -27,6 +27,9 @@
     		      <li><a class="h3" data-animated="rotateInDownLeft" data-toggle="pill" href="#tab_metafields"><span class="icon {{ block.settings.icon }}"></span><span>{{ block.settings.title }}</span></a></li>
                 {% when 'faq' %}
                 <li><a class="h3" data-animated="rotateInDownLeft" data-toggle="pill" href="#faq"><span class="icon {{ block.settings.icon }}"></span><span>{{ block.settings.title }}</span></a></li>
+                {% when 'custom-liquid' %}
+                {% assign index = index | plus: 1 %}
+                <li><a class="h3" data-animated="rotateInDownLeft" data-toggle="pill" href="#tab{{ index }}"><span class="icon {{ block.settings.icon }}"></span><span>{{ block.settings.title }}</span></a></li>
             {%- endcase -%}
       {%- endfor -%}
 
@@ -166,6 +169,14 @@
                 {% endif %}
               </div>
             </div>
+        {% when 'custom-liquid' %}
+          <div id="tab{{custom_tab_index}}" class="tab-panel">
+            <h3 class="heading-title d-none sm:d-block"><span>{{ block.settings.title }}</span> <i class="icon-plus"></i></h3>   
+            <div class="description">              
+              {{block.settings.custom_liquid_tab}}              
+            </div>
+          </div>
+          {%- assign custom_tab_index = custom_tab_index | plus: 1 -%}
 		{%- endcase -%}
 		
   {%- endfor -%}
@@ -426,7 +437,31 @@ document.addEventListener("DOMContentLoaded", () => {
               "info": "Use fontawesome icons. i.e: fa fa-info"
             }
           ]
-        }		
+        },
+        {
+          "type": "custom-liquid",
+          "name": "Custom liquid",
+          "settings":[
+            {
+              "type": "text",
+              "id": "title",
+              "label": "Title",
+              "default": "FAQs"
+            },
+            {
+              "type": "text",
+              "id": "icon",
+              "label": "Icon",
+              "default": "icon-message",
+              "info": "Use fontawesome icons. i.e: fa fa-info"
+            },
+            {
+              "type": "liquid",
+              "id": "custom_liquid_tab",
+              "label": "Liquid code"
+            }
+          ]
+        }
       ],
 	  "default": {
         "blocks": [
