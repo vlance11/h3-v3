@@ -153,6 +153,13 @@
                                 </span>
                             </h3>
                             <div class="content-faq">{{ item.answer }}</div>
+                            <div class="product-tags-container">
+                              <div class="tag-cloud">
+                                {% for tag in product.tags %}
+                                  <a href="/collections/all/{{ tag | handleize }}" class="tag-item level-{{ forloop.index | modulo: 4 }}">{{ tag }}</a>
+                                {% endfor %}
+                              </div>
+                            </div>
                         </div>	
                       </div>
                       {% assign index = index | plus: 1 %}
