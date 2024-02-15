@@ -7,7 +7,9 @@
   /* overflow: hidden; */
 } 
 
-
+.cms-wrap-main-slider.thumb_bottom {
+    overflow: hidden;
+}
 .wrap-main-slider {
     border: 1px solid #ccc;
     border-radius: 5px;
