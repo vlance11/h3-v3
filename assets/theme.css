@@ -865,5 +865,8 @@ a.change-vehicle-link {
 #ymm_searchbox {
     max-width: 65% !important;
 }  
-@media screen and(min-width:1200px){
+@media screen and(max-width:1200px){
+  #ymm_searchbox {
+    max-width: 100% !important;
+  } 
 }
