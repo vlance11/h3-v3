@@ -13,6 +13,9 @@
 .slider-nav .slick-prev {
     left: -15px;
 }
+.slider-nav .slick-next {
+    right: -15px;
+}
 .template-product .breadcrumbs {
     background: transparent;
 }
