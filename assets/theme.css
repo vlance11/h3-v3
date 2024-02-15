@@ -700,9 +700,10 @@ a.change-vehicle-link {
     flex-wrap: wrap;
 }
 .tag-cloud .tag-item {
-    padding: 8px;
+    padding: 5px 10px;
     border: 1px solid #cccccc;
     border-radius: 8px;
+    margin: 5px;
 }
 @media screen and (max-width: 600px) {
   .btn:not(.wishlist-button) {
