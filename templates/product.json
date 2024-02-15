@@ -205,6 +205,14 @@
             "title": "FAQs",
             "icon": "icon-message"
           }
+        },
+        "custom_liquid_dA6p83": {
+          "type": "custom-liquid",
+          "settings": {
+            "title": "FAQ",
+            "icon": "icon-message",
+            "custom_liquid_tab": "{% assign faq_content = product.metafields.custom.product_faq | url_decode %}\n\n<div class=\"product-faq\">\n  {{ faq_content | newline_to_br }}\n<\/div>"
+          }
         }
       },
       "block_order": [
@@ -213,7 +221,8 @@
         "custom_liquid_Ke9YEh",
         "tab_custom_text_QA6rLG",
         "0e2c2c01-948c-43f1-ae77-e8dbabaf8f55",
-        "faq_RVC9jt"
+        "faq_RVC9jt",
+        "custom_liquid_dA6p83"
       ],
       "settings": {
         "hide_tabs": false,
