@@ -204,7 +204,7 @@
           "settings": {
             "title": "Faq",
             "icon": "icon-message",
-            "custom_liquid_tab": "{% assign faq_content = product.metafields.custom.product_faq | url_decode %}\n\n<div class=\"product-faq\">\n  {{ faq_content | newline_to_br }}\n<\/div>"
+            "custom_liquid_tab": "{% assign faq_content = product.metafields.custom.product_faq | url_decode %}\n\n<div class=\"product-faq\">\n  {% if faq_content %}\n    {{ faq_content | newline_to_br }}\n  {% else %}\n    Please Check Back For FAQ\n  {% endif %}\n<\/div>"
           }
         }
       },
