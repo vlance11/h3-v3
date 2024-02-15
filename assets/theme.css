@@ -713,6 +713,14 @@ a.change-vehicle-link {
     background: #757575;
     color: #fff;
 }
+.tag-cloud .level-3, .tag-cloud .level-7 {
+    background: #424242;
+    color: #fff;
+}
+.tag-cloud .level-0, .tag-cloud .level-4, .tag-cloud .level-8 {
+    background: #e0e0e0;
+    color: #000;
+}
 @media screen and (max-width: 600px) {
   .btn:not(.wishlist-button) {
     padding: 5px 15px;
