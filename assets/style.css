@@ -1,10 +1,10 @@
 .single-product-info {
-    border: 1px solid #E3D6FF;
-    padding: 20px !important;
-    margin-top: 0;
-    border-radius: 5px 0 0 5px;
-    border-right: none;
-  overflow: hidden;
+  border: 1px solid #E3D6FF;
+  padding: 20px !important;
+  margin-top: 0;
+  border-radius: 5px 0 0 5px;
+  border-right: none;
+  /* overflow: hidden; */
 } 
 
 
