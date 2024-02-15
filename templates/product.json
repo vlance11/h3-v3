@@ -204,7 +204,7 @@
           "settings": {
             "title": "FAQ",
             "icon": "icon-message",
-            "custom_liquid_tab": "{% assign faq_content = product.metafields.custom.product_faq | url_decode %}\n\n<div class=\"product-faq\">\n  {{ faq_content | newline_to_br }}\n<\/div>"
+            "custom_liquid_tab": "{% assign faq_content = product.metafields.custom.product_faq | url_decode %}\n\n<div class=\"product-faq\">\n  {{ faq_content | newline_to_br }}\n<\/div>\n{% comment %}\nProduct tags\n{% endcomment %}\n<div class=\"tag-cloud\">\n  {% for tag in product.tags %}\n    <a href=\"\/collections\/all\/{{ tag | handleize }}\" class=\"tag-item level-{{ forloop.index | modulo: 4 }}\">{{ tag }}<\/a>\n  {% endfor %}\n<\/div>"
           }
         }
       },
