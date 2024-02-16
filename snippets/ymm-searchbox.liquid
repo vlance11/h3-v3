@@ -109,8 +109,9 @@
     var contentElement = document.getElementById('contentResult');
     if(queryResult == 'showSearchBox'){
       document.getElementById('ymm-search-area').classList.remove('d-none');
+    }else{
+      contentElement.textContent = queryResult;
     }
-    contentElement.textContent = queryResult;
   });
 
   function generateResult(rqValue) {
