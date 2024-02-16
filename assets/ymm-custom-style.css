@@ -44,6 +44,14 @@
     -moz-box-shadow: -1px -1px 10px 1px rgba(204,204,204,1);
     box-shadow: -1px -1px 10px 1px #ccc;
 }
+#reset_ymm_fitment {
+    color: #2092e5;
+    background-color: transparent;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 13px;
+    text-decoration: underline;
+}
 @media (max-width: 749px) {
   #ymm_searchbox {
     border-radius: 12px;
