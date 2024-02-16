@@ -40,6 +40,8 @@
       document.getElementById('ymm-search-area').classList.remove('d-none');
     }else{
       contentElement.textContent = queryResult;
+      document.getElementById('ymm-search-area').classList.add('d-none');
+      document.querySelector('.vehicle-selection').classList.remove('d-none');
     }
   });
 
