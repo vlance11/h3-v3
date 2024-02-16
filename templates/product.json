@@ -14,6 +14,7 @@
       "block_order": [
         "c_year_make_model_search_ymm_searchbox_pro_7mUmrW"
       ],
+      "disabled": true,
       "settings": {
         "hide_section": false,
         "title": "Choose Vehicle",
