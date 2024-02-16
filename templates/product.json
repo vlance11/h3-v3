@@ -2,7 +2,18 @@
   "sections": {
     "vehicle_selection_Cp8EgY": {
       "type": "vehicle-selection",
-      "disabled": true,
+      "blocks": {
+        "c_year_make_model_search_ymm_searchbox_pro_7mUmrW": {
+          "type": "shopify:\/\/apps\/c-year-make-model-search\/blocks\/ymm-searchbox-pro\/ce35ea35-ef50-4f43-8cb6-7c34cae4c285",
+          "settings": {
+            "searchbox_title": "",
+            "searchbox_style": "horizontal"
+          }
+        }
+      },
+      "block_order": [
+        "c_year_make_model_search_ymm_searchbox_pro_7mUmrW"
+      ],
       "settings": {
         "hide_section": false,
         "title": "Choose Vehicle",
