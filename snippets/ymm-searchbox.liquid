@@ -108,6 +108,7 @@
     var queryResult = generateResult(rqValue);
     var contentElement = document.getElementById('contentResult');
     if(queryResult == 'showSearchBox'){
+      document.querySelector('.vehicle-selection').classList.add('d-none');
       document.getElementById('ymm-search-area').classList.remove('d-none');
     }else{
       contentElement.textContent = queryResult;
