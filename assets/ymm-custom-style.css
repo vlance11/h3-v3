@@ -52,6 +52,10 @@
     font-size: 13px;
     text-decoration: underline;
 }
+#reset_ymm_fitment:hover {
+    background: transparent;
+    color: #2092e5;
+}
 @media (max-width: 749px) {
   #ymm_searchbox {
     border-radius: 12px;
