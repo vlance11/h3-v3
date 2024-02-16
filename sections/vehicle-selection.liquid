@@ -1,6 +1,6 @@
 {% unless section.settings.hide_section %}
 <div id="ymm-{{ section.id }}">
-    <div class="product-visibility-terms-container hide-mobile">
+    <div class="product-visibility-terms-container">
         <div class="vehicle-selection">
             <strong>{{ section.settings.title }}</strong>
             <span class="vehicle-vendor">              
@@ -16,7 +16,7 @@
         </div>
     </div>
 </div>
-<div id="ymm-search-area" class="d-none">
+<div id="ymm-search-area">
     {% for block in section.blocks %}
         {% if block.type == '@app' %}
             {% render block %}
