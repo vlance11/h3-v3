@@ -25,9 +25,9 @@
   border: transparent;
   padding: 0;
 }
-#ymm_searchbox select {
+/* #ymm_searchbox select {
   min-height: 20px;
-}
+} */
 #ymm-search-area {
   transform: translate(0%); /* Centering the element */
   animation: ease-in-out forwards; /* Animation */
