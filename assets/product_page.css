@@ -1660,6 +1660,7 @@
   background-color: yellow; /* Background color */
   padding: 5px; /* Padding around text */
   font-weight: bold;
+  font-style: italic;
   border-radius: 5px; /* Rounded corners (optional) */
 }
 
