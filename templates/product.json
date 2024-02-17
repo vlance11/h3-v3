@@ -71,7 +71,7 @@
         "custom_liquid_VfwWzF": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% assign faq_content = product.metafields.custom.style  %}\n\n<div class=\"product-faq\">\n  {% if style %}\n   Style Note: {{ style | newline_to_br }}\n  {% else %}No Style Notes\n  {% endif %}\n<\/div>"
+            "custom_liquid": "{% assign style = product.metafields.custom.style  %}\n\n<div class=\"product-faq\">\n  {% if style %}\n   Style Note: {{ style | newline_to_br }}\n  {% else %}No Style Notes\n  {% endif %}\n<\/div>"
           }
         },
         "303e9ab8-e392-40c7-9a5c-0e0198af5bed": {
