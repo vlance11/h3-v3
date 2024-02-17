@@ -1654,6 +1654,14 @@
   border-color: var(--color-btn-hover);
   color: var(--color-btn-text_hover);
 }
+
+.highlight-style {
+  display: inline-block; /* Only wraps content */
+  background-color: yellow; /* Background color */
+  padding: 5px; /* Padding around text */
+  border-radius: 5px; /* Rounded corners (optional) */
+}
+
 @media only screen and (max-width: 1024px) {
   .sticky_atc_btn .select-sticky,
   .zoomContainerAppendTo {
