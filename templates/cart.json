@@ -8,6 +8,8 @@
         "v_position": "middle",
         "txt_align": "center",
         "bg": "#ffffff",
+        "cl_title": "#212529",
+        "cl_breadcrum": "#8D979E",
         "b_height": 190,
         "mg_bottom": 0,
         "mobile_bg": "#f2f2f6",
@@ -29,11 +31,13 @@
     },
     "2b2e3aa9-c81e-496e-bb9d-88ca73e288dc": {
       "type": "collection-carousel-product",
+      "disabled": true,
       "settings": {
         "title": "New arrivals",
         "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
         "text_size": "medium",
         "text_transform": "capitalize",
+        "enable_search": false,
         "collection": "bedroom",
         "max_count": 8,
         "use-slider": true,
@@ -66,11 +70,20 @@
         "mg_mb": ",,,",
         "pd_mb": "40px,,40px,"
       }
+    },
+    "recently_viewed_i9ERbD": {
+      "type": "recently-viewed",
+      "settings": {
+        "title": "Recently viewed",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
     }
   },
   "order": [
     "breadcrumb",
     "main",
-    "2b2e3aa9-c81e-496e-bb9d-88ca73e288dc"
+    "2b2e3aa9-c81e-496e-bb9d-88ca73e288dc",
+    "recently_viewed_i9ERbD"
   ]
 }
