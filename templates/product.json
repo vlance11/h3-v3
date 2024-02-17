@@ -135,6 +135,12 @@
             "svg_custom": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
             "svg_height": 35
           }
+        },
+        "custom_liquid_VfwWzF": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% assign faq_content = product.metafields.custom.style  %}\n\n<div class=\"product-faq\">\n  {% if style %}\n   Style Note: {{ style | newline_to_br }}\n  {% else %}\n  {% endif %}\n<\/div>"
+          }
         }
       },
       "block_order": [
@@ -147,7 +153,8 @@
         "c78dd46d-d065-4e43-aaa7-13423da0532f",
         "8681d35e-2735-4d23-98a5-4f3b5271e474",
         "26205a69-31b8-41d3-83bf-2e25db4c4dfa",
-        "f0b169ef-ed96-4dd1-9b76-7e2e8121cc42"
+        "f0b169ef-ed96-4dd1-9b76-7e2e8121cc42",
+        "custom_liquid_VfwWzF"
       ],
       "settings": {
         "cl_bg": "#ffffff",
