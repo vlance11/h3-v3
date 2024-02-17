@@ -1659,6 +1659,7 @@
   display: inline-block; /* Only wraps content */
   background-color: yellow; /* Background color */
   padding: 5px; /* Padding around text */
+  font-weight: bold;
   border-radius: 5px; /* Rounded corners (optional) */
 }
 
