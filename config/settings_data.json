@@ -1436,22 +1436,6 @@
       "vertical_menu": {
         "type": "vertical_menu",
         "blocks": {
-          "mega_GpEUc6": {
-            "type": "mega",
-            "settings": {
-              "title": "Ball Mounts",
-              "url": "shopify:\/\/collections\/ball-mounts",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": "",
-              "wid": "cus",
-              "cus_wid": 1200,
-              "cl_bg": "#fff"
-            }
-          },
           "mega_VwPmaq": {
             "type": "mega",
             "settings": {
@@ -1474,12 +1458,26 @@
               "col": "3",
               "menu": "trailer-towing-laws-by-state"
             }
+          },
+          "dropdown_w7rCpN": {
+            "type": "dropdown",
+            "settings": {
+              "title": "Ball Mounts",
+              "url": "shopify:\/\/collections\/ball-mounts",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
           }
         },
         "block_order": [
-          "mega_GpEUc6",
           "mega_VwPmaq",
-          "link2_6qb7cp"
+          "link2_6qb7cp",
+          "dropdown_w7rCpN"
         ],
         "settings": {
           "show_title": true,
