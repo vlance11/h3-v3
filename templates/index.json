@@ -610,6 +610,15 @@
             "address": "Los Angeles, CA",
             "rating": 5
           }
+        },
+        "quote_VDQPem": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>The customer support at hitchexpo.com really went above and beyond when I had<br\/>questions.<\/p>",
+            "title": "Keith D.",
+            "address": "Philadelphia, PA",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -625,7 +634,8 @@
         "quote_yAgzTn",
         "quote_eCpRAY",
         "quote_Dmit3L",
-        "quote_rVmgkg"
+        "quote_rVmgkg",
+        "quote_VDQPem"
       ],
       "custom_css": [
 
