@@ -53,7 +53,7 @@
             "show_barcode": true,
             "show_vendor": true,
             "show_type": true,
-            "show_availability": false,
+            "show_availability": true,
             "color_in_stock": "#008a00",
             "color_out_stock": "#dd3842",
             "show_category": false,
