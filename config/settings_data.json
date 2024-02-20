@@ -1436,6 +1436,34 @@
       "vertical_menu": {
         "type": "vertical_menu",
         "blocks": {
+          "dropdown_w7rCpN": {
+            "type": "dropdown",
+            "settings": {
+              "title": "Ball Mounts",
+              "url": "shopify:\/\/collections\/ball-mounts",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "dropdown_La6fEf": {
+            "type": "dropdown",
+            "settings": {
+              "title": "Brake Controllers",
+              "url": "shopify:\/\/collections\/brake-controllers",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "mega_VwPmaq": {
             "type": "mega",
             "settings": {
@@ -1458,26 +1486,13 @@
               "col": "3",
               "menu": "trailer-towing-laws-by-state"
             }
-          },
-          "dropdown_w7rCpN": {
-            "type": "dropdown",
-            "settings": {
-              "title": "Ball Mounts",
-              "url": "shopify:\/\/collections\/ball-mounts",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
           }
         },
         "block_order": [
+          "dropdown_w7rCpN",
+          "dropdown_La6fEf",
           "mega_VwPmaq",
-          "link2_6qb7cp",
-          "dropdown_w7rCpN"
+          "link2_6qb7cp"
         ],
         "settings": {
           "show_title": true,
