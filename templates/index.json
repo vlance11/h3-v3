@@ -655,6 +655,15 @@
             "address": "Baltimore, MD",
             "rating": 5
           }
+        },
+        "quote_xTLE7A": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>The post-purchase support from Hitch Expo is just as impressive as their product<br\/>lineup.<\/p>",
+            "title": "Brandon J.",
+            "address": "Kansas City, MO",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -675,7 +684,8 @@
         "quote_pTxh73",
         "quote_VBmEwW",
         "quote_pncJDK",
-        "quote_CdGPWz"
+        "quote_CdGPWz",
+        "quote_xTLE7A"
       ],
       "custom_css": [
 
