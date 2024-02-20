@@ -2640,7 +2640,7 @@
           "e667f7e9-b124-4bfe-8c4d-f9a360e1a6ae": {
             "type": "contact_information",
             "settings": {
-              "title": "Contact Us",
+              "title": "Customer Service",
               "text1": "",
               "text2": "M-F 9AM - 5PM EST",
               "custom_content": "<ul>\n<li>\n<i class=\"icon-map-pin\"><\/i>\n Mechanicsburg, PA<\/li>\n<li>\n<i class=\"icon-phone\"><\/i> 201-580-9007<\/li>\n<li>\n<i class=\"icon-mail\"><\/i> info@hitchexpo.com<\/li>\n<\/ul>",
