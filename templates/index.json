@@ -745,6 +745,15 @@
             "address": "Raleigh, NC",
             "rating": 5
           }
+        },
+        "quote_Utfqte": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>Hitch Expo's follow-up after my purchase showed how much they care.<\/p>",
+            "title": "Avery U.",
+            "address": "Detroit, MI",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -775,7 +784,8 @@
         "quote_JaaW88",
         "quote_Rc368M",
         "quote_WrJTWa",
-        "quote_tpF8pf"
+        "quote_tpF8pf",
+        "quote_Utfqte"
       ],
       "custom_css": [
 
