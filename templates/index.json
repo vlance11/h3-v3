@@ -540,6 +540,9 @@
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-3",
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-0"
       ],
+      "custom_css": [
+        "quote_avatar {display: none;}"
+      ],
       "settings": {
         "title": "What Our Customers Are Saying.",
         "content": "",
