@@ -619,6 +619,15 @@
             "address": "Philadelphia, PA",
             "rating": 5
           }
+        },
+        "quote_pTxh73": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>I was amazed at how quickly I found what I needed on Hitch Expo. Their site is so<br\/>user-friendly!<\/p>",
+            "title": "Rachel F.",
+            "address": "Miami, FL",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -635,7 +644,8 @@
         "quote_eCpRAY",
         "quote_Dmit3L",
         "quote_rVmgkg",
-        "quote_VDQPem"
+        "quote_VDQPem",
+        "quote_pTxh73"
       ],
       "custom_css": [
 
