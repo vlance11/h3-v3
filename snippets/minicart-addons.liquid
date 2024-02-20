@@ -15,14 +15,14 @@
         </button>
       </div>
       {% endif %}
-      {% if settings.show_estimate %}  
+      {% comment %} {% if settings.show_estimate %}  
       <div data-id="shipping" class="mini_cart_shipping alo_tooltip">
         <button type="button" data-open="shipping" class="mini_cart_addon_btn shipping">
          {% render 'icon_shipping' %}
           <span class="alo_tooltip-content">{{'cart.general.estimate' | t}}</span>
         </button>
       </div>
-      {% endif %}
+      {% endif %} {% endcomment %}
       {% if settings.show_coupon %}
       <div data-id="coupon" class="mini_cart_coupon alo_tooltip">
         <button type="button" data-open="coupon" class="mini_cart_addon_btn coupon">
