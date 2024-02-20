@@ -25,10 +25,136 @@
           "settings": {
             "collection": "trailer-hitches"
           }
+        },
+        "collection_nnnTpi": {
+          "type": "collection",
+          "settings": {
+            "collection": "ball-mounts"
+          }
+        },
+        "collection_Yegwhn": {
+          "type": "collection",
+          "settings": {
+            "collection": "brake-controllers"
+          }
+        },
+        "collection_Gh4cGg": {
+          "type": "collection",
+          "settings": {
+            "collection": "breakaways"
+          }
+        },
+        "collection_6hze8T": {
+          "type": "collection",
+          "settings": {
+            "collection": "cargo-management"
+          }
+        },
+        "collection_FNThmx": {
+          "type": "collection",
+          "settings": {
+            "collection": "electrical-wiring"
+          }
+        },
+        "collection_cLAhK8": {
+          "type": "collection",
+          "settings": {
+            "collection": "fifth-wheels"
+          }
+        },
+        "collection_JGwG6V": {
+          "type": "collection",
+          "settings": {
+            "collection": "gooseneck-hitches"
+          }
+        },
+        "collection_fJFU8P": {
+          "type": "collection",
+          "settings": {
+            "collection": "hitch-accessories"
+          }
+        },
+        "collection_87y8yX": {
+          "type": "collection",
+          "settings": {
+            "collection": "hitch-balls"
+          }
+        },
+        "collection_q78P7h": {
+          "type": "collection",
+          "settings": {
+            "collection": "marine-accessories"
+          }
+        },
+        "collection_DkMePb": {
+          "type": "collection",
+          "settings": {
+            "collection": "pin-boxes"
+          }
+        },
+        "collection_DyjTtN": {
+          "type": "collection",
+          "settings": {
+            "collection": "tools-misc"
+          }
+        },
+        "collection_QqxHEw": {
+          "type": "collection",
+          "settings": {
+            "collection": "trailer-accessories-1"
+          }
+        },
+        "collection_8Dy3Mz": {
+          "type": "collection",
+          "settings": {
+            "collection": "trailer-brake-parts"
+          }
+        },
+        "collection_QYbdmr": {
+          "type": "collection",
+          "settings": {
+            "collection": "trailer-couplers"
+          }
+        },
+        "collection_y87nmK": {
+          "type": "collection",
+          "settings": {
+            "collection": "trailer-jacks"
+          }
+        },
+        "collection_TnU86f": {
+          "type": "collection",
+          "settings": {
+            "collection": "weight-distribution"
+          }
+        },
+        "collection_g7aCQg": {
+          "type": "collection",
+          "settings": {
+            "collection": "winches"
+          }
         }
       },
       "block_order": [
-        "collection_b3PcDV"
+        "collection_b3PcDV",
+        "collection_nnnTpi",
+        "collection_Yegwhn",
+        "collection_Gh4cGg",
+        "collection_6hze8T",
+        "collection_FNThmx",
+        "collection_cLAhK8",
+        "collection_JGwG6V",
+        "collection_fJFU8P",
+        "collection_87y8yX",
+        "collection_q78P7h",
+        "collection_DkMePb",
+        "collection_DyjTtN",
+        "collection_QqxHEw",
+        "collection_8Dy3Mz",
+        "collection_QYbdmr",
+        "collection_y87nmK",
+        "collection_TnU86f",
+        "collection_g7aCQg"
       ],
       "settings": {
         "pagination_limit": 20,
