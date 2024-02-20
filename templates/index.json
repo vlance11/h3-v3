@@ -682,6 +682,15 @@
             "address": "Columbus, OH",
             "rating": 5
           }
+        },
+        "quote_PEdhtX": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>Really felt like the staff at Hitch Expo listened and understood my needs.<\/p>",
+            "title": "Megan M.",
+            "address": "Charlotte, NC",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -705,7 +714,8 @@
         "quote_CdGPWz",
         "quote_xTLE7A",
         "quote_JL9q3F",
-        "quote_fth3aN"
+        "quote_fth3aN",
+        "quote_PEdhtX"
       ],
       "custom_css": [
 
