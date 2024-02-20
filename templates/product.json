@@ -51,7 +51,7 @@
           "settings": {
             "show_sku": true,
             "show_barcode": true,
-            "show_vendor": true,
+            "show_vendor": false,
             "show_type": true,
             "show_availability": false,
             "color_in_stock": "#008a00",
