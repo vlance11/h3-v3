@@ -438,6 +438,7 @@
         },
         "description_npw6Xd": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "description": "<p>Lorem ipsum dolor sit amet consectetur. Duis in mauris dui ut. Nulla ullamcorper tempus volutpat viverra viverra aenean amet egestas neque.<\/p>"
           }
@@ -447,7 +448,7 @@
           "settings": {
             "icon": "shield",
             "title": "Variety of Brands",
-            "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
+            "description": "<p>All your favorite brands under one roof, making it easy to find exactly what you need.<\/p>"
           }
         },
         "icon_text_NaCC8c": {
@@ -455,7 +456,7 @@
           "settings": {
             "icon": "star",
             "title": "Top quality parts",
-            "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
+            "description": "<p>Only the best parts that get the job done right, built to last through the toughest jobs.<\/p>"
           }
         },
         "icon_text_aKqiej": {
@@ -463,7 +464,7 @@
           "settings": {
             "icon": "headphones",
             "title": "Customer-centric approach",
-            "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
+            "description": "<p>We're all about what works for you, ensuring your satisfaction at every turn.<\/p>"
           }
         },
         "icon_text_GXgLmk": {
@@ -471,7 +472,7 @@
           "settings": {
             "icon": "lock",
             "title": "Secure system",
-            "description": "<p>Lorem ipsum dolor sit amet consectetur. Eget duis ac commodo viverra risus congue morbi dolor eu.<\/p>"
+            "description": "<p>Shop with a piece of mind, knowing your information is protected every step of the way.<\/p>"
           }
         }
       },
