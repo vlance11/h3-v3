@@ -26,7 +26,7 @@
     "ajaxcart_after": "sidebar_cart",
     "product_gift": "gift-wrap",
     "show_free_shipping": true,
-    "free_shipping": 500,
+    "free_shipping": 0,
     "custom_color_free_shipping": true,
     "bg_free_shipping": "#f2f2f6",
     "bg_free_shipping_progress": "#ea0d42",
