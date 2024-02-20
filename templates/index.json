@@ -515,38 +515,63 @@
         "quote_WPwL3m": {
           "type": "quote",
           "settings": {
-            "content": "<p>I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks!<\/p>",
-            "title": "Alexander Ball",
-            "address": "New York",
+            "content": "<p>Quality products that I trust. Hitch Expo never disappoints.<\/p>",
+            "title": "Emily R.",
+            "address": "San Diego, CA",
             "rating": 5
           }
         },
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-1": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_34002_1.png",
-            "content": "<p>The attention to detail in the product selection is truly commendable. Each item seems handpicked with the outdoor enthusiast in mind, ensuring not just quality but also a touch of innovation.<\/p>",
-            "title": "Walter Mosby",
-            "address": "23rd march 2022",
+            "content": "<p>After-sales support from HitchExpo.com is outstanding. They really care about their<br\/>customers<\/p>",
+            "title": "David K.",
+            "address": "Chicago, IL",
             "rating": 5
           }
         },
-        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-3": {
+        "quote_gr979U": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/images_4.jpg",
-            "content": "<p>Hitchexpo! As someone who values quality products, exceptional customer service, and a seamless shopping experience, I can confidently say that Hitchexpo exceeded all my expectations.<\/p>",
-            "title": "Henry Johnson",
-            "address": "Nov. 12 2023",
+            "content": "<p>What a fun shopping experience! Hitch Expo has a great selection and easy navigation.<\/p>",
+            "title": "Anna L.",
+            "address": "Orlando, FL",
             "rating": 5
           }
         },
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-0": {
           "type": "quote",
           "settings": {
-            "content": "<p>Shopping with Hitchexpo.com is one of the best experience one can have because they offer smooth shopping experience with free shipping.<\/p>",
-            "title": "John Smith",
-            "address": "3rd October 2023",
+            "content": "<p>I can always count on hitchexpo.com for fast delivery and easy checkout.<\/p>",
+            "title": "Greg P.",
+            "address": "Seattle, WA",
+            "rating": 5
+          }
+        },
+        "quote_HCfEHp": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>The team at Hitch Expo is so approachable and knowledgeable. Made my purchase decision so much easier.\"<\/p>",
+            "title": "Linda M.",
+            "address": "Denver, CO",
+            "rating": 5
+          }
+        },
+        "quote_cVDjj8": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>I'm always impressed by the durable products I find on hitchexpo.com. Top-notch<br\/>brands!<\/p>",
+            "title": "Jordan S.",
+            "address": "Phoenix, AZ",
+            "rating": 5
+          }
+        },
+        "quote_kVHjmQ": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>Had a minor issue with my order, but Hitch Expo's customer service was on it and<br\/>resolved it quickly.<\/p>",
+            "title": "Stephanie T.",
+            "address": "Boston, MA",
             "rating": 5
           }
         }
@@ -556,8 +581,11 @@
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-2",
         "quote_WPwL3m",
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-1",
-        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-3",
-        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-0"
+        "quote_gr979U",
+        "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-0",
+        "quote_HCfEHp",
+        "quote_cVDjj8",
+        "quote_kVHjmQ"
       ],
       "custom_css": [
 
