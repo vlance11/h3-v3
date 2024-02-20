@@ -2891,6 +2891,47 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "13396495102645618393": {
+        "type": "shopify:\/\/apps\/infinite-scroll\/blocks\/app-embed\/a3bc84f2-5d30-48ba-bdd2-bc9edbc709f6",
+        "disabled": false,
+        "settings": {
+          "autoLink": true,
+          "offset": -1,
+          "font_size": 1,
+          "borderSize": 1,
+          "borderRadius": 5,
+          "imageMaxWidth": 100,
+          "circleColor": "#016E52",
+          "dotColor": "#ffffff",
+          "backgroundButtonLoadmore": "#EFEFEF",
+          "borderColor": "#016E52",
+          "textLoadmoreColor": "",
+          "textLoadingColor": "#121212",
+          "textEndColor": "",
+          "backgroundTextEnd": "",
+          "prevMoreButtonText": "",
+          "loadingText": "Loading ...",
+          "loadMoreButtonText": "Load More",
+          "doneText": "You've reached the end of the item.",
+          "container": "",
+          "item": "",
+          "pagination": "",
+          "custom_css": "",
+          "tryNext": false
+        }
+      },
+      "4294441891937191675": {
+        "type": "shopify:\/\/apps\/recommended-product-salesup\/blocks\/app-embed\/28c5212f-728d-4d10-a8b6-81dc32610afb",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "9144908965052497053": {
+        "type": "shopify:\/\/apps\/glo-related-products-upsell\/blocks\/app-embed\/75cf2d86-3988-45e7-8f28-ada23c99704f",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
