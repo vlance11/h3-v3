@@ -583,6 +583,15 @@
             "address": "Houston, TX",
             "rating": 5
           }
+        },
+        "quote_eCpRAY": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>Checkout was a snap on HitchExpo.com! Highly recommend for a hassle-free<br\/>experience.\"<\/p>",
+            "title": "Olivia V.",
+            "address": "New York, NY",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -595,7 +604,8 @@
         "quote_HCfEHp",
         "quote_cVDjj8",
         "quote_kVHjmQ",
-        "quote_yAgzTn"
+        "quote_yAgzTn",
+        "quote_eCpRAY"
       ],
       "custom_css": [
 
