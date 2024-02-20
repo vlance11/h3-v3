@@ -1283,8 +1283,8 @@
           "simple_JbLgUQ": {
             "type": "simple",
             "settings": {
-              "title": "Trailer Parts",
-              "url": "shopify:\/\/collections\/trailer-parts",
+              "title": "Trailer Jacks",
+              "url": "shopify:\/\/collections\/trailer-jacks",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -1310,8 +1310,8 @@
           "simple_6BhBKe": {
             "type": "simple",
             "settings": {
-              "title": "Windshield Wiper Blades",
-              "url": "shopify:\/\/collections\/windshield-wiper-blades-hitchexpo-com",
+              "title": "Fifth Wheels",
+              "url": "shopify:\/\/collections\/fifth-wheels",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -1323,7 +1323,7 @@
           "bab6430c-5d2b-4e8e-8e42-224c6d149882": {
             "type": "dropdown",
             "settings": {
-              "title": "All Product",
+              "title": "All Products",
               "url": "shopify:\/\/collections\/all",
               "open_link": "_self",
               "menu": "",
