@@ -953,44 +953,34 @@
           "type": "faq",
           "settings": {
             "title": "What makes Hitch Expo different?",
-            "text": "<p>Rooted<br\/>in tradition, our family-owned business brings over 50 years of combined expertise in industry know-how and unparalleled customer service. We're proud to offer products from trusted household names, ensuring quality and reliability in every purchase. Plus, our dedicated customer service team, based entirely in the U.S., is here for you around the clock, whether you prefer phone, email, or chat. Experience the difference that personal touch and<br\/>professional dedication make.<\/p>",
+            "text": "<p>Rooted in tradition, our family-owned business brings over 50 years of combined expertise in industry know-how and unparalleled customer service. We're proud to offer products from trusted household names, ensuring quality and reliability in every purchase. Plus, our dedicated customer service team, based entirely in the U.S., is here for you around the clock, whether you prefer phone, email, or chat. Experience the difference that personal touch and<br\/>professional dedication make.<\/p>",
             "link": "",
             "open_link": "_blank"
           }
         },
-        "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-1": {
+        "faq_LQ7TEn": {
           "type": "faq",
           "settings": {
-            "title": "What Is the Payment Process For Buying a Product?",
-            "text": "<p>asd<\/p>",
-            "link": "shopify:\/\/policies\/contact-information",
-            "open_link": "_self"
-          }
-        },
-        "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-2": {
-          "type": "faq",
-          "settings": {
-            "title": "What Is the Payment Process For Buying a Product?",
-            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "title": "What is the buying process?",
+            "text": "<p>Step into a buying experience where simplicity meets security. Our checkout is a breeze and 100% secure, giving you peace of mind with every click. Rest easy knowing every product is manufacturer-verified for a perfect fit with your vehicle. Prefer a personal touch? Our 100% US-based customer service team is just a phone call away, ready to help!<\/p>",
             "link": "",
-            "open_link": "_self"
+            "open_link": "_blank"
           }
         },
-        "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-3": {
+        "faq_bmVmJM": {
           "type": "faq",
           "settings": {
-            "title": "What is your cancellation and Refund policy",
-            "text": "",
-            "link": "shopify:\/\/policies\/refund-policy",
-            "open_link": "_self"
+            "title": "What Is Your Shipping and Refunds Policy?",
+            "text": "<p>Experience the gold standard with our industry-leading shipping and returns policy. As a family-owned business, we take pride in offering free shipping across the country without any minimum purchase requirements, coupled with a generous 60-day return policy for any issues stemming from our side. Check our return\/refund policy for more insights and enjoy shopping with confidence!<\/p>",
+            "link": "",
+            "open_link": "_blank"
           }
         }
       },
       "block_order": [
         "faq_m6HBfc",
-        "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-1",
-        "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-2",
-        "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-3"
+        "faq_LQ7TEn",
+        "faq_bmVmJM"
       ],
       "settings": {
         "hidden": false,
