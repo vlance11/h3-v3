@@ -949,6 +949,15 @@
     "69805983-b566-42af-ba6f-ca890638160a": {
       "type": "faq-sections",
       "blocks": {
+        "faq_m6HBfc": {
+          "type": "faq",
+          "settings": {
+            "title": "Problems sending or receiving messages?",
+            "text": "<p>Curabitur lacinia purus vitae lorem porttitor fermentum. In in mattis erat mattis libero. Donec volutpat faucibus elit cursus interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<\/p>",
+            "link": "",
+            "open_link": "_blank"
+          }
+        },
         "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-1": {
           "type": "faq",
           "settings": {
@@ -978,6 +987,7 @@
         }
       },
       "block_order": [
+        "faq_m6HBfc",
         "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-1",
         "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-2",
         "template--21734502760741__69805983-b566-42af-ba6f-ca890638160a-faq-3"
@@ -985,9 +995,9 @@
       "settings": {
         "hidden": false,
         "hidden_newletter": false,
-        "title": "Got a question for Hitch Expo?",
+        "title": "You have questions. We have answers.",
         "sub_title": "",
-        "content": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium",
+        "content": "Order updates? Product or service questions? Comments and Feedback? Our friendly team of experts is here to help.",
         "layout": "container",
         "cl_bg": "#faf6f0",
         "mg": "",
