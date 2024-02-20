@@ -494,13 +494,30 @@
     "f0c8c3b2-bdb1-46ea-89d2-52b13690ae34": {
       "type": "testimonials",
       "blocks": {
+        "quote_iULVcb": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>Shopping on HitchExpo.com was a breeze! Found exactly what I needed in minutes.<\/p>",
+            "title": "Sarah B.",
+            "address": "Atlanta, GA",
+            "rating": 5
+          }
+        },
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-2": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_34006.png",
-            "content": "<p>What sets Hitchexpo apart is not just the product range but the exceptional customer service. The staff is not only knowledgeable but also genuinely passionate about helping customers find the perfect gear. <\/p>",
-            "title": "Jenifer Baker",
-            "address": "5th Sep. 2023",
+            "content": "<p>The staff at hitch expo are truly experts. They helped me pick the perfect hitch<br\/>for my truck!<\/p>",
+            "title": "Mike J.",
+            "address": "Dallas, TX",
+            "rating": 5
+          }
+        },
+        "quote_WPwL3m": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks!<\/p>",
+            "title": "Alexander Ball",
+            "address": "New York",
             "rating": 5
           }
         },
@@ -535,7 +552,9 @@
         }
       },
       "block_order": [
+        "quote_iULVcb",
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-2",
+        "quote_WPwL3m",
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-1",
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-3",
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-0"
