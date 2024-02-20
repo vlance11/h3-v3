@@ -673,6 +673,15 @@
             "address": "Louis, MO",
             "rating": 5
           }
+        },
+        "quote_fth3aN": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>The simplicity of shopping on HitchExpo.com is unmatched. Found what I needed in no<br\/>time!<\/p>",
+            "title": "Luke L.",
+            "address": "Columbus, OH",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -695,7 +704,8 @@
         "quote_pncJDK",
         "quote_CdGPWz",
         "quote_xTLE7A",
-        "quote_JL9q3F"
+        "quote_JL9q3F",
+        "quote_fth3aN"
       ],
       "custom_css": [
 
