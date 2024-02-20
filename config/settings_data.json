@@ -1452,6 +1452,15 @@
               "cl_bg": "#fff"
             }
           },
+          "cat_t4qBBn": {
+            "type": "cat",
+            "settings": {
+              "hoverz": true,
+              "collection": "ball-mounts",
+              "title": "",
+              "col": "4"
+            }
+          },
           "mega_VwPmaq": {
             "type": "mega",
             "settings": {
@@ -1478,6 +1487,7 @@
         },
         "block_order": [
           "mega_GpEUc6",
+          "cat_t4qBBn",
           "mega_VwPmaq",
           "link2_6qb7cp"
         ],
