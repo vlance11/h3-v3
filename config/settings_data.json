@@ -1636,7 +1636,7 @@
             "type": "dropdown",
             "settings": {
               "title": "Trailer Couplers",
-              "url": "",
+              "url": "shopify:\/\/collections\/trailer-couplers",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1649,8 +1649,50 @@
           "dropdown_qayLKC": {
             "type": "dropdown",
             "settings": {
-              "title": "dropdown link",
-              "url": "",
+              "title": "Trailer Hitches",
+              "url": "shopify:\/\/collections\/trailer-hitches",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "dropdown_D3H9qa": {
+            "type": "dropdown",
+            "settings": {
+              "title": "Trailer Jacks",
+              "url": "shopify:\/\/collections\/trailer-jacks",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "dropdown_LL4tkG": {
+            "type": "dropdown",
+            "settings": {
+              "title": "Weight Distribution",
+              "url": "shopify:\/\/collections\/weight-distribution",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "dropdown_ahaUA7": {
+            "type": "dropdown",
+            "settings": {
+              "title": "Winches",
+              "url": "shopify:\/\/collections\/winches",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1701,6 +1743,9 @@
           "dropdown_rLjmUT",
           "dropdown_Q66Vrw",
           "dropdown_qayLKC",
+          "dropdown_D3H9qa",
+          "dropdown_LL4tkG",
+          "dropdown_ahaUA7",
           "mega_VwPmaq",
           "link2_6qb7cp"
         ],
