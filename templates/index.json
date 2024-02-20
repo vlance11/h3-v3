@@ -167,8 +167,8 @@
         "category_U3gNNe": {
           "type": "category",
           "settings": {
-            "category_title": "Wiring Vehicle End",
-            "category_url": "shopify:\/\/collections\/wiring-vehicle-end",
+            "category_title": "Breakaways",
+            "category_url": "shopify:\/\/collections\/breakaways",
             "category_img": "shopify:\/\/shop_images\/Component_1_3.png",
             "category_clr": "#c1d6a7"
           }
@@ -185,8 +185,8 @@
         "category_t9KPr9": {
           "type": "category",
           "settings": {
-            "category_title": "Fifth Wheel",
-            "category_url": "shopify:\/\/collections\/fifth-wheel-accessories",
+            "category_title": "Fifth Wheels",
+            "category_url": "shopify:\/\/collections\/fifth-wheels",
             "category_img": "shopify:\/\/shop_images\/Component_1_5_e4ad50a3-7334-4f13-b692-512f73c0a83f.png",
             "category_clr": "#ffe99d"
           }
@@ -194,8 +194,8 @@
         "category_LXzcwd": {
           "type": "category",
           "settings": {
-            "category_title": "Trailer Parts",
-            "category_url": "shopify:\/\/collections\/trailer-parts",
+            "category_title": "Trailer Accessories",
+            "category_url": "shopify:\/\/collections\/trailer-accessories-1",
             "category_img": "shopify:\/\/shop_images\/Component_1_6.png",
             "category_clr": "#f9c6ca"
           }
@@ -203,8 +203,8 @@
         "category_PaBiD3": {
           "type": "category",
           "settings": {
-            "category_title": "Accessories",
-            "category_url": "shopify:\/\/collections\/accessories-parts",
+            "category_title": "Cargo Management",
+            "category_url": "shopify:\/\/collections\/cargo-management",
             "category_img": "shopify:\/\/shop_images\/Component_1_3.png",
             "category_clr": "#d1e4fd"
           }
