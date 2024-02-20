@@ -718,6 +718,15 @@
             "address": "Nashville, TN",
             "rating": 5
           }
+        },
+        "quote_Rc368M": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>HitchExpo.com made my shopping experience so smooth and enjoyable.<\/p>",
+            "title": "Quinn R.",
+            "address": "Omaha, NE",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -745,7 +754,8 @@
         "quote_PEdhtX",
         "quote_CbiNA3",
         "quote_DqEBCq",
-        "quote_JaaW88"
+        "quote_JaaW88",
+        "quote_Rc368M"
       ],
       "custom_css": [
 
