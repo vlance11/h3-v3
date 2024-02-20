@@ -664,6 +664,15 @@
             "address": "Kansas City, MO",
             "rating": 5
           }
+        },
+        "quote_JL9q3F": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>Discovered some great deals on hitchexpo.com. Their prices are unbeatable.<\/p>",
+            "title": "Chloe K.",
+            "address": "Louis, MO",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -685,7 +694,8 @@
         "quote_VBmEwW",
         "quote_pncJDK",
         "quote_CdGPWz",
-        "quote_xTLE7A"
+        "quote_xTLE7A",
+        "quote_JL9q3F"
       ],
       "custom_css": [
 
