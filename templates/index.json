@@ -637,6 +637,15 @@
             "address": "Las Vegas, NV",
             "rating": 5
           }
+        },
+        "quote_pncJDK": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>The expertise of Hitch Expo's staff made me feel confident in my purchase.<\/p>",
+            "title": "Jessica H.",
+            "address": "San Francisco, CA",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -655,7 +664,8 @@
         "quote_rVmgkg",
         "quote_VDQPem",
         "quote_pTxh73",
-        "quote_VBmEwW"
+        "quote_VBmEwW",
+        "quote_pncJDK"
       ],
       "custom_css": [
 
