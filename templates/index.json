@@ -736,6 +736,15 @@
             "address": "Cincinnati, OH",
             "rating": 5
           }
+        },
+        "quote_tpF8pf": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>I trust the brands hitchexpo.com carries. They've never let me down.<\/p>",
+            "title": "Taylor T.",
+            "address": "Raleigh, NC",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -765,7 +774,8 @@
         "quote_DqEBCq",
         "quote_JaaW88",
         "quote_Rc368M",
-        "quote_WrJTWa"
+        "quote_WrJTWa",
+        "quote_tpF8pf"
       ],
       "custom_css": [
 
