@@ -252,7 +252,7 @@
         "askify_questions_answers_acqa_block_VA3HFD": {
           "type": "shopify:\/\/apps\/askify-questions-answers\/blocks\/acqa-block\/874ee9ec-48a5-4644-99b1-52a39b5a02b9",
           "settings": {
-            "page_width": false
+            "page_width": true
           }
         }
       },
