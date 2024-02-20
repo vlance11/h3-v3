@@ -248,11 +248,18 @@
             "widget": "3",
             "gashortcode": ""
           }
+        },
+        "askify_questions_answers_acqa_block_VA3HFD": {
+          "type": "shopify:\/\/apps\/askify-questions-answers\/blocks\/acqa-block\/874ee9ec-48a5-4644-99b1-52a39b5a02b9",
+          "settings": {
+            "page_width": false
+          }
         }
       },
       "block_order": [
         "808d3f3e-6347-478b-9359-1c8867f7cb4a",
-        "44b6611c-a283-4f35-8cb2-5f94425bf1a6"
+        "44b6611c-a283-4f35-8cb2-5f94425bf1a6",
+        "askify_questions_answers_acqa_block_VA3HFD"
       ],
       "settings": {
       }
