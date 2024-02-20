@@ -709,6 +709,15 @@
             "address": "Milwaukee, WI",
             "rating": 5
           }
+        },
+        "quote_JaaW88": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>I love the variety on hitchexpo.com. There's something for every type of vehicle.<\/p>",
+            "title": "Peyton P.",
+            "address": "Nashville, TN",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -735,7 +744,8 @@
         "quote_fth3aN",
         "quote_PEdhtX",
         "quote_CbiNA3",
-        "quote_DqEBCq"
+        "quote_DqEBCq",
+        "quote_JaaW88"
       ],
       "custom_css": [
 
