@@ -691,6 +691,15 @@
             "address": "Charlotte, NC",
             "rating": 5
           }
+        },
+        "quote_CbiNA3": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>Every product I've bought from hitchexpo.com has been of the highest quality.<\/p>",
+            "title": "Noah N.",
+            "address": "Salt Lake City, UT",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -715,7 +724,8 @@
         "quote_xTLE7A",
         "quote_JL9q3F",
         "quote_fth3aN",
-        "quote_PEdhtX"
+        "quote_PEdhtX",
+        "quote_CbiNA3"
       ],
       "custom_css": [
 
