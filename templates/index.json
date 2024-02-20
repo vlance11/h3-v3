@@ -592,6 +592,15 @@
             "address": "New York, NY",
             "rating": 5
           }
+        },
+        "quote_Dmit3L": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>You can tell the staff at Hitch Expo loves what they do. Their passion made the<br\/>shopping experience even better.<\/p>",
+            "title": "Eric W.",
+            "address": "Minneapolis, MN",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -605,7 +614,8 @@
         "quote_cVDjj8",
         "quote_kVHjmQ",
         "quote_yAgzTn",
-        "quote_eCpRAY"
+        "quote_eCpRAY",
+        "quote_Dmit3L"
       ],
       "custom_css": [
 
