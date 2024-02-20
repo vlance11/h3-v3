@@ -1775,72 +1775,7 @@
               "title": "Categories",
               "url": "#",
               "open_link": "_self",
-              "menu": "all-products",
-              "show_icon": true,
-              "icon": "<i class=\"las la-campground\"><\/i>",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "menu_mb_HmVieE": {
-            "type": "menu_mb",
-            "settings": {
-              "title": "Manufacturers",
-              "url": "#",
-              "open_link": "_self",
-              "menu": "manufacturer",
-              "show_icon": true,
-              "icon": "<i class=\"las la-campground\"><\/i>",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "menu_mb_WJjTaX": {
-            "type": "menu_mb",
-            "settings": {
-              "title": "Trailer Hitches",
-              "url": "shopify:\/\/collections\/trailer-hitches",
-              "open_link": "_self",
-              "menu": "",
-              "show_icon": true,
-              "icon": "<i class=\"las la-campground\"><\/i>",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "menu_mb_rp7D3q": {
-            "type": "menu_mb",
-            "settings": {
-              "title": "Trailer Parts",
-              "url": "shopify:\/\/collections\/trailer-parts",
-              "open_link": "_self",
-              "menu": "",
-              "show_icon": true,
-              "icon": "<i class=\"las la-campground\"><\/i>",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "menu_mb_gnnayF": {
-            "type": "menu_mb",
-            "settings": {
-              "title": "Cargo Management",
-              "url": "shopify:\/\/collections\/cargo-management",
-              "open_link": "_self",
-              "menu": "",
-              "show_icon": true,
-              "icon": "<i class=\"las la-campground\"><\/i>",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "menu_mb_EtUf4f": {
-            "type": "menu_mb",
-            "settings": {
-              "title": "Windshield Wiper Blades",
-              "url": "shopify:\/\/collections\/windshield-wiper-blades-hitchexpo-com",
-              "open_link": "_self",
-              "menu": "",
+              "menu": "product-categories",
               "show_icon": true,
               "icon": "<i class=\"las la-campground\"><\/i>",
               "lb": "",
@@ -1887,11 +1822,6 @@
         "block_order": [
           "mobile_menu-6",
           "menu_mb_pCwmAn",
-          "menu_mb_HmVieE",
-          "menu_mb_WJjTaX",
-          "menu_mb_rp7D3q",
-          "menu_mb_gnnayF",
-          "menu_mb_EtUf4f",
           "menu_mb_M3C6Ek",
           "mobile_menu-7",
           "mobile_menu-4",
@@ -2760,7 +2690,7 @@
           "cl_bg": "#f2f2f6",
           "show_bottom": true,
           "store_img": "shopify:\/\/shop_images\/hitch-expo-logo.png",
-          "copyright": "<p>Copyright © 2023 Hitch Expo Company Pvt Ltd. All rights reserved.<\/p>",
+          "copyright": "<p>Copyright © 2024 Hitch Expo Company Pvt Ltd. All rights reserved.<\/p>",
           "title-payment": "",
           "show_svg_custom": false,
           "svg_custom": "paypal,shopify_pay,visa,amazon_payments,apple_pay,bitcoin,google_pay,maestro,master",
