@@ -628,6 +628,15 @@
             "address": "Miami, FL",
             "rating": 5
           }
+        },
+        "quote_VBmEwW": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>HitchExpo.com's fast shipping had my order at my door in no time!<\/p>",
+            "title": "Tony G.",
+            "address": "Las Vegas, NV",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -645,7 +654,8 @@
         "quote_Dmit3L",
         "quote_rVmgkg",
         "quote_VDQPem",
-        "quote_pTxh73"
+        "quote_pTxh73",
+        "quote_VBmEwW"
       ],
       "custom_css": [
 
