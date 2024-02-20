@@ -1436,20 +1436,6 @@
       "vertical_menu": {
         "type": "vertical_menu",
         "blocks": {
-          "dropdown_33EE6h": {
-            "type": "dropdown",
-            "settings": {
-              "title": "Ball Mounts",
-              "url": "shopify:\/\/collections\/ball-mounts",
-              "open_link": "_self",
-              "menu": "product-categories",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
           "mega_GpEUc6": {
             "type": "mega",
             "settings": {
@@ -1464,15 +1450,6 @@
               "wid": "cus",
               "cus_wid": 1200,
               "cl_bg": "#fff"
-            }
-          },
-          "cat_t4qBBn": {
-            "type": "cat",
-            "settings": {
-              "hoverz": true,
-              "collection": "ball-mounts",
-              "title": "",
-              "col": "4"
             }
           },
           "mega_VwPmaq": {
@@ -1500,9 +1477,7 @@
           }
         },
         "block_order": [
-          "dropdown_33EE6h",
           "mega_GpEUc6",
-          "cat_t4qBBn",
           "mega_VwPmaq",
           "link2_6qb7cp"
         ],
