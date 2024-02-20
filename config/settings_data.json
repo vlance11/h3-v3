@@ -2653,7 +2653,7 @@
           "c5c69ed1-5b2a-4d25-9618-3a370ddbd784": {
             "type": "menu",
             "settings": {
-              "title": "Customer Care",
+              "title": "Shop With Us",
               "text_transform": "capitalize",
               "menu": "main-menu",
               "col": "16%"
@@ -2662,7 +2662,7 @@
           "90d7fce0-5d4b-415a-bc72-cf3573e40ae6": {
             "type": "menu",
             "settings": {
-              "title": "Legal",
+              "title": "Around The Site",
               "text_transform": "capitalize",
               "menu": "legal",
               "col": "16%"
