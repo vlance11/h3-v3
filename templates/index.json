@@ -727,6 +727,15 @@
             "address": "Omaha, NE",
             "rating": 5
           }
+        },
+        "quote_WrJTWa": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>The friendly staff at Hitch Expo made me feel like a VIP.<\/p>",
+            "title": "Riley S.",
+            "address": "Cincinnati, OH",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -755,7 +764,8 @@
         "quote_CbiNA3",
         "quote_DqEBCq",
         "quote_JaaW88",
-        "quote_Rc368M"
+        "quote_Rc368M",
+        "quote_WrJTWa"
       ],
       "custom_css": [
 
