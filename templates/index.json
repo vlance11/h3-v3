@@ -997,7 +997,7 @@
         "hidden_newletter": false,
         "title": "You have questions. We have answers.",
         "sub_title": "",
-        "content": "Order updates? Product or service questions? Comments and Feedback? Our friendly team of experts is here to help.",
+        "content": "Order updates? Product or service questions? Comments and Feedback? Our friendly team of experts is here to help. <br>\n<div>\n<a href=\"mailto:info@hitchexpo.com?subject=HitchExpo.com%20Question\">Contact Us: info@hitchexpo.com<\/a>\n<\/div>\n\n<div>\n  <br>  <span style=\"font-style: italic;\">Subscribe today for exclusive deals and updates!<\/span>\n<\/div>",
         "layout": "container",
         "cl_bg": "#faf6f0",
         "mg": "",
