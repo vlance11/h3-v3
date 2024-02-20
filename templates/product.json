@@ -65,7 +65,7 @@
         "f1e09af0-0154-41e2-996f-755cdde44ea4": {
           "type": "show_price",
           "settings": {
-            "show_discount": false
+            "show_discount": true
           }
         },
         "custom_liquid_VfwWzF": {
