@@ -646,6 +646,15 @@
             "address": "San Francisco, CA",
             "rating": 5
           }
+        },
+        "quote_CdGPWz": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>I always recommend hitchexpo.com for their unbeatable quality and selection.<\/p>",
+            "title": "Diane I.",
+            "address": "Baltimore, MD",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -665,7 +674,8 @@
         "quote_VDQPem",
         "quote_pTxh73",
         "quote_VBmEwW",
-        "quote_pncJDK"
+        "quote_pncJDK",
+        "quote_CdGPWz"
       ],
       "custom_css": [
 
