@@ -700,6 +700,15 @@
             "address": "Salt Lake City, UT",
             "rating": 5
           }
+        },
+        "quote_DqEBCq": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>Customer service at Hitch Expo is top-tier. They truly value their customers.<\/p>",
+            "title": "Hailey O.",
+            "address": "Milwaukee, WI",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -725,7 +734,8 @@
         "quote_JL9q3F",
         "quote_fth3aN",
         "quote_PEdhtX",
-        "quote_CbiNA3"
+        "quote_CbiNA3",
+        "quote_DqEBCq"
       ],
       "custom_css": [
 
