@@ -3022,7 +3022,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-
+      ".quote_avatar {display: none;}"
     ]
   }
 }
