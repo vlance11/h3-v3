@@ -574,6 +574,15 @@
             "address": "Boston, MA",
             "rating": 5
           }
+        },
+        "quote_yAgzTn": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>Found some really unique accessories on hitchexpo.com that I couldn't find anywhere<br\/>else.<\/p>",
+            "title": "Carlos E.",
+            "address": "Houston, TX",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -585,7 +594,8 @@
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-0",
         "quote_HCfEHp",
         "quote_cVDjj8",
-        "quote_kVHjmQ"
+        "quote_kVHjmQ",
+        "quote_yAgzTn"
       ],
       "custom_css": [
 
