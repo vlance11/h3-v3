@@ -153,7 +153,7 @@
     "collection_info_show_availability": false,
     "collection_info_show_type": false,
     "collection_info_show_vendor": false,
-    "shipping_calculator": "Enabled",
+    "shipping_calculator": "Disabled",
     "shipping_calculator_heading": "Calculated Shipping",
     "shipping_process_checkout_heading": "PROCEED TO CHECKOUT",
     "shipping_grand_total_title": "Grand Total",
