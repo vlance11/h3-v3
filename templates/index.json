@@ -527,7 +527,6 @@
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-0": {
           "type": "quote",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_34002.png",
             "content": "<p>Shopping with Hitchexpo.com is one of the best experience one can have because they offer smooth shopping experience with free shipping.<\/p>",
             "title": "John Smith",
             "address": "3rd October 2023",
@@ -542,8 +541,8 @@
         "template--18743199334685__f0c8c3b2-bdb1-46ea-89d2-52b13690ae34-1682585275ff3ad59b-0"
       ],
       "settings": {
-        "title": "5000+ Happy Customers With Their Best Buying Experience",
-        "content": "<p>Lorem ipsum dolor sit amet consectetur. Nibh semper velit lacus nec malesuada tristique magnis dolor.<\/p>",
+        "title": "What Our Customers Are Saying.",
+        "content": "",
         "text_size": "large",
         "text_transform": "none",
         "show_text_bottom": true,
