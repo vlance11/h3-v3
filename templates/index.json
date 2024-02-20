@@ -601,6 +601,15 @@
             "address": "Minneapolis, MN",
             "rating": 5
           }
+        },
+        "quote_rVmgkg": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>Trust is important to me, and Hitch Expo delivers with quality products every time.<\/p>",
+            "title": "Naomi C.",
+            "address": "Los Angeles, CA",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -615,7 +624,8 @@
         "quote_kVHjmQ",
         "quote_yAgzTn",
         "quote_eCpRAY",
-        "quote_Dmit3L"
+        "quote_Dmit3L",
+        "quote_rVmgkg"
       ],
       "custom_css": [
 
