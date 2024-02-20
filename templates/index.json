@@ -754,6 +754,15 @@
             "address": "Detroit, MI",
             "rating": 5
           }
+        },
+        "quote_TBcX6i": {
+          "type": "quote",
+          "settings": {
+            "content": "<p>Found some rare hitch accessories on hitchexpo.com that were perfect for my setup!<\/p>",
+            "title": "Blake V.",
+            "address": "Tampa, FL",
+            "rating": 5
+          }
         }
       },
       "block_order": [
@@ -785,7 +794,8 @@
         "quote_Rc368M",
         "quote_WrJTWa",
         "quote_tpF8pf",
-        "quote_Utfqte"
+        "quote_Utfqte",
+        "quote_TBcX6i"
       ],
       "custom_css": [
 
