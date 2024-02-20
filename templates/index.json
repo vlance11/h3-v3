@@ -224,7 +224,7 @@
         "content": "",
         "enable_see_all": true,
         "see_all_text": "",
-        "see_all_url": "",
+        "see_all_url": "shopify:\/\/collections\/all",
         "padding-top": 50,
         "padding-bottom": 50
       }
