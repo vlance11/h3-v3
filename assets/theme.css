@@ -766,7 +766,7 @@ a.change-vehicle-link {
   }
   .image-banner-apps-block #ymm_searchbox select {
     font-size: 12px;
-    min-height: 20px; 
+    min-height: 20px !important; 
 
   }
   /* on collection page */
