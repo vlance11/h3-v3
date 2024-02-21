@@ -763,6 +763,7 @@ a.change-vehicle-link {
   .image-banner-apps-block #ymm_searchbox label {
     font-size: 12px;
     margin: 0 0 0px;
+    margin-top: 10px;
   }
   .image-banner-apps-block #ymm_searchbox select {
     font-size: 12px;
