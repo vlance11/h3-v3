@@ -1,6 +1,7 @@
 #ymm_searchbox label,
 #ymm_searchbox select {
   font-size: 13px !important;
+  min-height: 17px !important;
 }
 /* header */
 .link2-menu.menu-item {
