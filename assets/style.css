@@ -79,7 +79,9 @@
     margin-left: 4px !important;
     margin-bottom: 0 !important;
 }
-
+.image-banner-apps-block #ymm_searchbox select {
+    min-height: 17px !important;
+}
 .image-banner-apps-block #ymm_searchbox.horizontal ul li:not(.ymm_bttns){
     border-right: 2px solid #ccc;
 }
