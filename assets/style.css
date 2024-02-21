@@ -91,6 +91,9 @@
     margin-right: 5px;
 }
 @media only screen and (max-width:767px) {
+    .image-banner-apps-block #ymm_searchbox ul {
+        padding: 5px;
+    }
     .template-product .tabs-product, 
     .template-product .ymm_comptbl_list,
     .template-product .content_section {
