@@ -280,10 +280,11 @@
   position: relative;
   display: flex;
   word-break: break-word;
-  line-height: 30px;
+  line-height:20px;
   align-items: center;
   font-weight: 500;
   font-size: 13px;
+  margin-bottom: 8px;
 }
 
 .facet-checkbox .label-color {
