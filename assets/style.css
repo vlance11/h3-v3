@@ -103,4 +103,14 @@
     .laber-product-information .product-iteam {
         display: none;
     } 
+
+    .sidebar-product div#ymm_searchbox {
+        max-width: 100% !important;
+        padding: 12px;
+        padding-top: 20px;
+    }
+    
+    .sidebar-product #ymm_searchbox label {
+        margin-top: 10px;
+    }
 }
