@@ -2664,7 +2664,7 @@
             "settings": {
               "title": "Around The Site",
               "text_transform": "capitalize",
-              "menu": "legal",
+              "menu": "footer",
               "col": "16%"
             }
           },
