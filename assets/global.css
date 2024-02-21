@@ -1939,7 +1939,7 @@ line-height: 16px;
 }
  .breadcrumbs .outline-breadcrum .wrap-breadcrum ul {
   display: inline-flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
   .breadcrumbs .outline-breadcrum .wrap-breadcrum ul li{display: inline-flex;font-weight: 500;}
  .breadcrumbs .outline-breadcrum .wrap-breadcrum ul li a {
