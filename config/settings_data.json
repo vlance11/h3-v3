@@ -563,7 +563,7 @@
       "cross-sell-popup": {
         "type": "cross-sell-popup",
         "settings": {
-          "use_cross_sell_popup": true,
+          "use_cross_sell_popup": false,
           "collection_id": "accessories",
           "limit": 10,
           "index": true,
