@@ -563,7 +563,7 @@
       "cross-sell-popup": {
         "type": "cross-sell-popup",
         "settings": {
-          "use_cross_sell_popup": false,
+          "use_cross_sell_popup": true,
           "collection_id": "accessories",
           "limit": 10,
           "index": true,
@@ -725,7 +725,7 @@
         "settings": {
           "use_promotion": false,
           "title": "Top picks for you",
-          "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+          "content": "",
           "text_size": "medium",
           "product_list": [
             "simple-model-chair",
@@ -2016,7 +2016,7 @@
           "use_newsletter_popup": false,
           "bg_color": "rgba(0,0,0,0)",
           "title_newslette": "Our Newsletter",
-          "description": "Subscribe to the Uminex Store get notified about  exclusive offers every week!",
+          "description": "Subscribe to HitchExpo.com get notified about  exclusive offers every week!",
           "placeholder_newsletter": "Your email address...",
           "button_newsletter": "Subscribe",
           "no_show_popup_again": "Don't show this popup again",
