@@ -16,6 +16,10 @@
 #ymm_form{
   overflow: hidden;
 }
+.image-banner-apps-block #ymm_searchbox {
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+}
 /* header */
 .link2-menu.menu-item {
   padding: 10px 0;
