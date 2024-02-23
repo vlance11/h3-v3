@@ -4916,6 +4916,7 @@ line-height: 15px;
   align-items: center;
   justify-content: space-between;
   gap: 10px;
+  cursor:pointer;
 }
 .faq-section .item-faq .heading-title a{
   font-weight: 600;
