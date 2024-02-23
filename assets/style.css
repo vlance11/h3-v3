@@ -72,6 +72,7 @@
 .image-banner-apps-block #ymm_searchbox ul {
     justify-content: space-between;
     margin-right: 0;
+  align-items: center;
 }
 
 .sidebar-product label.ymm_label {
