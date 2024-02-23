@@ -9,10 +9,10 @@
 #ymm_searchbox .btn.ymm_reset {
    display: none !important;
 }
-/* #ymm_searchbox select, #ymm_searchbox .select2-container--default .select2-selection--single {
+#ymm_searchbox select, #ymm_searchbox .select2-container--default .select2-selection--single {
     border-color: transparent !important;
     padding: 0 !important;
-} */
+}
 /* header */
 .link2-menu.menu-item {
   padding: 10px 0;
