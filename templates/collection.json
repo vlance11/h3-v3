@@ -110,11 +110,11 @@
         "hidden_newletter": false,
         "title": "You have questions. We have answers.",
         "sub_title": "",
-        "content": "Order updates? Product or service questions? Comments and Feedback? Our friendly team of experts is here to help.\nContact Us: info@hitchexpo.com\n<br>\n\nSubscribe today for exclusive deals and updates!",
+        "content": "Order updates? Product or service questions? Comments and Feedback? Our friendly team of experts is here to help. <br>\n<div>\n<a href=\"mailto:info@hitchexpo.com?subject=HitchExpo.com%20Question\">Contact Us: info@hitchexpo.com<\/a>\n<\/div>\n\n<div>\n  <br>  <span style=\"font-style: italic;\">Subscribe today for exclusive deals and updates!<\/span>\n<\/div>",
         "layout": "container",
         "cl_bg": "#fffcf5",
         "mg": "",
-        "pd": "",
+        "pd": "50px,60px",
         "mg_mb": "",
         "pd_mb": "50px,0,50px,0"
       }
