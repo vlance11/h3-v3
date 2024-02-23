@@ -2,6 +2,18 @@
   "sections": {
     "vehicle_selection_Cp8EgY": {
       "type": "vehicle-selection",
+      "blocks": {
+        "c_year_make_model_search_ymm_searchbox_pro_7mUmrW": {
+          "type": "shopify:\/\/apps\/c-year-make-model-search\/blocks\/ymm-searchbox-pro\/ce35ea35-ef50-4f43-8cb6-7c34cae4c285",
+          "settings": {
+            "searchbox_title": "",
+            "searchbox_style": "horizontal"
+          }
+        }
+      },
+      "block_order": [
+        "c_year_make_model_search_ymm_searchbox_pro_7mUmrW"
+      ],
       "settings": {
         "hide_section": false,
         "title": "Choose Vehicle",
@@ -225,6 +237,11 @@
     "170401789281e0ae28": {
       "type": "apps",
       "blocks": {
+        "808d3f3e-6347-478b-9359-1c8867f7cb4a": {
+          "type": "shopify:\/\/apps\/c-year-make-model-search\/blocks\/ymm-compatible-list\/ce35ea35-ef50-4f43-8cb6-7c34cae4c285",
+          "settings": {
+          }
+        },
         "44b6611c-a283-4f35-8cb2-5f94425bf1a6": {
           "type": "shopify:\/\/apps\/glo-related-products-upsell\/blocks\/app-block-product\/75cf2d86-3988-45e7-8f28-ada23c99704f",
           "settings": {
@@ -240,25 +257,9 @@
         }
       },
       "block_order": [
+        "808d3f3e-6347-478b-9359-1c8867f7cb4a",
         "44b6611c-a283-4f35-8cb2-5f94425bf1a6",
         "askify_questions_answers_acqa_block_VA3HFD"
-      ],
-      "settings": {
-      }
-    },
-    "17086745445a003c00": {
-      "type": "apps",
-      "blocks": {
-        "c_year_make_model_search_ymm_searchbox_eTHg8D": {
-          "type": "shopify:\/\/apps\/c-year-make-model-search\/blocks\/ymm-searchbox\/ce35ea35-ef50-4f43-8cb6-7c34cae4c285",
-          "settings": {
-            "searchbox_title": "",
-            "searchbox_style": "horizontal"
-          }
-        }
-      },
-      "block_order": [
-        "c_year_make_model_search_ymm_searchbox_eTHg8D"
       ],
       "settings": {
       }
@@ -269,7 +270,6 @@
     "170659979689fff3f0",
     "main",
     "product-page-tab",
-    "170401789281e0ae28",
-    "17086745445a003c00"
+    "170401789281e0ae28"
   ]
 }
