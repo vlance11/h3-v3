@@ -17,34 +17,47 @@
             </div>
         </div>
     
-    <div class="delivery-info-item standard-delivery">
-        {%- liquid
-            assign deliver_in =  5 | times: 24 | times: 60 | times: 60 
-            assign now = 'now' | date: "%s" 
-            assign to = now | plus: deliver_in | date: '%A, %dth %b' 
-        -%}
-        
-        <div class="delivery-info-item-icon">
-            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M18 0H2C0.89 0 0.00999999 0.89 0.00999999 2L0 14C0 15.11 0.89 16 2 16H18C19.11 16 20 15.11 20 14V2C20 0.89 19.11 0 18 0ZM18 14H2V8H18V14ZM18 4H2V2H18V4Z" fill="#666666"/>
-            </svg>                       
-        </div>
-        <div class="delivery-info-item-text">
-            <h4>Standard Delivery
-                <span class="standard-arrow">
-                    <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 1L7 7L13 1" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </span>
-            </h4>
-            <p>3-5 business day(s)
-                <svg width="4" height="5" viewBox="0 0 4 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="2" cy="2.5" r="2" fill="#666666"/>
-                </svg>
-             By {{ to }}</p>
-             <span class="standard-price">FREE</span>
-        </div>
+<div class="prod_delivery-times sidebar-content-box">
+  {% assign deliver_in_days = block.settings.deliver_days %}
+  {% assign now = 'now' | date: "%s" %}
+  {% assign current_day_of_week = 'now' | date: '%u' | plus: 0 %} {# Convert day to integer #}
+  {% assign days_to_add = 0 %}
+
+  {# Loop to adjust deliver_in_days to exclude weekends #}
+  {% for day in (1..deliver_in_days) %}
+    {% assign dow = current_day_of_week | plus: day %}
+    {% if dow > 7 %}
+      {% assign dow = dow | minus: 7 %}
+    {% endif %}
+    {% if dow == 6 %}
+      {# If Saturday, add 2 more days #}
+      {% assign days_to_add = days_to_add | plus: 2 %}
+    {% elsif dow == 7 %}
+      {# If Sunday, add 1 more day #}
+      {% assign days_to_add = days_to_add | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign total_days_to_add = deliver_in_days | plus: days_to_add %}
+  {% assign deliver_in_seconds = total_days_to_add | times: 24 | times: 60 | times: 60 %}
+  {% assign date_format = block.settings.date_format | default: "%b %d" %}
+  
+  {% assign range = 2 | times: 24 | times: 60 | times: 60 %}
+  {% assign from = now | plus: deliver_in_seconds | minus: range | date: date_format %}
+  {% assign to = now | plus: deliver_in_seconds | plus: range | date: date_format %}
+  
+  <div class="content">
+    <div class="content-head">
+      <label><span class="icon icon-calendar"></span> {{ block.settings.deliver_text | strip_html }}</label>
     </div>
+    <div class="content">
+      <p><span>{{ from }} - {{ to }}</span></p>
+    </div>
+    <span class="standard-price">$0.00</span>
+  </div>
+  
+</div>
+
     <!-- <div class="delivery-info-item payon-delivery">
         <div class="delivery-info-item-icon">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
