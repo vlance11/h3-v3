@@ -10,7 +10,7 @@
    display: none !important;
 }
 #ymm_searchbox select, #ymm_searchbox .select2-container--default .select2-selection--single {
-    border-color: transparent;
+    border-color: transparent !important;
     padding: 0;
 }
 /* header */
