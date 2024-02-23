@@ -12,6 +12,18 @@
     },
     "170659979689fff3f0": {
       "type": "apps",
+      "blocks": {
+        "c_year_make_model_search_ymm_searchbox_CVK7Um": {
+          "type": "shopify:\/\/apps\/c-year-make-model-search\/blocks\/ymm-searchbox\/ce35ea35-ef50-4f43-8cb6-7c34cae4c285",
+          "settings": {
+            "searchbox_title": "",
+            "searchbox_style": "horizontal"
+          }
+        }
+      },
+      "block_order": [
+        "c_year_make_model_search_ymm_searchbox_CVK7Um"
+      ],
       "settings": {
       }
     },
@@ -237,29 +249,23 @@
           "settings": {
             "page_width": true
           }
+        },
+        "c_year_make_model_search_ymm_compatible_list_new_H7WGbx": {
+          "type": "shopify:\/\/apps\/c-year-make-model-search\/blocks\/ymm-compatible-list-new\/ce35ea35-ef50-4f43-8cb6-7c34cae4c285",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "44b6611c-a283-4f35-8cb2-5f94425bf1a6",
-        "askify_questions_answers_acqa_block_VA3HFD"
+        "askify_questions_answers_acqa_block_VA3HFD",
+        "c_year_make_model_search_ymm_compatible_list_new_H7WGbx"
       ],
       "settings": {
       }
     },
     "17086745445a003c00": {
       "type": "apps",
-      "blocks": {
-        "c_year_make_model_search_ymm_searchbox_eTHg8D": {
-          "type": "shopify:\/\/apps\/c-year-make-model-search\/blocks\/ymm-searchbox\/ce35ea35-ef50-4f43-8cb6-7c34cae4c285",
-          "settings": {
-            "searchbox_title": "",
-            "searchbox_style": "horizontal"
-          }
-        }
-      },
-      "block_order": [
-        "c_year_make_model_search_ymm_searchbox_eTHg8D"
-      ],
       "settings": {
       }
     }
