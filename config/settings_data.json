@@ -2850,7 +2850,7 @@
           "title": "Choose Vehicle",
           "vehicle_type": "{{ product.vendor }}",
           "url_label": "Change vehicle",
-          "url": "shopify:\/\/pages\/product-result"
+          "url": "shopify:\/\/pages\/product-result-backup"
         }
       }
     },
