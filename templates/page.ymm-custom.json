@@ -27,7 +27,7 @@
             "title": "Trailer Hitches",
             "image": "shopify:\/\/shop_images\/Component_1_1.png",
             "url": "shopify:\/\/collections\/rear-trailer-hitches",
-            "bg_color": "#CED9FF"
+            "bg_color": "#ced9ff"
           }
         },
         "category_9M4KRV": {
@@ -36,7 +36,7 @@
             "title": "Trailer Wiring",
             "image": "shopify:\/\/shop_images\/Component_1_2.png",
             "url": "shopify:\/\/collections\/trailer-wiring",
-            "bg_color": "#CED9FF"
+            "bg_color": "#ced9ff"
           }
         },
         "category_GeTVck": {
@@ -45,7 +45,7 @@
             "title": "Wiring Vehicle End",
             "image": "shopify:\/\/shop_images\/Component_1_3.png",
             "url": "shopify:\/\/collections\/wiring-vehicle-end",
-            "bg_color": "#CED9FF"
+            "bg_color": "#ced9ff"
           }
         },
         "category_CW99rh": {
@@ -54,7 +54,7 @@
             "title": "Trailer Jacks",
             "image": "shopify:\/\/shop_images\/Component_1_4.png",
             "url": "shopify:\/\/collections\/trailer-jacks",
-            "bg_color": "#CED9FF"
+            "bg_color": "#ced9ff"
           }
         },
         "category_r9drDD": {
@@ -63,7 +63,7 @@
             "title": "Trailer Jacks",
             "image": "shopify:\/\/shop_images\/Component_1_4.png",
             "url": "shopify:\/\/collections\/trailer-jacks",
-            "bg_color": "#CED9FF"
+            "bg_color": "#ced9ff"
           }
         },
         "category_CHKFDL": {
@@ -72,7 +72,7 @@
             "title": "Fifth Wheel",
             "image": "shopify:\/\/shop_images\/Component_1_5_e4ad50a3-7334-4f13-b692-512f73c0a83f.png",
             "url": "shopify:\/\/collections\/fifth-wheel-accessories",
-            "bg_color": "#CED9FF"
+            "bg_color": "#ced9ff"
           }
         },
         "category_fJBfPk": {
@@ -81,7 +81,7 @@
             "title": "Trailer Parts",
             "image": "shopify:\/\/shop_images\/Component_1_6.png",
             "url": "shopify:\/\/collections\/trailer-parts",
-            "bg_color": "#CED9FF"
+            "bg_color": "#ced9ff"
           }
         },
         "category_fFe48H": {
@@ -90,7 +90,7 @@
             "title": "Accessories",
             "image": "shopify:\/\/shop_images\/Component_1_3.png",
             "url": "shopify:\/\/collections\/accessories-parts",
-            "bg_color": "#CED9FF"
+            "bg_color": "#ced9ff"
           }
         }
       },
@@ -135,8 +135,8 @@
         "faq_MxLtaV": {
           "type": "faq",
           "settings": {
-            "title": "What is Hitch Expo?",
-            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
+            "title": "What makes HitchExpo.com different?",
+            "text": "<p>Rooted in tradition, our family-owned business brings over 50 years of combined expertise in industry know-how and unparalleled customer service. We're proud to offer products from trusted household names, ensuring quality and reliability in every purchase. Plus, our dedicated customer service team, based entirely in the U.S., is here for you around the clock, whether you prefer phone, email, or chat. Experience the difference that personal touch and<br\/>professional dedication make.<\/p>",
             "link": "",
             "open_link": "_self"
           }
@@ -144,8 +144,8 @@
         "faq_9UKkMb": {
           "type": "faq",
           "settings": {
-            "title": "What is the payment process for buying a product?",
-            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
+            "title": "What is the buying process?",
+            "text": "<p>Step into a buying experience where simplicity meets security. Our checkout is a breeze and 100% secure, giving you peace of mind with every click. Rest easy knowing every product is manufacturer-verified for a perfect fit with your vehicle. Prefer a personal touch? Our 100% US-based customer service team is just a phone call away, ready to help!<\/p>",
             "link": "",
             "open_link": "_self"
           }
@@ -153,8 +153,8 @@
         "faq_4BGJGn": {
           "type": "faq",
           "settings": {
-            "title": "What is your cancellation and refund policy?",
-            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
+            "title": "What Is Your Shipping and Refunds Policy?",
+            "text": "<p>Experience the gold standard with our industry-leading shipping and returns policy. As a family-owned business, we take pride in offering free shipping across the country without any minimum purchase requirements, coupled with a generous 30-day return policy for any issues stemming from our side. Check our return\/refund policy for more insights and enjoy shopping with confidence!<\/p>",
             "link": "",
             "open_link": "_self"
           }
@@ -168,9 +168,9 @@
       "settings": {
         "hidden": false,
         "hidden_newletter": false,
-        "title": "Got a question for Hitch Expo?",
+        "title": "You have questions. We have answers.",
         "sub_title": "",
-        "content": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium<br> lectus qua. Nunc id cursus metus ididunt ut labore metus episcing.",
+        "content": "Order updates? Product or service questions? Comments and Feedback? Our friendly team of experts is here to help.\nContact Us: info@hitchexpo.com\n\nSubscribe today for exclusive deals and updates!",
         "layout": "container",
         "cl_bg": "#fffbf5",
         "mg": "",
