@@ -3,6 +3,9 @@
   font-size: 13px !important;
   min-height: 17px !important;
 }
+#ymm_searchbox h2#ymm_label{
+  display: none !important;
+}
 /* header */
 .link2-menu.menu-item {
   padding: 10px 0;
