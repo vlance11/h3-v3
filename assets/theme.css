@@ -6,6 +6,9 @@
 #ymm_searchbox h2#ymm_label{
   display: none !important;
 }
+#ymm_searchbox .btn.ymm_reset {
+   display: none !important;
+}
 /* header */
 .link2-menu.menu-item {
   padding: 10px 0;
