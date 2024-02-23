@@ -19,7 +19,7 @@
     
     <div class="delivery-info-item standard-delivery">
         {%- liquid
-            assign deliver_in =  3-5 | times: 24 | times: 60 | times: 60 
+            assign deliver_in =  5 | times: 24 | times: 60 | times: 60 
             assign now = 'now' | date: "%s" 
             assign to = now | plus: deliver_in | date: '%A, %dth %b' 
         -%}
