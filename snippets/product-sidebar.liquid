@@ -19,14 +19,9 @@
     
     <div class="delivery-info-item standard-delivery">
         {%- liquid
-    assign start_range = 3 | times: 24 | times: 60 | times: 60
-    assign end_range = 5 | times: 24 | times: 60 | times: 60
-    assign now = 'now' | date: "%s"
-    assign date_format = "%A, %dth %b"
-    
-    assign from = now | plus: start_range | date: date_format
-    assign to = now | plus: end_range | date: date_format
- 
+            assign deliver_in =  5 | times: 24 | times: 60 | times: 60 
+            assign now = 'now' | date: "%s" 
+            assign to = now | plus: deliver_in | date: '%A, %dth %b' 
         -%}
         
         <div class="delivery-info-item-icon">
