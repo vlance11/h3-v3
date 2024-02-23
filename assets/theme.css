@@ -13,7 +13,9 @@
     border-color: transparent !important;
     padding: 0 !important;
 }
-
+#ymm_searchbox form#ymm_form {
+    margin-top: 15px;
+}
 .image-banner-apps-block #ymm_searchbox {
     border: 1px solid #ffffff;
     border-radius: 12px;
