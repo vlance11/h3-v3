@@ -93,7 +93,7 @@
       {% endif %}
       {% if block.settings.show_delivery_times %}
           <div class="prod_delivery-times sidebar-content-box">
-            {% assign range =  2 | times: 24 | times: 60 | times: 60 %}
+            {% assign range =  4 | times: 24 | times: 60 | times: 60 %}
             {% assign deliver_in =  block.settings.deliver_days | times: 24 | times: 60 | times: 60 %}
             {% assign now = 'now' | date: "%s" %}
             {% assign date_format = block.settings.date_format | default: "%b %d" %}
