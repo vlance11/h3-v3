@@ -19,13 +19,9 @@
     
     <div class="delivery-info-item standard-delivery">
         {%- liquid
-            assign range = 1 | times: 24 | times: 60 | times: 60
-assign deliver_in = 4 | times: 24 | times: 60 | times: 60
-assign now = 'now' | date: "%s
-assign date_format = block.settings.date_format | default: "%b %d
-assign from = now | plus: deliver_in | minus: range | date: date_format %
-assign to = now | plus: deliver_in | plus: range | date: date_format %
-
+            assign deliver_in =  5 | times: 24 | times: 60 | times: 60 
+            assign now = 'now' | date: "%s" 
+            assign to = now | plus: deliver_in | date: '%A, %dth %b' 
         -%}
         
         <div class="delivery-info-item-icon">
