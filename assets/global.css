@@ -4923,6 +4923,10 @@ line-height: 15px;
   font-size: 14px;
   line-height: 18px;
 }
+span.faqs-icon {
+    position: absolute;
+    right: 0;
+}
 .faq-section .item-faq .heading-title .faqs-icon{
   cursor: pointer;
 }
