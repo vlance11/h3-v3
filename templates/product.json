@@ -225,6 +225,11 @@
     "170401789281e0ae28": {
       "type": "apps",
       "blocks": {
+        "c_year_make_model_search_ymm_compatible_list_new_rY7rb3": {
+          "type": "shopify:\/\/apps\/c-year-make-model-search\/blocks\/ymm-compatible-list-new\/ce35ea35-ef50-4f43-8cb6-7c34cae4c285",
+          "settings": {
+          }
+        },
         "44b6611c-a283-4f35-8cb2-5f94425bf1a6": {
           "type": "shopify:\/\/apps\/glo-related-products-upsell\/blocks\/app-block-product\/75cf2d86-3988-45e7-8f28-ada23c99704f",
           "settings": {
@@ -240,6 +245,7 @@
         }
       },
       "block_order": [
+        "c_year_make_model_search_ymm_compatible_list_new_rY7rb3",
         "44b6611c-a283-4f35-8cb2-5f94425bf1a6",
         "askify_questions_answers_acqa_block_VA3HFD"
       ],
