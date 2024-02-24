@@ -2,6 +2,7 @@
 #ymm_searchbox select {
   font-size: 13px !important;
   min-height: 17px !important;
+  margin: 0;
 }
 #ymm_searchbox h2#ymm_label{
   display: none !important;
