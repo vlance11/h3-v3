@@ -59,6 +59,7 @@
 @media (max-width: 749px) {
   #ymm_searchbox {
     border-radius: 12px;
+    padding: 15px 15px;
   }
   .ymm_fitment_block {
     max-width: 100%;
