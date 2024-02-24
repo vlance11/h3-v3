@@ -65,6 +65,7 @@
         "faq_qAd34U",
         "faq_LckdaT"
       ],
+      "disabled": true,
       "settings": {
         "hidden": false,
         "hidden_newletter": false,
