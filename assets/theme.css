@@ -28,6 +28,9 @@
 #ymm_searchbox ul li{
   padding: 0 !important;
 }
+.single-product-info{
+  z-index: -1;
+}
 
 /* header */
 .link2-menu.menu-item {
