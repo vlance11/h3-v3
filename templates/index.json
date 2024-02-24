@@ -982,6 +982,7 @@
         "faq_LQ7TEn",
         "faq_bmVmJM"
       ],
+      "disabled": true,
       "settings": {
         "hidden": false,
         "hidden_newletter": false,
