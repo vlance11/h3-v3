@@ -759,9 +759,6 @@ a.change-vehicle-link {
     padding: 5px 15px;
     font-size: 14px;
   }
-  .image-banner-apps-block #ymm_searchbox.horizontal ul li:not(.ymm_bttns) {
-    border-right: 0 !important;
-  }
   .wrap_title.medium .section-title {
     font-size: 20px;
     line-height: 20px;
@@ -843,6 +840,9 @@ a.change-vehicle-link {
   }
 }
 @media screen and (max-width: 768px) {
+  .image-banner-apps-block #ymm_searchbox.horizontal ul li:not(.ymm_bttns) {
+    border-right: 0 !important;
+  }
   .main-content.box.alo-item {
     margin-bottom: 10px;
   }
