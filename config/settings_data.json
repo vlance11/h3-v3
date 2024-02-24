@@ -91,7 +91,7 @@
     "show_product_sidebar": true,
     "product_info_show_arrows": false,
     "product_info_show_btn_fullscreen": false,
-    "product_info_enable_zoom": false,
+    "product_info_enable_zoom": true,
     "type_zoom": "2",
     "productzoom-effect": "flyOutWindow",
     "productzoom-effect-duration": 500,
