@@ -104,8 +104,8 @@
         "faq_gWXDNy": {
           "type": "faq",
           "settings": {
-            "title": "What is Hitch Expo?",
-            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
+            "title": "What makes HitchExpo.com different?",
+            "text": "<p>Rooted in tradition, our family-owned business brings over 50 years of combined expertise in industry know-how and unparalleled customer service. We're proud to offer products from trusted household names, ensuring quality and reliability in every purchase. Plus, our dedicated customer service team, based entirely in the U.S., is here for you around the clock, whether you prefer phone, email, or chat. Experience the difference that personal touch and<br\/>professional dedication make.<\/p>",
             "link": "",
             "open_link": "_self"
           }
@@ -113,8 +113,8 @@
         "faq_wJRpzR": {
           "type": "faq",
           "settings": {
-            "title": "What is the payment process for buying a product?",
-            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
+            "title": "What is the buying process?",
+            "text": "<p>Step into a buying experience where simplicity meets security. Our checkout is a breeze and 100% secure, giving you peace of mind with every click. Rest easy knowing every product is manufacturer-verified for a perfect fit with your vehicle. Prefer a personal touch? Our 100% US-based customer service team is just a phone call away, ready to help!<\/p>",
             "link": "",
             "open_link": "_self"
           }
@@ -122,8 +122,8 @@
         "faq_Xgpzj6": {
           "type": "faq",
           "settings": {
-            "title": "What is your cancellation and refund policy?",
-            "text": "<p>Lorem ipsum dolor sit amet consectetur. Volutpat mattis arcu natoque et ullamcorper sed urna in. Orci velit ipsum facilisi sed cras laoreet.<\/p>",
+            "title": "What Is Your Shipping and Refunds Policy?",
+            "text": "<p>Experience the gold standard with our industry-leading shipping and returns policy. As a family-owned business, we take pride in offering free shipping across the country without any minimum purchase requirements, coupled with a generous 30-day return policy for any issues stemming from our side. Check our return\/refund policy for more insights and enjoy shopping with confidence!<\/p>",
             "link": "",
             "open_link": "_self"
           }
@@ -137,9 +137,9 @@
       "settings": {
         "hidden": false,
         "hidden_newletter": false,
-        "title": "Got a question for Hitch Expo?",
+        "title": "You have questions. We have answers.",
         "sub_title": "",
-        "content": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos vel pretium<br> lectus qua. Nunc id cursus metus ididunt ut labore metus episcing.",
+        "content": "Order updates? Product or service questions? Comments and Feedback? Our friendly team of experts is here to help. <br>\n<div>\n<a href=\"mailto:info@hitchexpo.com?subject=HitchExpo.com%20Question\">Contact Us: info@hitchexpo.com<\/a>\n<\/div>\n\n<div>\n  <br>  <span style=\"font-style: italic;\">Subscribe today for exclusive deals and updates!<\/span>\n<\/div>",
         "layout": "container",
         "cl_bg": "#fffcf5",
         "mg": "",
