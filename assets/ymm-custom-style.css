@@ -63,6 +63,9 @@
   .ymm_fitment_block {
     max-width: 100%;
   }
+  #ymm_searchbox {
+    max-width: 100%!important;
+  }
 }
 
 @media screen and(max-width:1200px){
