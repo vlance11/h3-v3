@@ -59,13 +59,13 @@
 .product-visibility-terms-container {
     margin-bottom: 15px;
 }
+
+{% if product.template == 'product' %}
   @media(max-width:600px){
     .ymm_app .select2-container{
       top: 85px !important;
     }
   }
-{% if product.template == 'product' %}
-  
 {% endif %}
 {% endstyle %}
 {% schema %}
