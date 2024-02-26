@@ -59,7 +59,6 @@
         },
         "c_year_make_model_search_ymm_searchbox_W8yxHG": {
           "type": "shopify:\/\/apps\/c-year-make-model-search\/blocks\/ymm-searchbox\/ce35ea35-ef50-4f43-8cb6-7c34cae4c285",
-          "disabled": true,
           "settings": {
             "searchbox_title": "",
             "searchbox_style": "horizontal"
