@@ -261,6 +261,16 @@
     		{% endif %}
     	{% endfor %}
       {% endif %} 
+    {% for block in section_blocks offset:index %}
+      {% assign index = index|plus:1 %}                            		
+      {%- case block.type -%}   
+        {% when '@app' %}
+        <div class="image-banner-apps-block">
+        {% render block %}
+        </div>
+      {% endcase %}
+      {% break %}
+    {% endfor %}
 </div>
   {% if section.settings.dots %}
     <div class="wrapper-dots  {{style_dots}} position_{{position_dots}}" >
