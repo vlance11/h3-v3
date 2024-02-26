@@ -28,8 +28,10 @@
   {% include 'grid-slider', settings:section.settings %}
   {% endif %}
   <div class="grid-slider js_carousel vertical-center {% if section.settings.fade_zoom %}fade_zoom{%endif%}"
-     {{gridSlider}}
+     {% if section.settings.use-slider %}
+    {{gridSlider}}
      data-append-Dots=".appendDots"
+    {% endif %}
   	>
        {% if arr_blocks_img.size > 0 %}  
     	{%- for block in arr_blocks_img -%}
