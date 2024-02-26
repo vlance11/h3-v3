@@ -33,10 +33,10 @@
   animation: ease-in-out forwards; /* Animation */
 }
 #ymm_searchbox {
-    max-width: 65%;
+    max-width: 70%;
 }  
 .ymm_fitment_block {
-    max-width: 65%;
+    max-width: 70%;
     border: 1px solid #cccccc;
     border-radius: 45px;
     padding: 10px 35px;
