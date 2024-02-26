@@ -257,8 +257,7 @@
     		{% endif %}
     	{% endfor %}
       {% endif %} 
-    {% for block in section_blocks offset:index %}
-      {% assign index = index|plus:1 %}                            		
+    {% for block in section.blocks %}                         		
       {%- case block.type -%}   
         {% when '@app' %}
         <div class="image-banner-apps-block">
