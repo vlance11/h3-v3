@@ -770,10 +770,10 @@ a.change-vehicle-link {
   .header-logo.hide-desktop img {
     width: 100% !important;
   }
-  div[data-wrapper-slidershow] .content-item .container,
+  /* div[data-wrapper-slidershow] .content-item .container,
   div[data-wrapper-slidershow] .content-item {
     min-height: 550px !important;
-  }
+  } */
   .wrapper_caption .slide_item_p {
     margin: 10px 0;
   }
