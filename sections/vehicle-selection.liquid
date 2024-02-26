@@ -25,6 +25,22 @@
       {% endfor %}
   </div>
 </div>
+{% if template.name contains 'product' %}
+{% style %}
+.product-page-custom-search-app {
+    position: relative;
+    height: 150px;
+    width: 100%;
+}
+
+#ymm-search-area {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+{% endstyle %}
+{% endif %}
 <script>
     document.addEventListener('DOMContentLoaded', function() {
     // Get the query parameters from the URL
