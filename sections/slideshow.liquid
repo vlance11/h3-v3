@@ -269,14 +269,16 @@
   </div>
 </div>
 </div>
-{% for block in section.blocks %}                         		
-  {%- case block.type -%}   
-    {% when '@app' %}
-    <div class="image-banner-apps-block">
-    {% render block %}
-    </div>
-  {% endcase %}
-{% endfor %}
+<div class="container">
+  {% for block in section.blocks %}                         		
+    {%- case block.type -%}   
+      {% when '@app' %}
+      <div class="image-banner-apps-block">
+      {% render block %}
+      </div>
+    {% endcase %}
+  {% endfor %}
+</div>
 </section>
 {%- render 'section_style' -%}
 {%- render 'setting_slideshow' -%}
