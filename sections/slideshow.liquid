@@ -24,7 +24,9 @@
   <div class="wrapper-slidershow  overflow-hidden  alo-border-radius" style="--alo-border-radius:{{ section.settings.border }}px;">
   <div class="laberSlidershow">  
   <div class="alo-slidershow">  
+  {% if section.settings.use-slider %}
   {% include 'grid-slider', settings:section.settings %}
+  {% endif %}
   <div class="grid-slider js_carousel vertical-center {% if section.settings.fade_zoom %}fade_zoom{%endif%}"
      {{gridSlider}}
      data-append-Dots=".appendDots"
