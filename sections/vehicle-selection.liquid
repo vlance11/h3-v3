@@ -1,27 +1,29 @@
 {% unless section.settings.hide_section %}
-<div id="ymm-{{ section.id }}">
-    <div class="product-visibility-terms-container">
-        <div class="vehicle-selection">
-            <strong>{{ section.settings.title }}</strong>
-            <span class="vehicle-vendor">              
-              <span id="contentResult">{{ section.settings.vehicle_type }}</span>
-                <span class="cancel" onclick="showSearchBar(this)">
-                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10.4688 1.53125L1.53125 10.4688M1.53125 1.53125L10.4688 10.4688" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </span>
-            </span>
-            <span onclick="showSearchBar(this)" class="link">{{ section.settings.url_label }}</span>
-            <span class="icon icon-search"></span>
-        </div>
-    </div>
-</div>
-<div id="ymm-search-area">
-    {% for block in section.blocks %}
-        {% if block.type == '@app' %}
-            {% render block %}
-        {% endif %}
-    {% endfor %}
+<div class="product-page-custom-search-app">
+  <div id="ymm-{{ section.id }}">
+      <div class="product-visibility-terms-container">
+          <div class="vehicle-selection">
+              <strong>{{ section.settings.title }}</strong>
+              <span class="vehicle-vendor">              
+                <span id="contentResult">{{ section.settings.vehicle_type }}</span>
+                  <span class="cancel" onclick="showSearchBar(this)">
+                      <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.4688 1.53125L1.53125 10.4688M1.53125 1.53125L10.4688 10.4688" stroke="#333333" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                  </span>
+              </span>
+              <span onclick="showSearchBar(this)" class="link">{{ section.settings.url_label }}</span>
+              <span class="icon icon-search"></span>
+          </div>
+      </div>
+  </div>
+  <div id="ymm-search-area">
+      {% for block in section.blocks %}
+          {% if block.type == '@app' %}
+              {% render block %}
+          {% endif %}
+      {% endfor %}
+  </div>
 </div>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
