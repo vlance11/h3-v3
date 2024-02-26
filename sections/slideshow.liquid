@@ -142,11 +142,7 @@
                             <div class="inner-caption">                            	
                               {% for block in section_blocks offset:index %}
                               {% assign index = index|plus:1 %}                            		
-                              {%- case block.type -%}   
-                                {% when '@app' %}
-                                <div class="image-banner-apps-block">
-                                {% render block %}
-                                </div>
+                              {%- case block.type -%}
                                 {% when 'logo' %}
                                 {% assign logo = block.settings.logo_img %}  
                                 {% assign ratio_logo = logo.aspect_ratio |default:1.0 %}
