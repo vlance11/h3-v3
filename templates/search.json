@@ -18,6 +18,16 @@
         "mobile_mg_bottom": 0
       }
     },
+    "vehicle_selection_a8X97L": {
+      "type": "vehicle-selection",
+      "settings": {
+        "hide_section": false,
+        "title": "Choose Vehicle",
+        "vehicle_type": "{{ product.vendor }}",
+        "url_label": "Change vehicle",
+        "url": ""
+      }
+    },
     "main": {
       "type": "main-search",
       "blocks": {
@@ -137,11 +147,6 @@
         "padding_bottom": 30
       }
     },
-    "1706595352746ae524": {
-      "type": "apps",
-      "settings": {
-      }
-    },
     "faq_sections_wFRzFH": {
       "type": "faq-sections",
       "blocks": {
@@ -196,9 +201,9 @@
   },
   "order": [
     "breadcrumb",
+    "vehicle_selection_a8X97L",
     "main",
     "recently_viewed_f79jrT",
-    "1706595352746ae524",
     "faq_sections_wFRzFH"
   ]
 }
