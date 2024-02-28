@@ -67,11 +67,12 @@
               <h1 class="h2">{{ 'general.search.title' | t }}</h1>
           {% else %}
               <div class="container section-header text-center">
-              <div class="c-search-container">
-                <div class="c-search-inner">
-                  <span class="search-text">{{ 'general.search.results_with_count' | t: terms: search_terms, count: search.results_count }}</span>
-                  <a href="https://hitchexpo.com/pages/product-result" class="change-vehicle-link">Change Vehicle</a>
-                  <span class="icon icon-search"></span>
+                <div class="c-search-container">
+                  <div class="c-search-inner">
+                    <span class="search-text">{{ 'general.search.results_with_count' | t: terms: search_terms, count: search.results_count }}</span>
+                    <a href="https://hitchexpo.com/pages/product-result" class="change-vehicle-link">Change Vehicle</a>
+                    <span class="icon icon-search"></span>
+                  </div>
                 </div>
               </div>
           {% endif %}
