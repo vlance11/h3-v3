@@ -111,7 +111,17 @@
       document.querySelector('.vehicle-selection').classList.add('d-none');
       document.getElementById('ymm-search-area').classList.remove('d-none');
     }else{
-      contentElement.textContent = queryResult;
+      // set on localStorage
+      if(queryResult != ''){
+        localStorage.setItem('searchKey',queryResult)
+        contentElement.textContent = queryResult;
+      }else{
+        // get locaStorage data
+        let searchKey = localStorage.getItem('searchKey');
+        if(searchKey != null){
+          contentElement.textContent = searchKey;
+        }
+      }
     }
   });
 
