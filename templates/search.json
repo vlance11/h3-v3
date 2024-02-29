@@ -124,9 +124,9 @@
         "enable_related_search": true,
         "cl_bg": "#fafafa",
         "mg": "",
-        "pd": "0,0,60px,0",
+        "pd": "20,0,60px,0",
         "mg_mb": "",
-        "pd_mb": "40px,0,40px,0"
+        "pd_mb": "20px,0,40px,0"
       }
     },
     "recently_viewed_f79jrT": {
