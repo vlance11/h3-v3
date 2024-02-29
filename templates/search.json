@@ -124,7 +124,7 @@
         "enable_related_search": true,
         "cl_bg": "#fafafa",
         "mg": "",
-        "pd": "60px,0,60px,0",
+        "pd": "0,0,60px,0",
         "mg_mb": "",
         "pd_mb": "40px,0,40px,0"
       }
