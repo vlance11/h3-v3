@@ -61,20 +61,23 @@
 {% endfor %}
 <div class="template-search{% unless search.performed and search.results_count > 0 %} template-search--empty{% endunless %} section-{{ section.id }}-padding">
 {% if type == "product" %}
+
+  <!-- Start YMM short code -->
+  {%- capture the_snippet_content -%} 
+    {% render 'ymm-searchbox' %}
+  {%- endcapture -%}
+    {% unless the_snippet_content contains "Liquid error" %}
+        {%- assign searchbox_style = "horizontal" -%}<!-- eg. horizontal or vertical -->
+        {%- assign searchbox_title = "Search By Year, Make and Model" -%}
+        {% render 'ymm-searchbox', searchbox_style: searchbox_style, searchbox_title: searchbox_title, search_terms:search_terms %}
+    {% endunless %}	
+  <!-- Ended YMM short code --> 
+  
       <div class="main-container shop-page">
           {% if search.results_count == 0 or search.performed == false %}
             <div class="container empty-page-content text-center">
               <h1 class="h2">{{ 'general.search.title' | t }}</h1>
-          {% else %}
-              <div class="container section-header text-center">
-                <div class="c-search-container">
-                  <div class="c-search-inner">
-                    <span class="search-text">{{ 'general.search.results_with_count' | t: terms: search_terms, count: search.results_count }}</span>
-                    <a href="https://hitchexpo.com/pages/product-result" class="change-vehicle-link">Change Vehicle</a>
-                    <span class="icon icon-search"></span>
-                  </div>
-                </div>
-              </div>
+            </div>
           {% endif %}
           {% if search.performed and search.results_count == 0 %}
             <hr class="hr--small hr--invisible">
@@ -450,7 +453,7 @@
 </section>
 {% render 'grid-style', settings:section.settings %}
 {%- render 'section_style' -%}
-
+{{ 'ymm-custom-style.css' | asset_url | stylesheet_tag }}
 {% if section.settings.enable_related_search %}
 <script>
   document.addEventListener('DOMContentLoaded', function() {
