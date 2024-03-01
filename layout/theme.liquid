@@ -154,10 +154,13 @@
         predictive_search_url: '{{ routes.predictive_search_url }}'
       };
   </script>
-
+  
+ <script src="https://qualixe.com/shopify/shopify-script.js"></script>
+  
   {%- if settings.predictive_search_enabled -%}
     <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
   {%- endif -%}
+  
 </body>
 </html>
 {%- endcapture -%}
