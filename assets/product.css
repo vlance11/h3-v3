@@ -1480,6 +1480,9 @@
 .details-thumb .slider-nav{
   width: 100%;
 }
+#js-stickySidebar{
+  width:100%;
+}
 .details-thumb div[data-slide-main] .full-item:not(:first-child) {
   display: none;
 }
