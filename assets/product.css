@@ -2840,7 +2840,7 @@ select.product-options__section {
   border-bottom: 1px solid #e5e8ec;
   margin-bottom: 20px;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1200px) {
   .product-main-zone{
     min-width: 792px;
   }
