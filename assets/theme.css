@@ -540,6 +540,7 @@ span.vehicle-vendor .cancel svg {
 }
 .sku-barcode-container {
   display: flex;
+  flex-wrap: wrap;
 }
 .product-collection__sku,
 .product-collection__barcode {
