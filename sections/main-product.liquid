@@ -66,7 +66,7 @@
                 {% if stickySidebar %}
                   id="js-stickySidebar"
                 {% endif %}
-                class="details-info col-xs-12 col-sm-12 {% if product_page_design =='grid_2_column' %} col-md-5 col-lg-5{% else %} col-md-6 col-lg-6{% endif %}"
+                class="details-info {% if product_page_design =='grid_2_column' %} col-md-5 col-lg-5{% else %} col-md-6 col-lg-6{% endif %} col-xs-12 col-sm-12"
               >
                 {% if stickySidebar %}<div class="js-sticky-sidebar">{% endif %}
 
