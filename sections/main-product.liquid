@@ -765,7 +765,9 @@
                     {%- endfor -%}
                   {% endform %}
                 </div>
-                {% if stickySidebar %}</div>{% endif %}
+              {% if stickySidebar %}
+              </div>
+              {% endif %}
               </div>
               {%- render 'form-contact', text_contac_us: text_contac_us -%}
               {%- if first_3d_model -%}
