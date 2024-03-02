@@ -769,7 +769,9 @@
               </div>
               {% endif %}
               </div>
+              {% comment %}
               {%- render 'form-contact', text_contac_us: text_contac_us -%}
+              {% endcomment %}
               {%- if first_3d_model -%}
                 <script type="application/json" id="ProductJSON-{{ product.id }}">
                   {{ product.media | where: 'media_type', 'model' | json }}
