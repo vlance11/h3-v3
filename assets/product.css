@@ -1472,9 +1472,9 @@
 .details-thumb .slider-nav {
   margin: 0;
 }
-.details-thumb .slider-nav .slick-list.draggable .slick-track{
+/* .details-thumb .slider-nav .slick-list.draggable .slick-track{
   width: 100% !important;
-}
+} */
 .details-thumb div[data-slide-main] {
 }
 
