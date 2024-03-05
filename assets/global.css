@@ -8,6 +8,9 @@
   html ::-webkit-scrollbar-track {
     background: #E2E6EB;
   }
+.image-banner-apps-block {
+    max-width: 800px;
+}
 body{
   position: relative;
   font-size: 14px;
