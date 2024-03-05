@@ -587,6 +587,9 @@ label.qty-label {
   margin-right: 16px;
 }
 /* product-page-sidebar */
+.single-product-info{
+  width: 100%;
+}
 .customer-delivery-title {
   display: flex;
   justify-content: space-between;
