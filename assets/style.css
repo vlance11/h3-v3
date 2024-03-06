@@ -91,6 +91,12 @@
 .product_infor label {
     margin-right: 5px;
 }
+@media only screen and (min-width:1024px){
+  div#appfiy_pqa_container {
+      max-width: 80%;
+      margin: 25px 0 !important;
+  }
+}
 @media only screen and (max-width:767px) {
     .image-banner-apps-block #ymm_searchbox ul {
         padding: 5px;
