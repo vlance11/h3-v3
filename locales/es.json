@@ -214,6 +214,14 @@
       "title": "Collection",
       "to": "To",
       "use_fewer_filters_html": "Use fewer filters or <a class=\"{{ class }}\" href=\"{{ link }}\">clear all<\/a>"
+    },
+    "products-bought-together": {
+      "discount_announcement_html": "Compre <span class=\"qty_item\">{{qty_item }}<\/span> productos y obtenga <span class=\"value\">{{value}}<\/span> de descuento",
+      "announcement": "El descuento se calculará cuando se agregue al carrito."
+    },
+    "image-comparison-slider": {
+      "before": "antes",
+      "after": "después"
     }
   },
   "blogs": {
@@ -582,7 +590,8 @@
       "cart": "Your Cart",
       "login": "Login",
       "register": "Register",
-      "blog": "Blog"
+      "blog": "Blog",
+      "addresses": "Direcciones"
     },
     "customer": {
       "account": "Wellcome to your account.",
@@ -685,7 +694,9 @@
         "quick_view": "Quick View",
         "wishlist": "Wishlist",
         "compare": "Compare"
-      }
+      },
+      "message": "Su opinión",
+      "same_day_sales_html": "<p> {{ counter }} vendido en las últimas {{ time }}<\/p>"
     },
     "facets": {
       "apply": "Apply",
@@ -781,5 +792,25 @@
   },
   "date_formats": {
     "month_day_year": "%B %d, %Y"
+  },
+  "shopify": {
+    "checkout": {
+      "shop_pay_external": {
+        "errors": {
+          "checkout_has_expired": "Su pago ha caducado. Cierra esta ventana e intenta pagar nuevamente en {{shopName}} ."
+        }
+      },
+      "wallets": {
+        "errors": {
+          "select_different_shipping_address_to_resolve_errors": "Su dirección de envío no es válida. Seleccione una dirección diferente o utilice una nueva."
+        }
+      }
+    }
+  },
+  "localization": {
+    "country_label": "País\/región",
+    "language_label": "Idioma",
+    "update_language": "Actualizar idioma",
+    "update_country": "Actualizar país\/región"
   }
 }
