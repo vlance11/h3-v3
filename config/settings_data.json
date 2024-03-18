@@ -19,9 +19,9 @@
     "show_all_categories": false,
     "show_key_word": true,
     "key_word": "Hyundai Elantra Accessories,BMW 330i accessories,Adjustable ball mount",
-    "logo": "shopify:\/\/shop_images\/hitch-expo-logo.png",
+    "logo": "shopify:\/\/shop_images\/logo_e846dff7-11ca-45c5-8197-9b55db4cb09c.png",
     "logo_page": "shopify:\/\/shop_images\/Logo5.png",
-    "logo_page_mobile": "shopify:\/\/shop_images\/hitch-expo-logo.png",
+    "logo_page_mobile": "shopify:\/\/shop_images\/logo_e846dff7-11ca-45c5-8197-9b55db4cb09c.png",
     "logo_max_width": 225,
     "ajaxcart_enabled": true,
     "ajaxcart_after": "sidebar_cart",
@@ -202,8 +202,8 @@
     "global_css": ".custom-css{\n    margin-right: auto;\n    margin-left: auto;\n    width: 630px;\n    height: 217px;\n    background: #F1F5F6;\n    border: 1px solid #E5E8EC;\n    border-radius: 20px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    text-align: center;\n    padding: 40px;\n    font-weight: 500;\n    font-size: 20px;\n    line-height: 30px;\n}",
     "tablet_mobile_css": ".custom-css{padding: 10px;}",
     "mobile_css": ".custom-css{padding: 10px;}",
-    "favicon": "shopify:\/\/shop_images\/cb-favicon512x512.png",
-    "favicon_apple": "shopify:\/\/shop_images\/Favicon.jpg",
+    "favicon": "shopify:\/\/shop_images\/icon_46c012fe-c057-46f2-b134-cfbc13d39267.png",
+    "favicon_apple": "shopify:\/\/shop_images\/icon_46c012fe-c057-46f2-b134-cfbc13d39267.png",
     "checkout_header_image": "shopify:\/\/shop_images\/bg_breadcrum_blog.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/Logo_fb7c7c58-1b8f-455e-8b97-56d607743b37.png",
     "checkout_logo_position": "left",
@@ -2954,7 +2954,6 @@
           "borderRadius": 5,
           "imageMaxWidth": 100,
           "circleColor": "#016E52",
-          "dotColor": "#ffffff",
           "backgroundButtonLoadmore": "#EFEFEF",
           "borderColor": "#016E52",
           "textLoadmoreColor": "",
@@ -2968,8 +2967,7 @@
           "container": "",
           "item": "",
           "pagination": "",
-          "custom_css": "",
-          "tryNext": false
+          "custom_css": ""
         }
       },
       "9144908965052497053": {
