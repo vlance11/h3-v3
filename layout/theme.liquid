@@ -64,6 +64,22 @@
     document.head.appendChild(t);
   });
 </script>  -->
+
+<script>
+(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"343148713"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
+
+window.uetq = window.uetq || [];
+
+window.uetq.push('event', '', {
+    'ecomm_prodid': '{% if template contains "product" %}{{ product.id }}{% elsif template contains "collection" %}{{ collection.id }}{% else %}"other"{% endif %}',
+    'ecomm_pagetype': '{% if template contains "product" %}product{% elsif template contains "collection" %}category{% elsif template == "index" %}home{% elsif template contains "cart" %}cart{% elsif template contains "search" %}searchresults{% elsif template contains "page" %}other{% else %}other{% endif %}'
+});
+
+/* The ecomm_prodid parameter is the product ID of the product on the page. It is unique for each item and must match either the id or item_group_id attribute in your product feed. Numeric and alphanumeric (including hyphens) characters only, with a maximum of 50 characters. */
+
+/* The ecomm_pagetype parameter identifies the type of page the user has visited. Valid options: home, searchresults, category, product, cart, purchase, other. */
+</script>
+
 	{{ content_for_header }}
 
   {{ 'style.css' | asset_url | stylesheet_tag }}
