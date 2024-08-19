@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "purchased_code": "56364a1a-94eb-4ec2-a006-f7f12a6bdf8d",
@@ -564,7 +573,7 @@
       "cross-sell-popup": {
         "type": "cross-sell-popup",
         "settings": {
-          "use_cross_sell_popup": false,
+          "use_cross_sell_popup": true,
           "collection_id": "accessories",
           "limit": 10,
           "index": true,
@@ -2958,12 +2967,9 @@
           "borderColor": "#016E52",
           "textLoadmoreColor": "",
           "textLoadingColor": "#121212",
-          "textEndColor": "",
-          "backgroundTextEnd": "",
           "prevMoreButtonText": "",
           "loadingText": "Loading ...",
           "loadMoreButtonText": "Load More",
-          "doneText": "You've reached the end of the item.",
           "container": "",
           "item": "",
           "pagination": "",
