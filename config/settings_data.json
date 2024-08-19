@@ -573,7 +573,7 @@
       "cross-sell-popup": {
         "type": "cross-sell-popup",
         "settings": {
-          "use_cross_sell_popup": true,
+          "use_cross_sell_popup": false,
           "collection_id": "accessories",
           "limit": 10,
           "index": true,
@@ -2023,13 +2023,13 @@
       "promotion-newsletter-popup": {
         "type": "promotion-newsletter-popup",
         "settings": {
-          "use_newsletter_popup": false,
+          "use_newsletter_popup": true,
           "bg_color": "rgba(0,0,0,0)",
-          "title_newslette": "Our Newsletter",
-          "description": "Subscribe to HitchExpo.com get notified about  exclusive offers every week!",
+          "title_newslette": "5% OFF + FREE SHIPPING",
+          "description": "Unlock 5% OFF your entire order, plus enjoy FREE shipping on all items only at HitchExpo.com",
           "placeholder_newsletter": "Your email address...",
-          "button_newsletter": "Subscribe",
-          "no_show_popup_again": "Don't show this popup again",
+          "button_newsletter": "Send my offer code",
+          "no_show_popup_again": "No thanks, I'd rather pay full price.",
           "max_width": "460",
           "max_height": "554",
           "timeout": 5,
