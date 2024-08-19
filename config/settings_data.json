@@ -2023,7 +2023,7 @@
       "promotion-newsletter-popup": {
         "type": "promotion-newsletter-popup",
         "settings": {
-          "use_newsletter_popup": true,
+          "use_newsletter_popup": false,
           "bg_color": "rgba(0,0,0,0)",
           "title_newslette": "5% OFF + FREE SHIPPING",
           "description": "Unlock 5% OFF your entire order, plus enjoy FREE shipping on all items only at HitchExpo.com",
