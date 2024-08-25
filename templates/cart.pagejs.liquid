@@ -31,4 +31,11 @@
 {%- endif -%}
 <div class="cart_tot_price">{{ cart.total_price | money }}</div><!--split-->
 {%- if arr_gift_id.size > 0 %}1{% else %}0{% endif -%}
- 
+ <!-- Bing UET Add to Cart Event Tracking -->
+<script>
+  window.uetq = window.uetq || [];
+  window.uetq.push('event', 'product_added_to_cart', {
+    'revenue_value': {{ cart.total_price | money_without_currency }},
+    'currency': '{{ shop.currency }}'
+  });
+</script>
