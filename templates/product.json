@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "vehicle_selection_Cp8EgY": {
@@ -250,7 +259,7 @@
           }
         },
         "askify_questions_answers_acqa_block_VA3HFD": {
-          "type": "shopify:\/\/apps\/askify-questions-answers\/blocks\/acqa-block\/874ee9ec-48a5-4644-99b1-52a39b5a02b9",
+          "type": "shopify:\/\/apps\/askify\/blocks\/acqa-block\/874ee9ec-48a5-4644-99b1-52a39b5a02b9",
           "settings": {
             "page_width": true
           }
@@ -263,6 +272,21 @@
       ],
       "settings": {
       }
+    },
+    "17246197773f375a35": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_YWAKjt": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_YWAKjt"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -270,6 +294,7 @@
     "170659979689fff3f0",
     "main",
     "product-page-tab",
-    "170401789281e0ae28"
+    "170401789281e0ae28",
+    "17246197773f375a35"
   ]
 }
