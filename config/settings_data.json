@@ -2653,7 +2653,7 @@
               "title": "Contact Us",
               "text1": "",
               "text2": "M-F 9AM - 5PM EST",
-              "custom_content": "<ul>\n<li>\n<i class=\"icon-map-pin\"><\/i>\n Mechanicsburg, PA<\/li>\n<li style=\"display: none;\">\n  <i class=\"icon-phone\"><\/i> 201-580-9007\n<\/li>\n<li>\n<i class=\"icon-mail\"><\/i> info@hitchexpo.com<\/li>\n<\/ul>",
+              "custom_content": "<ul>\n<li>\n<i class=\"icon-map-pin\"><\/i>\n Mechanicsburg, PA<\/li>\n<li>\n  <i class=\"icon-phone\"><\/i> 201-580-9007\n<\/li>\n<li>\n<i class=\"icon-mail\"><\/i> info@hitchexpo.com<\/li>\n<\/ul>",
               "show_phone": false,
               "cl_phone": "#2b38d1",
               "show_email": false,
