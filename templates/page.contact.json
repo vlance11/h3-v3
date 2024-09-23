@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "breadcrumb": {
@@ -31,11 +40,11 @@
           "type": "Contact",
           "settings": {
             "title": "Contact Information",
-            "content": "Class aptent taciti sociosqu ad litora torquent per conubia nostra per inceptos pretium.",
-            "address": "268 St, South New York\/NY 98944, United States.",
-            "work_time": "Monday – Friday: 9:00-20:00 <br> Saturady: 11:00 – 15:00",
-            "phone": "(+100) 666-456-7890",
-            "email": "aloshopify@alothemes.com",
+            "content": "",
+            "address": "Mechanicsburg, PA",
+            "work_time": "Monday – Friday: 9AM - 5PM EST",
+            "phone": "",
+            "email": "",
             "header_use_social": true,
             "type_social": "1"
           }
@@ -47,7 +56,7 @@
       ],
       "settings": {
         "use_contact_map": true,
-        "map_iframe": "<iframe width=\"960\" height=\"500\" style=\"border:0\" src=\"https:\/\/www.google.com\/maps\/embed\/v1\/search?q=1200+Beverly+Street,+Mountain+View,+CA,+United+States&key=AIzaSyCeVrTUW_JTL2UKUT0-85wiwusOJZ48yMM\" allowfullscreen=\"\"><\/iframe>",
+        "map_iframe": "<iframe width=\"960\" height=\"500\" style=\"border:0\" src=\"https://www.google.com/maps/embed/v1/search?q=1200+Beverly+Street,+Mountain+View,+CA,+United+States&key=AIzaSyCeVrTUW_JTL2UKUT0-85wiwusOJZ48yMM\" allowfullscreen=\"\"></iframe>",
         "layout": "container",
         "cl_bg": "#ffffff",
         "mg": "",
@@ -105,7 +114,7 @@
           "type": "faq",
           "settings": {
             "title": "What makes HitchExpo.com different?",
-            "text": "<p>Rooted in tradition, our family-owned business brings over 50 years of combined expertise in industry know-how and unparalleled customer service. We're proud to offer products from trusted household names, ensuring quality and reliability in every purchase. Plus, our dedicated customer service team, based entirely in the U.S., is here for you around the clock, whether you prefer phone, email, or chat. Experience the difference that personal touch and<br\/>professional dedication make.<\/p>",
+            "text": "<p>Rooted in tradition, our family-owned business brings over 50 years of combined expertise in industry know-how and unparalleled customer service. We're proud to offer products from trusted household names, ensuring quality and reliability in every purchase. Plus, our dedicated customer service team, based entirely in the U.S., is here for you around the clock, whether you prefer phone, email, or chat. Experience the difference that personal touch and<br/>professional dedication make.</p>",
             "link": "",
             "open_link": "_self"
           }
@@ -114,7 +123,7 @@
           "type": "faq",
           "settings": {
             "title": "What is the buying process?",
-            "text": "<p>Step into a buying experience where simplicity meets security. Our checkout is a breeze and 100% secure, giving you peace of mind with every click. Rest easy knowing every product is manufacturer-verified for a perfect fit with your vehicle. Prefer a personal touch? Our 100% US-based customer service team is just a phone call away, ready to help!<\/p>",
+            "text": "<p>Step into a buying experience where simplicity meets security. Our checkout is a breeze and 100% secure, giving you peace of mind with every click. Rest easy knowing every product is manufacturer-verified for a perfect fit with your vehicle. Prefer a personal touch? Our 100% US-based customer service team is just a phone call away, ready to help!</p>",
             "link": "",
             "open_link": "_self"
           }
@@ -123,7 +132,7 @@
           "type": "faq",
           "settings": {
             "title": "What Is Your Shipping and Refunds Policy?",
-            "text": "<p>Experience the gold standard with our industry-leading shipping and returns policy. As a family-owned business, we take pride in offering free shipping across the country without any minimum purchase requirements, coupled with a generous 30-day return policy for any issues stemming from our side. Check our return\/refund policy for more insights and enjoy shopping with confidence!<\/p>",
+            "text": "<p>Experience the gold standard with our industry-leading shipping and returns policy. As a family-owned business, we take pride in offering free shipping across the country without any minimum purchase requirements, coupled with a generous 30-day return policy for any issues stemming from our side. Check our return/refund policy for more insights and enjoy shopping with confidence!</p>",
             "link": "",
             "open_link": "_self"
           }
@@ -140,7 +149,7 @@
         "hidden_newletter": false,
         "title": "You have questions. We have answers.",
         "sub_title": "",
-        "content": "Order updates? Product or service questions? Comments and Feedback? Our friendly team of experts is here to help. <br>\n<div>\n<a href=\"mailto:info@hitchexpo.com?subject=HitchExpo.com%20Question\">Contact Us: info@hitchexpo.com<\/a>\n<\/div>\n\n<div>\n  <br>  <span style=\"font-style: italic;\">Subscribe today for exclusive deals and updates!<\/span>\n<\/div>",
+        "content": "Order updates? Product or service questions? Comments and Feedback? Our friendly team of experts is here to help. <br>\n<div>\n<a href=\"mailto:info@hitchexpo.com?subject=HitchExpo.com%20Question\">Contact Us: info@hitchexpo.com</a>\n</div>\n\n<div>\n  <br>  <span style=\"font-style: italic;\">Subscribe today for exclusive deals and updates!</span>\n</div>",
         "layout": "container",
         "cl_bg": "#fffcf5",
         "mg": "",
