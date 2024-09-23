@@ -56,7 +56,7 @@
       ],
       "settings": {
         "use_contact_map": true,
-        "map_iframe": "<iframe width=\"960\" height=\"500\" style=\"border:0\" src=\"https://www.google.com/maps/embed/v1/search?q=1200+Beverly+Street,+Mountain+View,+CA,+United+States&key=AIzaSyCeVrTUW_JTL2UKUT0-85wiwusOJZ48yMM\" allowfullscreen=\"\"></iframe>",
+        "map_iframe": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3106512.891098013!2d-77.82499539759077!3d40.503928172651385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8e7e1f2d74b6d%3A0x92cadd6507f8fc53!2sMechanicsburg%2C%20PA%2017055!5e0!3m2!1sen!2sus!4v1727125032082!5m2!1sen!2sus\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
         "layout": "container",
         "cl_bg": "#ffffff",
         "mg": "",
