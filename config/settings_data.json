@@ -2906,11 +2906,6 @@
         "disabled": false,
         "settings": {}
       },
-      "5439026248262864547": {
-        "type": "shopify://apps/preorder-globo/blocks/app-embed/e547a0ad-8212-4bcc-b02f-761faa9b8af2",
-        "disabled": false,
-        "settings": {}
-      },
       "9144908965052497053": {
         "type": "shopify://apps/glo-related-products-upsell/blocks/app-embed/75cf2d86-3988-45e7-8f28-ada23c99704f",
         "disabled": true,
@@ -2953,6 +2948,11 @@
       "5308339952037760544": {
         "type": "shopify://apps/infinite-microsoft-clarity/blocks/star_rating/bfd5105e-f612-460c-8613-d7c5461bd690",
         "disabled": false,
+        "settings": {}
+      },
+      "5439026248262864547": {
+        "type": "shopify://apps/preorder-globo/blocks/app-embed/e547a0ad-8212-4bcc-b02f-761faa9b8af2",
+        "disabled": true,
         "settings": {}
       }
     }
